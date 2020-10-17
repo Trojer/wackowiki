@@ -1,0 +1,768 @@
+/* Wiki Formatting ---------------------------------------- */
+
+/* Definitions: SYNTAX (?icq i seek you?) */
+dfn {
+	font-variant: small-caps;
+	letter-spacing: 0.1em;
+	font-style: normal;
+	cursor: help;
+	border-bottom: 1px dotted #000;
+}
+
+/* Strike through text: SYNTAX --text-- */
+del { color: #999999; }
+
+del a:visited,
+del a:link { color: #999999; }
+
+
+/* Horizontal rule: SYNTAX ---- */
+hr {
+	border: 0 none #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+}
+
+/* No line break */
+.nobr {white-space: nowrap;}
+
+/** List-related *************************************************************/
+
+/* SYNTAX "  *", "  1.", etc. */
+
+ul, ol {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+/** Header related ***********************************************************/
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	clear: both;
+	/* position: relative; */
+}
+
+/* SYNTAX ==, ===, ====, =====, ======, ======= */
+
+h1 {
+	font-family: Verdana, sans-serif;
+	font-size: 24px;
+	padding-top: 5px;
+	padding-bottom: 7px;
+	line-height: 110%;
+	color: #235e9a;
+}
+h2 { font-family: Verdana, sans-serif; font-size: 20px; margin-top:20px; margin-bottom:5px; border-bottom:3px dotted #ddd; color: #204a87;}
+h3 { font-family: Verdana, sans-serif; font-size: 17px; margin-top:15px; margin-bottom:5px; border-bottom:2px dotted #ddd;}
+h4 { font-family: Arial, sans-serif;   font-size: 16px; margin-top:15px; margin-bottom:5px; border-bottom:1px #999999 solid;}
+h5 { font-family: Arial, sans-serif;   font-size: 14px; margin-top:10px; margin-bottom:5px; border-bottom:1px #bbbbbb solid;}
+h6 { font-family: Arial, sans-serif;   font-size: 12px; }
+
+/* Centered text: SYNTAX %%(wacko wrapper=text wrapper_align=center)text%% */
+.center{ text-align: center;}
+
+/* Indent text: SYNTAX "  ", "  1.", etc. */
+.indent { margin-left: 40px;}
+
+/** Revisions-related *********************************************************/
+
+/* Displays text: "This is an old revision of..." */
+
+.revision-id {
+	display: inline-block;
+	width: 80px;
+}
+
+/* Simple differences */
+.additions {
+	background-color: #EEFFEE;
+}
+.deletions {
+	background-color: #FFEEEE;
+}
+.additions, 
+.deletions {
+	padding: 3px;
+}
+
+/* Default differences */
+ins.diff {
+	font-weight: bold;
+	color: #008800;
+	text-decoration: underline;
+	background-color: #efe;
+}
+del.diff {
+	font-style: italic;
+	color: #c00;
+	text-decoration: line-through;
+	background-color: #fee;
+}
+
+/** Code wrapper-related ************************************************************/
+
+/* Code areas: SYNTAX %%code%% */
+
+.code,
+.code-break,
+div.hl-main {
+	background: #FCFCFC;
+	border: 1px lightgray solid;
+	font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, sans-serif;
+	font-size: 14px;
+	margin: 1em 1.75em;
+	padding: 0.25em;
+	overflow: auto;
+	white-space: pre-wrap;
+}
+
+	/* hl numbers li */
+	div.hl-main ol {
+		white-space: normal;
+	}
+
+	/* hl numbers table */
+	div .hl-numbers-table div.hl-main{
+		border: none;
+	}
+
+.code-break {
+	white-space: pre-wrap;
+}
+
+.code code{
+	background: #FFFFFF;
+}
+
+.notes { color: #888800; }
+
+.cl {
+	color: #eee;
+	background: #000;
+	border: solid #888888 2px;
+	font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, sans-serif;
+	margin: 1em 1.75em;
+	padding: 0.25em;
+	overflow: auto;
+	min-height: auto;
+}
+
+/** Table-related ************************************************************/
+
+/* Bordered tables: SYNTAX #|| || Here | there || ||# */
+.usertable {
+	border: 1px none;
+	border-collapse: collapse;
+	background-color: #FFFFFF;
+}
+
+.usertable th {
+	background-color: #EEEEEE;
+}
+
+.usertable td, 
+.usertable th {
+	border: 1px solid #CCCCCC;
+	padding: 4px;
+	vertical-align: top;
+}
+
+.usertable tr:hover {
+	background-color: #CCFFCC;
+}
+
+/* .usertable > tbody > tr:nth-of-type(2n+1) {
+	background-color: #f9f9f9;
+} */
+
+/* 100%-width tables: SYNTAX #| || Here | there || |# */
+.dtable {
+	width: 100%;
+	border: 0 none;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.dtable td { 
+	vertical-align: top;
+	border: 0 none #999999;
+	padding: 4px;
+}
+
+/* Inside the table of content: SYNTAX {{toc}} */
+#toc {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+#toc li {
+	list-style: none;
+	font-weight: bold;
+}
+#toc li ul {
+	padding-left: 15px;
+}
+#toc li li {
+	list-style: none;
+	font-weight: normal;
+}
+span.tocnumber {
+	margin-right: 0.3em;
+}
+
+/** File-related ************************************************************/
+
+figure.caption {
+	display: table;
+}
+.caption figcaption {
+	display: table-caption;
+	caption-side: bottom;
+}
+
+figure.caption audio 
+{
+	min-width: 800px;
+}
+
+.media-left {
+	float: left;
+}
+img.media-default,
+img.media-left,
+.media-default figcaption,
+.media-left figcaption {
+	margin: .2em 1em .2em 0;
+}
+
+.media-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+img.media-center {
+	margin: .2em auto;
+}
+
+/* special case to align figure with caption as center */
+.figure-center-wrp {
+	display: flex;
+	justify-content: center;
+	clear: both;
+}
+div.figure-center-wrp .media-center {
+	display: table;
+}
+
+.media-right {
+	float: right;
+}
+img.media-right,
+.media-right figcaption {
+	margin: .2em 0 .2em 1em;
+}
+
+/** Email-related ************************************************************/
+
+/* Quoted message on new email */
+
+.email1 {color: #800000;}
+.email2 {color: #808000;}
+.email-odd {color: #800000;}
+.email-even {color: #808000;}
+
+/* Quotes: SYNTAX <[text]> */
+blockquote {
+	border: 1px solid #f5f5f5;
+	border-left: 3px solid #729fcf;
+	color: #444444;
+	padding: 25px 30px;
+	font-family: sans-serif;
+
+	/* background: #f5f5f5; */
+}
+blockquote p { padding: 0;  margin: 5px 0; }
+
+/* Paragraphs */
+p.auto { margin: 0; padding: 0; font-size: 100%; }
+.pmark { color: #cccccc; font: 10px Arial; }
+
+.pmark a:link,
+.pmark a:visited { color: #cccccc; }
+
+.pmark a:hover,
+.pmark a:active  { color: #cc3300; }
+
+.pright {}
+
+.pright .p- { float:right; padding: 0 0 0 15px;  }
+.pright .pbody- { }
+
+.pleft { padding: 0; }
+.pleft .p- { float: left; padding: 0 15px 0 0;  }
+.pleft .pbody- { padding: 0; }
+
+/** Text highlighter-related *************************************************/
+
+/* SYNTAX %%(hl xyz)%% */
+
+.hl-main {font-family: monospace; font-size:14px;}
+.hl-gutter {
+	background-color: #CCCCCC;
+	padding-right: 10px;
+	font-family: monospace;
+	font-size: 14px;
+}
+.hl-table {border: solid 1px lightgray; }
+
+	td.hl-main pre{	margin-left: 1em; }
+
+.hl-default { color: #000000; }
+.hl-code { color: #7f7f33; }
+.hl-brackets { color: #009966; }
+.hl-comment { color: #7F7F7F; }
+.hl-quotes { color: #00007F; }
+.hl-string { color: #7F0000; }
+.hl-identifier { color: #000000; }
+.hl-reserved { color: #7F007F; }
+.hl-inlinedoc { color: #0000FF; }
+.hl-var { color: #0066FF; }
+.hl-url { color: #FF0000; }
+.hl-special { color: #0000FF; }
+.hl-number { color: #007F00; }
+.hl-inlinetags { color: #FF0000; }
+.hl-builtin    { color: #996633; }
+
+/** Wrapper-related **********************************************************/
+
+/* SYNTAX %%(wrapper xyz)%% */
+
+.wrapper-center {
+	margin: 0 auto !important;
+}
+.wrapper-left {
+	float: left;
+}
+.wrapper-right {
+	float: right;
+}
+
+.wrapper-col2 {
+	column-count: 2;
+}
+.wrapper-col3 {
+	column-count: 3;
+}
+.wrapper-col4 {
+	column-count: 4;
+}
+.wrapper-col5 {
+	column-count: 5;
+}
+
+div.wrapper,
+aside.wrapper {
+	margin: 2px;
+	background: #f6f7ed;
+	border: 1px dotted #CCCCCC;
+	max-width: 100%;
+}
+div.wrapper-content { padding: 10px 10px 25px 10px; }
+
+/* Important colored text: SYNTAX !!(red)text!! */
+.cl-red {color: #CC0000;}
+.cl-green {color: #008000;}
+.cl-blue {color: #0000CC;}
+.cl-yellow {color: #ffff00;}
+
+/* Fixed width text: SYNTAX ##monospace## */
+code {
+	color: #666600; 
+		/* color: #c7254e; */
+	background: #ffffcc; 
+		/* background: #f9f2f4; */
+	padding: 1px 5px;
+		/* font-size: 90%; */
+	font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, sans-serif;
+}
+
+/* Important text: SYNTAX !!text!! */
+.cite {color: #ff0000; font-style: normal;}
+
+/* underline text: SYNTAX __text__ */
+.underline { text-decoration: underline; }
+
+/* Highlighted text: SYNTAX ??text?? */
+mark {background: #ffffaa;}
+
+/* Highlighted text: SYNTAX ??(green)text?? */
+.mark-yellow {background: #ffff00;}
+.mark-green {background: #a0ffa4;}
+.mark-blue {background: #9ec6ff;}
+.mark-red {background: #ffbaba;}
+
+/* InterWiki links: SYNTAX (HostPrefix:Term) */
+
+a.iw-bugs .icon {
+	background: rgba(0, 0, 0, 0) url('./../icon/report-bug.svg') no-repeat scroll left center;
+	padding-left: 17px;
+}
+a.iw-commit .icon,
+a.iw-revision .icon {
+	background: rgba(0, 0, 0, 0) url('./../icon/commit.svg') no-repeat scroll left center;
+	padding-left: 17px;
+}
+a.iw-source .icon {
+	background: rgba(0, 0, 0, 0) url('./../icon/repository.svg') no-repeat scroll left center;
+	padding-left: 17px;
+}
+
+/* Wiki links: SYNTAX (prefix://) */
+span.icon{
+/* 	background-size: 16px 16px;*/
+	/* ! required for span width -> inline element */
+	display: inline-block;
+	height: 16px;
+	width: 0;
+	vertical-align: text-bottom; /* middle */
+}
+
+a.external-link .icon {
+	background: rgba(0, 0, 0, 0) url('./../icon/web.svg') no-repeat scroll left center;
+	padding-left: 17px;
+}
+a.group-link .icon {
+	background: rgba(0, 0, 0, 0) url('./../icon/group.svg') no-repeat scroll left center;
+	padding-left: 17px;
+}
+a.user-link .icon {
+	background: rgba(0, 0, 0, 0) url('./../icon/user.svg') no-repeat scroll left center;
+	padding-left: 17px;
+}
+
+a.file-link .icon {
+	background: rgba(0, 0, 0, 0) url('./../icon/file.svg') no-repeat scroll left center;
+	padding-left: 17px;
+}
+
+a[href^="mailto:"] .icon {
+	background: rgba(0, 0, 0, 0) url('./../icon/mail.svg') no-repeat scroll left center;
+	padding-left: 17px;
+}
+a[href^="xmpp:"] .icon {
+	background: rgba(0, 0, 0, 0) url('./../icon/jabber.svg') no-repeat scroll left center;
+	padding-left: 17px;
+}
+
+/* lockicon */
+a.acl-denied .icon {
+	background: rgba(0, 0, 0, 0) url('./../icon/locked.svg') no-repeat scroll left center;
+	padding-left: 17px;
+}
+/* keyicon */
+a.acl-customsec .icon {
+	background: rgba(0, 0, 0, 0) url('./../icon/unlocked.svg') no-repeat scroll left center;
+	padding-left: 17px;
+}
+
+/* mime */
+
+a[href $='.pdf'] .icon {
+	background: rgba(0, 0, 0, 0) url('./../icon/pdf.svg') no-repeat scroll left center;
+	padding-left: 17px;
+}
+a[href $='.epub'] .icon {
+	background: rgba(0, 0, 0, 0) url('./../icon/epub.svg') no-repeat scroll left center;
+	padding-left: 17px;
+}
+a[href $='.txt'] .icon {
+	background: rgba(0, 0, 0, 0) url('./../icon/text.svg') no-repeat scroll left center;
+	padding-left: 17px;
+}
+a[href $='.diff'] .icon,
+a[href $='.patch'] .icon {
+	background: rgba(0, 0, 0, 0) url('./../icon/patch.svg') no-repeat scroll left center;
+	padding-left: 17px;
+}
+a[href $='.odt'] .icon {
+	background: rgba(0, 0, 0, 0) url('./../icon/document.svg') no-repeat scroll left center;
+	padding-left: 17px;
+}
+a[href $='.gif'] .icon,
+a[href $='.ico'] .icon,
+a[href $='.jpe'] .icon,
+a[href $='.jpeg'] .icon,
+a[href $='.jpg'] .icon,
+a[href $='.png'] .icon, 
+a[href $='.webp'] .icon {
+	background: rgba(0, 0, 0, 0) url('./../icon/image.svg') no-repeat scroll left center;
+	padding-left: 17px;
+}
+a[href $='.rdf'] .icon {
+	background: rgba(0, 0, 0, 0) url('./../icon/xml.svg') no-repeat scroll left center;
+	padding-left: 17px;
+}
+
+a[href $='.7z'] .icon,
+a[href $='.bz2'] .icon,
+a[href $='.gz'] .icon,
+a[href $='.rar'] .icon,
+a[href $='.tar'] .icon,
+a[href $='.tgz'] .icon,
+a[href $='.zip'] .icon,
+a[href $='.zst'] .icon {
+	background: rgba(0, 0, 0, 0) url('./../icon/archive.svg') no-repeat scroll left center;
+	padding-left: 17px;
+}
+a[href $='.ods'] .icon {
+	background: rgba(0, 0, 0, 0) url('./../icon/spreadsheet.svg') no-repeat scroll left center;
+	padding-left: 17px;
+}
+a[href $='.odp'] .icon {
+	background: rgba(0, 0, 0, 0) url('./../icon/presentation.svg') no-repeat scroll left center;
+	padding-left: 17px;
+}
+a[href $='.odg'] .icon,
+a[href $='.svg'] .icon {
+	background: rgba(0, 0, 0, 0) url('./../icon/drawing.svg') no-repeat scroll left center;
+	padding-left: 17px;
+}
+a[href $='.mp3'] .icon,
+a[href $='.m4a'] .icon,
+a[href $='.oga'] .icon,
+a[href $='.ogg'] .icon,
+a[href $='.opus'] .icon {
+	background: rgba(0, 0, 0, 0) url('./../icon/audio.svg') no-repeat scroll left center;
+	padding-left: 17px;
+}
+a[href $='.mp4'] .icon,
+a[href $='.ogv'] .icon,
+a[href $='.webm'] .icon {
+	background: rgba(0, 0, 0, 0) url('./../icon/video.svg') no-repeat scroll left center;
+	padding-left: 17px;
+}
+
+/* Callouts: SYNTAX %%(info type="warning" title="Warning")text%% */
+
+/* 1. default */
+.info,
+.wrapper {
+	/* box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12),0 3px 1px -2px rgba(0,0,0,.2); */
+	position: relative;
+	margin: 1em 0;
+	padding: .4rem .6rem;
+	border: .05rem solid rgb(147, 154, 69,.1);
+	border-left: .2rem solid #939a45;
+	border-radius: .1rem;
+	min-height: 5em;
+	overflow: auto;
+}
+
+.wrapper-title {
+	margin: -.4rem -.6rem .4rem -.6rem;
+	padding: .4rem .6rem .4rem 2rem;
+/* 	border-bottom: .05rem solid rgba(68,138,255,.1);
+	background-color: rgba(68,138,255,.1); */
+	font-weight: 700;
+}
+.info.type-default,
+.wrapper.type-default,
+.wrapper-title {
+	background-color: rgb(147, 154, 69,.1);
+}
+.wrapper-title {
+	border-bottom: .05rem solid rgb(147, 154, 69,.1);
+}
+.wrapper > .wrapper-title::before {
+	position: absolute;
+	left: .6rem;
+	color: #939a45;
+	font-size: 1rem;
+	content: "i";
+	height: 1rem;
+	width: 1rem;
+	font-family: "Times New Roman", Times, serif;
+}
+
+/* 2. note */
+.info.type-note {
+	border-color: rgba(68,138,255,.1);
+	border-left-color: #448aff;
+}
+.info.type-note,
+.wrapper.type-note,
+.wrapper.type-note > .wrapper-title {
+	background-color: rgba(68,138,255,.1);
+}
+.wrapper.type-note > .wrapper-title {
+	border-bottom-color: rgba(68,138,255,.1);
+}
+.info.type-note > .info-content::before,
+.wrapper.type-note > .wrapper-title::before {
+	color: #448aff;
+	content: "✎";
+}
+
+/* 3. warning */
+.info.type-warning {
+	border-color: rgba(255,145,0,.1);
+	border-left-color: #ff9100;
+}
+.info.type-warning,
+.wrapper.type-warning,
+.wrapper.type-warning > .wrapper-title {
+	background-color: rgba(255,145,0,.1);
+}
+.wrapper.type-warning > .wrapper-title {
+	border-bottom-color: rgba(255,145,0,.1);
+}
+.info.type-warning > .info-content::before,
+.wrapper.type-warning > .wrapper-title::before {
+	color: #ff9100;
+	content: "⚠";
+	/* content: url('./../icon/warning.svg') " "; */
+}
+
+/* 4. success */
+.info.type-success {
+	border-color: rgba(100,221,23,.1);
+	border-left-color: #64dd17;
+}
+.info.type-success,
+.wrapper.type-success,
+.wrapper.type-success > .wrapper-title {
+	background-color: rgba(100,221,23,.1);
+}
+.wrapper.type-success > .wrapper-title {
+	border-bottom-color: rgba(100,221,23,.1);
+}
+.info.type-success > .info-content::before,
+.wrapper.type-success > .wrapper-title::before {
+	color: #64dd17;
+	content: "✓";
+}
+
+/* 5. question */
+.info.type-question {
+	border-color: rgba(224, 203, 82,.1);
+	border-left-color: #e0cb52;
+}
+.info.type-question,
+.wrapper.type-question,
+.wrapper.type-question > .wrapper-title {
+	background-color: rgba(224, 203, 82,.1);
+}
+.wrapper.type-question > .wrapper-title {
+	border-bottom-color: rgba(224, 203, 82,.1);
+}
+.info.type-question > .info-content::before,
+.wrapper.type-question > .wrapper-title::before {
+	color: #e0cb52;
+	content: "?";
+}
+
+/* 6. error */
+.info.type-error {
+	border-color: rgba(255,82,82,.1);
+	border-left-color: #ff5252;
+}
+.info.type-error,
+.wrapper.type-error,
+.wrapper.type-error > .wrapper-title {
+	background-color: rgba(255,82,82,.1);
+}
+.wrapper.type-error > .wrapper-title {
+	border-bottom-color: rgba(255,82,82,.1);
+}
+.info.type-error > .info-content::before,
+.wrapper.type-error > .wrapper-title::before {
+	color: #ff5252;
+	content: "✕";
+	/* content: url('./../icon/cross.svg') " ";
+	height: 1rem;
+	width: 1rem; */
+}
+
+/* 7. example */
+.info.type-example {
+	border-left-color: #651fff;
+}
+.info.type-example,
+.wrapper.type-example,
+.wrapper.type-example > .wrapper-title {
+	background-color: rgba(101,31,255,.1);
+}
+.wrapper.type-example > .wrapper-title {
+	border-bottom-color: rgba(101,31,255,.1);
+}
+.info.type-example > .info-content::before,
+.wrapper.type-example > .wrapper-title::before {
+	color: #651fff;
+	content: "💡";
+}
+
+/* 8. quote */
+.info.type-quote {
+	border-left-color: #9e9e9e;
+}
+.info.type-quote,
+.wrapper.type-quote,
+.wrapper.type-quote > .wrapper-title {
+	background-color: hsla(0,0%,62%,.1);
+}
+.wrapper.type-quote > .wrapper-title {
+	border-bottom-color: hsla(0,0%,62%,.1);
+}
+.info.type-quote > .info-content::before,
+.wrapper.type-quote > .wrapper-title::before {
+	color: #9e9e9e;
+	content: "❝";
+}
+/* 9. important */
+.info.type-important {
+	border-color: rgba(255,23,68,.1);
+	border-left-color: #ff1744;
+}
+.info.type-important,
+.wrapper.type-important,
+.wrapper.type-important > .wrapper-title {
+	background-color: rgba(255,23,68,.1);
+}
+.wrapper.type-important > .wrapper-title {
+	border-bottom-color: rgba(255,23,68,.1);
+}
+.info.type-important > .info-content::before,
+.wrapper.type-important > .wrapper-title::before {
+	color: #ff1744;
+	content: "!";
+}
+
+/* Info container */
+.info-title {
+	margin: -.4rem -.6rem .4rem -.6rem;
+	padding: .4rem .6rem .4rem .6rem;
+	font-weight: 700;
+}
+.info-content {
+	margin: 0;
+	padding: .4rem .6rem .4rem 4.4rem;
+	/* font-weight: 700; */
+}
+.info > .info-content::before {
+	position: absolute;
+	left: 1rem;
+	top: .4rem;
+	color: #939a45;
+	/* font-weight: bold; */
+	font-size: 3rem;
+	content: "i";
+	height: 3rem;
+	width: 3rem;
+	text-align: center;
+	line-height: normal;
+	font-family: "Times New Roman", Times, serif;
+	/* opacity: 0.4; */
+}
