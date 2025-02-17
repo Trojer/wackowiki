@@ -10,58 +10,58 @@ $ap_translation = [
 	'CategoryArray'		=> [
 		'basics'		=> 'Basic functions',
 		'preferences'	=> 'Preferences',
-		'content'		=> 'Sisu',
-		'users'			=> 'Kasutajad',
-		'maintenance'	=> 'Hooldamine',
-		'messages'		=> 'Sõnumid',
+		'content'		=> 'Content',
+		'users'			=> 'کاربران',
+		'maintenance'	=> 'Maintenance',
+		'messages'		=> 'Messages',
 		'extension'		=> 'Extension',
-		'database'		=> 'Andmebaas',
+		'database'		=> 'پایگاه داده',
 	],
 
 	// Admin panel
-	'AdminPanel'				=> 'Administraatori juhtpaneel',
-	'RecoveryMode'				=> 'Taasterežiim',
-	'Authorization'				=> 'Authorization',
-	'AuthorizationTip'			=> 'Please enter the administrative password (make sure that cookies are allowed in your browser).',
-	'NoRecoveryPassword'		=> 'Administratiivset parooli ei ole määratud!',
-	'NoRecoveryPasswordTip'		=> 'Märkus: Administratiivse parooli puudumine on oht turvalisusele! Sisestage konfiguratsioonifaili oma parooli hash ja käivitage programm uuesti.',
+	'AdminPanel'				=> 'Administration Control Panel',
+	'RecoveryMode'				=> 'Recovery Mode',
+	'Authorization'				=> 'اجازه',
+	'AuthorizationTip'			=> 'لطفا رمز عبور مدیریت را وارد کنید (همچنین مطمئن شوید که کوکی ها در مرورگر شما مجاز هستند).',
+	'NoRecoveryPassword'		=> 'The administrative password is not specified!',
+	'NoRecoveryPasswordTip'		=> 'Note: The absence of an administrative password is a threat to security! Enter your password hash in the configuration file and run the program again.',
 
 	'ErrorLoadingModule'		=> 'Error loading admin module %1: does not exist.',
 
-	'ApHomePage'				=> 'KoduLeht',
+	'ApHomePage'				=> 'Home Page',
 	'ApHomePageTip'				=> 'Open the home page, you do not quit system administration',
-	'ApLogOut'					=> 'Logi välja',
+	'ApLogOut'					=> 'خروج',
 	'ApLogOutTip'				=> 'Quit system administration',
 
 	'TimeLeft'					=> 'Time left:  %1 minutes',
-	'ApVersion'					=> 'versioon',
+	'ApVersion'					=> 'نسخه',
 
-	'SiteOpen'					=> 'Ava',
+	'SiteOpen'					=> 'Open',
 	'SiteOpened'				=> 'site opened',
 	'SiteOpenedTip'				=> 'The site is open',
-	'SiteClose'					=> 'Sulge',
+	'SiteClose'					=> 'Close',
 	'SiteClosed'				=> 'site closed',
 	'SiteClosedTip'				=> 'The site is closed',
 
-	'System'					=> 'Süsteem',
+	'System'					=> 'System',
 
 	// Generic
-	'Cancel'					=> 'Loobun',
-	'Add'						=> 'Lisama',
-	'Edit'						=> 'Muuda',
-	'Remove'					=> 'Eemalda',
-	'Enabled'					=> 'Lubatud',
-	'Disabled'					=> 'Keelatud',
-	'Mandatory'					=> 'Kohustuslik',
-	'Admin'						=> 'Admin',
-	'Min'						=> 'Min.',
-	'Max'						=> 'Maks.',
+	'Cancel'					=> 'لغو',
+	'Add'						=> 'افزودن',
+	'Edit'						=> 'ویرایش',
+	'Remove'					=> 'حذف',
+	'Enabled'					=> 'فعال',
+	'Disabled'					=> 'غیرفعال',
+	'Mandatory'					=> 'Mandatory',
+	'Admin'						=> 'مدیر',
+	'Min'						=> 'Min',
+	'Max'						=> 'Max',
 
-	'MiscellaneousSection'		=> 'Varia',
+	'MiscellaneousSection'		=> 'Miscellaneous',
 	'MainSection'				=> 'General Options',
 
-	'DirNotWritable'			=> 'Kaust %1 pole kirjutatav.',
-	'FileNotWritable'			=> 'Fail %1 ei ole kirjutatav.',
+	'DirNotWritable'			=> 'The %1 directory is not writable.',
+	'FileNotWritable'			=> 'The %1 file is not writable.',
 
 	/**
 	 * AP MENU
@@ -74,32 +74,32 @@ $ap_translation = [
 
 	// Config Basic module
 	'config_basic'		=> [
-		'name'		=> 'Basic',
+		'name'		=> 'پایه',
 		'title'		=> 'Basic settings',
 	],
 
 	// Config Appearance module
 	'config_appearance'		=> [
-		'name'		=> 'Välimus',
+		'name'		=> 'ظاهر',
 		'title'		=> 'Appearance settings',
 	],
 
 	// Config Email module
 	'config_email'		=> [
-		'name'		=> 'E-post',
-		'title'		=> 'E-posti seaded',
+		'name'		=> 'رایانامه',
+		'title'		=> 'پیکربندی پست الکترونیکی',
 	],
 
 	// Config Syndication module
 	'config_syndication'		=> [
 		'name'		=> 'Syndication',
-		'title'		=> 'Syndication settings',
+		'title'		=> 'تنظیمات پیوند',
 	],
 
 	// Config Filter module
 	'config_filter'		=> [
-		'name'		=> 'Filtreeri',
-		'title'		=> 'Filter settings',
+		'name'		=> 'فیلتر',
+		'title'		=> 'تنظیمات فیلتر',
 	],
 
 	// Config Formatter module
@@ -110,38 +110,38 @@ $ap_translation = [
 
 	// Config Notifications module
 	'config_notifications'		=> [
-		'name'		=> 'Teated',
-		'title'		=> 'Notifications settings',
+		'name'		=> 'اعلانات',
+		'title'		=> 'تنظیمات اطلاع‌رسانی',
 	],
 
 	// Config Pages module
 	'config_pages'		=> [
-		'name'		=> 'Leheküljed',
+		'name'		=> 'صفحه‌ها',
 		'title'		=> 'Pages and site parameters',
 	],
 
 	// Config Permissions module
 	'config_permissions'		=> [
-		'name'		=> 'Õigused',
+		'name'		=> 'مجوزها',
 		'title'		=> 'Permissions settings',
 	],
 
 	// Config Security module
 	'config_security'		=> [
-		'name'		=> 'Turvalisus',
+		'name'		=> 'امنیتی',
 		'title'		=> 'Security subsystems settings',
 	],
 
 	// Config System module
 	'config_system'		=> [
-		'name'		=> 'Süsteem',
+		'name'		=> 'سیستم',
 		'title'		=> 'System options',
 	],
 
 	// Config Upload module
 	'config_upload'		=> [
-		'name'		=> 'Üleslaadimine',
-		'title'		=> 'Attachment settings',
+		'name'		=> 'بارگذاری',
+		'title'		=> 'تنظیمات ضمیمه',
 	],
 
 	// Deleted module
@@ -152,31 +152,31 @@ $ap_translation = [
 
 	// Menu module
 	'content_menu'		=> [
-		'name'		=> 'Menüü',
+		'name'		=> 'منو',
 		'title'		=> 'Add, edit or remove default menu items',
 	],
 
 	// DB Backup module
 	'db_backup'		=> [
-		'name'		=> 'Varukoopia',
+		'name'		=> 'پشتیبان‌گیری',
 		'title'		=> 'Backing up data',
 	],
 
 	// DB Repair module
 	'db_repair'		=> [
-		'name'		=> 'Paranda',
+		'name'		=> 'Repair',
 		'title'		=> 'Repair and Optimize Database',
 	],
 
 	// DB Restore module
 	'db_restore'		=> [
-		'name'		=> 'Taasta',
+		'name'		=> 'Restore',
 		'title'		=> 'Restoring backup data',
 	],
 
 	// Dashboard module
 	'main'		=> [
-		'name'		=> 'Peamenüü',
+		'name'		=> 'Main Menu',
 		'title'		=> 'WackoWiki Administration',
 	],
 
@@ -206,8 +206,8 @@ $ap_translation = [
 
 	// System Info module
 	'system_info'		=> [
-		'name'		=> 'Süsteemi Info',
-		'title'		=> 'Süsteemi informatsioon',
+		'name'		=> 'System Info',
+		'title'		=> 'System Information',
 	],
 
 	// System log module
@@ -218,8 +218,8 @@ $ap_translation = [
 
 	// Statistics module
 	'system_statistics'		=> [
-		'name'		=> 'Statistika',
-		'title'		=> 'Kuva statistika',
+		'name'		=> 'آمار',
+		'title'		=> 'Show statistics',
 	],
 
 	// Bad Behaviour module
@@ -230,20 +230,20 @@ $ap_translation = [
 
 	// Registration Approval module
 	'user_approve'		=> [
-		'name'		=> 'Kiida heaks',
+		'name'		=> 'موافقت',
 		'title'		=> 'User registration approval',
 	],
 
 	// Groups module
 	'user_groups'		=> [
-		'name'		=> 'Grupid',
+		'name'		=> 'گروه‌ها',
 		'title'		=> 'Group management',
 	],
 
 	// User module
 	'user_users'		=> [
-		'name'		=> 'Kasutajad',
-		'title'		=> 'Kasutajate haldus',
+		'name'		=> 'کاربران',
+		'title'		=> 'User management',
 	],
 
 	// Main module
@@ -260,28 +260,28 @@ $ap_translation = [
 	'BasicSettingsUpdated'		=> 'Updated basic settings',
 	'LogBasicSettingsUpdated'	=> 'Updated basic settings',
 
-	'SiteName'					=> 'Site name:',
+	'SiteName'					=> 'نام سایت',
 	'SiteNameInfo'				=> 'The title of this site. Appears on browser title, theme header, email-notification, etc.',
 	'SiteDesc'					=> 'Site description:',
 	'SiteDescInfo'				=> 'Supplement to the title of the site that appears in the pages header. Explains, in a few words, what this site is about.',
 	'AdminName'					=> 'Admin of site:',
 	'AdminNameInfo'				=> 'User name of individual who is responsible for overall support of the site. This name is not used to determine access rights, but it is desirable that it conforms to the name of the chief administrator of the site.',
 
-	'LanguageSection'			=> 'Keel',
+	'LanguageSection'			=> 'زبان',
 	'DefaultLanguage'			=> 'Default language:',
 	'DefaultLanguageInfo'		=> 'Specifies the language of messages displayed to unregistered guests, as well as the locale settings.',
-	'MultiLanguage'				=> 'Mitmekeelsuse tugi:',
+	'MultiLanguage'				=> 'Multilanguage support:',
 	'MultiLanguageInfo'			=> 'Enable the ability to select a language on a page-by-page basis.',
-	'AllowedLanguages'			=> 'Lubatud keeled:',
+	'AllowedLanguages'			=> 'Allowed languages:',
 	'AllowedLanguagesInfo'		=> 'It is recommended to select only the set of languages you want to use, otherwise all languages are selected.',
 
-	'CommentSection'			=> 'Kommentaarid',
-	'AllowComments'				=> 'Luba kommentaarid:',
+	'CommentSection'			=> 'دیدگاه',
+	'AllowComments'				=> 'Allow comments:',
 	'AllowCommentsInfo'			=> 'Enable comments for guests or registered users only, or disable them on the entire site.',
 	'SortingComments'			=> 'Sorting comments:',
 	'SortingCommentsInfo'		=> 'Changes the order the page comments are presented, either with the most recent OR the oldest comment at the top.',
 
-	'ToolbarSection'			=> 'Tööriistariba',
+	'ToolbarSection'			=> 'Toolbar',
 	'CommentsPanel'				=> 'Comments panel:',
 	'CommentsPanelInfo'			=> 'The default display of comments at the bottom of the page.',
 	'FilePanel'					=> 'File panel:',
@@ -289,7 +289,7 @@ $ap_translation = [
 	'TagsPanel'					=> 'Tags panel:',
 	'TagsPanelInfo'				=> 'The default display of the tags panel at the bottom of the page.',
 
-	'NavigationSection'			=> 'Navigeerimine',
+	'NavigationSection'			=> 'Navigation',
 	'ShowPermalink'				=> 'Show permalink:',
 	'ShowPermalinkInfo'			=> 'The default display of the permalink for the current version of the page.',
 	'TocPanel'					=> 'Table of contents panel:',
@@ -319,13 +319,13 @@ $ap_translation = [
 	'NotifyDiffMode'			=> 'Notify diff mode:',
 	'NotifyDiffModeInfo'		=> 'Diff mode used for notifications in the email body.',
 
-	'EditingSection'			=> 'Muutmine',
-	'EditSummary'				=> 'Redigeeri kokkuvõte:',
+	'EditingSection'			=> 'Editing',
+	'EditSummary'				=> 'Edit summary:',
 	'EditSummaryInfo'			=> 'Shows change summary in the edit mode.',
-	'MinorEdit'					=> 'Pisimuudatus:',
+	'MinorEdit'					=> 'ویرایش‌های خُرد:',
 	'MinorEditInfo'				=> 'Enables minor edit option in the edit mode.',
-	'SectionEdit'				=> 'Sektsiooni redigeerimine:',
-	'SectionEditInfo'			=> 'Võimaldab redigeerida ainult lehekülje osa.',
+	'SectionEdit'				=> 'ویرایش بخش:',
+	'SectionEditInfo'			=> 'ویرایش تنها بخشی از یک صفحه را فعال می کند.',
 	'ReviewSettings'			=> 'Review:',
 	'ReviewSettingsInfo'		=> 'Enables review option in the edit mode.',
 	'PublishAnonymously'		=> 'Allow anonymous publishing:',
@@ -342,7 +342,7 @@ $ap_translation = [
 	'EnableReferrers'			=> 'Enable referrers:',
 	'EnableReferrersInfo'		=> 'Permits creation and display of external referrers.',
 	'ReferrersPurgeTime'		=> 'Storage time of referrers:',
-	'ReferrersPurgeTimeInfo'	=> 'Hoidke välistele lehtedele viitamise ajalugu kauem kui etteantud arv päevi. Null tähendab igavest salvestust, kuid aktiivselt külastatud saidi korral võib see põhjustada andmebaasi ületäitumist.',
+	'ReferrersPurgeTimeInfo'	=> 'Keep the history of referring external pages no longer than a given number of days. Use zero to ensure referrers are never deleted (but for an actively visited site, this can lead to database overflow).',
 	'EnableCounters'			=> 'Hit Counters:',
 	'EnableCountersInfo'		=> 'Allows per page hit counters and enables display of simple statistics. Views of the page owner are not counted.',
 
@@ -352,14 +352,14 @@ $ap_translation = [
 
 	'FeedsSection'				=> 'Feeds',
 	'EnableFeeds'				=> 'Enable feeds:',
-	'EnableFeedsInfo'			=> 'Lülitab kogu viki RSS-kanalid sisse või välja.',
+	'EnableFeedsInfo'			=> 'Turns RSS feeds on or off for the entire wiki.',
 	'XmlChangeLink'				=> 'Changes feed link mode:',
 	'XmlChangeLinkInfo'			=> 'Defines where the XML Changes feed items links to.',
 	'XmlChangeLinkMode'			=> [
-		'1'		=> 'difference view',
-		'2'		=> 'the revised page',
-		'3'		=> 'list of revisions',
-		'4'		=> 'the current page',
+		'1'		=> 'نمایه‌های متفاوت',
+		'2'		=> 'صفحه‌ی کنونی',
+		'3'		=> 'لیست نگارش‌ها',
+		'4'		=> 'صفحه‌ی تجدید نظر شده',
 	],
 
 	'XmlSitemap'				=> 'XML sitemap:',
@@ -367,11 +367,11 @@ $ap_translation = [
 	'XmlSitemapGz'				=> 'XML sitemap compression:',
 	'XmlSitemapGzInfo'			=> 'If you would like, you may compress your sitemap text file using gzip to reduce your bandwidth requirement.',
 	'XmlSitemapTime'			=> 'XML sitemap generation time:',
-	'XmlSitemapTimeInfo'		=> 'Genereerib saidikaardi ainult üks kord antud päevade arv, null tähendab iga lehe muutmise korral.',
+	'XmlSitemapTimeInfo'		=> 'Generates the sitemap only once in the given number of days. Set to zero to generate on every page change.',
 
-	'SearchSection'				=> 'Otsi',
+	'SearchSection'				=> 'جستجو',
 	'OpenSearch'				=> 'OpenSearch:',
-	'OpenSearchInfo'			=> 'Loob OpenSearchi kirjeldusfaili XML-kaustas ja lubab otsinguplugina automaatse avastamise HTML-pealkirjas.',
+	'OpenSearchInfo'			=> 'Creates the OpenSearch description file in the XML folder and enables Autodiscovery of search plugin in the HTML header.',
 	'SearchEngineVisibility'	=> 'Block search engines (search engine visibility):',
 	'SearchEngineVisibilityInfo'=> 'Block search engines, but allow normal visitors. Overrides page settings. <br>Discourage search engines from indexing this site. It is up to search engines to honor this request.',
 
@@ -381,11 +381,11 @@ $ap_translation = [
 	'AppearanceSettingsInfo'	=> 'Control default display settings for your site.',
 	'AppearanceSettingsUpdated'	=> 'Updated appearance settings.',
 
-	'LogoOff'					=> 'Off',
-	'LogoOnly'					=> 'logo',
-	'LogoAndTitle'				=> 'logo ja pealkiri',
+	'LogoOff'					=> 'خاموش',
+	'LogoOnly'					=> 'آرم',
+	'LogoAndTitle'				=> 'logo and title',
 
-	'LogoSection'				=> 'Logo',
+	'LogoSection'				=> 'آرم',
 	'SiteLogo'					=> 'Site logo:',
 	'SiteLogoInfo'				=> 'Your logo will typically appear at the top left corner of the application. Max size is 2 MiB. Optimal dimensions are 255 pixels wide by 55 pixels high.',
 	'LogoDimensions'			=> 'Logo dimensions:',
@@ -396,13 +396,16 @@ $ap_translation = [
 	'FaviconSection'			=> 'Favicon',
 	'SiteFavicon'				=> 'Site favicon:',
 	'SiteFaviconInfo'			=> 'Your shortcut icon, or favicon, is displayed in the address bar, tabs and bookmarks of most browsers. This will override the favicon of your theme.',
-	'SiteFaviconTooBig'			=> 'Favicon on suurem kui 64 × 64px.',
-	'ThemeColor'				=> 'Aadressiriba teemavärv:',
-	'ThemeColorInfo'			=> 'Brauser määrab iga lehe aadressiriba värvi vastavalt esitatud CSS-värvile.',
+	'SiteFaviconTooBig'			=> 'Favicon is bigger than 64 × 64 px.',
+	'ThemeColor'				=> 'رنگ تم برای نوار آدرس',
+	'ThemeColorInfo'			=> 'مرورگر رنگ نوار آدرس هر صفحه را با توجه به رنگ CSS ارائه شده تنظیم می کند.',
 
-	'LayoutSection'				=> 'Paigutus',
-	'Theme'						=> 'Teema:',
+	'LayoutSection'				=> 'Layout',
+	'Theme'						=> 'Theme:',
 	'ThemeInfo'					=> 'Template design the site uses by default.',
+	'ResetUserTheme'			=> 'Reset all user themes:',
+	'ResetUserThemeInfo'		=> 'Resets all user themes. Warning: This action will revert all user-selected themes to the global default theme.',
+	'SetBackUserTheme'			=> 'Revert all user themes to %1 theme.',
 	'ThemesAllowed'				=> 'Allowed Themes:',
 	'ThemesAllowedInfo'			=> 'Select the allowed themes, which the user can choose; otherwise, all available themes are allowed.',
 	'ThemesPerPage'				=> 'Themes per page:',
@@ -444,7 +447,7 @@ $ap_translation = [
 		'1'		=> 'only the critical level',
 		'2'		=> 'from the highest level',
 		'3'		=> 'from high',
-		'4'		=> 'keskmiselt',
+		'4'		=> 'on average',
 		'5'		=> 'from low',
 		'6'		=> 'the minimum level',
 		'7'		=> 'record all',
@@ -455,15 +458,15 @@ $ap_translation = [
 		'1'		=> 'only the critical level',
 		'2'		=> 'from the highest level',
 		'3'		=> 'from high-level',
-		'4'		=> 'keskmine',
+		'4'		=> 'the average',
 		'5'		=> 'from a low',
 		'6'		=> 'from the minimum level',
-		'7'		=> 'näita kõiki',
+		'7'		=> 'show all',
 	],
 	'LogPurgeTime'				=> 'Storage time of Log:',
 	'LogPurgeTimeInfo'			=> 'Remove event log after the specified number of days.',
 
-	'PrivacySection'			=> 'Privaatsus',
+	'PrivacySection'			=> 'Privacy',
 	'AnonymizeIp'				=> 'Anonymize users IP addresses:',
 	'AnonymizeIpInfo'			=> 'Anonymize IP addresses where applicable (i.e., page, revision or referrers).',
 
@@ -482,9 +485,9 @@ $ap_translation = [
 									 about this setting, do not have a reverse proxy, or WackoWiki operates in
 									 a shared hosting environment, this setting should remain disabled.',
 	'ReverseProxyHeader'		=> 'Reverse proxy header:',
-	'ReverseProxyHeaderInfo'	=> 'Määrake see väärtus, kui teie proxy-server saadab kliendi IP-aadressi muus päises
-									kui X-Forwarded-For. Pealkiri "X-Forwarded-For" on koma + tühikuga eraldatud IP-aadresside
-									nimekiri, millest kasutatakse ainult viimast (vasakpoolseimat).',
+	'ReverseProxyHeaderInfo'	=> 'Set this value if your proxy server sends the client IP in a header
+									 other than X-Forwarded-For. The "X-Forwarded-For" header is a comma+space separated list of IP
+									 addresses, only the last one (the left-most) will be used.',
 	'ReverseProxyAddresses'		=> 'reverse_proxy accepts an array of IP addresses:',
 	'ReverseProxyAddressesInfo'	=> 'Each element of this array is the IP address of any of your reverse
 									 proxies. If using this array, WackoWiki will trust the information stored
@@ -497,13 +500,13 @@ $ap_translation = [
 	'SessionStorage'				=> 'Session storage:',
 	'SessionStorageInfo'			=> 'This option defines where the the session data is stored. By default, either file or database session storage is selected.',
 	'SessionModes'	=> [
-		'1'		=> 'Fail',
-		'2'		=> 'Andmebaas',
+		'1'		=> 'فایل',
+		'2'		=> 'پایگاه داده',
 	],
-	'SessionNotice'					=> 'Näita seansi lõpetamise põhjust:',
-	'SessionNoticeInfo'				=> 'Näitab sessiooni lõpetamise põhjust.',
-	'LoginNotice'					=> 'Sisselogimise teade:',
-	'LoginNoticeInfo'				=> 'Kuvab sisselogimise teate.',
+	'SessionNotice'					=> 'نمایش علت خاتمه جلسه',
+	'SessionNoticeInfo'				=> 'دلیل ختم جلسه را نشان می دهد.',
+	'LoginNotice'					=> 'Login notice:',
+	'LoginNoticeInfo'				=> 'Displays login notice.',
 
 	'RewriteMode'					=> 'Use <code>mod_rewrite</code>:',
 	'RewriteModeInfo'				=> 'If your web server supports this feature, enable to "beautify" the page URLs.<br>
@@ -521,7 +524,7 @@ $ap_translation = [
 	'CommentRights'				=> 'Comment rights by default:',
 	'CommentRightsInfo'			=> 'Default assigned to the created root pages, as well as pages for which parent ACLs cannot be defined.',
 	'CreateRights'				=> 'Create rights of a sub page by default:',
-	'CreateRightsInfo'			=> 'Default assigned to the created sub pages.',
+	'CreateRightsInfo'			=> 'Define the right for creating root pages and assign them to pages for which parental rights cannot be defined.',
 	'UploadRights'				=> 'Upload rights by default:',
 	'UploadRightsInfo'			=> 'Default upload rights.',
 	'RenameRights'				=> 'Global rename right:',
@@ -538,16 +541,16 @@ $ap_translation = [
 	'OwnersEditCategories'		=> 'Owners can edit page categories:',
 	'OwnersEditCategoriesInfo'	=> 'Allow owners to modify the pages category list of your site (add words, delete words), assigns to a page.',
 	'TermHumanModeration'		=> 'Human moderation expiration:',
-	'TermHumanModerationInfo'	=> 'Moderaatorid saavad kommentaare redigeerida ainult siis, kui need on loodud ainult mitu päeva tagasi (see piirang ei kehti teema viimase kommentaari kohta).',
+	'TermHumanModerationInfo'	=> 'Moderators can only edit comments if they were created no more than this number of days ago (this limitation does not apply to the last comment in the topic).',
 
-	'UserCanDeleteAccount'		=> 'Luba kasutajatel kustuta oma konto',
+	'UserCanDeleteAccount'		=> 'Allow users to delete their accounts',
 
 	// Security settings
 	'SecuritySettingsInfo'		=> 'Parameters responsible for the overall safety of the platform, safety restrictions and additional security subsystems.',
 	'SecuritySettingsUpdated'	=> 'Updated security settings',
 
 	'AllowRegistration'			=> 'Register online:',
-	'AllowRegistrationInfo'		=> 'Avage kasutaja registreerimine. Selle valiku keelamine takistab tasuta registreerimist, kuid saidi administraator saab teised kasutajad ise registreerida.',
+	'AllowRegistrationInfo'		=> 'Open user registration. Disabling this option will prevent free registration, however, the site administrator will still be able to register users.',
 	'ApproveNewUser'			=> 'Approve new users:',
 	'ApproveNewUserInfo'		=> 'Allows administrators to approve users once they register. Only approved users will be allowed to log in the site.',
 	'PersistentCookies'			=> 'Persistent cookies:',
@@ -557,43 +560,43 @@ $ap_translation = [
 	'UsernameLength'			=> 'Username length:',
 	'UsernameLengthInfo'		=> 'Minimum and maximum number of characters in usernames.',
 
-	'EmailSection'				=> 'E-post',
+	'EmailSection'				=> 'Email',
 	'AllowEmailReuse'			=> 'Allow email address re-use:',
 	'AllowEmailReuseInfo'		=> 'Different users can register with the same email address.',
-	'EmailConfirmation'			=> 'Jõustada e-posti kinnitus:',
-	'EmailConfirmationInfo'		=> 'Nõuab kasutajalt oma e-posti aadressi kinnitamist enne sisselogimist.',
-	'AllowedEmailDomains'		=> 'Lubatud e-posti domeenid:',
-	'AllowedEmailDomainsInfo'	=> 'Lubatud e-posti domeenid komadega eraldatud, nt <code>example.com, local.lan</code> jne, muidu on lubatud kõik e-posti domeenid.',
-	'ForbiddenEmailDomains'		=> 'Keelatud e-posti domeenid:',
-	'ForbiddenEmailDomainsInfo'	=> 'Keelatud e-posti domeenid komadega eraldatud, nt <code>example.com, local.lan</code> jne. (ainult siis, kui lubatud e-posti domeenide nimekiri on tühi)',
+	'EmailConfirmation'			=> 'اجرای تایید ایمیل:',
+	'EmailConfirmationInfo'		=> 'از کاربر می‌خواهد قبل از ورود به سیستم، آدرس ایمیل خود را تأیید کند.',
+	'AllowedEmailDomains'		=> 'دامنه های مجاز ایمیل:',
+	'AllowedEmailDomainsInfo'	=> 'امنه های ایمیل مجاز با کاما از هم جدا شده اند، به عنوان مثال. <code>example.com, local.lan</code> و غیره، در غیر این صورت همه دامنه های ایمیل مجاز هستند.',
+	'ForbiddenEmailDomains'		=> 'دامنه های ایمیل ممنوع:',
+	'ForbiddenEmailDomainsInfo'	=> 'دامنه های ایمیل ممنوع با کاما از هم جدا شده اند، به عنوان مثال. <code>example.com, local.lan</code> غیره. (only effective if allowed email domains list is empty)',
 
-	'CaptchaSection'			=> 'CAPTCHA',
+	'CaptchaSection'			=> 'کپچا',
 	'EnableCaptcha'				=> 'Enable captcha:',
 	'EnableCaptchaInfo'			=> 'If enabled, captcha will be shown in the following cases, or if a security threshold is reached.',
-	'CaptchaComment'			=> 'Uus kommentaar:',
+	'CaptchaComment'			=> 'New comment:',
 	'CaptchaCommentInfo'		=> 'As protection against spam, unregistered users must complete captcha before comment will be posted.',
-	'CaptchaPage'				=> 'Uus leht:',
+	'CaptchaPage'				=> 'New page:',
 	'CaptchaPageInfo'			=> 'As protection against spam, unregistered users must complete captcha before creating a new page.',
-	'CaptchaEdit'				=> 'Muuda lehte:',
+	'CaptchaEdit'				=> 'Edit page:',
 	'CaptchaEditInfo'			=> 'As protection against spam, unregistered users must complete captcha before editing pages.',
-	'CaptchaRegistration'		=> 'Registreerimine:',
+	'CaptchaRegistration'		=> 'نام‌نویسی',
 	'CaptchaRegistrationInfo'	=> 'As protection against spam, unregistered users must complete captcha before registering.',
 
 	'TlsSection'				=> 'TLS Settings',
-	'TlsConnection'				=> 'TLS connection:',
-	'TlsConnectionInfo'			=> 'Use TLS-secured connection. <span class="cite">Activate the required pre-installed TLS certificate on the server, otherwise you will lose access to the admin panel!</span><br>It also determines if the the Cookie Secure Flag is set: The <code>secure</code> flag specifies whether cookies should only be sent over secure connections.',
+	'TlsConnection'				=> 'TLS-Connection:',
+	'TlsConnectionInfo'			=> 'Use TLS-secured connection. <span class="cite">Activate the required pre-installed TLS-certificate on the server, otherwise you will lose access to the admin panel!</span><br>It also determines if the the Cookie Secure Flag is set, the <code>secure</code> flag specifies whether cookies should only be sent over secure connections.',
 	'TlsImplicit'				=> 'Mandatory TLS:',
 	'TlsImplicitInfo'			=> 'Forcibly reconnect the client from HTTP to HTTPS. With the option disabled, the client can browse the site through an open HTTP channel.',
 
 	'HttpSecurityHeaders'		=> 'HTTP Security Headers',
 	'EnableSecurityHeaders'		=> 'Enable security headers:',
 	'EnableSecurityHeadersinfo'	=> 'Set security headers (frame busting, clickjacking/XSS/CSRF protection). <br>CSP may cause issues in certain situations (e.g. during development), or when using plugins relying on externally hosted resources such as images or scripts. <br>Disabling Content Security Policy is a security risk!',
-	'Csp'						=> 'Content security policy (CSP):',
+	'Csp'						=> 'Content-Security-Policy (CSP):',
 	'CspInfo'					=> 'Configuring CSP involves deciding what policies you want to enforce, and then configuring them and using Content-Security-Policy to establish your policy.',
 	'PolicyModes'	=> [
-		'0'		=> 'keelatud',
-		'1'		=> 'range',
-		'2'		=> 'kohandatud',
+		'0'		=> 'disabled',
+		'1'		=> 'strict',
+		'2'		=> 'custom',
 	],
 	'PermissionsPolicy'			=> 'Permissions policy:',
 	'PermissionsPolicyInfo'		=> 'The HTTP Permissions-Policy header provides a mechanism to explicitly enable or disable various powerful browser features.',
@@ -630,7 +633,7 @@ $ap_translation = [
 		'2'		=> 'password does not contain username',
 	],
 
-	'LoginSection'				=> 'Logi sisse',
+	'LoginSection'				=> 'ورود',
 	'MaxLoginAttempts'			=> 'Maximum number of login attempts per username:',
 	'MaxLoginAttemptsInfo'		=> 'The number of login attempts allowed for a single account before the anti-spambot task is triggered. Enter 0 to prevent the anti-spambot task from being triggered for distinct user accounts.',
 	'IpLoginLimitMax'			=> 'Maximum number of login attempts per IP address:',
@@ -638,7 +641,7 @@ $ap_translation = [
 
 	'FormsSection'				=> 'Forms',
 	'FormTokenTime'				=> 'Maximum time to submit forms:',
-	'FormTokenTimeInfo'			=> 'Aeg, mille jooksul kasutaja peab vormi esitama (sekundites). <br> Pange tähele, et vorm võib seansi lõppedes kehtetuks muutuda, olenemata sellest sättest.',
+	'FormTokenTimeInfo'			=> 'The time a user has to submit a form (in seconds).<br> Note that a form might become invalid if the session expires, regardless of this setting.',
 
 	'SessionLength'				=> 'Session cookie expiration:',
 	'SessionLengthInfo'			=> 'The lifetime of the user session cookie by default (in days).',
@@ -667,7 +670,7 @@ $ap_translation = [
 	'X11colors'					=> 'X11 colors usage:',
 	'X11colorsInfo'				=> 'Extends the available colors for <code>??(color) background??</code> and <code>!!(color) text!!</code>Disabling this option speeds up the processes of adding comments and saving pages.',
 	'WikiLinks'					=> 'Disable wiki links:',
-	'WikiLinksInfo'				=> 'Lülitab <code>CamelCaseWords</code> linkimise välja, teie CamelCase Words ei linki enam otse uuele lehele. See on kasulik, kui töötate erinevates nimeruumides aks klastrites. Vaikimisi on see välja lülitatud.',
+	'WikiLinksInfo'				=> 'Disables linking for <code>CamelCaseWords</code>: Your CamelCase words will no longer be linked directly to a new page. This is useful when you work across different namespaces/clusters. By default it is off.',
 	'BracketsLinks'				=> 'Disable bracketed links:',
 	'BracketsLinksInfo'			=> 'Disables <code>[[link]]</code> and <code>((link))</code> syntax.',
 	'Formatters'				=> 'Disable formatters:',
@@ -682,20 +685,20 @@ $ap_translation = [
 	'TimeFormatSecondsInfo'		=> '(hours, minutes, seconds)',
 	'NameDateMacro'				=> 'The format of the <code>::@::</code> macro:',
 	'NameDateMacroInfo'			=> '(name, time), e.g. <code>UserName (17.11.2016 16:48)</code>',
-	'Timezone'					=> 'Ajatsoon:',
-	'TimezoneInfo'				=> 'Ajavöönd, mida kasutatakse kellaaegade kuvamiseks kasutajatele, kes ei ole sisse logitud (külalised). Sisselogitud kasutajad määravad ja saavad oma ajavööndit muuta oma kasutaja seadetes.',
+	'Timezone'					=> 'ناحیه زمانی',
+	'TimezoneInfo'				=> 'Timezone to use for displaying times to users who are not logged in (guests). Logged-in users can change their timezone in their user settings.',
 
-	'Canonical'					=> 'Kasutage täielikult kanoonilisi URL-e:',
-	'CanonicalInfo'				=> 'Kõik lingid luuakse absoluutsete URL-idena kujul %1. Eelistada tuleks URL-e serveri juure suhtes vormis %2.',
+	'Canonical'					=> 'Use fully canonical URLs:',
+	'CanonicalInfo'				=> 'All links are created as absolute URLs in the form %1. URLs relative to the server root in the form %2 should be preferred.',
 	'LinkTarget'				=> 'Where external links open:',
-	'LinkTargetInfo'			=> 'Avab iga välise lingi uues brauseriaknas. Lisab lingi süntaksile <code>target="_blank"</code>.',
+	'LinkTargetInfo'			=> 'Opens each external link in a new browser window. Adds <code>target="_blank"</code> to the link syntax.',
 	'Noreferrer'				=> 'noreferrer:',
 	'NoreferrerInfo'			=> 'Requires that the browser should not send an HTTP referer header if the user follows the hyperlink. Adds <code>rel="noreferrer"</code> to the link syntax.',
 	'Nofollow'					=> 'nofollow:',
-	'NofollowInfo'				=> 'Juhendage mõnda otsimootorit, et hüperlink ei tohiks mõjutada linkide sihtimist otsingumootorite registris. Lisab lingi süntaksisse <code>rel="nofollow"</code>.',
+	'NofollowInfo'				=> 'Tells search engines that the hyperlinks should not affect the page ranking of the target page in the search engine index. Adds <code>rel="nofollow"</code> to the link syntax.',
 	'UrlsUnderscores'			=> 'Form addresses (URLs) with underscores:',
 	'UrlsUnderscoresInfo'		=> 'For example, %1 becames %2 with this option.',
-	'ShowSpaces'				=> 'Näita WikiNimedes tühikuid:',
+	'ShowSpaces'				=> 'Show spaces in WikiNames:',
 	'ShowSpacesInfo'			=> 'Show spaces in WikiNames, e.g. <code>MyName</code> being displayed as <code>My Name</code> with this option.',
 	'NumerateLinks'				=> 'Enumerate links in print view:',
 	'NumerateLinksInfo'			=> 'Enumerates and lists all links at the bottom of the print view with this option.',
@@ -703,7 +706,7 @@ $ap_translation = [
 	'YouareHereTextInfo'		=> 'Visualize links to the same page, using <code>&lt;b&gt;####&lt;/b&gt;</code>. All links to self lose link formatting, but are displayed as bold text.',
 
 	// Pages settings
-	'PagesSettingsInfo'			=> 'Siin saate seadistada või muuta Vikis kasutatavaid süsteemi baaslehti. Veenduge, et te ei unustaks Wiki vastavate lehtede loomist ega nende muutmist vastavalt teie seadetele siin.',
+	'PagesSettingsInfo'			=> 'Here you can set or change the system base pages used within the Wiki. Please ensure you do not forget to create or change the corresponding pages in the Wiki according your settings here.',
 	'PagesSettingsUpdated'		=> 'Updated settings base pages',
 
 	'ListCount'					=> 'Number of items per list:',
@@ -723,8 +726,8 @@ $ap_translation = [
 	'NewsStructure'				=> 'News cluster structure:',
 	'NewsStructureInfo'			=> 'Stores the articles optionally in sub-clusters by year/month or week (e.g. <code>[cluster]/[year]/[month]</code>).',
 
-	'LicenseSection'			=> 'Litsents',
-	'DefaultLicense'			=> 'Vaikimisi litsents:',
+	'LicenseSection'			=> 'License',
+	'DefaultLicense'			=> 'Default license:',
 	'DefaultLicenseInfo'		=> 'Under which license your content can be released.',
 	'EnableLicense'				=> 'Enable license:',
 	'EnableLicenseInfo'			=> 'Enable to show license information.',
@@ -735,31 +738,31 @@ $ap_translation = [
 	'RootPage'					=> 'Home page:',
 	'RootPageInfo'				=> 'Tag of your main page, opens automatically when a user visits your site.',
 
-	'PrivacyPage'				=> 'Andmekaitse:',
+	'PrivacyPage'				=> 'سیاست محرمانگی',
 	'PrivacyPageInfo'			=> 'The page with the Privacy Policy of the site.',
 
 	'TermsPage'					=> 'Policies and regulations:',
 	'TermsPageInfo'				=> 'The page with the rules of the site.',
 
-	'SearchPage'				=> 'Otsi:',
+	'SearchPage'				=> 'جستجو',
 	'SearchPageInfo'			=> 'Page with the search form (action %1).',
-	'RegistrationPage'			=> 'Registreerimine:',
+	'RegistrationPage'			=> 'نام‌نویسی',
 	'RegistrationPageInfo'		=> 'Page for new user registration (action %1).',
-	'LoginPage'					=> 'Kasutajanimi:',
+	'LoginPage'					=> 'User login:',
 	'LoginPageInfo'				=> 'Login page on the site (action %1).',
-	'SettingsPage'				=> 'Kasutaja Seaded:',
+	'SettingsPage'				=> 'تنظیمات کاربری',
 	'SettingsPageInfo'			=> 'Page to customize the user profile (action %1).',
-	'PasswordPage'				=> 'Muuda Parooli:',
+	'PasswordPage'				=> 'Change Password:',
 	'PasswordPageInfo'			=> 'Page with a form to change / query user password (action %1).',
 	'UsersPage'					=> 'User list:',
 	'UsersPageInfo'				=> 'Page with a list of registered users (action %1).',
-	'CategoryPage'				=> 'Kategooria:',
+	'CategoryPage'				=> 'دسته',
 	'CategoryPageInfo'			=> 'Page with a list of categorized pages (action %1).',
-	'GroupsPage'				=> 'Grupid:',
+	'GroupsPage'				=> 'گروه‌ها',
 	'GroupsPageInfo'			=> 'Page with a list of working groups (action %1).',
-	'ChangesPage'				=> 'Viimased muudatused:',
+	'ChangesPage'				=> 'تغییرات اخیر',
 	'ChangesPageInfo'			=> 'Page with a list of the last modified pages (action %1).',
-	'CommentsPage'				=> 'Viimased kommentaarid:',
+	'CommentsPage'				=> 'دیدگاه‌های اخیر',
 	'CommentsPageInfo'			=> 'Page with a list of recent comment on the page (action %1).',
 	'RemovalsPage'				=> 'Deleted pages:',
 	'RemovalsPageInfo'			=> 'Page with a list of recently deleted pages (action %1).',
@@ -767,14 +770,14 @@ $ap_translation = [
 	'WantedPageInfo'			=> 'Page with a list of missing pages that are referenced (action %1).',
 	'OrphanedPage'				=> 'Orphaned pages:',
 	'OrphanedPageInfo'			=> 'Page with a list of existing pages are not related via links to any other page (action %1).',
-	'SandboxPage'				=> 'Liivakast:',
+	'SandboxPage'				=> 'Sandbox:',
 	'SandboxPageInfo'			=> 'Page where users can practice their wiki markup skills.',
-	'HelpPage'					=> 'Abi:',
+	'HelpPage'					=> 'راهنما',
 	'HelpPageInfo'				=> 'The documentation section for working with site tools.',
-	'IndexPage'					=> 'Indeks:',
-	'IndexPageInfo'				=> 'Lehekülg koos kõigi lehtede loendiga (action %1).',
-	'RandomPage'				=> 'Juhuslik:',
-	'RandomPageInfo'			=> 'Laadib juhusliku lehe (action %1).',
+	'IndexPage'					=> 'Index:',
+	'IndexPageInfo'				=> 'Page with a list of all pages (action %1).',
+	'RandomPage'				=> 'تصادفی',
+	'RandomPageInfo'			=> 'Loads a random page (action %1).',
 
 
 	// Notification settings
@@ -799,14 +802,14 @@ $ap_translation = [
 	'NotifyUpload'				=> 'Notify file upload:',
 	'NotifyUploadInfo'			=> 'The Moderators will to be notified when a file has been uploaded.',
 
-	'PersonalMessagesSection'	=> 'Isiklikud sõnumid',
+	'PersonalMessagesSection'	=> 'Personal Messages',
 	'AllowIntercomDefault'		=> 'Allow intercom:',
 	'AllowIntercomDefaultInfo'	=> 'Enabling this option allows other users to send personal messages to the recipient\'s email address without disclosing the address.',
 	'AllowMassemailDefault'		=> 'Allow mass email:',
 	'AllowMassemailDefaultInfo'	=> 'Only send messages to those users who have permitted administrators to email them information.',
 
 	// Resync settings
-	'Synchronize'				=> 'sünkroonida',
+	'Synchronize'				=> 'Synchronize',
 	'UserStatsSynched'			=> 'User Statistics synchronized.',
 	'PageStatsSynched'			=> 'Page Statistics synchronized.',
 	'FeedsUpdated'				=> 'RSS-feeds updated.',
@@ -824,9 +827,9 @@ $ap_translation = [
 	'PageStats'					=> 'Page statistics',
 	'PageStatsInfo'				=> 'Page statistics (number of comments, files and revisions) may differ in some situations from actual data. <br>This operation allows updating statistics to match actual data contained in database.',
 
-	'AttachmentsInfo'			=> 'Uuendab kõigi andmebaasis olevate manuste faili hash\'i.',
-	'AttachmentsSynched'		=> 'Kõik faili manused on uuesti üle vaadatud',
-	'LogAttachmentsSynched'		=> 'Kõik faili manused on uuesti üle vaadatud',
+	'AttachmentsInfo'			=> 'هش فایل را برای همه پیوست های پایگاه داده به روز می کند.',
+	'AttachmentsSynched'		=> 'همه فایل‌های پیوست را دوباره هش کرد',
+	'LogAttachmentsSynched'		=> 'همه فایل‌های پیوست را دوباره هش کرد',
 
 	'Feeds'						=> 'Feeds',
 	'FeedsInfo'					=> 'In the case of direct editing of pages in the database, the content of RSS-feeds may not reflect the changes made. <br>This function synchronizes the RSS-channels with the current state of the database.',
@@ -841,27 +844,27 @@ $ap_translation = [
 
 	'WikiLinksResync'			=> 'Wiki-links',
 	'WikiLinksResyncInfo'		=> 'Performs a re-rendering for all intrasite links and restores the contents of the <code>page_link</code> and <code>file_link</code> tables in the event of damage or relocation (this can take considerable time).',
-	'RecompilePage'				=> 'Kõigi lehtede uuesti koostamine (väga kallis)',
+	'RecompilePage'				=> 'Re-compiling all pages (extremely costly)',
 	'ResyncOptions'				=> 'Additional options',
 	'RecompilePageLimit'		=> 'Number of pages to parse at once.',
 
 	// Email settings
-	'EmaiSettingsInfo'			=> 'Seda infot kasutatakse, kui foorum saadab e-kirja kasutajale. Palun ole kindel, et siinsisestatud e-postiaadress on kehtiv, kõik tagasipõrkuvad või kohaletoimetamata e-kirjad lähevad sinna. Kui su teenusepakkuja ei paku kohalikku (PHP põhist) e-posti teenust , võid saata sõnumeid otse läbi SMTP. See nõuab serveri aadressi (küsi pakkujalt, kui vaja). Kui server nõuab autentimist, (ja vaid sellisel juhul) sisesta vajalik kasutajanimi, parool ja autentimismeetod.',
+	'EmaiSettingsInfo'			=> 'This information is used when the engine sends emails to your users. Please ensure the email address you specify is valid, as any bounced or undeliverable messages will likely be sent to that address. If your hosting provider does not provide a native (PHP-based) email service, you can instead send messages directly using SMTP. This requires the address of an appropriate server (ask your hosting provider if necessary). If the server requires authentication (and only if it does), enter the necessary username, password and authentication method.',
 
 	'EmailSettingsUpdated'		=> 'Updated Email settings',
 
-	'EmailFunctionName'			=> 'E-posti funktsiooni nimi:',
-	'EmailFunctionNameInfo'		=> 'E-posti funktsioon, mis saadab kirju läbi PHP.',
-	'UseSmtpInfo'				=> 'Vali <code>SMTP</code>, kui soovid või pead e-maili saatma oma serverist Wiki e-posti funktsiooni asemel.',
+	'EmailFunctionName'			=> 'Email function name:',
+	'EmailFunctionNameInfo'		=> 'The email function used to send mails through PHP.',
+	'UseSmtpInfo'				=> 'Select <code>SMTP</code> if you want to, or have to, send email via a named server instead of via the local mail function.',
 
 	'EnableEmail'				=> 'Enable emails:',
 	'EnableEmailInfo'			=> 'Enable sending of emails.',
 
-	'EmailIdentitySettings'		=> 'Veebisaidi e-kirjad Identiteet',
+	'EmailIdentitySettings'		=> 'هویت ایمیل های وب سایت',
 	'FromEmailName'				=> 'From Name:',
 	'FromEmailNameInfo'			=> 'The sender name that is use for the <code>From:</code> header for all email notifications sent from the site.',
-	'EmailSubjectPrefix'		=> 'Subjekti eesliide:',
-	'EmailSubjectPrefixInfo'	=> 'Alternatiivne e-posti teema eesliide, nt <code>[Eesliide] Teema</code>. Kui seda ei ole määratud, on vaikimisi eesliide Site Name: %1.',
+	'EmailSubjectPrefix'		=> 'پیشوند موضوع:',
+	'EmailSubjectPrefixInfo'	=> 'پیشوند موضوع ایمیل جایگزین، به عنوان مثال. [پیشوند] موضوع. اگر تعریف نشده باشد از نام سایت احتمالاً طولانی‌تر % 1 به عنوان پیشوند استفاده می‌کند.',
 
 	'NoReplyEmail'				=> 'No-reply address:',
 	'NoReplyEmailInfo'			=> 'This address, e.g. <code>noreply@example.com</code>, will appear in the <code>From:</code> email address field of all email notifications sent from the site.',
@@ -870,68 +873,68 @@ $ap_translation = [
 	'AbuseEmail'				=> 'Email abuse service:',
 	'AbuseEmailInfo'			=> 'Address requests for urgent matters: registration for a foreign email, etc. It may be the same as the site owner email.',
 
-	'SendTestEmail'				=> 'Saada testimiseks e-kiri',
+	'SendTestEmail'				=> 'یک ایمیل آزمایشی ارسال کنید',
 	'SendTestEmailInfo'			=> 'This will send a test email to the address defined in your account.',
 	'TestEmailSubject'			=> 'Your Wiki is correctly configured to send emails',
 	'TestEmailBody'				=> 'If you received this email, your Wiki is correctly configured to send emails.',
 	'TestEmailMessage'			=> 'The test email has been sent.<br>If you don\'t receive it, please check your email configuration settings.',
 
-	'SmtpSettings'				=> 'SMTP seaded',
+	'SmtpSettings'				=> 'SMTP Settings',
 	'SmtpAutoTls'				=> 'Opportunistic TLS:',
 	'SmtpAutoTlsInfo'			=> 'Enables encryption automatically, if it sees that the server is advertising TLS encryption (after you have connected to the server), even if you have not set the connection mode for <code>SMTPSecure</code>.',
-	'SmtpConnectionMode'		=> 'Autentimismeetod SMTP jaoks:',
-	'SmtpConnectionModeInfo'	=> 'Kasutatakse vaid siis, kui kasutajanimi/parool on määratud, küsi oma teenusepakkujalt, kui sa pole kindel, millist meetodit kasutada.',
-	'SmtpPassword'				=> 'SMTP parool:',
-	'SmtpPasswordInfo'			=> 'Sisesta parool vaid siis, kui SMTP server seda nõuab..<br><em><strong>HOIATUS:</strong> See parool salvestatakse lihttekstina andmebaasi, ning on nähtav kõigile kes pääsevad ligi sinu foorumi andmebaasile või sellele leheküljele.</em>',
-	'SmtpPort'					=> 'SMTP serveri port:',
-	'SmtpPortInfo'				=> 'Muuda seda vaid siis, kui tead, et SMTP server jookseb teisel pordil. <br>(default: <code>tls</code> on port 587 (or possibly 25) and <code>ssl</code> on port 465)',
-	'SmtpServer'				=> 'SMTP serveri aadress:',
-	'SmtpServerInfo'			=> 'Pane tähele, et sa pead andma protokolli, mida kasutab sinu server. Kui kasutad SSL, siis see peab olema <code>ssl://mail.example.com</code>',
-	'SmtpUsername'				=> 'SMTP kasutajanimi:',
-	'SmtpUsernameInfo'			=> 'Sisesta kasutajanimi vaid siis, kui server seda nõuab.',
+	'SmtpConnectionMode'		=> 'Connection mode for SMTP:',
+	'SmtpConnectionModeInfo'	=> 'Only used if a username/password is required. Ask your provider if you are unsure which method to use.',
+	'SmtpPassword'				=> 'SMTP password:',
+	'SmtpPasswordInfo'			=> 'Only enter a password if your SMTP server requires it.<br><em><strong>Warning:</strong> This password will be stored as plain text in the database, visible to everybody who can access your database or who can view this configuration page.</em>',
+	'SmtpPort'					=> 'SMTP server port:',
+	'SmtpPortInfo'				=> 'Only change this if you know your SMTP server is on a different port. <br>(default: <code>tls</code> on port 587 (or possibly 25) and <code>ssl</code> on port 465)',
+	'SmtpServer'				=> 'SMTP server address:',
+	'SmtpServerInfo'			=> 'Note that you have to provide the protocol that your server uses. If you are using SSL, this has to be <code>ssl://mail.example.com</code>',
+	'SmtpUsername'				=> 'SMTP username:',
+	'SmtpUsernameInfo'			=> 'Only enter a username if your SMTP server requires it.',
 
 	// Upload settings
-	'UploadSettingsInfo'		=> 'Siin saad sa muuta manuste põhiseadeid ja nendega seotud kategooriaid.',
+	'UploadSettingsInfo'		=> 'Here you can configure the main settings for attachments and the associated special categories.',
 	'UploadSettingsUpdated'		=> 'Updated upload settings',
 
 	'FileUploadsSection'		=> 'File Uploads',
-	'RegisteredUsers'			=> 'registreeritud kasutajad',
+	'RegisteredUsers'			=> 'کاربران ثبت نام شده',
 	'RightToUpload'				=> 'Permissions to upload files:',
 	'RightToUploadInfo'			=> '<code>admins</code> means that only users belonging to the admins group can upload  files. <code>1</code> means that uploading is opened to registered users. <code>0</code> means that upload disabled.',
-	'UploadMaxFilesize'			=> 'Maksimaalne failisuurus:',
-	'UploadMaxFilesizeInfo'		=> 'MMaksimaalne failisuurus igale failile. 0 tähendab maksimumi puudumist.',
-	'UploadQuota'				=> 'Manuseid lubatud:',
-	'UploadQuotaInfo'			=> 'Maksimaalne kettaruum, mis on eraldatud terve foorumi manustele. <code>0</code> tähendab maksimumi puudumist. %1 used.',
+	'UploadMaxFilesize'			=> 'Maximum file size:',
+	'UploadMaxFilesizeInfo'		=> 'Maximum size of each file. If this value is 0, the maximum uploadable filesize is only limited by your PHP configuration.',
+	'UploadQuota'				=> 'Total attachment quota:',
+	'UploadQuotaInfo'			=> 'Maximum drive space available for attachments for the whole wiki, with <code>0</code> being unlimited. %1 used.',
 	'UploadQuotaUser'			=> 'Storage quota per user:',
 	'UploadQuotaUserInfo'		=> 'Restriction on the quota of storage that can be uploaded by one user, with <code>0</code> being unlimited.',
 
-	'FileTypes'					=> 'Failitüübid',
+	'FileTypes'					=> 'File types',
 	'UploadOnlyImages'			=> 'Allow only upload of images:',
 	'UploadOnlyImagesInfo'		=> 'Allow only uploading of image files on the page.',
-	'AllowedUploadExts'			=> 'Lubatud failitüübid:',
-	'AllowedUploadExtsInfo'		=> 'Lubatud laiendused failide üleslaadimiseks, komadega eraldatud nt <code>png, ogg, mp4</code>, muidu on lubatud kõik mitte keelatud faililaiendid.<br>Sa peaksid piirama üleslaaditavate failitüüpide lubatud failide nimekirja vajaliku miinimumini, mis on vajalik teie saidi sisu funktsionaalsuse jaoks.',
-	'CheckMimetype'				=> 'Kontrolli manuseid:',
-	'CheckMimetypeInfo'			=> 'Mõndasid veebilehitsejaid saab petta, eeldades, et tegu on vale miimitüübiga. See valik kindlustab, et sellised failid keelatakse.',
+	'AllowedUploadExts'			=> 'نوع پرونده مجاز:',
+	'AllowedUploadExtsInfo'		=> 'پسوندهای مجاز برای آپلود فایل ها، جدا از ویرگول، به عنوان مثال. <code>png, ogg, mp4</code>، در غیر این صورت همه پسوندهای غیرممنوع فایل مجاز هستند.<br>شما باید لیست مجاز انواع فایل آپلود شده را به حداقل مورد نیاز برای عملکرد محتوای سایت خود محدود کنید.',
+	'CheckMimetype'				=> 'Check MIME type:',
+	'CheckMimetypeInfo'			=> 'Some browsers can be tricked to assume an incorrect mimetype for uploaded files. This option ensures that such files likely to cause this are rejected.',
 	'SvgSanitizer'				=> 'SVG Sanitizer:',
-	'SvgSanitizerInfo'			=> 'See võimaldab üleslaaditud SVG-failide puhastamist, et vältida SVG/XML-i haavatavate failide üleslaadimist.',
-	'TranslitFileName'			=> 'Failinimede translitereerimine:',
-	'TranslitFileNameInfo'		=> 'Kui see on kohaldatav ja Unicode-märke ei ole vaja, on väga soovitatav aktsepteerida ainult tähtnumbrilisi märke.',
-	'TranslitCaseFolding'		=> 'Konverteeri failinimed väikesteks tähtedeks:',
-	'TranslitCaseFoldingInfo'	=> 'See valik toimib ainult aktiivse translitereerimise korral.',
+	'SvgSanitizerInfo'			=> 'این امکان پاکسازی فایل های SVG آپلود شده را برای جلوگیری از آپلود فایل های آسیب پذیر SVG/XML فراهم می کند.',
+	'TranslitFileName'			=> 'ترجمه نام فایل ها:',
+	'TranslitFileNameInfo'		=> 'اگر قابل اجرا است و نیازی به داشتن کاراکترهای یونیکد نیست، توصیه می شود فقط کاراکترهای آلفا-عددی را بپذیرید.',
+	'TranslitCaseFolding'		=> 'تبدیل نام فایل ها به حروف کوچک:',
+	'TranslitCaseFoldingInfo'	=> 'این گزینه فقط با نویسه‌گردانی فعال مؤثر است.',
 
 	'Thumbnails'				=> 'Thumbnails',
-	'CreateThumbnail'			=> 'Loo pisipilt:',
-	'CreateThumbnailInfo'		=> 'Loo pisipilt igas võimalikus olukorras.',
-	'JpegQuality'				=> 'JPEG-kvaliteet:',
-	'JpegQualityInfo'			=> 'Kvaliteet JPEG-mõõdupildi skaleerimisel. See peaks olema vahemikus 1 kuni 100, kusjuures 100 tähistab 100% kvaliteeti.',
+	'CreateThumbnail'			=> 'Create thumbnail:',
+	'CreateThumbnailInfo'		=> 'Create a thumbnail in all possible situations.',
+	'JpegQuality'				=> 'کیفیت JPEG:',
+	'JpegQualityInfo'			=> 'کیفیت هنگام مقیاس بندی یک تصویر کوچک JPEG. باید بین 1 تا 100 باشد که 100 نشان دهنده 100% کیفیت است.',
 	'MaxImageArea'				=> 'Maximum Image Area:',
-	'MaxImageAreaInfo'			=> 'Maksimaalne pikslite arv, mis allikapildil võib olla. See piirab mälukasutust pildi skaleerija dekompressiooni poolel. <br><code>-1</code> tähendab, et see ei kontrolli pildi suurust enne selle skaleerimise katsetamist. <code>0</code> tähendab, et see määrab selle väärtuse automaatselt.',
-	'MaxThumbWidth'				=> 'Maksimaalne pisipildi laius pikslites:',
-	'MaxThumbWidthInfo'			=> 'Loodud pisipilt ei ületa siin määratud laiust.',
-	'MinThumbFilesize'			=> 'Minimaalne pisipildi failisuurus:',
-	'MinThumbFilesizeInfo'		=> 'Ära loo pisipilti piltidele, mis on sellest väiksemad.',
-	'MaxImageWidth'				=> 'Pildi suuruse piirang lehekülgedel:',
-	'MaxImageWidthInfo'			=> 'Vastasel juhul genereeritakse väiksema suurusega pisipilt.',
+	'MaxImageAreaInfo'			=> 'حداکثر تعداد پیکسل هایی که یک تصویر منبع می تواند داشته باشد. این یک محدودیت در استفاده از حافظه برای سمت رفع فشرده سازی مقیاس کننده تصویر ایجاد می کند. <br><code>-1</code> به این معنی است که اندازه تصویر را قبل از تلاش برای تغییر مقیاس بررسی نمی کند. <code>0</code> به این معنی است که مقدار را به طور خودکار تعیین می کند.',
+	'MaxThumbWidth'				=> 'Maximum thumbnail width in pixels:',
+	'MaxThumbWidthInfo'			=> 'A generated thumbnail will not exceed the width set here.',
+	'MinThumbFilesize'			=> 'Minimum thumbnail file size:',
+	'MinThumbFilesizeInfo'		=> 'Do not create a thumbnail for images smaller than this.',
+	'MaxImageWidth'				=> 'محدودیت اندازه تصویر در صفحات:',
+	'MaxImageWidthInfo'			=> 'حداکثر عرضی که یک تصویر می تواند در صفحات داشته باشد، در غیر این صورت یک تصویر کوچک کوچک شده ایجاد می شود.',
 
 	// Deleted module
 	'DeletedObjectsInfo'		=> 'List of removed pages, revisions and files.
@@ -950,46 +953,46 @@ $ap_translation = [
 
 	// Log module
 	'LogFilterTip'				=> 'Filter events by criteria:',
-	'LogLevel'					=> 'Tase',
+	'LogLevel'					=> 'Level',
 	'LogLevelFilters'	=> [
-		'1'		=> 'mitte vähem kui',
-		'2'		=> 'mitte kõrgem kui',
-		'3'		=> 'võrdne',
+		'1'		=> 'not less than',
+		'2'		=> 'not higher than',
+		'3'		=> 'equal',
 	],
-	'LogNoMatch'				=> 'Ükski sündmus ei vasta sellele kriteeriumile',
-	'LogDate'					=> 'Kuupäev',
-	'LogEvent'					=> 'Sündmus',
-	'LogUsername'				=> 'Kasutajanimi',
+	'LogNoMatch'				=> 'No events that meet the criteria',
+	'LogDate'					=> 'تاریخ',
+	'LogEvent'					=> 'Event',
+	'LogUsername'				=> 'Username',
 	'LogLevels'	=> [
-		'1'		=> 'kriitiline',
-		'2'		=> 'kõrgeim',
-		'3'		=> 'kõrge',
-		'4'		=> 'keskmine',
-		'5'		=> 'madal',
-		'6'		=> 'madalaim',
+		'1'		=> 'critical',
+		'2'		=> 'highest',
+		'3'		=> 'high',
+		'4'		=> 'medium',
+		'5'		=> 'low',
+		'6'		=> 'lowest',
 		'7'		=> 'debugging',
 	],
 
 	// Massemail module
-	'MassemailInfo'				=> 'Sellel leheküljel saad saata e-kirja kõigile liikmetele või valitud grupile, <strong>millel on valikus lubatud mass e-kiri vastu võtta</strong>. Pimekoopia saadetakse ka administraatori e-posti aadressile. Kui üritad saata kirja väga paljudele liikmetele, siis ära lahku enne lehelt, kui skript on lõpetanud saatmise, sest saatmisega lähebki kaua aega.',
+	'MassemailInfo'				=> 'Here you can email a message to either (1) all of your users or (2) all users of a specific group who have enabled receiving of mass emails. An email will be sent out to the administrative email address supplied, with a blind carbon copy (BCC) sent to all recipients. The default setting is to include a maximum of 20 recipients in such an email. If there are more than 20 recipients, additional emails will be sent. If you are emailing a large group of people, please be patient after submitting and do not stop the page halfway through. It is normal for a mass emailing to take a long time. You will be notified when the script has completed.',
 	'LogMassemail'				=> 'Mass email send %1 to group / user ',
 	'MassemailSend'				=> 'Mass email send',
 
-	'NoEmailMessage'			=> 'Sa pead sisestama ka sõnumi.',
-	'NoEmailSubject'			=> 'Sa pead sisestama ka pealkirja.',
+	'NoEmailMessage'			=> 'You must enter a message.',
+	'NoEmailSubject'			=> 'You must specify a subject for your message.',
 	'NoEmailRecipient'			=> 'You must specify at least one user or user group.',
 
 	'MassemailSection'			=> 'Mass email',
-	'MessageSubject'			=> 'Teema:',
+	'MessageSubject'			=> 'موضوع',
 	'MessageSubjectInfo'		=> '',
-	'YourMessage'				=> 'Sinu sõnum:',
-	'YourMessageInfo'			=> 'Sa võid sisestada ainult puhast teksti, kõik koodi märgistused eemaldatakse enne saatmist.',
+	'YourMessage'				=> 'Your message:',
+	'YourMessageInfo'			=> 'Please note that you may enter only plain text. All markup will be removed before sending.',
 
 	'NoUser'					=> 'No user',
 	'NoUserGroup'				=> 'No user group',
 
-	'SendToGroup'				=> 'Saada grupile:',
-	'SendToUser'				=> 'Saada kasutajatele:',
+	'SendToGroup'				=> 'Send to group:',
+	'SendToUser'				=> 'Send to user:',
 	'SendToUserInfo'			=> 'Only users who permit administrators to email them information will receive mass emails. This option is available in their user settings under Notifications.',
 
 	// System message module
@@ -997,10 +1000,10 @@ $ap_translation = [
 	'SysMsgUpdated'				=> 'Updated system message',
 
 	'SysMsgSection'				=> 'System message',
-	'SysMsg'					=> 'Süsteemiteade:',
-	'SysMsgInfo'				=> 'Sinu tekst siia',
+	'SysMsg'					=> 'System message:',
+	'SysMsgInfo'				=> 'Your text here',
 
-	'SysMsgType'				=> 'Liik:',
+	'SysMsgType'				=> 'Type:',
 	'SysMsgTypeInfo'			=> 'Message type (CSS).',
 	'SysMsgAudience'			=> 'Audience:',
 	'SysMsgAudienceInfo'		=> 'Audience the system message is shown to.',
@@ -1017,20 +1020,20 @@ $ap_translation = [
 	'LogUserUpdated'			=> 'Updated User ##%1##',
 
 	'UserApproveInfo'			=> 'Approve new users before they are able to login to the site.',
-	'Approve'					=> 'Kiida heaks',
-	'Deny'						=> 'Keela',
-	'Pending'					=> 'Ootel',
-	'Approved'					=> 'Heaks kiidetud',
-	'Denied'					=> 'Keelatud',
+	'Approve'					=> 'موافقت',
+	'Deny'						=> 'Deny',
+	'Pending'					=> 'Pending',
+	'Approved'					=> 'Approved',
+	'Denied'					=> 'Denied',
 
 	// DB Backup module
-	'BackupStructure'			=> 'Struktuur',
+	'BackupStructure'			=> 'ساختار',
 	'BackupData'				=> 'Data',
 	'BackupFolder'				=> 'Folder',
-	'BackupTable'				=> 'Tabel',
+	'BackupTable'				=> 'Table',
 	'BackupCluster'				=> 'Cluster:',
-	'BackupFiles'				=> 'Failid',
-	'BackupNote'				=> 'Meeldetuletus:',
+	'BackupFiles'				=> 'فایل‌ها',
+	'BackupNote'				=> 'Note:',
 	'BackupSettings'			=> 'Specify the desired scheme of backup.<br>' .
 									'The root cluster does not affect the global files backup and cache files backup (if chosen, they are always saved in full).<br>' .
 									'<br>' .
@@ -1038,20 +1041,20 @@ $ap_translation = [
 									'same as when backing up only table structure without saving the data. ' .
 									'To make a complete conversion of the tables to the backup format you must make the <em> full database backup (structure and data) without specifying the cluster</em>.',
 	'BackupCompleted'			=> 'Backing up and archiving completed.<br>' .
-									'The Backup package files were stored in the following sub-directory %1.<br>' .
+									'The Backup package files were stored in the sub-directory %1.<br>' .
 									'To download it use FTP (maintain the directory structure and file names when copying).<br>' .
 									'To restore a backup copy or remove a package, go to <a href="%2">Restore database</a>.',
 	'LogSavedBackup'			=> 'Saved backup database ##%1##',
-	'Backup'					=> 'Varukoopia',
+	'Backup'					=> 'پشتیبان‌گیری',
 	'CantReadFile'				=> 'Can\'t read file %1.',
 
 	// DB Restore module
 	'RestoreInfo'				=> 'You can restore any of the backup packages found, or remove them from the server.',
-	'ConfirmDbRestore'			=> 'Kas soovite taastada varukoopia %1?',
-	'ConfirmDbRestoreInfo'		=> 'Oodake, see võib võtta mõni minut.',
+	'ConfirmDbRestore'			=> 'Do you want to restore backup %1?',
+	'ConfirmDbRestoreInfo'		=> 'Please wait, this can take some time.',
 	'RestoreWrongVersion'		=> 'Wrong WackoWiki version!',
-	'DirectoryNotExecutable'	=> 'Kataloog %1 ei ole käivitatav.',
-	'BackupDelete'				=> 'Kas soovite kindlasti %1 varukoopia eemaldada??',
+	'DirectoryNotExecutable'	=> 'The %1 directory is not executable.',
+	'BackupDelete'				=> 'Are you sure you want to remove backup %1?',
 	'BackupDeleteInfo'			=> '',
 	'RestoreOptions'			=> 'Additional restore options:',
 	'RestoreOptionsInfo'		=> '* Before restoring the <strong>cluster backup</strong>, ' .
@@ -1093,36 +1096,36 @@ $ap_translation = [
 	'RestoringFiles'			=> 'Restoring files',
 	'DecompressAndStore'		=> 'Decompress and store the contents of directories',
 	'HomonymicFiles'			=> 'homonymic files',
-	'RestoreSkip'				=> 'jäta vahele',
-	'RestoreReplace'			=> 'asenda',
-	'RestoreFile'				=> 'Fail:',
+	'RestoreSkip'				=> 'skip',
+	'RestoreReplace'			=> 'replace',
+	'RestoreFile'				=> 'فایل',
 	'RestoredFiles'				=> 'restored:',
 	'SkippedFiles'				=> 'skipped:',
 	'FileRestoreDone'			=> 'Completed. Total files:',
-	'FilesAll'					=> 'kõik:',
+	'FilesAll'					=> 'همه',
 	'SkipFiles'					=> 'Files are not stored - skip',
 	'RestoreDone'				=> 'RESTORATION COMPLETED',
 
-	'BackupCreationDate'		=> 'Loomise kuupäev',
-	'BackupPackageContents'		=> 'Paketi sisu',
-	'BackupRestore'				=> 'Taasta',
-	'BackupRemove'				=> 'Eemalda',
-	'RestoreYes'				=> 'Jah',
-	'RestoreNo'					=> 'Ei',
+	'BackupCreationDate'		=> 'Creation Date',
+	'BackupPackageContents'		=> 'The contents of the package',
+	'BackupRestore'				=> 'Restore',
+	'BackupRemove'				=> 'حذف',
+	'RestoreYes'				=> 'بله',
+	'RestoreNo'					=> 'خیر',
 	'LogDbRestored'				=> 'Backup ##%1## of the database restored.',
 
-	'BackupArchived'			=> 'Varukoopia %1 arhiveeritud.',
-	'BackupArchiveExists'		=> 'Varukoopiaarhiiv %1 on juba olemas.',
-	'LogBackupArchived'			=> 'Varukoopia ##%1## arhiveeritud.',
+	'BackupArchived'			=> 'پشتیبان %1 بایگانی شد.',
+	'BackupArchiveExists'		=> 'بایگانی پشتیبان %1 از قبل وجود دارد.',
+	'LogBackupArchived'			=> 'پشتیبان ##%1## بایگانی شد.',
 
 	// User module
 	'UsersInfo'					=> 'Here you can change your users information and certain specific options.',
 
-	'UsersAdded'				=> 'Kasutaja on lisatud',
+	'UsersAdded'				=> 'User added',
 	'UsersDeleteInfo'			=> '[User delete Info here..]',
-	'EditButton'				=> 'Muuda',
-	'UsersAddNew'				=> 'Lisa uus kasutaja',
-	'UsersDelete'				=> 'Kas soovite kindlasti kasutaja %1 eemaldada?',
+	'EditButton'				=> 'ویرایش',
+	'UsersAddNew'				=> 'Add new user',
+	'UsersDelete'				=> 'Are you sure you want to remove user %1?',
 	'UsersDeleted'				=> 'The user %1 was deleted from the database.',
 	'UsersRename'				=> 'Rename the user %1 to',
 	'UsersRenameInfo'			=> '* Note: Change will affect all pages that are assigned to that user.',
@@ -1130,13 +1133,13 @@ $ap_translation = [
 
 	'UserIP'					=> 'IP',
 	'UserSignuptime'			=> 'Signuptime',
-	'UserActions'				=> 'Tegevused',
+	'UserActions'				=> 'Actions',
 	'NoMatchingUser'			=> 'No users that meet the criteria',
 
-	'UserAccountNotify'			=> 'Teata kasutajat',
-	'UserNotifySignup'			=> 'teavitage kasutajat uuest kontost',
-	'UserVerifyEmail'			=> 'määrake e-posti kinnituse märk ja lisage link e-posti kinnitamiseks',
-	'UserReVerifyEmail'			=> 'Saada e-posti aadressi kinnitusmärk uuesti',
+	'UserAccountNotify'			=> 'Notify user',
+	'UserNotifySignup'			=> 'inform the user about the new account',
+	'UserVerifyEmail'			=> 'set email confirm token and add link for email verification',
+	'UserReVerifyEmail'			=> 'Re-send email confirm token',
 
 	// Groups module
 	'GroupsInfo'				=> 'From this panel you can administrate all your usergroups. You can delete, create and edit existing groups. Furthermore, you may choose group leaders, toggle open/hidden/closed group status and set the group name and description.',
@@ -1149,10 +1152,10 @@ $ap_translation = [
 	'LogGroupRemoved'			=> 'Removed group ##%1##',
 
 	'GroupsMembersFor'			=> 'Members for Group',
-	'GroupsDescription'			=> 'Kirjeldus',
-	'GroupsModerator'			=> 'Moderaator',
-	'GroupsOpen'				=> 'Ava',
-	'GroupsActive'				=> 'Aktiivne',
+	'GroupsDescription'			=> 'توضیحات',
+	'GroupsModerator'			=> 'Moderator',
+	'GroupsOpen'				=> 'Open',
+	'GroupsActive'				=> 'Active',
 	'GroupsTip'					=> 'Click to edit Group',
 	'GroupsUpdated'				=> 'Groups updated',
 	'GroupsAlreadyExists'		=> 'This group already exists.',
@@ -1162,67 +1165,67 @@ $ap_translation = [
 	'GroupsAdd'					=> 'Add a new group',
 	'GroupsRename'				=> 'Rename the group %1 to',
 	'GroupsRenameInfo'			=> '* Note: Change will affect all pages that are assigned to that group.',
-	'GroupsDelete'				=> 'Kas soovite kindlasti grupi %1 eemaldada?',
+	'GroupsDelete'				=> 'Are you sure you want to remove group %1?',
 	'GroupsDeleteInfo'			=> '* Note: Change will affect all members that are assigned to that group.',
 	'GroupsIsSystem'			=> 'The group %1 belongs to the system and cannot be removed.',
 	'GroupsStoreButton'			=> 'Save Groups',
 	'GroupsEditInfo'			=> 'To edit the groups list select the radio button.',
 
-	'GroupAddMember'			=> 'Lisa liige',
-	'GroupRemoveMember'			=> 'Eemalda liige',
-	'GroupAddNew'				=> 'Lisa grupp',
-	'GroupEdit'					=> 'Muuda gruppi',
-	'GroupDelete'				=> 'Eemalda grupp',
+	'GroupAddMember'			=> 'Add member',
+	'GroupRemoveMember'			=> 'Remove Member',
+	'GroupAddNew'				=> 'Add group',
+	'GroupEdit'					=> 'Edit Group',
+	'GroupDelete'				=> 'Remove Group',
 
-	'MembersAddNew'				=> 'Lisa uus liige',
+	'MembersAddNew'				=> 'Add new member',
 	'MembersAdded'				=> 'Added new member to the group successfully.',
 	'MembersRemove'				=> 'Are you sure you want to remove member %1?',
 	'MembersRemoved'			=> 'The member was removed from the group.',
 
 	// Statistics module
-	'DbStatSection'				=> 'Andmebaasi statistika',
-	'DbTable'					=> 'Tabel',
-	'DbRecords'					=> 'Kirjed',
-	'DbSize'					=> 'Suurus',
-	'DbIndex'					=> 'Indeks',
+	'DbStatSection'				=> 'Database Statistics',
+	'DbTable'					=> 'Table',
+	'DbRecords'					=> 'Records',
+	'DbSize'					=> 'اندازه',
+	'DbIndex'					=> 'Index',
 	'DbOverhead'				=> 'Overhead',
-	'DbTotal'					=> 'Kokku',
+	'DbTotal'					=> 'Total',
 
-	'FileStatSection'			=> 'Failisüsteemi statistika',
-	'FileFolder'				=> 'Kaust',
-	'FileFiles'					=> 'Failid',
-	'FileSize'					=> 'Suurus',
-	'FileTotal'					=> 'Kokku',
+	'FileStatSection'			=> 'File system Statistics',
+	'FileFolder'				=> 'Folder',
+	'FileFiles'					=> 'فایل‌ها',
+	'FileSize'					=> 'اندازه',
+	'FileTotal'					=> 'Total',
 
 	// Sysinfo module
 	'SysInfo'					=> 'Version information:',
-	'SysParameter'				=> 'Parameeter',
-	'SysValues'					=> 'Väärtused',
+	'SysParameter'				=> 'Parameter',
+	'SysValues'					=> 'Values',
 
 	'WackoVersion'				=> 'WackoWiki',
-	'LastWackoUpdate'			=> 'Viimane uuendus',
+	'LastWackoUpdate'			=> 'آخرین به‌روزرسانی',
 	'ServerOS'					=> 'OS',
-	'ServerName'				=> 'Serveri nimi',
-	'WebServer'					=> 'Veebiserver',
+	'ServerName'				=> 'Server name',
+	'WebServer'					=> 'Web server',
 	'HttpProtocol'				=> 'HTTP Protocol',
 	'DbVersion'					=> 'MariaDB / MySQL',
 	'SqlModesGlobal'			=> 'SQL Modes Global',
 	'SqlModesSession'			=> 'SQL Modes Session',
 	'IcuVersion'				=> 'ICU',
 	'PhpVersion'				=> 'PHP',
-	'MemoryLimit'				=> 'Mälu',
+	'MemoryLimit'				=> 'Memory',
 	'UploadFilesizeMax'			=> 'Upload max filesize',
 	'PostMaxSize'				=> 'Post max size',
 	'MaxExecutionTime'			=> 'Max execution time',
 	'SessionPath'				=> 'Session path',
 	'PhpDefaultCharset'			=> 'PHP default charset',
 	'GZipCompression'			=> 'GZip compression',
-	'PhpExtensions'				=> 'PHP laiendid',
+	'PhpExtensions'				=> 'PHP extensions',
 	'ApacheModules'				=> 'Apache modules',
 
 	// DB repair module
-	'DbRepairSection'			=> 'Paranda andmebaasi',
-	'DbRepair'					=> 'Paranda andmebaasi',
+	'DbRepairSection'			=> 'Repair Database',
+	'DbRepair'					=> 'Repair Database',
 	'DbRepairInfo'				=> 'This script can automatically look for some common database problems and repair them. Repairing can take a while, so please be patient.',
 
 	'DbOptimizeRepairSection'	=> 'Repair and Optimize Database',
@@ -1242,9 +1245,9 @@ $ap_translation = [
 	// Inconsistencies module
 	'InconsistenciesInfo'		=> 'Show and fix inconsistencies, delete or assign orphaned records to a new user / value.',
 	'Inconsistencies'			=> 'Inconsistencies',
-	'CheckDatabase'				=> 'Andmebaas',
+	'CheckDatabase'				=> 'پایگاه داده',
 	'CheckDatabaseInfo'			=> 'Checks for record inconsistencies in the database.',
-	'CheckFiles'				=> 'Failid',
+	'CheckFiles'				=> 'فایل‌ها',
 	'CheckFilesInfo'			=> 'Checks for abandoned files, files with no reference left in the file table.',
 	'Records'					=> 'Records',
 	'InconsistenciesNone'		=> 'No Data Inconsistencies found.',
@@ -1259,30 +1262,30 @@ $ap_translation = [
 	'BbEnableInfo'				=> 'All other settings can be changed in the config folder %1.',
 	'BbStats'					=> 'Bad Behaviour has blocked %1 access attempts in the last 7 days.',
 
-	'BbSummary'					=> 'Kokkuvõte',
+	'BbSummary'					=> 'Summary',
 	'BbLog'						=> 'Log',
-	'BbSettings'				=> 'Seadistused',
-	'BbWhitelist'				=> 'Valge nimekiri',
+	'BbSettings'				=> 'تنظیمات',
+	'BbWhitelist'				=> 'Whitelist',
 
 	// --> Log
-	'BbHits'					=> 'Klikke',
+	'BbHits'					=> 'بازدیدها',
 	'BbRecordsFiltered'			=> 'Displaying %1 of %2 records filtered by',
-	'BbStatus'					=> 'Staatus',
-	'BbBlocked'					=> 'Blokeeritud',
-	'BbPermitted'				=> 'Lubatud',
+	'BbStatus'					=> 'Status',
+	'BbBlocked'					=> 'Blocked',
+	'BbPermitted'				=> 'Permitted',
 	'BbIp'						=> 'IP',
 	'BbGetPost'					=> 'GET/POST',
 	'BbUri'						=> 'URI',
 	'BbRecordsAll'				=> 'Displaying all %1 records',
-	'BbShow'					=> 'Näita',
+	'BbShow'					=> 'Show',
 	'BbIpDateStatus'			=> 'IP/Date/Status',
-	'BbHeaders'					=> 'Päised',
+	'BbHeaders'					=> 'Headers',
 	'BbEntity'					=> 'Entity',
 
 	// --> Whitelist
-	'BbOptionsSaved'			=> 'Valikud on salvestatud.',
+	'BbOptionsSaved'			=> 'Options saved.',
 	'BbWhitelistHint'			=> 'Inappropriate whitelisting WILL expose you to spam, or cause Bad Behaviour to stop functioning entirely! DO NOT WHITELIST unless you are 100% CERTAIN that you should.',
-	'BbIpAddress'				=> 'IP aadress',
+	'BbIpAddress'				=> 'IP Address',
 	'BbIpAddressInfo'			=> 'IP address or CIDR format address ranges to be whitelisted (one per line)',
 	'BbUrl'						=> 'URL',
 	'BbUrlInfo'					=> 'URL fragments beginning with the / after your web site hostname (one per line)',
@@ -1293,9 +1296,9 @@ $ap_translation = [
 	'BbSettingsUpdated'			=> 'Updated Bad Behaviour settings',
 	'BbLogRequest'				=> 'Logging HTTP request',
 	'BbLogVerbose'				=> 'Verbose',
-	'BbLogNormal'				=> 'Tavaline (soovitatud)',
+	'BbLogNormal'				=> 'Normal (توصیه‌شده)',
 	'BbLogOff'					=> 'Do not log (not recommended)',
-	'BbSecurity'				=> 'Turvalisus',
+	'BbSecurity'				=> 'امنیتی',
 	'BbStrict'					=> 'Strict checking',
 	'BbStrictInfo'				=> 'blocks more spam but may block some people',
 	'BbOffsiteForms'			=> 'Allow form postings from other web sites',
