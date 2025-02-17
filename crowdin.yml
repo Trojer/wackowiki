@@ -1,0 +1,3 @@
+files:
+  - source: src/lang/wacko.en.php
+    translation: wacko.%osx_locale%.php
