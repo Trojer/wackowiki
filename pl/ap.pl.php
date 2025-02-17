@@ -8,33 +8,33 @@ if (!defined('IN_WACKO'))
 $ap_translation = [
 
 	'CategoryArray'		=> [
-		'basics'		=> 'Funzioni base',
-		'preferences'	=> 'Preferenze',
-		'content'		=> 'Contenuto',
-		'users'			=> 'Utenti',
-		'maintenance'	=> 'Manutenzione',
-		'messages'		=> 'Messaggi',
-		'extension'		=> 'Extension',
-		'database'		=> 'Database',
+		'basics'		=> 'Basic functions',
+		'preferences'	=> 'ユーザー設定',
+		'content'		=> 'Content',
+		'users'			=> 'ユーザー',
+		'maintenance'	=> 'メンテナンス',
+		'messages'		=> 'Messages',
+		'extension'		=> '拡張',
+		'database'		=> 'データベース',
 	],
 
 	// Admin panel
-	'AdminPanel'				=> 'Pannello di Controllo Amministrazione',
-	'RecoveryMode'				=> 'Modalità di recupero',
-	'Authorization'				=> 'Autorizzazione',
-	'AuthorizationTip'			=> 'Inserisci la password amministrativa (assicurati anche che i cookie siano ammessi nel tuo browser).',
-	'NoRecoveryPassword'		=> 'La password amministrativa non è specificata!',
-	'NoRecoveryPasswordTip'		=> 'Nota: l’assenza di una password amministrativa è una minaccia alla sicurezza! Inserisci la tua password nel file di configurazione ed esegui nuovamente il programma.',
+	'AdminPanel'				=> 'Administration Control Panel',
+	'RecoveryMode'				=> 'Recovery Mode',
+	'Authorization'				=> '認可',
+	'AuthorizationTip'			=> 'Please enter the administrative password (make sure that cookies are allowed in your browser).',
+	'NoRecoveryPassword'		=> '管理パスワードが指定されていない！',
+	'NoRecoveryPasswordTip'		=> '注：管理パスワードがないことは、セキュリティ上の脅威となる！設定ファイルにパスワードハッシュを入力し、再度プログラムを実行してください。',
 
 	'ErrorLoadingModule'		=> 'Error loading admin module %1: does not exist.',
 
-	'ApHomePage'				=> 'Home Page',
+	'ApHomePage'				=> 'ホームページ',
 	'ApHomePageTip'				=> 'Open the home page, you do not quit system administration',
-	'ApLogOut'					=> 'Esci',
+	'ApLogOut'					=> 'ログアウト',
 	'ApLogOutTip'				=> 'Quit system administration',
 
-	'TimeLeft'					=> 'Tempo rimasto: %1 minuti',
-	'ApVersion'					=> 'versione',
+	'TimeLeft'					=> 'Time left:  %1 minutes',
+	'ApVersion'					=> 'バージョン',
 
 	'SiteOpen'					=> 'Open',
 	'SiteOpened'				=> 'site opened',
@@ -46,21 +46,21 @@ $ap_translation = [
 	'System'					=> 'System',
 
 	// Generic
-	'Cancel'					=> 'Annulla',
-	'Add'						=> 'Aggiungi',
-	'Edit'						=> 'Modifica',
-	'Remove'					=> 'Rimuovere',
-	'Enabled'					=> 'Abilitata',
-	'Disabled'					=> 'Disabilitata',
-	'Mandatory'					=> 'Obbligatorio',
-	'Admin'						=> 'Admin',
+	'Cancel'					=> 'キャンセル',
+	'Add'						=> '追加',
+	'Edit'						=> '編集',
+	'Remove'					=> '削除',
+	'Enabled'					=> '有効にする',
+	'Disabled'					=> '無効',
+	'Mandatory'					=> 'Mandatory',
+	'Admin'						=> '管理',
 	'Min'						=> 'Min',
 	'Max'						=> 'Max',
 
 	'MiscellaneousSection'		=> 'Miscellaneous',
-	'MainSection'				=> 'Basic Parameters',
+	'MainSection'				=> 'General Options',
 
-	'DirNotWritable'			=> 'La directory %1 non è scrivibile',
+	'DirNotWritable'			=> 'The %1 directory is not writable.',
 	'FileNotWritable'			=> 'The %1 file is not writable.',
 
 	/**
@@ -74,26 +74,26 @@ $ap_translation = [
 
 	// Config Basic module
 	'config_basic'		=> [
-		'name'		=> 'Base',
-		'title'		=> 'Parametri base',
+		'name'		=> '基本',
+		'title'		=> 'Basic settings',
 	],
 
 	// Config Appearance module
 	'config_appearance'		=> [
-		'name'		=> 'Aspetto',
+		'name'		=> 'Appearance',
 		'title'		=> 'Appearance settings',
 	],
 
 	// Config Email module
 	'config_email'		=> [
-		'name'		=> 'E-mail',
-		'title'		=> 'Impostazioni e-mail',
+		'name'		=> 'メール',
+		'title'		=> 'メール設定',
 	],
 
 	// Config Syndication module
 	'config_syndication'		=> [
-		'name'		=> 'Sindacato',
-		'title'		=> 'Impostazioni di syndication',
+		'name'		=> 'Syndication',
+		'title'		=> '配信設定',
 	],
 
 	// Config Filter module
@@ -110,19 +110,19 @@ $ap_translation = [
 
 	// Config Notifications module
 	'config_notifications'		=> [
-		'name'		=> 'Notifiche',
-		'title'		=> 'Notifications settings',
+		'name'		=> '通知',
+		'title'		=> '通知設定',
 	],
 
 	// Config Pages module
 	'config_pages'		=> [
-		'name'		=> 'Pagine',
+		'name'		=> 'ページ',
 		'title'		=> 'Pages and site parameters',
 	],
 
 	// Config Permissions module
 	'config_permissions'		=> [
-		'name'		=> 'Permessi',
+		'name'		=> 'パーミッション',
 		'title'		=> 'Permissions settings',
 	],
 
@@ -134,13 +134,13 @@ $ap_translation = [
 
 	// Config System module
 	'config_system'		=> [
-		'name'		=> 'System',
+		'name'		=> 'システム',
 		'title'		=> 'System options',
 	],
 
 	// Config Upload module
 	'config_upload'		=> [
-		'name'		=> 'Carica',
+		'name'		=> 'アップロード',
 		'title'		=> 'Attachment settings',
 	],
 
@@ -158,7 +158,7 @@ $ap_translation = [
 
 	// DB Backup module
 	'db_backup'		=> [
-		'name'		=> 'Backup',
+		'name'		=> 'バックアップ',
 		'title'		=> 'Backing up data',
 	],
 
@@ -170,7 +170,7 @@ $ap_translation = [
 
 	// DB Restore module
 	'db_restore'		=> [
-		'name'		=> 'Ripristina',
+		'name'		=> '復元',
 		'title'		=> 'Restoring backup data',
 	],
 
@@ -236,20 +236,20 @@ $ap_translation = [
 
 	// Groups module
 	'user_groups'		=> [
-		'name'		=> 'Gruppi',
+		'name'		=> 'グループ',
 		'title'		=> 'Group management',
 	],
 
 	// User module
 	'user_users'		=> [
-		'name'		=> 'Utenti',
+		'name'		=> 'ユーザー',
 		'title'		=> 'User management',
 	],
 
 	// Main module
 	'MainNote'					=> 'Note: It is recommended that access to the site be temporarily blocked for administrative maintenance.',
 
-	'PurgeSessions'				=> 'Purga',
+	'PurgeSessions'				=> 'Purge',
 	'PurgeSessionsTip'			=> 'Purge all sessions',
 	'PurgeSessionsConfirm'		=> 'Are you sure you wish to purge all sessions? This will log out all users.',
 	'PurgeSessionsExplain'		=> 'Purge all sessions. This will log out all users by truncating the auth_token table.',
@@ -267,15 +267,15 @@ $ap_translation = [
 	'AdminName'					=> 'Admin of site:',
 	'AdminNameInfo'				=> 'User name of individual who is responsible for overall support of the site. This name is not used to determine access rights, but it is desirable that it conforms to the name of the chief administrator of the site.',
 
-	'LanguageSection'			=> 'Lingua',
+	'LanguageSection'			=> '言語',
 	'DefaultLanguage'			=> 'Default language:',
 	'DefaultLanguageInfo'		=> 'Specifies the language of messages displayed to unregistered guests, as well as the locale settings.',
 	'MultiLanguage'				=> 'Multilanguage support:',
 	'MultiLanguageInfo'			=> 'Enable the ability to select a language on a page-by-page basis.',
 	'AllowedLanguages'			=> 'Allowed languages:',
-	'AllowedLanguagesInfo'		=> 'Si consiglia di selezionare solo l’insieme delle lingue che si desidera utilizzare, altre saggiamente tutte le lingue sono selezionate.',
+	'AllowedLanguagesInfo'		=> 'It is recommended to select only the set of languages you want to use, otherwise all languages are selected.',
 
-	'CommentSection'			=> 'Commenti',
+	'CommentSection'			=> 'コメント',
 	'AllowComments'				=> 'Allow comments:',
 	'AllowCommentsInfo'			=> 'Enable comments for guests or registered users only, or disable them on the entire site.',
 	'SortingComments'			=> 'Sorting comments:',
@@ -320,12 +320,12 @@ $ap_translation = [
 	'NotifyDiffModeInfo'		=> 'Diff mode used for notifications in the email body.',
 
 	'EditingSection'			=> 'Editing',
-	'EditSummary'				=> 'Edit summary:',
+	'EditSummary'				=> '概要を編集:',
 	'EditSummaryInfo'			=> 'Shows change summary in the edit mode.',
-	'MinorEdit'					=> 'Modifica minore:',
+	'MinorEdit'					=> '小変更:',
 	'MinorEditInfo'				=> 'Enables minor edit option in the edit mode.',
-	'SectionEdit'				=> 'Modifica sezione:',
-	'SectionEditInfo'			=> 'Consente di modificare solo una sezione di una pagina.',
+	'SectionEdit'				=> 'セクション編集:',
+	'SectionEditInfo'			=> 'ページの一部分のみを編集することができます．',
 	'ReviewSettings'			=> 'Review:',
 	'ReviewSettingsInfo'		=> 'Enables review option in the edit mode.',
 	'PublishAnonymously'		=> 'Allow anonymous publishing:',
@@ -342,24 +342,24 @@ $ap_translation = [
 	'EnableReferrers'			=> 'Enable referrers:',
 	'EnableReferrersInfo'		=> 'Permits creation and display of external referrers.',
 	'ReferrersPurgeTime'		=> 'Storage time of referrers:',
-	'ReferrersPurgeTimeInfo'	=> 'Conservare la cronologia delle pagine esterne di riferimento non più di un determinato numero di giorni. Zero significa conservazione eterna, ma per un sito visitato attivamente questo può portare ad un overflow del database.',
+	'ReferrersPurgeTimeInfo'	=> 'Keep the history of referring external pages no longer than a given number of days. Use zero to ensure referrers are never deleted (but for an actively visited site, this can lead to database overflow).',
 	'EnableCounters'			=> 'Hit Counters:',
-	'EnableCountersInfo'		=> 'Permette il conteggio delle visite per pagina e la visualizzazione di semplici statistiche. Le chiamate del proprietario della pagina non vengono contate.',
+	'EnableCountersInfo'		=> 'Allows per page hit counters and enables display of simple statistics. Views of the page owner are not counted.',
 
 	// Syndication settings
-	'SyndicationSettingsInfo'		=> 'Controlla le impostazioni di syndication web predefinite per il vostro sito.',
-	'SyndicationSettingsUpdated'	=> 'Impostazioni di syndication aggiornate.',
+	'SyndicationSettingsInfo'		=> 'Control default web syndication settings for your site.',
+	'SyndicationSettingsUpdated'	=> 'Updated syndication settings.',
 
 	'FeedsSection'				=> 'Feeds',
 	'EnableFeeds'				=> 'Enable feeds:',
-	'EnableFeedsInfo'			=> 'Attiva o disattiva i feed RSS per l’intero wiki.',
+	'EnableFeedsInfo'			=> 'Turns RSS feeds on or off for the entire wiki.',
 	'XmlChangeLink'				=> 'Changes feed link mode:',
 	'XmlChangeLinkInfo'			=> 'Defines where the XML Changes feed items links to.',
 	'XmlChangeLinkMode'			=> [
-		'1'		=> 'vista differenze',
-		'2'		=> 'pagina attuale',
-		'3'		=> 'elenco revisioni',
-		'4'		=> 'pagina revisionata',
+		'1'		=> '変更点のリスト',
+		'2'		=> '現在のページ',
+		'3'		=> 'リビジョンのリスト',
+		'4'		=> '変更されたページ',
 	],
 
 	'XmlSitemap'				=> 'XML sitemap:',
@@ -367,11 +367,11 @@ $ap_translation = [
 	'XmlSitemapGz'				=> 'XML sitemap compression:',
 	'XmlSitemapGzInfo'			=> 'If you would like, you may compress your sitemap text file using gzip to reduce your bandwidth requirement.',
 	'XmlSitemapTime'			=> 'XML sitemap generation time:',
-	'XmlSitemapTimeInfo'		=> 'Genera la Sitemap una sola volta nel numero di giorni indicato, zero significa ad ogni cambio di pagina.',
+	'XmlSitemapTimeInfo'		=> 'Generates the sitemap only once in the given number of days. Set to zero to generate on every page change.',
 
-	'SearchSection'				=> 'Ricerca',
+	'SearchSection'				=> '検索',
 	'OpenSearch'				=> 'OpenSearch:',
-	'OpenSearchInfo'			=> 'Crea il file di descrizione di OpenSearch nella cartella XML e abilita l’Autodiscovery del plugin di ricerca nell’intestazione HTML.',
+	'OpenSearchInfo'			=> 'XMLフォルダにOpenSearch記述ファイルを作成し、HTMLヘッダで検索プラグインの自動検出を有効にします。',
 	'SearchEngineVisibility'	=> 'Block search engines (search engine visibility):',
 	'SearchEngineVisibilityInfo'=> 'Block search engines, but allow normal visitors. Overrides page settings. <br>Discourage search engines from indexing this site. It is up to search engines to honor this request.',
 
@@ -381,7 +381,7 @@ $ap_translation = [
 	'AppearanceSettingsInfo'	=> 'Control default display settings for your site.',
 	'AppearanceSettingsUpdated'	=> 'Updated appearance settings.',
 
-	'LogoOff'					=> 'Spento',
+	'LogoOff'					=> 'オフ',
 	'LogoOnly'					=> 'logo',
 	'LogoAndTitle'				=> 'logo and title',
 
@@ -396,13 +396,16 @@ $ap_translation = [
 	'FaviconSection'			=> 'Favicon',
 	'SiteFavicon'				=> 'Site favicon:',
 	'SiteFaviconInfo'			=> 'Your shortcut icon, or favicon, is displayed in the address bar, tabs and bookmarks of most browsers. This will override the favicon of your theme.',
-	'SiteFaviconTooBig'			=> 'Favicon è più grande di 64 × 64px.',
-	'ThemeColor'				=> 'Colore del tema per la barra degli indirizzi:',
-	'ThemeColorInfo'			=> 'Il browser imposterà il colore della barra degli indirizzi di ogni pagina secondo il colore CSS fornito.',
+	'SiteFaviconTooBig'			=> 'Favicon is bigger than 64 × 64 px.',
+	'ThemeColor'				=> 'アドレスバーのテーマカラー:',
+	'ThemeColorInfo'			=> 'ブラウザは、指定されたCSSカラーに従って、すべてのページのアドレスバーの色を設定します。',
 
 	'LayoutSection'				=> 'Layout',
 	'Theme'						=> 'Theme:',
 	'ThemeInfo'					=> 'Template design the site uses by default.',
+	'ResetUserTheme'			=> 'Reset all user themes:',
+	'ResetUserThemeInfo'		=> 'Resets all user themes. Warning: This action will revert all user-selected themes to the global default theme.',
+	'SetBackUserTheme'			=> 'Revert all user themes to %1 theme.',
 	'ThemesAllowed'				=> 'Allowed Themes:',
 	'ThemesAllowedInfo'			=> 'Select the allowed themes, which the user can choose; otherwise, all available themes are allowed.',
 	'ThemesPerPage'				=> 'Themes per page:',
@@ -469,20 +472,22 @@ $ap_translation = [
 
 	'ReverseProxySection'		=> 'Reverse Proxy',
 	'ReverseProxy'				=> 'Use reverse proxy:',
-	'ReverseProxyInfo'			=> 'Attivare questa impostazione per determinare l’indirizzo IP corretto del client remoto esaminando
-									le informazioni memorizzate nelle intestazioni X-Forwarded-For. Le intestazioni X-Forwarded-For
-									sono un meccanismo standard per identificare i sistemi client che si connettono attraverso un
-									server proxy inverso, come Squid o Pound. I server proxy inversi sono spesso utilizzati per migliorare
-									le prestazioni di siti molto visitati e possono anche fornire altri vantaggi in termini di caching,
-									sicurezza o crittografia. Se questa installazione di WackoWiki opera dietro un reverse proxy,
-									questa impostazione dovrebbe essere abilitata in modo che le informazioni corrette sull’indirizzo
-									IP siano catturate nei sistemi di gestione delle sessioni, dei log, delle statistiche e degli
-									accessi di WackoWiki; se non si è sicuri di questa impostazione, se non si dispone di un reverse proxy
-									o se WackoWiki opera in un ambiente di hosting condiviso, questa impostazione dovrebbe rimanere disabilitata.',
+	'ReverseProxyInfo'			=> 'Enable this setting to determine the correct IP address of the remote
+									 client by examining information stored in the X-Forwarded-For headers.
+									 X-Forwarded-For headers are a standard mechanism for identifying client
+									 systems connecting through a reverse proxy server, such as Squid or
+									 Pound. Reverse proxy servers are often used to enhance the performance
+									 of heavily visited sites and may also provide other site caching,
+									 security or encryption benefits. If this WackoWiki installation operates
+									 behind a reverse proxy, this setting should be enabled so that correct
+									 IP address information is captured in WackoWiki\'s session management,
+									 logging, statistics and access management systems; if you are unsure
+									 about this setting, do not have a reverse proxy, or WackoWiki operates in
+									 a shared hosting environment, this setting should remain disabled.',
 	'ReverseProxyHeader'		=> 'Reverse proxy header:',
-	'ReverseProxyHeaderInfo'	=> 'Impostare questo valore se il server proxy invia l’IP del client in un’intestazione diversa
-									da X-Forwarded-For. L’intestazione "X-Forwarded-For" è un elenco di indirizzi IP separati da
-									virgole e spazi, di cui verrà utilizzato solo l’ultimo (quello più a sinistra).',
+	'ReverseProxyHeaderInfo'	=> 'Set this value if your proxy server sends the client IP in a header
+									 other than X-Forwarded-For. The "X-Forwarded-For" header is a comma+space separated list of IP
+									 addresses, only the last one (the left-most) will be used.',
 	'ReverseProxyAddresses'		=> 'reverse_proxy accepts an array of IP addresses:',
 	'ReverseProxyAddressesInfo'	=> 'Each element of this array is the IP address of any of your reverse
 									 proxies. If using this array, WackoWiki will trust the information stored
@@ -495,13 +500,13 @@ $ap_translation = [
 	'SessionStorage'				=> 'Session storage:',
 	'SessionStorageInfo'			=> 'This option defines where the the session data is stored. By default, either file or database session storage is selected.',
 	'SessionModes'	=> [
-		'1'		=> 'File',
-		'2'		=> 'Database',
+		'1'		=> 'ファイル',
+		'2'		=> 'データベース',
 	],
-	'SessionNotice'					=> 'Mostra la causa di terminazione della sessione:',
-	'SessionNoticeInfo'				=> 'Indica la causa dell’interruzione della sessione.',
-	'LoginNotice'					=> 'Avviso di accesso:',
-	'LoginNoticeInfo'				=> 'Visualizza un avviso di accesso.',
+	'SessionNotice'					=> 'セッションの終了原因を表示:',
+	'SessionNoticeInfo'				=> 'セッション終了の原因を示す。',
+	'LoginNotice'					=> 'ログイン通知：',
+	'LoginNoticeInfo'				=> 'ログイン通知を表示します。',
 
 	'RewriteMode'					=> 'Use <code>mod_rewrite</code>:',
 	'RewriteModeInfo'				=> 'If your web server supports this feature, enable to "beautify" the page URLs.<br>
@@ -536,16 +541,16 @@ $ap_translation = [
 	'OwnersEditCategories'		=> 'Owners can edit page categories:',
 	'OwnersEditCategoriesInfo'	=> 'Allow owners to modify the pages category list of your site (add words, delete words), assigns to a page.',
 	'TermHumanModeration'		=> 'Human moderation expiration:',
-	'TermHumanModerationInfo'	=> 'I moderatori possono modificare i commenti solo se sono stati creati non più di questo numero di giorni fa (questa limitazione non si applica all’ultimo commento nell’argomento).',
+	'TermHumanModerationInfo'	=> 'Moderators can only edit comments if they were created no more than this number of days ago (this limitation does not apply to the last comment in the topic).',
 
-	'UserCanDeleteAccount'		=> 'Gli utenti possono eliminare il proprio account',
+	'UserCanDeleteAccount'		=> 'Allow users to delete their accounts',
 
 	// Security settings
 	'SecuritySettingsInfo'		=> 'Parameters responsible for the overall safety of the platform, safety restrictions and additional security subsystems.',
 	'SecuritySettingsUpdated'	=> 'Updated security settings',
 
 	'AllowRegistration'			=> 'Register online:',
-	'AllowRegistrationInfo'		=> 'Aprire la registrazione dell’utente. Disabilitando questa opzione si impedisce la registrazione gratuita, tuttavia, l’amministratore del sito potrà registrare personalmente gli altri utenti.',
+	'AllowRegistrationInfo'		=> 'Open user registration. Disabling this option will prevent free registration, however, the site administrator will still be able to register users.',
 	'ApproveNewUser'			=> 'Approve new users:',
 	'ApproveNewUserInfo'		=> 'Allows administrators to approve users once they register. Only approved users will be allowed to log in the site.',
 	'PersistentCookies'			=> 'Persistent cookies:',
@@ -558,12 +563,12 @@ $ap_translation = [
 	'EmailSection'				=> 'Email',
 	'AllowEmailReuse'			=> 'Allow email address re-use:',
 	'AllowEmailReuseInfo'		=> 'Different users can register with the same email address.',
-	'EmailConfirmation'			=> 'Imporre la conferma via e-mail:',
-	'EmailConfirmationInfo'		=> 'Richiede all’utente di verificare il suo indirizzo e-mail prima di poter accedere.',
-	'AllowedEmailDomains'		=> 'Domini e-mail consentiti:',
-	'AllowedEmailDomainsInfo'	=> 'Domini e-mail consentiti separati da virgole, ad esempio <code>example.com, local.lan</code> ecc, otherwise all email domains are allowed.',
-	'ForbiddenEmailDomains'		=> 'Domini e-mail proibiti:',
-	'ForbiddenEmailDomainsInfo'	=> 'Domini e-mail vietati separati da una virgola, ad esempio <code>example.com, local.lan</code> ecc (efficace solo se l’elenco dei domini e-mail consentiti è vuoto)',
+	'EmailConfirmation'			=> '電子メール確認を強制します：',
+	'EmailConfirmationInfo'		=> 'ユーザがログインする前に電子メール・アドレスを確認することを要求します。',
+	'AllowedEmailDomains'		=> '許可された電子メール・ドメイン：',
+	'AllowedEmailDomainsInfo'	=> '許可された電子メールドメインはカンマで区切られています。例えば、<code>example.com, local.lan</code>などです。, otherwise all email domains are allowed.',
+	'ForbiddenEmailDomains'		=> '禁止された電子メールドメイン：',
+	'ForbiddenEmailDomainsInfo'	=> 'Forbidden email domains comma separated, e.g. <code>example.com, local.lan</code> etc. (only effective if allowed email domains list is empty)',
 
 	'CaptchaSection'			=> 'CAPTCHA',
 	'EnableCaptcha'				=> 'Enable captcha:',
@@ -574,7 +579,7 @@ $ap_translation = [
 	'CaptchaPageInfo'			=> 'As protection against spam, unregistered users must complete captcha before creating a new page.',
 	'CaptchaEdit'				=> 'Edit page:',
 	'CaptchaEditInfo'			=> 'As protection against spam, unregistered users must complete captcha before editing pages.',
-	'CaptchaRegistration'		=> 'Registrazione:',
+	'CaptchaRegistration'		=> 'アカウント作成',
 	'CaptchaRegistrationInfo'	=> 'As protection against spam, unregistered users must complete captcha before registering.',
 
 	'TlsSection'				=> 'TLS Settings',
@@ -594,7 +599,7 @@ $ap_translation = [
 		'2'		=> 'custom',
 	],
 	'PermissionsPolicy'			=> 'Permissions policy:',
-	'PermissionsPolicyInfo'		=> 'L’intestazione HTTP Permissions-Policy fornisce un meccanismo per abilitare o disabilitare esplicitamente varie potenti caratteristiche del browser.',
+	'PermissionsPolicyInfo'		=> 'The HTTP Permissions-Policy header provides a mechanism to explicitly enable or disable various powerful browser features.',
 	'ReferrerPolicy'			=> 'Referrer policy:',
 	'ReferrerPolicyInfo'		=> 'The Referrer-Policy HTTP header governs which referrer information, sent in the Referer header, should be included in responses.',
 	'ReferrerPolicyModes'	=> [
@@ -628,7 +633,7 @@ $ap_translation = [
 		'2'		=> 'password does not contain username',
 	],
 
-	'LoginSection'				=> 'Entra',
+	'LoginSection'				=> 'ログイン',
 	'MaxLoginAttempts'			=> 'Maximum number of login attempts per username:',
 	'MaxLoginAttemptsInfo'		=> 'The number of login attempts allowed for a single account before the anti-spambot task is triggered. Enter 0 to prevent the anti-spambot task from being triggered for distinct user accounts.',
 	'IpLoginLimitMax'			=> 'Maximum number of login attempts per IP address:',
@@ -636,7 +641,7 @@ $ap_translation = [
 
 	'FormsSection'				=> 'Forms',
 	'FormTokenTime'				=> 'Maximum time to submit forms:',
-	'FormTokenTimeInfo'			=> 'Il tempo che un utente deve inviare un modulo (in secondi).<br> Si noti che un modulo potrebbe diventare non valido se la sessione scade, indipendentemente da questa impostazione.',
+	'FormTokenTimeInfo'			=> 'The time a user has to submit a form (in seconds).<br> Note that a form might become invalid if the session expires, regardless of this setting.',
 
 	'SessionLength'				=> 'Session cookie expiration:',
 	'SessionLengthInfo'			=> 'The lifetime of the user session cookie by default (in days).',
@@ -680,20 +685,20 @@ $ap_translation = [
 	'TimeFormatSecondsInfo'		=> '(hours, minutes, seconds)',
 	'NameDateMacro'				=> 'The format of the <code>::@::</code> macro:',
 	'NameDateMacroInfo'			=> '(name, time), e.g. <code>UserName (17.11.2016 16:48)</code>',
-	'Timezone'					=> 'Fuso orario:',
-	'TimezoneInfo'				=> 'Fuso orario da utilizzare per la visualizzazione degli orari agli utenti che non sono collegati (ospiti). Gli utenti registrati impostano e possono cambiare il loro fuso orario nelle loro impostazioni utente.',
+	'Timezone'					=> 'タイムゾーン:',
+	'TimezoneInfo'				=> 'Timezone to use for displaying times to users who are not logged in (guests). Logged-in users can change their timezone in their user settings.',
 
-	'Canonical'					=> 'Usa URL canoniche:',
-	'CanonicalInfo'				=> 'Tutti i link vengono creati come URL assoluti nella forma %1. Sono da preferire gli URL relativi alla radice del server nella forma %2.',
+	'Canonical'					=> 'Use fully canonical URLs:',
+	'CanonicalInfo'				=> 'All links are created as absolute URLs in the form %1. URLs relative to the server root in the form %2 should be preferred.',
 	'LinkTarget'				=> 'Where external links open:',
-	'LinkTargetInfo'			=> 'Apre ogni link esterno in una nuova finestra del browser. Aggiunge <code>target="_blank"</code> alla sintassi del link.',
+	'LinkTargetInfo'			=> 'Opens each external link in a new browser window. Adds <code>target="_blank"</code> to the link syntax.',
 	'Noreferrer'				=> 'noreferrer:',
-	'NoreferrerInfo'			=> 'Richiede che il browser non invii un header di riferimento HTTP se l’utente segue il collegamento ipertestuale. Aggiunge <code>rel="noreferrer"</code> alla sintassi del link.',
+	'NoreferrerInfo'			=> 'Requires that the browser should not send an HTTP referer header if the user follows the hyperlink. Adds <code>rel="noreferrer"</code> to the link syntax.',
 	'Nofollow'					=> 'nofollow:',
-	'NofollowInfo'				=> 'Istruire alcuni motori di ricerca che il link ipertestuale non deve influenzare il posizionamento dei link target nell’indice dei motori di ricerca. Aggiunge <code>rel="nofollow"</code> alla sintassi del link.',
+	'NofollowInfo'				=> 'Tells search engines that the hyperlinks should not affect the page ranking of the target page in the search engine index. Adds <code>rel="nofollow"</code> to the link syntax.',
 	'UrlsUnderscores'			=> 'Form addresses (URLs) with underscores:',
 	'UrlsUnderscoresInfo'		=> 'For example, %1 becames %2 with this option.',
-	'ShowSpaces'				=> 'Mostra gli spazi nei NomiWiki:',
+	'ShowSpaces'				=> 'Show spaces in WikiNames:',
 	'ShowSpacesInfo'			=> 'Show spaces in WikiNames, e.g. <code>MyName</code> being displayed as <code>My Name</code> with this option.',
 	'NumerateLinks'				=> 'Enumerate links in print view:',
 	'NumerateLinksInfo'			=> 'Enumerates and lists all links at the bottom of the print view with this option.',
@@ -701,7 +706,7 @@ $ap_translation = [
 	'YouareHereTextInfo'		=> 'Visualize links to the same page, using <code>&lt;b&gt;####&lt;/b&gt;</code>. All links to self lose link formatting, but are displayed as bold text.',
 
 	// Pages settings
-	'PagesSettingsInfo'			=> 'Qui è possibile impostare o modificare le pagine base del sistema utilizzate all’interno del Wiki. Non dimenticate di creare o modificare le pagine corrispondenti nel Wiki in base alle vostre impostazioni.',
+	'PagesSettingsInfo'			=> 'ここでは、Wiki内で使用されるシステムベースのページを設定・変更することができます。ここで設定した内容に応じて、Wiki内の対応するページを作成したり、変更したりすることを忘れないようにしてください。',
 	'PagesSettingsUpdated'		=> 'Updated settings base pages',
 
 	'ListCount'					=> 'Number of items per list:',
@@ -721,7 +726,7 @@ $ap_translation = [
 	'NewsStructure'				=> 'News cluster structure:',
 	'NewsStructureInfo'			=> 'Stores the articles optionally in sub-clusters by year/month or week (e.g. <code>[cluster]/[year]/[month]</code>).',
 
-	'LicenseSection'			=> 'Licenza',
+	'LicenseSection'			=> 'License',
 	'DefaultLicense'			=> 'Default license:',
 	'DefaultLicenseInfo'		=> 'Under which license your content can be released.',
 	'EnableLicense'				=> 'Enable license:',
@@ -733,15 +738,15 @@ $ap_translation = [
 	'RootPage'					=> 'Home page:',
 	'RootPageInfo'				=> 'Tag of your main page, opens automatically when a user visits your site.',
 
-	'PrivacyPage'				=> 'Informativa sulla privacy:',
+	'PrivacyPage'				=> 'プライバシーポリシー:',
 	'PrivacyPageInfo'			=> 'The page with the Privacy Policy of the site.',
 
 	'TermsPage'					=> 'Policies and regulations:',
 	'TermsPageInfo'				=> 'The page with the rules of the site.',
 
-	'SearchPage'				=> 'Ricerca:',
+	'SearchPage'				=> '検索:',
 	'SearchPageInfo'			=> 'Page with the search form (action %1).',
-	'RegistrationPage'			=> 'Registrazione:',
+	'RegistrationPage'			=> 'アカウント作成:',
 	'RegistrationPageInfo'		=> 'Page for new user registration (action %1).',
 	'LoginPage'					=> 'User login:',
 	'LoginPageInfo'				=> 'Login page on the site (action %1).',
@@ -751,9 +756,9 @@ $ap_translation = [
 	'PasswordPageInfo'			=> 'Page with a form to change / query user password (action %1).',
 	'UsersPage'					=> 'User list:',
 	'UsersPageInfo'				=> 'Page with a list of registered users (action %1).',
-	'CategoryPage'				=> 'Categoria:',
+	'CategoryPage'				=> 'カテゴリー:',
 	'CategoryPageInfo'			=> 'Page with a list of categorized pages (action %1).',
-	'GroupsPage'				=> 'Gruppi:',
+	'GroupsPage'				=> 'グループ:',
 	'GroupsPageInfo'			=> 'Page with a list of working groups (action %1).',
 	'ChangesPage'				=> 'Recent changes:',
 	'ChangesPageInfo'			=> 'Page with a list of the last modified pages (action %1).',
@@ -767,12 +772,12 @@ $ap_translation = [
 	'OrphanedPageInfo'			=> 'Page with a list of existing pages are not related via links to any other page (action %1).',
 	'SandboxPage'				=> 'Sandbox:',
 	'SandboxPageInfo'			=> 'Page where users can practice their wiki markup skills.',
-	'HelpPage'					=> 'Aiuto:',
+	'HelpPage'					=> 'ヘルプ:',
 	'HelpPageInfo'				=> 'The documentation section for working with site tools.',
 	'IndexPage'					=> 'Index:',
-	'IndexPageInfo'				=> 'Pagina con l’elenco di tutte le pagine (action %1).',
-	'RandomPage'				=> 'Casuale:',
-	'RandomPageInfo'			=> 'Carica una pagina casuale  (action %1).',
+	'IndexPageInfo'				=> 'Page with a list of all pages (action %1).',
+	'RandomPage'				=> 'Random:',
+	'RandomPageInfo'			=> 'Loads a random page (action %1).',
 
 
 	// Notification settings
@@ -782,7 +787,7 @@ $ap_translation = [
 	'EmailNotification'			=> 'Email notification:',
 	'EmailNotificationInfo'		=> 'Allow email notification. Set to Enabled to enable email notifications, Disabled to disable them. Note that disabling email notifications has no effect on emails generated as part of the user signup process.',
 	'Autosubscribe'				=> 'Autosubscribe:',
-	'AutosubscribeInfo'			=> 'Automatically sign a new page in the owner’s notice of its changes.',
+	'AutosubscribeInfo'			=> 'Automatically sign a new page in the owner\'s notice of its changes.',
 
 	'NotificationSection'		=> 'Default User Notification Settings',
 	'NotifyPageEdit'			=> 'Notify page edit:',
@@ -797,14 +802,14 @@ $ap_translation = [
 	'NotifyUpload'				=> 'Notify file upload:',
 	'NotifyUploadInfo'			=> 'The Moderators will to be notified when a file has been uploaded.',
 
-	'PersonalMessagesSection'	=> 'Messaggi personali',
+	'PersonalMessagesSection'	=> 'Personal Messages',
 	'AllowIntercomDefault'		=> 'Allow intercom:',
 	'AllowIntercomDefaultInfo'	=> 'Enabling this option allows other users to send personal messages to the recipient\'s email address without disclosing the address.',
 	'AllowMassemailDefault'		=> 'Allow mass email:',
 	'AllowMassemailDefaultInfo'	=> 'Only send messages to those users who have permitted administrators to email them information.',
 
 	// Resync settings
-	'Synchronize'				=> 'Sincronizzare',
+	'Synchronize'				=> 'Synchronize',
 	'UserStatsSynched'			=> 'User Statistics synchronized.',
 	'PageStatsSynched'			=> 'Page Statistics synchronized.',
 	'FeedsUpdated'				=> 'RSS-feeds updated.',
@@ -822,9 +827,9 @@ $ap_translation = [
 	'PageStats'					=> 'Page statistics',
 	'PageStatsInfo'				=> 'Page statistics (number of comments, files and revisions) may differ in some situations from actual data. <br>This operation allows updating statistics to match actual data contained in database.',
 
-	'AttachmentsInfo'			=> 'Aggiorna l’hash del file per tutti gli allegati nel database.',
-	'AttachmentsSynched'		=> 'Revisione dell’hash di tutti i file allegati',
-	'LogAttachmentsSynched'		=> 'Revisione dell’hash di tutti i file allegati',
+	'AttachmentsInfo'			=> 'データベース内のすべての添付ファイルのファイルハッシュを更新します。',
+	'AttachmentsSynched'		=> '添付ファイルをすべて再ハッシュ化',
+	'LogAttachmentsSynched'		=> '添付ファイルをすべて再ハッシュ化',
 
 	'Feeds'						=> 'Feeds',
 	'FeedsInfo'					=> 'In the case of direct editing of pages in the database, the content of RSS-feeds may not reflect the changes made. <br>This function synchronizes the RSS-channels with the current state of the database.',
@@ -839,27 +844,27 @@ $ap_translation = [
 
 	'WikiLinksResync'			=> 'Wiki-links',
 	'WikiLinksResyncInfo'		=> 'Performs a re-rendering for all intrasite links and restores the contents of the <code>page_link</code> and <code>file_link</code> tables in the event of damage or relocation (this can take considerable time).',
-	'RecompilePage'				=> 'Ricompilazione di tutte le pagine (estremamente costose)',
-	'ResyncOptions'				=> 'Opzioni aggiuntive',
+	'RecompilePage'				=> 'Re-compiling all pages (extremely costly)',
+	'ResyncOptions'				=> 'Additional options',
 	'RecompilePageLimit'		=> 'Number of pages to parse at once.',
 
 	// Email settings
-	'EmaiSettingsInfo'			=> 'Questo modulo viene usato quando si inviano email ai propri utenti dalla Board. Assicurati che l’indirizzo email specificato sia valido; ogni messaggio respinto o non consegnato, verrà inviato a questo indirizzo. Se il tuo server non fornisce un servizio email (basato su PHP) puoi in alternativa inviare messaggi direttamente via SMTP. Questo richiede l’indirizzo di un server appropriato (chiedi al tuo provider, se necessario). Non specificare nomi vecchi qui. Se il server richiede autenticazione (e solo se lo fa) inserisci nome utente e password.',
+	'EmaiSettingsInfo'			=> 'This information is used when the engine sends emails to your users. Please ensure the email address you specify is valid, as any bounced or undeliverable messages will likely be sent to that address. If your hosting provider does not provide a native (PHP-based) email service, you can instead send messages directly using SMTP. This requires the address of an appropriate server (ask your hosting provider if necessary). If the server requires authentication (and only if it does), enter the necessary username, password and authentication method.',
 
 	'EmailSettingsUpdated'		=> 'Updated Email settings',
 
-	'EmailFunctionName'			=> 'Nome funzione email:',
-	'EmailFunctionNameInfo'		=> 'Funzione email usata per spedire mail attraverso PHP.',
-	'UseSmtpInfo'				=> 'Scegli <code>SMTP</code> se vuoi o devi inviare email attraverso un server specifico invece di usare la funzione mail locale.',
+	'EmailFunctionName'			=> 'Email function name:',
+	'EmailFunctionNameInfo'		=> 'The email function used to send mails through PHP.',
+	'UseSmtpInfo'				=> 'Select <code>SMTP</code> if you want to, or have to, send email via a named server instead of via the local mail function.',
 
 	'EnableEmail'				=> 'Enable emails:',
 	'EnableEmailInfo'			=> 'Enable sending of emails.',
 
-	'EmailIdentitySettings'		=> 'Sito web Email Identità',
+	'EmailIdentitySettings'		=> 'アイデンティティ',
 	'FromEmailName'				=> 'From Name:',
 	'FromEmailNameInfo'			=> 'The sender name that is use for the <code>From:</code> header for all email notifications sent from the site.',
-	'EmailSubjectPrefix'		=> 'Prefisso dell’oggetto:',
-	'EmailSubjectPrefixInfo'	=> 'Prefisso alternativo dell’oggetto dell’e-mail, ad esempio <code>[Prefisso] Argomento</code>. Se non è definito, il prefisso predefinito è Nome del sito: %1.',
+	'EmailSubjectPrefix'		=> '件名のプレフィックス：',
+	'EmailSubjectPrefixInfo'	=> '例: <code>[Prefix] Topic</code>。定義されていない場合、接頭辞として長いサイト名 %1 が使用されます。',
 
 	'NoReplyEmail'				=> 'No-reply address:',
 	'NoReplyEmailInfo'			=> 'This address, e.g. <code>noreply@example.com</code>, will appear in the <code>From:</code> email address field of all email notifications sent from the site.',
@@ -868,68 +873,68 @@ $ap_translation = [
 	'AbuseEmail'				=> 'Email abuse service:',
 	'AbuseEmailInfo'			=> 'Address requests for urgent matters: registration for a foreign email, etc. It may be the same as the site owner email.',
 
-	'SendTestEmail'				=> 'Invia email di prova',
-	'SendTestEmailInfo'			=> 'Questo invierà un’email di prova all’indirizzo specificato sul tuo account.',
+	'SendTestEmail'				=> 'テストメールを送信',
+	'SendTestEmailInfo'			=> 'This will send a test email to the address defined in your account.',
 	'TestEmailSubject'			=> 'Your Wiki is correctly configured to send emails',
 	'TestEmailBody'				=> 'If you received this email, your Wiki is correctly configured to send emails.',
-	'TestEmailMessage'			=> 'The test email has been sent.<br>If you don’t receive it, please check your emails configuration.',
+	'TestEmailMessage'			=> 'The test email has been sent.<br>If you don\'t receive it, please check your email configuration settings.',
 
-	'SmtpSettings'				=> 'Impostazioni SMTP',
+	'SmtpSettings'				=> 'SMTP Settings',
 	'SmtpAutoTls'				=> 'Opportunistic TLS:',
 	'SmtpAutoTlsInfo'			=> 'Enables encryption automatically, if it sees that the server is advertising TLS encryption (after you have connected to the server), even if you have not set the connection mode for <code>SMTPSecure</code>.',
-	'SmtpConnectionMode'		=> 'Metodo autenticazione per SMTP:',
-	'SmtpConnectionModeInfo'	=> 'Si usa solo se un nome utente o una password sono impostati. Chiedi al tuo provider se non sei sicuro del metodo da usare.',
-	'SmtpPassword'				=> 'Password SMTP:',
-	'SmtpPasswordInfo'			=> 'Inserisci una password solo se il tuo server SMTP la richiede. <br><em><strong>Attenzione:</strong> questa password è conservata come testo in chiaro nel database.</em>',
-	'SmtpPort'					=> 'Porta del server SMTP:',
-	'SmtpPortInfo'				=> 'Modifica questo parametro solo se sai che il tuo server SMTP si trova su una porta diversa. <br>(default: <code>tls</code> on port 587 (or possibly 25) and <code>ssl</code> on port 465)',
-	'SmtpServer'				=> 'Indirizzo server SMTP:',
-	'SmtpServerInfo'			=> 'Tieni presente che è necessario fornire il protocollo che il server utilizza. Se si utilizza il protocollo SSL, questo deve essere <code>ssl://mail.example.com</code>',
-	'SmtpUsername'				=> 'Nome utente SMTP:',
-	'SmtpUsernameInfo'			=> 'Inserisci un nome utente solo se il tuo server SMTP lo richiede.',
+	'SmtpConnectionMode'		=> 'Connection mode for SMTP:',
+	'SmtpConnectionModeInfo'	=> 'Only used if a username/password is required. Ask your provider if you are unsure which method to use.',
+	'SmtpPassword'				=> 'SMTP password:',
+	'SmtpPasswordInfo'			=> 'Only enter a password if your SMTP server requires it.<br><em><strong>Warning:</strong> This password will be stored as plain text in the database, visible to everybody who can access your database or who can view this configuration page.</em>',
+	'SmtpPort'					=> 'SMTP server port:',
+	'SmtpPortInfo'				=> 'Only change this if you know your SMTP server is on a different port. <br>(default: <code>tls</code> on port 587 (or possibly 25) and <code>ssl</code> on port 465)',
+	'SmtpServer'				=> 'SMTP server address:',
+	'SmtpServerInfo'			=> 'Note that you have to provide the protocol that your server uses. If you are using SSL, this has to be <code>ssl://mail.example.com</code>',
+	'SmtpUsername'				=> 'SMTP username:',
+	'SmtpUsernameInfo'			=> 'Only enter a username if your SMTP server requires it.',
 
 	// Upload settings
-	'UploadSettingsInfo'		=> 'Da qui puoi configurare le caratteristiche principali degli allegati e delle categorie speciali collegate.',
+	'UploadSettingsInfo'		=> 'Here you can configure the main settings for attachments and the associated special categories.',
 	'UploadSettingsUpdated'		=> 'Updated upload settings',
 
 	'FileUploadsSection'		=> 'File Uploads',
-	'RegisteredUsers'			=> 'utenti registrati',
+	'RegisteredUsers'			=> '登録ユーザ',
 	'RightToUpload'				=> 'Permissions to upload files:',
 	'RightToUploadInfo'			=> '<code>admins</code> means that only users belonging to the admins group can upload  files. <code>1</code> means that uploading is opened to registered users. <code>0</code> means that upload disabled.',
-	'UploadMaxFilesize'			=> 'Dimensione massima:',
-	'UploadMaxFilesizeInfo'		=> 'Dimensione massima di ogni file. Se questo valore è uguale a 0, la dimensione del file inviabile sarà limitata solo dalla configurazione PHP.',
-	'UploadQuota'				=> 'Quota massima allegati:',
-	'UploadQuotaInfo'			=> 'Dimensione massima riservata su disco per tutti gli allegati; <code>0</code> = illimitata. %1 used.',
+	'UploadMaxFilesize'			=> 'Maximum file size:',
+	'UploadMaxFilesizeInfo'		=> 'Maximum size of each file. If this value is 0, the maximum uploadable filesize is only limited by your PHP configuration.',
+	'UploadQuota'				=> 'Total attachment quota:',
+	'UploadQuotaInfo'			=> 'Maximum drive space available for attachments for the whole wiki, with <code>0</code> being unlimited. %1 used.',
 	'UploadQuotaUser'			=> 'Storage quota per user:',
 	'UploadQuotaUserInfo'		=> 'Restriction on the quota of storage that can be uploaded by one user, with <code>0</code> being unlimited.',
 
-	'FileTypes'					=> 'Tipi di file',
+	'FileTypes'					=> 'File types',
 	'UploadOnlyImages'			=> 'Allow only upload of images:',
 	'UploadOnlyImagesInfo'		=> 'Allow only uploading of image files on the page.',
-	'AllowedUploadExts'			=> 'Tipi di file consentiti:',
-	'AllowedUploadExtsInfo'		=> 'Estensioni consentite per il caricamento dei file, separate da una virgola, ad esempio <code>png, ogg, mp4</code>, altrimenti sono consentite tutte le estensioni di file non vietate.<br>Si consiglia di limitare l’elenco dei tipi di file caricati consentiti al minimo necessario per la funzionalità dei contenuti del sito.',
-	'CheckMimetype'				=> 'Controlla allegati:',
-	'CheckMimetypeInfo'			=> 'Alcuni browser possono essere ingannati nell’accettare un mimetype incorretto per i file da caricare. Questa opzione garantisce che i file che possono causare questo problema vengano respinti.',
+	'AllowedUploadExts'			=> '許可されているファイル形式:',
+	'AllowedUploadExtsInfo'		=> 'アップロードできるファイルの拡張子は、カンマ区切りで指定します（例：<code>png, ogg, mp4</code>, その他、禁止されていないファイル拡張子はすべて許可されます）。<br>アップロード可能なファイルの種類は、サイトのコンテンツ機能に必要な最小限のものに限定する必要があります。',
+	'CheckMimetype'				=> 'Check MIME type:',
+	'CheckMimetypeInfo'			=> 'Some browsers can be tricked to assume an incorrect mimetype for uploaded files. This option ensures that such files likely to cause this are rejected.',
 	'SvgSanitizer'				=> 'SVG Sanitizer:',
-	'SvgSanitizerInfo'			=> 'Questo permette di sanificare i file SVG caricati per evitare che vengano caricati file SVG/XML vulnerabili.',
-	'TranslitFileName'			=> 'Transliterate file names:',
-	'TranslitFileNameInfo'		=> 'Se è applicabile e non è necessario avere caratteri Unicode, si raccomanda vivamente di accettare solo caratteri alfanumerici.',
-	'TranslitCaseFolding'		=> 'Converte i nomi dei file in minuscolo:',
-	'TranslitCaseFoldingInfo'	=> 'Questa opzione è efficace solo con la traslitterazione attiva.',
+	'SvgSanitizerInfo'			=> 'アップロードされたSVGファイルをサニタイズし、SVG/XMLの脆弱なファイルがアップロードされないようにします。',
+	'TranslitFileName'			=> 'ファイル名を音訳する：',
+	'TranslitFileNameInfo'		=> 'Unicode文字を使用する必要がない場合は、英数字のみを使用することを強くお勧めします。',
+	'TranslitCaseFolding'		=> 'ファイル名を小文字に変換します：',
+	'TranslitCaseFoldingInfo'	=> 'このオプションはアクティブな音訳でのみ有効です。',
 
 	'Thumbnails'				=> 'Thumbnails',
-	'CreateThumbnail'			=> 'Crea miniatura:',
-	'CreateThumbnailInfo'		=> 'Crea miniatura in tutte le situazioni possibili.',
-	'JpegQuality'				=> 'Qualità JPEG:',
-	'JpegQualityInfo'			=> 'Qualità quando si scala una miniatura JPEG. Dovrebbe essere compreso tra 1 e 100, con 100 che indica una qualità del 100%.',
+	'CreateThumbnail'			=> 'Create thumbnail:',
+	'CreateThumbnailInfo'		=> 'Create a thumbnail in all possible situations.',
+	'JpegQuality'				=> 'JPEGクオリティ：',
+	'JpegQualityInfo'			=> 'JPEGサムネイルを拡大縮小する際の品質。1〜100の間で、100は100％の品質を示します。',
 	'MaxImageArea'				=> 'Maximum Image Area:',
-	'MaxImageAreaInfo'			=> 'Il numero massimo di pixel che un’immagine sorgente può avere. Questo fornisce un limite all’uso della memoria per il lato di decompressione dello scalatore di immagini. <br><code>-1</code> significa che non controllerà la dimensione dell’immagine prima di tentare di scalarla. <code>0</code> significa che determinerà il valore automaticamente.',
-	'MaxThumbWidth'				=> 'Larghezza massima miniatura in pixel:',
-	'MaxThumbWidthInfo'			=> 'La miniatura generata non avrà una larghezza superiore a quella impostata qui.',
-	'MinThumbFilesize'			=> 'Dimensioni minime per miniatura:',
-	'MinThumbFilesizeInfo'		=> 'Non crea miniature per immagini con dimensioni inferiori a queste.',
-	'MaxImageWidth'				=> 'Limite di dimensione dell’immagine nelle pagine:',
-	'MaxImageWidthInfo'			=> 'La larghezza massima che un’immagine può avere nelle pagine, altrimenti viene generata una miniatura ridimensionata.',
+	'MaxImageAreaInfo'			=> '元画像の最大画素数。これは、画像スケーラの解凍側のメモリ使用量を制限するものです。<br><code>-1</code> は、スケーリングする前に画像の大きさを確認しないことを意味します。<code>0</code>は、自動的に値を決定することを意味します。',
+	'MaxThumbWidth'				=> 'Maximum thumbnail width in pixels:',
+	'MaxThumbWidthInfo'			=> 'A generated thumbnail will not exceed the width set here.',
+	'MinThumbFilesize'			=> 'Minimum thumbnail file size:',
+	'MinThumbFilesizeInfo'		=> 'Do not create a thumbnail for images smaller than this.',
+	'MaxImageWidth'				=> 'ページ上の画像サイズ制限：',
+	'MaxImageWidthInfo'			=> 'ページ内で使用できる画像の最大幅を指定し、それ以外は縮小されたサムネイルが生成されます。',
 
 	// Deleted module
 	'DeletedObjectsInfo'		=> 'List of removed pages, revisions and files.
@@ -957,7 +962,7 @@ $ap_translation = [
 	'LogNoMatch'				=> 'No events that meet the criteria',
 	'LogDate'					=> 'Date',
 	'LogEvent'					=> 'Event',
-	'LogUsername'				=> 'Nome utente',
+	'LogUsername'				=> 'ユーザー名',
 	'LogLevels'	=> [
 		'1'		=> 'critical',
 		'2'		=> 'highest',
@@ -969,25 +974,25 @@ $ap_translation = [
 	],
 
 	// Massemail module
-	'MassemailInfo'				=> 'Da qui puoi inviare messaggi email a tutti gli utenti o a quelli di un gruppo specifico, <strong>purché abbiano l’opzione di ricevere email di massa dall’amministratore abilitata</strong>. L’email verrà inviata all’indirizzo amministrativo del Forum, e i destinatari la riceveranno come copia di conoscenza nascosta (CCN). Le impostazioni predefinite prevedono un massimo di 20 destinatari per ciascuna email, quindi se il numero è maggiore, verranno spedite diverse email; pertanto abbi pazienza dopo l’invio e non bloccare il procedimento in corso, in quanto potrebbe durare anche diversi minuti se il numero di destinatari è molto elevato. Al termine dell’operazione verrai informato dell’avvenuto invio.',
+	'MassemailInfo'				=> 'Here you can email a message to either (1) all of your users or (2) all users of a specific group who have enabled receiving of mass emails. An email will be sent out to the administrative email address supplied, with a blind carbon copy (BCC) sent to all recipients. The default setting is to include a maximum of 20 recipients in such an email. If there are more than 20 recipients, additional emails will be sent. If you are emailing a large group of people, please be patient after submitting and do not stop the page halfway through. It is normal for a mass emailing to take a long time. You will be notified when the script has completed.',
 	'LogMassemail'				=> 'Mass email send %1 to group / user ',
 	'MassemailSend'				=> 'Mass email send',
 
-	'NoEmailMessage'			=> 'Devi scrivere il messaggio.',
-	'NoEmailSubject'			=> 'Devi specificare un titolo per il tuo messaggio.',
+	'NoEmailMessage'			=> 'You must enter a message.',
+	'NoEmailSubject'			=> 'You must specify a subject for your message.',
 	'NoEmailRecipient'			=> 'You must specify at least one user or user group.',
 
 	'MassemailSection'			=> 'Mass email',
-	'MessageSubject'			=> 'Soggetto:',
+	'MessageSubject'			=> '件名:',
 	'MessageSubjectInfo'		=> '',
-	'YourMessage'				=> 'Il tuo messaggio:',
-	'YourMessageInfo'			=> 'Puoi scrivere soltanto testo normale. Tutto il resto sarà rimosso prima della trasmissione.',
+	'YourMessage'				=> 'Your message:',
+	'YourMessageInfo'			=> 'Please note that you may enter only plain text. All markup will be removed before sending.',
 
 	'NoUser'					=> 'No user',
 	'NoUserGroup'				=> 'No user group',
 
-	'SendToGroup'				=> 'Invia a gruppo:',
-	'SendToUser'				=> 'Invia a utenti:',
+	'SendToGroup'				=> 'Send to group:',
+	'SendToUser'				=> 'Send to user:',
 	'SendToUserInfo'			=> 'Only users who permit administrators to email them information will receive mass emails. This option is available in their user settings under Notifications.',
 
 	// System message module
@@ -1000,8 +1005,8 @@ $ap_translation = [
 
 	'SysMsgType'				=> 'Type:',
 	'SysMsgTypeInfo'			=> 'Message type (CSS).',
-	'SysMsgAudience'			=> 'Pubblico:',
-	'SysMsgAudienceInfo'		=> 'Pubblico a cui viene mostrato il messaggio di sistema.',
+	'SysMsgAudience'			=> 'Audience:',
+	'SysMsgAudienceInfo'		=> 'Audience the system message is shown to.',
 	'EnableSysMsg'				=> 'Enable system message:',
 	'EnableSysMsgInfo'			=> 'Show system message.',
 
@@ -1027,8 +1032,8 @@ $ap_translation = [
 	'BackupFolder'				=> 'Folder',
 	'BackupTable'				=> 'Table',
 	'BackupCluster'				=> 'Cluster:',
-	'BackupFiles'				=> 'Files',
-	'BackupNote'				=> 'Nota:',
+	'BackupFiles'				=> 'ファイル',
+	'BackupNote'				=> 'お知らせ:',
 	'BackupSettings'			=> 'Specify the desired scheme of backup.<br>' .
 									'The root cluster does not affect the global files backup and cache files backup (if chosen, they are always saved in full).<br>' .
 									'<br>' .
@@ -1036,20 +1041,20 @@ $ap_translation = [
 									'same as when backing up only table structure without saving the data. ' .
 									'To make a complete conversion of the tables to the backup format you must make the <em> full database backup (structure and data) without specifying the cluster</em>.',
 	'BackupCompleted'			=> 'Backing up and archiving completed.<br>' .
-									'The Backup package files were stored in the following sub-directory %1.<br>' .
+									'The Backup package files were stored in the sub-directory %1.<br>' .
 									'To download it use FTP (maintain the directory structure and file names when copying).<br>' .
 									'To restore a backup copy or remove a package, go to <a href="%2">Restore database</a>.',
 	'LogSavedBackup'			=> 'Saved backup database ##%1##',
-	'Backup'					=> 'Backup',
-	'CantReadFile'				=> 'Can’t read file %1.',
+	'Backup'					=> 'バックアップ',
+	'CantReadFile'				=> 'Can\'t read file %1.',
 
 	// DB Restore module
 	'RestoreInfo'				=> 'You can restore any of the backup packages found, or remove them from the server.',
-	'ConfirmDbRestore'			=> 'Si desidera ripristinare il backup %1?',
-	'ConfirmDbRestoreInfo'		=> 'Per favore, aspetta che ci vorrà qualche minuto.',
+	'ConfirmDbRestore'			=> 'Do you want to restore backup %1?',
+	'ConfirmDbRestoreInfo'		=> 'Please wait, this can take some time.',
 	'RestoreWrongVersion'		=> 'Wrong WackoWiki version!',
-	'DirectoryNotExecutable'	=> 'La directory %1 non è eseguibile.',
-	'BackupDelete'				=> 'Sei sicuro di voler rimuovere il backup %1?',
+	'DirectoryNotExecutable'	=> 'The %1 directory is not executable.',
+	'BackupDelete'				=> 'Are you sure you want to remove backup %1?',
 	'BackupDeleteInfo'			=> '',
 	'RestoreOptions'			=> 'Additional restore options:',
 	'RestoreOptionsInfo'		=> '* Before restoring the <strong>cluster backup</strong>, ' .
@@ -1093,34 +1098,34 @@ $ap_translation = [
 	'HomonymicFiles'			=> 'homonymic files',
 	'RestoreSkip'				=> 'skip',
 	'RestoreReplace'			=> 'replace',
-	'RestoreFile'				=> 'File:',
+	'RestoreFile'				=> 'ファイル:',
 	'RestoredFiles'				=> 'restored:',
 	'SkippedFiles'				=> 'skipped:',
 	'FileRestoreDone'			=> 'Completed. Total files:',
-	'FilesAll'					=> 'tutti:',
+	'FilesAll'					=> 'すべて:',
 	'SkipFiles'					=> 'Files are not stored - skip',
 	'RestoreDone'				=> 'RESTORATION COMPLETED',
 
 	'BackupCreationDate'		=> 'Creation Date',
 	'BackupPackageContents'		=> 'The contents of the package',
-	'BackupRestore'				=> 'Ripristina',
-	'BackupRemove'				=> 'Rimuovere',
+	'BackupRestore'				=> '復元',
+	'BackupRemove'				=> '削除',
 	'RestoreYes'				=> 'Yes',
 	'RestoreNo'					=> 'No',
 	'LogDbRestored'				=> 'Backup ##%1## of the database restored.',
 
-	'BackupArchived'			=> 'Backup %1 archiviato.',
-	'BackupArchiveExists'		=> 'L’archivio di backup %1 esiste già.',
-	'LogBackupArchived'			=> 'Backup ##%1## archiviato.',
+	'BackupArchived'			=> 'バックアップ %1 がアーカイブされました。',
+	'BackupArchiveExists'		=> 'バックアップ・アーカイブ %1 は既に存在します。',
+	'LogBackupArchived'			=> 'バックアップ ##%1## がアーカイブされました。',
 
 	// User module
 	'UsersInfo'					=> 'Here you can change your users information and certain specific options.',
 
 	'UsersAdded'				=> 'User added',
 	'UsersDeleteInfo'			=> '[User delete Info here..]',
-	'EditButton'				=> 'Modificare',
+	'EditButton'				=> '編集',
 	'UsersAddNew'				=> 'Add new user',
-	'UsersDelete'				=> 'Sei sicuro di voler rimuovere l’utente %1?',
+	'UsersDelete'				=> 'Are you sure you want to remove user %1?',
 	'UsersDeleted'				=> 'The user %1 was deleted from the database.',
 	'UsersRename'				=> 'Rename the user %1 to',
 	'UsersRenameInfo'			=> '* Note: Change will affect all pages that are assigned to that user.',
@@ -1131,10 +1136,10 @@ $ap_translation = [
 	'UserActions'				=> 'Actions',
 	'NoMatchingUser'			=> 'No users that meet the criteria',
 
-	'UserAccountNotify'			=> 'Notifica utente',
-	'UserNotifySignup'			=> 'informare l’utente del nuovo account',
-	'UserVerifyEmail'			=> 'imposta il token di conferma e-mail e aggiungi link per la verifica e-mail',
-	'UserReVerifyEmail'			=> 'Invia di nuovo il token di conferma dell’e-mail',
+	'UserAccountNotify'			=> 'Notify user',
+	'UserNotifySignup'			=> 'inform the user about the new account',
+	'UserVerifyEmail'			=> 'set email confirm token and add link for email verification',
+	'UserReVerifyEmail'			=> 'Re-send email confirm token',
 
 	// Groups module
 	'GroupsInfo'				=> 'From this panel you can administrate all your usergroups. You can delete, create and edit existing groups. Furthermore, you may choose group leaders, toggle open/hidden/closed group status and set the group name and description.',
@@ -1147,49 +1152,49 @@ $ap_translation = [
 	'LogGroupRemoved'			=> 'Removed group ##%1##',
 
 	'GroupsMembersFor'			=> 'Members for Group',
-	'GroupsDescription'			=> 'Descrizione',
-	'GroupsModerator'			=> 'Moderatore',
+	'GroupsDescription'			=> '説明',
+	'GroupsModerator'			=> 'モデレータ',
 	'GroupsOpen'				=> 'Open',
 	'GroupsActive'				=> 'Active',
 	'GroupsTip'					=> 'Click to edit Group',
 	'GroupsUpdated'				=> 'Groups updated',
-	'GroupsAlreadyExists'		=> 'Questo gruppo esiste già.',
-	'GroupsAdded'				=> 'Gruppo aggiunto con successo.',
-	'GroupsRenamed'				=> 'Gruppo rinominato con successo.',
+	'GroupsAlreadyExists'		=> 'This group already exists.',
+	'GroupsAdded'				=> 'Group added successfully.',
+	'GroupsRenamed'				=> 'Group successfully renamed.',
 	'GroupsDeleted'				=> 'The group %1 and all associated pages were deleted from the database.',
-	'GroupsAdd'					=> 'Aggiungere un nuovo gruppo',
+	'GroupsAdd'					=> 'Add a new group',
 	'GroupsRename'				=> 'Rename the group %1 to',
 	'GroupsRenameInfo'			=> '* Note: Change will affect all pages that are assigned to that group.',
-	'GroupsDelete'				=> 'Sei sicuro di voler rimuovere il gruppo %1?',
-	'GroupsDeleteInfo'			=> '* Nota: Le modifiche riguardano tutti i membri assegnati a quel gruppo.',
-	'GroupsIsSystem'			=> 'Il gruppo %1 appartiene al sistema e non può essere rimosso.',
+	'GroupsDelete'				=> 'Are you sure you want to remove group %1?',
+	'GroupsDeleteInfo'			=> '* Note: Change will affect all members that are assigned to that group.',
+	'GroupsIsSystem'			=> 'The group %1 belongs to the system and cannot be removed.',
 	'GroupsStoreButton'			=> 'Save Groups',
 	'GroupsEditInfo'			=> 'To edit the groups list select the radio button.',
 
-	'GroupAddMember'			=> 'Aggiungi membro',
-	'GroupRemoveMember'			=> 'Rimuovi Membro',
-	'GroupAddNew'				=> 'Aggiungi gruppo',
-	'GroupEdit'					=> 'Modifica gruppo',
-	'GroupDelete'				=> 'Rimuovi gruppo',
+	'GroupAddMember'			=> 'Add member',
+	'GroupRemoveMember'			=> 'Remove Member',
+	'GroupAddNew'				=> 'Add group',
+	'GroupEdit'					=> 'Edit Group',
+	'GroupDelete'				=> 'Remove Group',
 
-	'MembersAddNew'				=> 'Aggiungere un nuovo membro',
-	'MembersAdded'				=> 'Aggiunto con successo un nuovo membro del gruppo.',
-	'MembersRemove'				=> 'Sei sicuro di voler rimuovere un membro %1?',
-	'MembersRemoved'			=> 'Il membro è stato allontanato dal gruppo.',
+	'MembersAddNew'				=> 'Add new member',
+	'MembersAdded'				=> 'Added new member to the group successfully.',
+	'MembersRemove'				=> 'Are you sure you want to remove member %1?',
+	'MembersRemoved'			=> 'The member was removed from the group.',
 
 	// Statistics module
 	'DbStatSection'				=> 'Database Statistics',
 	'DbTable'					=> 'Table',
 	'DbRecords'					=> 'Records',
-	'DbSize'					=> 'Size',
+	'DbSize'					=> 'サイズ',
 	'DbIndex'					=> 'Index',
 	'DbOverhead'				=> 'Overhead',
 	'DbTotal'					=> 'Total',
 
 	'FileStatSection'			=> 'File system Statistics',
 	'FileFolder'				=> 'Folder',
-	'FileFiles'					=> 'Files',
-	'FileSize'					=> 'Size',
+	'FileFiles'					=> 'ファイル',
+	'FileSize'					=> 'サイズ',
 	'FileTotal'					=> 'Total',
 
 	// Sysinfo module
@@ -1240,9 +1245,9 @@ $ap_translation = [
 	// Inconsistencies module
 	'InconsistenciesInfo'		=> 'Show and fix inconsistencies, delete or assign orphaned records to a new user / value.',
 	'Inconsistencies'			=> 'Inconsistencies',
-	'CheckDatabase'				=> 'Database',
+	'CheckDatabase'				=> 'データベース',
 	'CheckDatabaseInfo'			=> 'Checks for record inconsistencies in the database.',
-	'CheckFiles'				=> 'Files',
+	'CheckFiles'				=> 'ファイル',
 	'CheckFilesInfo'			=> 'Checks for abandoned files, files with no reference left in the file table.',
 	'Records'					=> 'Records',
 	'InconsistenciesNone'		=> 'No Data Inconsistencies found.',
@@ -1259,7 +1264,7 @@ $ap_translation = [
 
 	'BbSummary'					=> 'Summary',
 	'BbLog'						=> 'Log',
-	'BbSettings'				=> 'Preferenze',
+	'BbSettings'				=> '設定',
 	'BbWhitelist'				=> 'Whitelist',
 
 	// --> Log
@@ -1272,7 +1277,7 @@ $ap_translation = [
 	'BbGetPost'					=> 'GET/POST',
 	'BbUri'						=> 'URI',
 	'BbRecordsAll'				=> 'Displaying all %1 records',
-	'BbShow'					=> 'Show',
+	'BbShow'					=> '表示',
 	'BbIpDateStatus'			=> 'IP/Date/Status',
 	'BbHeaders'					=> 'Headers',
 	'BbEntity'					=> 'Entity',
@@ -1299,14 +1304,14 @@ $ap_translation = [
 	'BbOffsiteForms'			=> 'Allow form postings from other web sites',
 	'BbOffsiteFormsInfo'		=> 'required for OpenID; increases spam received',
 	'BbHttpbl'					=> 'http:BL',
-	'BbHttpblInfo'				=> 'To use Bad Behaviour’s http:BL features you must have an %1',
+	'BbHttpblInfo'				=> 'To use Bad Behaviour\'s http:BL features you must have an %1',
 	'BbHttpblKey'				=> 'http:BL Access Key',
 	'BbHttpblThreat'			=> 'Minimum Threat Level (25 is recommended)',
 	'BbHttpblMaxage'			=> 'Maximum Age of Data (30 is recommended)',
 	'BbReverseProxy'			=> 'Reverse Proxy/Load Balancer',
 	'BbReverseProxyInfo'		=> 'If you are using Bad Behaviour behind a reverse proxy, load balancer, HTTP accelerator, content cache or similar technology, enable the Reverse Proxy option.<br>' .
-									'If you have a chain of two or more reverse proxies between your server and the public Internet, you must specify <em>all</em> of the IP address ranges (in CIDR format) of all of your proxy servers, load balancers, etc. Otherwise, Bad Behaviour may be unable to determine the client’s true IP address.<br>' .
-									'In addition, your reverse proxy servers must set the IP address of the Internet client from which they received the request in an HTTP header. If you don’t specify a header, %1 will be used. Most proxy servers already support X-Forwarded-For and you would then only need to ensure that it is enabled on your proxy servers. Some other header names in common use include %2 and %3.',
+									'If you have a chain of two or more reverse proxies between your server and the public Internet, you must specify <em>all</em> of the IP address ranges (in CIDR format) of all of your proxy servers, load balancers, etc. Otherwise, Bad Behaviour may be unable to determine the client\'s true IP address.<br>' .
+									'In addition, your reverse proxy servers must set the IP address of the Internet client from which they received the request in an HTTP header. If you don\'t specify a header, %1 will be used. Most proxy servers already support X-Forwarded-For and you would then only need to ensure that it is enabled on your proxy servers. Some other header names in common use include %2 and %3.',
 	'BbReverseProxyEnable'		=> 'Enable Reverse Proxy',
 	'BbReverseProxyHeader'		=> 'Header containing Internet clients IP address',
 	'BbReverseProxyAddresses'	=> 'IP address or CIDR format address ranges for your proxy servers (one per line)',
