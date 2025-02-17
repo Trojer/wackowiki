@@ -9,32 +9,32 @@ $ap_translation = [
 
 	'CategoryArray'		=> [
 		'basics'		=> 'Basic functions',
-		'preferences'	=> 'Preferences',
+		'preferences'	=> 'Voorkeuren',
 		'content'		=> 'Content',
-		'users'			=> '사용자',
-		'maintenance'	=> 'Maintenance',
-		'messages'		=> 'Messages',
-		'extension'		=> '확장 기능',
-		'database'		=> '데이터베이스',
+		'users'			=> 'Gebruikers',
+		'maintenance'	=> 'Onderhoud',
+		'messages'		=> 'Berichten',
+		'extension'		=> 'Extensies',
+		'database'		=> 'Database',
 	],
 
 	// Admin panel
-	'AdminPanel'				=> 'Administration Control Panel',
-	'RecoveryMode'				=> 'Recovery Mode',
-	'Authorization'				=> '권한 부여',
+	'AdminPanel'				=> 'Beheerderspaneel',
+	'RecoveryMode'				=> 'Herstelmodus',
+	'Authorization'				=> 'Authorization',
 	'AuthorizationTip'			=> 'Please enter the administrative password (make sure that cookies are allowed in your browser).',
-	'NoRecoveryPassword'		=> '관리자 비밀번호가 지정되지 않았습니다!',
-	'NoRecoveryPasswordTip'		=> '참고: 관리 비밀번호가 없으면 보안에 위협이 됩니다! 구성 파일에 비밀번호 해시를 입력하고 프로그램을 다시 실행하세요.',
+	'NoRecoveryPassword'		=> 'Het beheerderswachtwoord is niet opgegeven!',
+	'NoRecoveryPasswordTip'		=> 'Opmerking: Het ontbreken van een administratief wachtwoord is een bedreiging voor de veiligheid! Voer je wachtwoord hash in in het configuratiebestand en voer het programma opnieuw uit.',
 
 	'ErrorLoadingModule'		=> 'Error loading admin module %1: does not exist.',
 
-	'ApHomePage'				=> '홈페이지',
+	'ApHomePage'				=> 'Home pagina',
 	'ApHomePageTip'				=> 'Open the home page, you do not quit system administration',
-	'ApLogOut'					=> '로그아웃',
+	'ApLogOut'					=> 'Log uit',
 	'ApLogOutTip'				=> 'Quit system administration',
 
-	'TimeLeft'					=> 'Time left:  %1 minutes',
-	'ApVersion'					=> '버전',
+	'TimeLeft'					=> 'Resterende tijd:  %1 minuten',
+	'ApVersion'					=> 'versie',
 
 	'SiteOpen'					=> 'Open',
 	'SiteOpened'				=> 'site opened',
@@ -46,19 +46,19 @@ $ap_translation = [
 	'System'					=> 'System',
 
 	// Generic
-	'Cancel'					=> '취소',
-	'Add'						=> '추가',
-	'Edit'						=> '편집',
-	'Remove'					=> '제거',
-	'Enabled'					=> '사용',
-	'Disabled'					=> '비활성화됨',
+	'Cancel'					=> 'Annuleren',
+	'Add'						=> 'Toevoegen',
+	'Edit'						=> 'Bewerk',
+	'Remove'					=> 'Verwijderen',
+	'Enabled'					=> 'Inschakelen',
+	'Disabled'					=> 'Uitschakelen',
 	'Mandatory'					=> 'Mandatory',
-	'Admin'						=> '관리',
+	'Admin'						=> 'Admin',
 	'Min'						=> 'Min',
 	'Max'						=> 'Max',
 
-	'MiscellaneousSection'		=> 'Miscellaneous',
-	'MainSection'				=> 'General Options',
+	'MiscellaneousSection'		=> 'Overige',
+	'MainSection'				=> 'Basic Parameters',
 
 	'DirNotWritable'			=> 'The %1 directory is not writable.',
 	'FileNotWritable'			=> 'The %1 file is not writable.',
@@ -74,32 +74,32 @@ $ap_translation = [
 
 	// Config Basic module
 	'config_basic'		=> [
-		'name'		=> '기본',
-		'title'		=> 'Basic settings',
+		'name'		=> 'Basic',
+		'title'		=> 'Basic parameters',
 	],
 
 	// Config Appearance module
 	'config_appearance'		=> [
-		'name'		=> '보이기',
+		'name'		=> 'Uiterlijk',
 		'title'		=> 'Appearance settings',
 	],
 
 	// Config Email module
 	'config_email'		=> [
-		'name'		=> '이메일 주소',
-		'title'		=> '이메일 설정',
+		'name'		=> 'E-mailadres',
+		'title'		=> 'Email instellingen',
 	],
 
 	// Config Syndication module
 	'config_syndication'		=> [
 		'name'		=> 'Syndication',
-		'title'		=> '신디케이션',
+		'title'		=> 'Syndication-instellingen',
 	],
 
 	// Config Filter module
 	'config_filter'		=> [
 		'name'		=> 'Filter',
-		'title'		=> 'Filter settings',
+		'title'		=> 'Filter instellingen',
 	],
 
 	// Config Formatter module
@@ -110,19 +110,19 @@ $ap_translation = [
 
 	// Config Notifications module
 	'config_notifications'		=> [
-		'name'		=> '알림',
+		'name'		=> 'Meldingen',
 		'title'		=> 'Notifications settings',
 	],
 
 	// Config Pages module
 	'config_pages'		=> [
-		'name'		=> '페이지',
+		'name'		=> 'Pagina\'s',
 		'title'		=> 'Pages and site parameters',
 	],
 
 	// Config Permissions module
 	'config_permissions'		=> [
-		'name'		=> '사용자 권한',
+		'name'		=> 'Permissies',
 		'title'		=> 'Permissions settings',
 	],
 
@@ -134,13 +134,13 @@ $ap_translation = [
 
 	// Config System module
 	'config_system'		=> [
-		'name'		=> '시스템',
+		'name'		=> 'Systeem',
 		'title'		=> 'System options',
 	],
 
 	// Config Upload module
 	'config_upload'		=> [
-		'name'		=> '올리기',
+		'name'		=> 'Doorgaan',
 		'title'		=> 'Attachment settings',
 	],
 
@@ -170,7 +170,7 @@ $ap_translation = [
 
 	// DB Restore module
 	'db_restore'		=> [
-		'name'		=> '복구',
+		'name'		=> 'Herstellen',
 		'title'		=> 'Restoring backup data',
 	],
 
@@ -206,19 +206,19 @@ $ap_translation = [
 
 	// System Info module
 	'system_info'		=> [
-		'name'		=> 'System Info',
-		'title'		=> 'System Information',
+		'name'		=> 'Systeem Info',
+		'title'		=> 'Systeeminformatie',
 	],
 
 	// System log module
 	'system_log'		=> [
-		'name'		=> 'System log',
+		'name'		=> 'Systeem log',
 		'title'		=> 'Log of system events',
 	],
 
 	// Statistics module
 	'system_statistics'		=> [
-		'name'		=> 'Statistics',
+		'name'		=> 'Statistieken',
 		'title'		=> 'Show statistics',
 	],
 
@@ -230,19 +230,19 @@ $ap_translation = [
 
 	// Registration Approval module
 	'user_approve'		=> [
-		'name'		=> '승인',
+		'name'		=> 'Approve',
 		'title'		=> 'User registration approval',
 	],
 
 	// Groups module
 	'user_groups'		=> [
-		'name'		=> '그룹',
+		'name'		=> 'Groepen',
 		'title'		=> 'Group management',
 	],
 
 	// User module
 	'user_users'		=> [
-		'name'		=> '사용자',
+		'name'		=> 'Gebruikers',
 		'title'		=> 'User management',
 	],
 
@@ -267,15 +267,15 @@ $ap_translation = [
 	'AdminName'					=> 'Admin of site:',
 	'AdminNameInfo'				=> 'User name of individual who is responsible for overall support of the site. This name is not used to determine access rights, but it is desirable that it conforms to the name of the chief administrator of the site.',
 
-	'LanguageSection'			=> '언어',
-	'DefaultLanguage'			=> 'Default language:',
+	'LanguageSection'			=> 'Taal',
+	'DefaultLanguage'			=> 'Standaard taal:',
 	'DefaultLanguageInfo'		=> 'Specifies the language of messages displayed to unregistered guests, as well as the locale settings.',
 	'MultiLanguage'				=> 'Multilanguage support:',
 	'MultiLanguageInfo'			=> 'Enable the ability to select a language on a page-by-page basis.',
-	'AllowedLanguages'			=> 'Allowed languages:',
-	'AllowedLanguagesInfo'		=> 'It is recommended to select only the set of languages you want to use, otherwise all languages are selected.',
+	'AllowedLanguages'			=> 'Toegestane talen:',
+	'AllowedLanguagesInfo'		=> 'Het wordt aanbevolen om alleen de set van talen te selecteren die u wilt gebruiken, anders worden alle talen geselecteerd.',
 
-	'CommentSection'			=> '댓글',
+	'CommentSection'			=> 'Reacties',
 	'AllowComments'				=> 'Allow comments:',
 	'AllowCommentsInfo'			=> 'Enable comments for guests or registered users only, or disable them on the entire site.',
 	'SortingComments'			=> 'Sorting comments:',
@@ -312,7 +312,7 @@ $ap_translation = [
 	'ExportHandlerInfo'			=> 'Permits the display of the XML export handler.',
 
 	'DiffModeSection'			=> 'Diff Modes',
-	'DefaultDiffModeSetting'	=> 'Default diff mode:',
+	'DefaultDiffModeSetting'	=> 'Standaard diff modus:',
 	'DefaultDiffModeSettingInfo'=> 'Preselected diff mode.',
 	'AllowedDiffMode'			=> 'Allowed diff modes:',
 	'AllowedDiffModeInfo'		=> 'It is recommended to select only the set of diff modes you want to use, otherwise all diff modes are selected.',
@@ -320,12 +320,12 @@ $ap_translation = [
 	'NotifyDiffModeInfo'		=> 'Diff mode used for notifications in the email body.',
 
 	'EditingSection'			=> 'Editing',
-	'EditSummary'				=> '편집 요약:',
+	'EditSummary'				=> 'Samenvatting bewerken:',
 	'EditSummaryInfo'			=> 'Shows change summary in the edit mode.',
-	'MinorEdit'					=> '사소한 바뀜:',
+	'MinorEdit'					=> 'Kleine bewerking:',
 	'MinorEditInfo'				=> 'Enables minor edit option in the edit mode.',
-	'SectionEdit'				=> '섹션 편집:',
-	'SectionEditInfo'			=> '페이지의 섹션만 편집할 수 있습니다.',
+	'SectionEdit'				=> 'Sectie bewerken:',
+	'SectionEditInfo'			=> 'Maakt het mogelijk alleen een sectie van een pagina te bewerken.',
 	'ReviewSettings'			=> 'Review:',
 	'ReviewSettingsInfo'		=> 'Enables review option in the edit mode.',
 	'PublishAnonymously'		=> 'Allow anonymous publishing:',
@@ -342,24 +342,24 @@ $ap_translation = [
 	'EnableReferrers'			=> 'Enable referrers:',
 	'EnableReferrersInfo'		=> 'Permits creation and display of external referrers.',
 	'ReferrersPurgeTime'		=> 'Storage time of referrers:',
-	'ReferrersPurgeTimeInfo'	=> 'Keep the history of referring external pages no longer than a given number of days. Use zero to ensure referrers are never deleted (but for an actively visited site, this can lead to database overflow).',
+	'ReferrersPurgeTimeInfo'	=> 'Bewaar de geschiedenis van het doorverwijzen van externe pagina\'s niet langer dan een bepaald aantal dagen. Nul betekent eeuwige opslag, maar voor een actief bezochte site kan dit leiden tot een databaseoverloop.',
 	'EnableCounters'			=> 'Hit Counters:',
-	'EnableCountersInfo'		=> 'Allows per page hit counters and enables display of simple statistics. Views of the page owner are not counted.',
+	'EnableCountersInfo'		=> 'Maakt het tellen van hits per pagina mogelijk en maakt de weergave van eenvoudige statistieken mogelijk. Oproepen van de eigenaar van de pagina worden niet meegeteld.',
 
 	// Syndication settings
-	'SyndicationSettingsInfo'		=> 'Control default web syndication settings for your site.',
-	'SyndicationSettingsUpdated'	=> 'Updated syndication settings.',
+	'SyndicationSettingsInfo'		=> 'Beheer de standaardinstellingen voor websyndicatie voor je site.',
+	'SyndicationSettingsUpdated'	=> 'Bijgewerkte syndicatie-instellingen.',
 
 	'FeedsSection'				=> 'Feeds',
 	'EnableFeeds'				=> 'Enable feeds:',
-	'EnableFeedsInfo'			=> 'Turns RSS feeds on or off for the entire wiki.',
+	'EnableFeedsInfo'			=> 'Schakelt RSS-feeds in of uit voor de hele wiki.',
 	'XmlChangeLink'				=> 'Changes feed link mode:',
 	'XmlChangeLinkInfo'			=> 'Defines where the XML Changes feed items links to.',
 	'XmlChangeLinkMode'			=> [
-		'1'		=> '차이 보기',
-		'2'		=> '현재 문서',
-		'3'		=> '판의 목록',
-		'4'		=> '개정된 문서',
+		'1'		=> 'verschillen',
+		'2'		=> 'de huidige pagina',
+		'3'		=> 'lijst van revisies',
+		'4'		=> 'de gewijzigde pagina',
 	],
 
 	'XmlSitemap'				=> 'XML sitemap:',
@@ -367,11 +367,11 @@ $ap_translation = [
 	'XmlSitemapGz'				=> 'XML sitemap compression:',
 	'XmlSitemapGzInfo'			=> 'If you would like, you may compress your sitemap text file using gzip to reduce your bandwidth requirement.',
 	'XmlSitemapTime'			=> 'XML sitemap generation time:',
-	'XmlSitemapTimeInfo'		=> 'Generates the sitemap only once in the given number of days. Set to zero to generate on every page change.',
+	'XmlSitemapTimeInfo'		=> 'Genereert de Sitemap slechts één keer in het opgegeven aantal dagen, nul betekent op elke paginawissel.',
 
-	'SearchSection'				=> '검색',
+	'SearchSection'				=> 'Zoeken',
 	'OpenSearch'				=> 'OpenSearch:',
-	'OpenSearchInfo'			=> 'Creates the OpenSearch description file in the XML folder and enables Autodiscovery of search plugin in the HTML header.',
+	'OpenSearchInfo'			=> 'Maakt het OpenSearch-beschrijvingsbestand aan in de XML-map en activeert Autodiscovery van de zoekplugin in de HTML-header.',
 	'SearchEngineVisibility'	=> 'Block search engines (search engine visibility):',
 	'SearchEngineVisibilityInfo'=> 'Block search engines, but allow normal visitors. Overrides page settings. <br>Discourage search engines from indexing this site. It is up to search engines to honor this request.',
 
@@ -381,7 +381,7 @@ $ap_translation = [
 	'AppearanceSettingsInfo'	=> 'Control default display settings for your site.',
 	'AppearanceSettingsUpdated'	=> 'Updated appearance settings.',
 
-	'LogoOff'					=> '끄기',
+	'LogoOff'					=> 'Uit',
 	'LogoOnly'					=> 'logo',
 	'LogoAndTitle'				=> 'logo and title',
 
@@ -396,17 +396,14 @@ $ap_translation = [
 	'FaviconSection'			=> 'Favicon',
 	'SiteFavicon'				=> 'Site favicon:',
 	'SiteFaviconInfo'			=> 'Your shortcut icon, or favicon, is displayed in the address bar, tabs and bookmarks of most browsers. This will override the favicon of your theme.',
-	'SiteFaviconTooBig'			=> 'Favicon is bigger than 64 × 64 px.',
-	'ThemeColor'				=> '주소 표시줄의 테마 색상:',
-	'ThemeColorInfo'			=> '브라우저는 제공된 CSS 색상에 따라 모든 페이지의 주소 표시줄 색상을 설정합니다.',
+	'SiteFaviconTooBig'			=> 'Favicon is groter dan 64 × 64px.',
+	'ThemeColor'				=> 'Thema kleur voor adresbalk:',
+	'ThemeColorInfo'			=> 'De browser zal de kleur van de adresbalk van elke pagina instellen volgens de opgegeven CSS kleur.',
 
 	'LayoutSection'				=> 'Layout',
-	'Theme'						=> 'Theme:',
+	'Theme'						=> 'Thema:',
 	'ThemeInfo'					=> 'Template design the site uses by default.',
-	'ResetUserTheme'			=> 'Reset all user themes:',
-	'ResetUserThemeInfo'		=> 'Resets all user themes. Warning: This action will revert all user-selected themes to the global default theme.',
-	'SetBackUserTheme'			=> 'Revert all user themes to %1 theme.',
-	'ThemesAllowed'				=> 'Allowed Themes:',
+	'ThemesAllowed'				=> 'Toegestane thema\'s:',
 	'ThemesAllowedInfo'			=> 'Select the allowed themes, which the user can choose; otherwise, all available themes are allowed.',
 	'ThemesPerPage'				=> 'Themes per page:',
 	'ThemesPerPageInfo'			=> 'Allow themes per page, which the page owner can choose via page properties.',
@@ -472,22 +469,20 @@ $ap_translation = [
 
 	'ReverseProxySection'		=> 'Reverse Proxy',
 	'ReverseProxy'				=> 'Use reverse proxy:',
-	'ReverseProxyInfo'			=> 'Enable this setting to determine the correct IP address of the remote
-									 client by examining information stored in the X-Forwarded-For headers.
-									 X-Forwarded-For headers are a standard mechanism for identifying client
-									 systems connecting through a reverse proxy server, such as Squid or
-									 Pound. Reverse proxy servers are often used to enhance the performance
-									 of heavily visited sites and may also provide other site caching,
-									 security or encryption benefits. If this WackoWiki installation operates
-									 behind a reverse proxy, this setting should be enabled so that correct
-									 IP address information is captured in WackoWiki\'s session management,
-									 logging, statistics and access management systems; if you are unsure
-									 about this setting, do not have a reverse proxy, or WackoWiki operates in
-									 a shared hosting environment, this setting should remain disabled.',
+	'ReverseProxyInfo'			=> 'Schakel deze instelling in om het juiste IP adres van de remote client te bepalen door
+									de informatie opgeslagen in de X-Forwarded-For headers te onderzoeken. X-Forwarded-For headers
+									zijn een standaardmechanisme om cliëntsystemen te identificeren die verbinding maken via een
+									reverse proxyserver, zoals Squid of Pound. Reverse proxy servers worden vaak gebruikt om de prestatie
+									van druk bezochte sites te verbeteren en kunnen ook andere site caching, beveiliging of encryptie
+									voordelen bieden. Als deze WackoWiki installatie achter een reverse proxy opereert, zou deze instelling
+									aangezet moeten worden zodat correcte IP adres informatie wordt vastgelegd in WackoWiki\'s
+									sessie management, logging, statistieken en toegangsmanagement systemen; als u niet zeker bent
+									over deze instelling, geen reverse proxy heeft, of WackoWiki opereert in een gedeelde hosting omgeving,
+									zou deze instelling uitgeschakeld moeten blijven.',
 	'ReverseProxyHeader'		=> 'Reverse proxy header:',
-	'ReverseProxyHeaderInfo'	=> 'Set this value if your proxy server sends the client IP in a header
-									 other than X-Forwarded-For. The "X-Forwarded-For" header is a comma+space separated list of IP
-									 addresses, only the last one (the left-most) will be used.',
+	'ReverseProxyHeaderInfo'	=> 'Stel deze waarde in als je proxyserver het IP van de client in een andere
+									header dan X-Forwarded-For stuurt. De "X-Forwarded-For" header is een komma+spatie
+									gescheiden lijst van IP adressen, alleen het laatste (het meest linkse) zal worden gebruikt.',
 	'ReverseProxyAddresses'		=> 'reverse_proxy accepts an array of IP addresses:',
 	'ReverseProxyAddressesInfo'	=> 'Each element of this array is the IP address of any of your reverse
 									 proxies. If using this array, WackoWiki will trust the information stored
@@ -500,13 +495,13 @@ $ap_translation = [
 	'SessionStorage'				=> 'Session storage:',
 	'SessionStorageInfo'			=> 'This option defines where the the session data is stored. By default, either file or database session storage is selected.',
 	'SessionModes'	=> [
-		'1'		=> '파일',
-		'2'		=> '데이터베이스',
+		'1'		=> 'Bestand',
+		'2'		=> 'Database',
 	],
-	'SessionNotice'					=> '세션 종료 원인 표시:',
-	'SessionNoticeInfo'				=> '세션 종료의 원인을 나타냅니다.',
-	'LoginNotice'					=> '로그인 알림:',
-	'LoginNoticeInfo'				=> '로그인 알림: 로그인 알림을 표시합니다.',
+	'SessionNotice'					=> 'Toon sessie beëindiging oorzaak:',
+	'SessionNoticeInfo'				=> 'Geeft de oorzaak van de sessiebeëindiging aan.',
+	'LoginNotice'					=> 'Aanmeldingsbericht:',
+	'LoginNoticeInfo'				=> 'Geeft een aanmeldingsbericht weer.',
 
 	'RewriteMode'					=> 'Use <code>mod_rewrite</code>:',
 	'RewriteModeInfo'				=> 'If your web server supports this feature, enable to "beautify" the page URLs.<br>
@@ -541,48 +536,48 @@ $ap_translation = [
 	'OwnersEditCategories'		=> 'Owners can edit page categories:',
 	'OwnersEditCategoriesInfo'	=> 'Allow owners to modify the pages category list of your site (add words, delete words), assigns to a page.',
 	'TermHumanModeration'		=> 'Human moderation expiration:',
-	'TermHumanModerationInfo'	=> 'Moderators can only edit comments if they were created no more than this number of days ago (this limitation does not apply to the last comment in the topic).',
+	'TermHumanModerationInfo'	=> 'Moderators kunnen alleen commentaar bewerken als het niet meer dan dit aantal dagen geleden is aangemaakt (deze beperking is niet van toepassing op het laatste commentaar in het onderwerp).',
 
-	'UserCanDeleteAccount'		=> 'Allow users to delete their accounts',
+	'UserCanDeleteAccount'		=> 'Gebruikers kunnen hun accounts verwijderen',
 
 	// Security settings
 	'SecuritySettingsInfo'		=> 'Parameters responsible for the overall safety of the platform, safety restrictions and additional security subsystems.',
 	'SecuritySettingsUpdated'	=> 'Updated security settings',
 
 	'AllowRegistration'			=> 'Register online:',
-	'AllowRegistrationInfo'		=> 'Open user registration. Disabling this option will prevent free registration, however, the site administrator will still be able to register users.',
+	'AllowRegistrationInfo'		=> 'Open gebruikersregistratie. Het uitschakelen van deze optie voorkomt gratis registratie, maar de beheerder van de site kan wel zelf andere gebruikers registreren.',
 	'ApproveNewUser'			=> 'Approve new users:',
 	'ApproveNewUserInfo'		=> 'Allows administrators to approve users once they register. Only approved users will be allowed to log in the site.',
 	'PersistentCookies'			=> 'Persistent cookies:',
 	'PersistentCookiesInfo'		=> 'Allow persistent cookies.',
 	'DisableWikiName'			=> 'Disable WikiName:',
 	'DisableWikiNameInfo'		=> 'Disable the the mandatory use of a WikiName for users. Permits user registration with traditional nicknames instead of forced CamelCase-formatted names (i.e., NameSurname).',
-	'UsernameLength'			=> 'Username length:',
+	'UsernameLength'			=> 'Gebruikersnaam lengte:',
 	'UsernameLengthInfo'		=> 'Minimum and maximum number of characters in usernames.',
 
 	'EmailSection'				=> 'Email',
 	'AllowEmailReuse'			=> 'Allow email address re-use:',
 	'AllowEmailReuseInfo'		=> 'Different users can register with the same email address.',
-	'EmailConfirmation'			=> '전자 메일 확인을 적용합니다:',
-	'EmailConfirmationInfo'		=> '사용자가 로그인하기 전에 전자 메일 주소를 확인하도록 요구합니다.',
-	'AllowedEmailDomains'		=> '허용된 전자 메일 도메인::',
-	'AllowedEmailDomainsInfo'	=> '쉼표로 구분된 허용된 이메일 도메인(예: <code>example.com, local.lan</code> 등), 그렇지 않으면 모든 이메일 도메인이 허용됩니다.',
-	'ForbiddenEmailDomains'		=> '금지된 이메일 도메인:',
-	'ForbiddenEmailDomainsInfo'	=> '쉼표로 구분된 금지 이메일 도메인(예: <code>example.com, local.lan</code> 등). 허용된 이메일 도메인 목록이 비어 있는 경우에만 유효합니다.',
+	'EmailConfirmation'			=> 'Bevestiging per e-mail afdwingen:',
+	'EmailConfirmationInfo'		=> 'Vereist dat de gebruiker zijn e-mailadres verifieert voordat hij kan inloggen.',
+	'AllowedEmailDomains'		=> 'Toegestane e-maildomeinen:',
+	'AllowedEmailDomainsInfo'	=> 'Toegestane e-maildomeinen, gescheiden door komma\'s, bijv. <code>example.com, local.lan</code> etc., anders zijn alle e-maildomeinen toegestaan.',
+	'ForbiddenEmailDomains'		=> 'Verboden e-maildomeinen:',
+	'ForbiddenEmailDomainsInfo'	=> 'Verboden e-maildomeinen, gescheiden door komma\'s, bijv. <code>example.com, local.lan</code> enz. (alleen effectief als lijst met toegestane e-maildomeinen leeg is)',
 
 	'CaptchaSection'			=> 'CAPTCHA',
 	'EnableCaptcha'				=> 'Enable captcha:',
 	'EnableCaptchaInfo'			=> 'If enabled, captcha will be shown in the following cases, or if a security threshold is reached.',
 	'CaptchaComment'			=> 'New comment:',
 	'CaptchaCommentInfo'		=> 'As protection against spam, unregistered users must complete captcha before comment will be posted.',
-	'CaptchaPage'				=> 'New page:',
+	'CaptchaPage'				=> 'Nieuwe pagina',
 	'CaptchaPageInfo'			=> 'As protection against spam, unregistered users must complete captcha before creating a new page.',
 	'CaptchaEdit'				=> 'Edit page:',
 	'CaptchaEditInfo'			=> 'As protection against spam, unregistered users must complete captcha before editing pages.',
-	'CaptchaRegistration'		=> '계정 만들기',
+	'CaptchaRegistration'		=> 'Registratie:',
 	'CaptchaRegistrationInfo'	=> 'As protection against spam, unregistered users must complete captcha before registering.',
 
-	'TlsSection'				=> 'TLS Settings',
+	'TlsSection'				=> 'TLS instellingen',
 	'TlsConnection'				=> 'TLS-Connection:',
 	'TlsConnectionInfo'			=> 'Use TLS-secured connection. <span class="cite">Activate the required pre-installed TLS-certificate on the server, otherwise you will lose access to the admin panel!</span><br>It also determines if the the Cookie Secure Flag is set, the <code>secure</code> flag specifies whether cookies should only be sent over secure connections.',
 	'TlsImplicit'				=> 'Mandatory TLS:',
@@ -594,12 +589,12 @@ $ap_translation = [
 	'Csp'						=> 'Content-Security-Policy (CSP):',
 	'CspInfo'					=> 'Configuring CSP involves deciding what policies you want to enforce, and then configuring them and using Content-Security-Policy to establish your policy.',
 	'PolicyModes'	=> [
-		'0'		=> '비활성화됨',
+		'0'		=> 'uitgeschakeld',
 		'1'		=> 'strict',
 		'2'		=> 'custom',
 	],
 	'PermissionsPolicy'			=> 'Permissions policy:',
-	'PermissionsPolicyInfo'		=> 'The HTTP Permissions-Policy header provides a mechanism to explicitly enable or disable various powerful browser features.',
+	'PermissionsPolicyInfo'		=> 'De HTTP Permissions-Policy header biedt een mechanisme om verschillende krachtige browserfuncties expliciet in of uit te schakelen.',
 	'ReferrerPolicy'			=> 'Referrer policy:',
 	'ReferrerPolicyInfo'		=> 'The Referrer-Policy HTTP header governs which referrer information, sent in the Referer header, should be included in responses.',
 	'ReferrerPolicyModes'	=> [
@@ -621,19 +616,19 @@ $ap_translation = [
 	'AdminPwdMinCharsInfo'		=> 'Longer passwords are necessarily more secure than shorter passwords (e.g. 15 to 20 characters).<br>The use of passphrases instead of passwords is encouraged.',
 	'PwdCharComplexity'			=> 'The required password complexity:',
 	'PwdCharClasses'	=> [
-		'0'		=> 'not tested',
+		'0'		=> 'niet getest',
 		'1'		=> 'any letters + numbers',
 		'2'		=> 'uppercase and lowercase + numbers',
 		'3'		=> 'uppercase and lowercase + numbers + characters',
 	],
 	'PwdUnlikeLogin'			=> 'Additional complication:',
 	'PwdUnlikes'	=> [
-		'0'		=> 'not tested',
+		'0'		=> 'niet getest',
 		'1'		=> 'password is not identical to the login',
 		'2'		=> 'password does not contain username',
 	],
 
-	'LoginSection'				=> '로그인',
+	'LoginSection'				=> 'Inloggen',
 	'MaxLoginAttempts'			=> 'Maximum number of login attempts per username:',
 	'MaxLoginAttemptsInfo'		=> 'The number of login attempts allowed for a single account before the anti-spambot task is triggered. Enter 0 to prevent the anti-spambot task from being triggered for distinct user accounts.',
 	'IpLoginLimitMax'			=> 'Maximum number of login attempts per IP address:',
@@ -641,7 +636,7 @@ $ap_translation = [
 
 	'FormsSection'				=> 'Forms',
 	'FormTokenTime'				=> 'Maximum time to submit forms:',
-	'FormTokenTimeInfo'			=> 'The time a user has to submit a form (in seconds).<br> Note that a form might become invalid if the session expires, regardless of this setting.',
+	'FormTokenTimeInfo'			=> 'De tijd die een gebruiker heeft om een formulier in te dienen (in seconden).<br> Merk op dat een formulier ongeldig kan worden als de sessie afloopt, ongeacht deze instelling.',
 
 	'SessionLength'				=> 'Session cookie expiration:',
 	'SessionLengthInfo'			=> 'The lifetime of the user session cookie by default (in days).',
@@ -685,20 +680,20 @@ $ap_translation = [
 	'TimeFormatSecondsInfo'		=> '(hours, minutes, seconds)',
 	'NameDateMacro'				=> 'The format of the <code>::@::</code> macro:',
 	'NameDateMacroInfo'			=> '(name, time), e.g. <code>UserName (17.11.2016 16:48)</code>',
-	'Timezone'					=> '시간대:',
-	'TimezoneInfo'				=> 'Timezone to use for displaying times to users who are not logged in (guests). Logged-in users can change their timezone in their user settings.',
+	'Timezone'					=> 'Tijdszone:',
+	'TimezoneInfo'				=> 'Tijdzone te gebruiken voor het tonen van tijden aan gebruikers die niet zijn ingelogd (gasten). Aangemelde gebruikers kunnen hun tijdzone instellen en wijzigen in hun gebruikersinstellingen.',
 
-	'Canonical'					=> 'Use fully canonical URLs:',
-	'CanonicalInfo'				=> 'All links are created as absolute URLs in the form %1. URLs relative to the server root in the form %2 should be preferred.',
+	'Canonical'					=> 'Herleid URL\'s tot hun basisvorm:',
+	'CanonicalInfo'				=> 'Alle links worden als absolute URL\'s aangemaakt in de vorm %1. URL\'s ten opzichte van de server root in de vorm %2 verdienen de voorkeur.',
 	'LinkTarget'				=> 'Where external links open:',
-	'LinkTargetInfo'			=> 'Opens each external link in a new browser window. Adds <code>target="_blank"</code> to the link syntax.',
+	'LinkTargetInfo'			=> 'Opent elke externe link in een nieuw browservenster. Voegt <code>target="_blank"</code> toe aan de syntaxis van de link.',
 	'Noreferrer'				=> 'noreferrer:',
-	'NoreferrerInfo'			=> 'Requires that the browser should not send an HTTP referer header if the user follows the hyperlink. Adds <code>rel="noreferrer"</code> to the link syntax.',
+	'NoreferrerInfo'			=> 'Vereist dat de browser geen HTTP-referentiekop stuurt als de gebruiker de hyperlink volgt. Voegt <code>rel="noreferrer"</code> toe aan de syntaxis van de link.',
 	'Nofollow'					=> 'nofollow:',
-	'NofollowInfo'				=> 'Tells search engines that the hyperlinks should not affect the page ranking of the target page in the search engine index. Adds <code>rel="nofollow"</code> to the link syntax.',
+	'NofollowInfo'				=> 'Instrueer sommige zoekmachines dat de hyperlink geen invloed mag hebben op de ranking van het doel van de link in de index van de zoekmachines. Voegt <code>rel="nofollow"</code> toe aan de syntaxis van de link.',
 	'UrlsUnderscores'			=> 'Form addresses (URLs) with underscores:',
 	'UrlsUnderscoresInfo'		=> 'For example, %1 becames %2 with this option.',
-	'ShowSpaces'				=> 'Show spaces in WikiNames:',
+	'ShowSpaces'				=> 'Toon spaties in WikiNames:',
 	'ShowSpacesInfo'			=> 'Show spaces in WikiNames, e.g. <code>MyName</code> being displayed as <code>My Name</code> with this option.',
 	'NumerateLinks'				=> 'Enumerate links in print view:',
 	'NumerateLinksInfo'			=> 'Enumerates and lists all links at the bottom of the print view with this option.',
@@ -706,7 +701,7 @@ $ap_translation = [
 	'YouareHereTextInfo'		=> 'Visualize links to the same page, using <code>&lt;b&gt;####&lt;/b&gt;</code>. All links to self lose link formatting, but are displayed as bold text.',
 
 	// Pages settings
-	'PagesSettingsInfo'			=> '여기에서 Wiki 내에서 사용되는 시스템 기본 페이지를 설정하거나 변경할 수 있습니다. 여기 설정에 따라 Wiki에서 해당 페이지를 생성하거나 변경하는 것을 잊지 마십시오.',
+	'PagesSettingsInfo'			=> 'Hier kunt u de systeembasispagina\'s die binnen de Wiki worden gebruikt, instellen of wijzigen. Vergeet niet om de overeenkomstige pagina\'s in de Wiki aan te maken of te wijzigen volgens uw instellingen hier.',
 	'PagesSettingsUpdated'		=> 'Updated settings base pages',
 
 	'ListCount'					=> 'Number of items per list:',
@@ -726,39 +721,39 @@ $ap_translation = [
 	'NewsStructure'				=> 'News cluster structure:',
 	'NewsStructureInfo'			=> 'Stores the articles optionally in sub-clusters by year/month or week (e.g. <code>[cluster]/[year]/[month]</code>).',
 
-	'LicenseSection'			=> '라이선스',
-	'DefaultLicense'			=> 'Default license:',
+	'LicenseSection'			=> 'Licentie',
+	'DefaultLicense'			=> 'Standaard licentie:',
 	'DefaultLicenseInfo'		=> 'Under which license your content can be released.',
 	'EnableLicense'				=> 'Enable license:',
 	'EnableLicenseInfo'			=> 'Enable to show license information.',
-	'LicensePerPage'			=> 'License per page:',
+	'LicensePerPage'			=> 'Licentie per pagina:',
 	'LicensePerPageInfo'		=> 'Allow license per page, which the page owner can choose via page properties.',
 
 	'ServicePagesSection'		=> 'Service Pages',
-	'RootPage'					=> '홈페이지:',
+	'RootPage'					=> 'Home page:',
 	'RootPageInfo'				=> 'Tag of your main page, opens automatically when a user visits your site.',
 
-	'PrivacyPage'				=> '개인정보처리방침:',
+	'PrivacyPage'				=> 'Privacybeleid:',
 	'PrivacyPageInfo'			=> 'The page with the Privacy Policy of the site.',
 
 	'TermsPage'					=> 'Policies and regulations:',
 	'TermsPageInfo'				=> 'The page with the rules of the site.',
 
-	'SearchPage'				=> '검색:',
+	'SearchPage'				=> 'Zoeken:',
 	'SearchPageInfo'			=> 'Page with the search form (action %1).',
-	'RegistrationPage'			=> '계정 만들기:',
+	'RegistrationPage'			=> 'Registratie:',
 	'RegistrationPageInfo'		=> 'Page for new user registration (action %1).',
-	'LoginPage'					=> '사용자 로그인:',
+	'LoginPage'					=> 'User login:',
 	'LoginPageInfo'				=> 'Login page on the site (action %1).',
-	'SettingsPage'				=> '사용자 설정:',
+	'SettingsPage'				=> 'User Settings:',
 	'SettingsPageInfo'			=> 'Page to customize the user profile (action %1).',
-	'PasswordPage'				=> '비밀번호 변경:',
+	'PasswordPage'				=> 'Change Password:',
 	'PasswordPageInfo'			=> 'Page with a form to change / query user password (action %1).',
 	'UsersPage'					=> 'User list:',
 	'UsersPageInfo'				=> 'Page with a list of registered users (action %1).',
-	'CategoryPage'				=> '카테고리:',
+	'CategoryPage'				=> 'Categorie:',
 	'CategoryPageInfo'			=> 'Page with a list of categorized pages (action %1).',
-	'GroupsPage'				=> '그룹:',
+	'GroupsPage'				=> 'Groepen:',
 	'GroupsPageInfo'			=> 'Page with a list of working groups (action %1).',
 	'ChangesPage'				=> 'Recent changes:',
 	'ChangesPageInfo'			=> 'Page with a list of the last modified pages (action %1).',
@@ -770,14 +765,14 @@ $ap_translation = [
 	'WantedPageInfo'			=> 'Page with a list of missing pages that are referenced (action %1).',
 	'OrphanedPage'				=> 'Orphaned pages:',
 	'OrphanedPageInfo'			=> 'Page with a list of existing pages are not related via links to any other page (action %1).',
-	'SandboxPage'				=> '샌드박스:',
+	'SandboxPage'				=> 'Sandbox:',
 	'SandboxPageInfo'			=> 'Page where users can practice their wiki markup skills.',
-	'HelpPage'					=> '도움말:',
+	'HelpPage'					=> 'Hulp:',
 	'HelpPageInfo'				=> 'The documentation section for working with site tools.',
 	'IndexPage'					=> 'Index:',
-	'IndexPageInfo'				=> 'Page with a list of all pages (action %1).',
-	'RandomPage'				=> 'Random:',
-	'RandomPageInfo'			=> 'Loads a random page (action %1).',
+	'IndexPageInfo'				=> 'Pagina met een lijst van alle pagina\'s (action %1).',
+	'RandomPage'				=> 'Willekeurig:',
+	'RandomPageInfo'			=> 'Laadt een willekeurige pagina  (action %1).',
 
 
 	// Notification settings
@@ -802,14 +797,14 @@ $ap_translation = [
 	'NotifyUpload'				=> 'Notify file upload:',
 	'NotifyUploadInfo'			=> 'The Moderators will to be notified when a file has been uploaded.',
 
-	'PersonalMessagesSection'	=> 'Personal Messages',
+	'PersonalMessagesSection'	=> 'Persoonlijke berichten',
 	'AllowIntercomDefault'		=> 'Allow intercom:',
 	'AllowIntercomDefaultInfo'	=> 'Enabling this option allows other users to send personal messages to the recipient\'s email address without disclosing the address.',
 	'AllowMassemailDefault'		=> 'Allow mass email:',
 	'AllowMassemailDefaultInfo'	=> 'Only send messages to those users who have permitted administrators to email them information.',
 
 	// Resync settings
-	'Synchronize'				=> 'Synchronize',
+	'Synchronize'				=> 'synchroniseren',
 	'UserStatsSynched'			=> 'User Statistics synchronized.',
 	'PageStatsSynched'			=> 'Page Statistics synchronized.',
 	'FeedsUpdated'				=> 'RSS-feeds updated.',
@@ -827,9 +822,9 @@ $ap_translation = [
 	'PageStats'					=> 'Page statistics',
 	'PageStatsInfo'				=> 'Page statistics (number of comments, files and revisions) may differ in some situations from actual data. <br>This operation allows updating statistics to match actual data contained in database.',
 
-	'AttachmentsInfo'			=> '데이터베이스의 모든 첨부 파일에 대한 파일 해시를 업데이트합니다.',
-	'AttachmentsSynched'		=> '모든 첨부 파일 해시 재해시',
-	'LogAttachmentsSynched'		=> '모든 첨부 파일 해시 재해시',
+	'AttachmentsInfo'			=> 'Werkt de hash van alle bijlagen in de database bij.',
+	'AttachmentsSynched'		=> 'Alle bestandsbijlagen opnieuw gehasht',
+	'LogAttachmentsSynched'		=> 'Alle bestandsbijlagen opnieuw gehasht',
 
 	'Feeds'						=> 'Feeds',
 	'FeedsInfo'					=> 'In the case of direct editing of pages in the database, the content of RSS-feeds may not reflect the changes made. <br>This function synchronizes the RSS-channels with the current state of the database.',
@@ -844,27 +839,27 @@ $ap_translation = [
 
 	'WikiLinksResync'			=> 'Wiki-links',
 	'WikiLinksResyncInfo'		=> 'Performs a re-rendering for all intrasite links and restores the contents of the <code>page_link</code> and <code>file_link</code> tables in the event of damage or relocation (this can take considerable time).',
-	'RecompilePage'				=> 'Re-compiling all pages (extremely costly)',
-	'ResyncOptions'				=> '추가 옵션',
+	'RecompilePage'				=> 'Alle pagina\'s opnieuw compileren (extreem duur)',
+	'ResyncOptions'				=> 'Toegevoegde opties',
 	'RecompilePageLimit'		=> 'Number of pages to parse at once.',
 
 	// Email settings
-	'EmaiSettingsInfo'			=> 'This information is used when the engine sends emails to your users. Please ensure the email address you specify is valid, as any bounced or undeliverable messages will likely be sent to that address. If your hosting provider does not provide a native (PHP-based) email service, you can instead send messages directly using SMTP. This requires the address of an appropriate server (ask your hosting provider if necessary). If the server requires authentication (and only if it does), enter the necessary username, password and authentication method.',
+	'EmaiSettingsInfo'			=> 'Deze informatie wordt gebruikt wanneer het site e-mails verstuurt naar je gebruikers. Zorg er voor dat het e-mailadres dat je specificeert geldig is, elk bericht dat niet verstuurd kan worden zal waarschijnlijk hier naar toe verstuurd worden. Als je host geen (PHP gebaseerde) e-mailservice aanbied, dan kan je berichten versturen door gebruik te maken van SMTP. Dit vereist het adres van een server (vraag je provider indien nodig). Als de server authenticatie vereist is (en alleen als het vereist wordt), voer dan de benodigde gebruikersnaam, wachtwoord en authenticatiemethode in.',
 
 	'EmailSettingsUpdated'		=> 'Updated Email settings',
 
-	'EmailFunctionName'			=> 'Email function name:',
-	'EmailFunctionNameInfo'		=> 'The email function used to send mails through PHP.',
-	'UseSmtpInfo'				=> 'Select <code>SMTP</code> if you want to, or have to, send email via a named server instead of via the local mail function.',
+	'EmailFunctionName'			=> 'E-mailfunctie-naam:',
+	'EmailFunctionNameInfo'		=> 'De e-mailfunctie gebruikt om e-mails te versturen via PHP.',
+	'UseSmtpInfo'				=> 'Selecteer <code>SMTP</code> als je e-mail wilt versturen via een genoemde server in plaats van de lokale e-mailfunctie.',
 
-	'EnableEmail'				=> 'Enable emails:',
-	'EnableEmailInfo'			=> 'Enable sending of emails.',
+	'EnableEmail'				=> 'E-mails inschakelen:',
+	'EnableEmailInfo'			=> 'E-mails inschakelen',
 
-	'EmailIdentitySettings'		=> '웹사이트 이메일 신원',
+	'EmailIdentitySettings'		=> 'Website E-mails Identiteit',
 	'FromEmailName'				=> 'From Name:',
 	'FromEmailNameInfo'			=> 'The sender name that is use for the <code>From:</code> header for all email notifications sent from the site.',
-	'EmailSubjectPrefix'		=> '제목 접두사:',
-	'EmailSubjectPrefixInfo'	=> '대체 이메일 제목 접두사(예: <code>[접두사] 주제</code>)입니다. 정의되지 않은 경우 기본 접두사는 사이트 이름입니다: %1.',
+	'EmailSubjectPrefix'		=> 'Onderwerp Voorvoegsel:',
+	'EmailSubjectPrefixInfo'	=> 'Alternatief e-mailonderwerpvoorvoegsel, bijv. <code>[Voorvoegsel] Onderwerp</code>. Als dit niet is gedefinieerd, is het standaardvoorvoegsel sitenaam: %1.',
 
 	'NoReplyEmail'				=> 'No-reply address:',
 	'NoReplyEmailInfo'			=> 'This address, e.g. <code>noreply@example.com</code>, will appear in the <code>From:</code> email address field of all email notifications sent from the site.',
@@ -873,68 +868,69 @@ $ap_translation = [
 	'AbuseEmail'				=> 'Email abuse service:',
 	'AbuseEmailInfo'			=> 'Address requests for urgent matters: registration for a foreign email, etc. It may be the same as the site owner email.',
 
-	'SendTestEmail'				=> '테스트 메일 보내기',
-	'SendTestEmailInfo'			=> 'This will send a test email to the address defined in your account.',
-	'TestEmailSubject'			=> 'Your Wiki is correctly configured to send emails',
-	'TestEmailBody'				=> 'If you received this email, your Wiki is correctly configured to send emails.',
-	'TestEmailMessage'			=> 'The test email has been sent.<br>If you don\'t receive it, please check your email configuration settings.',
+	'SendTestEmail'				=> 'Test e-mail versturen',
+	'SendTestEmailInfo'			=> 'Deze optie verstuurt een test-e-mail naar het e-mailadres dat is opgegeven bij je accountinstellingen.',
+	'TestEmailSubject'			=> 'Wiki is correct geconfigureerd om e-mails te versturen',
+	'TestEmailBody'				=> 'Als je deze e-mail hebt ontvangen, is je wiki correct geconfigureerd om e-mails te versturen.',
+	'TestEmailMessage'			=> 'De test-e-mail is verzonden.<br>Controleer je e-mailconfiguratie als je de test e-mail niet hebt ontvangen.',
 
-	'SmtpSettings'				=> 'SMTP Settings',
+	'SmtpSettings'				=> 'SMTP-instellingen',
 	'SmtpAutoTls'				=> 'Opportunistic TLS:',
 	'SmtpAutoTlsInfo'			=> 'Enables encryption automatically, if it sees that the server is advertising TLS encryption (after you have connected to the server), even if you have not set the connection mode for <code>SMTPSecure</code>.',
-	'SmtpConnectionMode'		=> 'Connection mode for SMTP:',
-	'SmtpConnectionModeInfo'	=> 'Only used if a username/password is required. Ask your provider if you are unsure which method to use.',
-	'SmtpPassword'				=> 'SMTP password:',
-	'SmtpPasswordInfo'			=> 'Only enter a password if your SMTP server requires it.<br><em><strong>Warning:</strong> This password will be stored as plain text in the database, visible to everybody who can access your database or who can view this configuration page.</em>',
-	'SmtpPort'					=> 'SMTP server port:',
-	'SmtpPortInfo'				=> 'Only change this if you know your SMTP server is on a different port. <br>(default: <code>tls</code> on port 587 (or possibly 25) and <code>ssl</code> on port 465)',
-	'SmtpServer'				=> 'SMTP server address:',
-	'SmtpServerInfo'			=> 'Note that you have to provide the protocol that your server uses. If you are using SSL, this has to be <code>ssl://mail.example.com</code>',
-	'SmtpUsername'				=> 'SMTP username:',
-	'SmtpUsernameInfo'			=> 'Only enter a username if your SMTP server requires it.',
+	'SmtpConnectionMode'		=> 'Authenticatiemethode voor SMTP:',
+	'SmtpConnectionModeInfo'	=> 'Alleen gebruiken als een gebruikersnaam/wachtwoord ingesteld is, vraag je provider als je niet zeker bent welke methode je moet gebruiken.',
+	'SmtpPassword'				=> 'SMTP-wachtwoord:',
+	'SmtpPasswordInfo'			=> 'Alleen een wachtwoord invoeren als je SMTP-server dit vereist.<br><em><strong>Waarschuwing:</strong> Dit wachtwoord zal opgeslagen worden als platte tekst in de database, zichtbaar voor iedereen die toegang heeft tot je database of die dit configuratiepagina kan bekijken.</em>',
+	'SmtpPort'					=> 'SMTP-serverpoort:',
+	'SmtpPortInfo'				=> 'Verander dit alleen als je weet dat je SMTP-server op een andere poort draait. <br>(default: <code>tls</code> on port 587 (or possibly 25) and <code>ssl</code> on port 465)',
+	'SmtpServer'				=> 'SMTP-serveradres:',
+	'SmtpServerInfo'			=> 'Let op dat je het gebruikte protocol ook opgeeft. Indien je SSL gebruikt, dan is dit <code>ssl://mail.example.com</code>',
+	'SmtpUsername'				=> 'SMTP-gebruikersnaam:',
+	'SmtpUsernameInfo'			=> 'Voer alleen een gebruikersnaam in als je SMTP-server dit vereist.',
 
 	// Upload settings
-	'UploadSettingsInfo'		=> 'Here you can configure the main settings for attachments and the associated special categories.',
+	'UploadSettingsInfo'		=> 'Hier kan je de hoofdinstellingen voor bijlagen en bijbehorende speciale categorieën instellen.',
 	'UploadSettingsUpdated'		=> 'Updated upload settings',
 
 	'FileUploadsSection'		=> 'File Uploads',
-	'RegisteredUsers'			=> '등록된 사용자',
+	'RegisteredUsers'			=> 'geregistreerde gebruikers',
 	'RightToUpload'				=> 'Permissions to upload files:',
 	'RightToUploadInfo'			=> '<code>admins</code> means that only users belonging to the admins group can upload  files. <code>1</code> means that uploading is opened to registered users. <code>0</code> means that upload disabled.',
-	'UploadMaxFilesize'			=> 'Maximum file size:',
-	'UploadMaxFilesizeInfo'		=> 'Maximum size of each file. If this value is 0, the maximum uploadable filesize is only limited by your PHP configuration.',
-	'UploadQuota'				=> 'Total attachment quota:',
-	'UploadQuotaInfo'			=> 'Maximum drive space available for attachments for the whole wiki, with <code>0</code> being unlimited. %1 used.',
+	'UploadMaxFilesize'			=> 'Maximum bestandsgrootte:',
+	'UploadMaxFilesizeInfo'		=> 'Maximum grootte van elk bestand, met 0 als ongelimiteerd, bijgevoegd aan een privébericht.',
+	'UploadQuota'				=> 'Totaal bijlage quota:',
+	'UploadQuotaInfo'			=> 'Maximum schijfruimte beschikbaar voor bijlagen van het hele wiki, met <code>0</code> als ongelimiteerd. %1 used.',
 	'UploadQuotaUser'			=> 'Storage quota per user:',
 	'UploadQuotaUserInfo'		=> 'Restriction on the quota of storage that can be uploaded by one user, with <code>0</code> being unlimited.',
 
-	'FileTypes'					=> 'File types',
+	'FileTypes'					=> 'Bestandstypes',
 	'UploadOnlyImages'			=> 'Allow only upload of images:',
 	'UploadOnlyImagesInfo'		=> 'Allow only uploading of image files on the page.',
-	'AllowedUploadExts'			=> '허용된 파일 형식:',
-	'AllowedUploadExtsInfo'		=> '파일 업로드에 허용되는 확장자는 쉼표로 구분된 파일 확장자(예: <code>png, ogg, mp4</code>)이며, 그 외에는 금지된 파일 확장자가 아닌 모든 파일 확장자가 허용됩니다.<br>업로드된 파일 형식 허용 목록을 사이트 콘텐츠 기능에 필요한 최소한의 파일로 제한해야 합니다.',
-	'CheckMimetype'				=> 'Check MIME type:',
-	'CheckMimetypeInfo'			=> 'Some browsers can be tricked to assume an incorrect mimetype for uploaded files. This option ensures that such files likely to cause this are rejected.',
+	'AllowedUploadExts'			=> 'Toegelaten bestandstypes:',
+	'AllowedUploadExtsInfo'		=> 'Toegestane extensies voor het uploaden van bestanden, door komma\'s gescheiden bv. <code>png, ogg, mp4</code>, anders zijn alle niet verboden bestandsextensies toegestaan.<br>U moet de lijst met toegestane bestandstypen beperken tot het minimum dat nodig is voor de inhoud van uw site.',
+	'CheckMimetype'				=> 'Controleer bijlage bestanden:',
+	'CheckMimetypeInfo'			=> 'Sommige browsers kunnen een incorrecte mimetype voor geüploade bestanden aannemen. Deze optie verzekerd je er van dat zulke bestanden die dit veroorzaken worden afgewezen.',
 	'SvgSanitizer'				=> 'SVG Sanitizer:',
-	'SvgSanitizerInfo'			=> '이렇게 하면 업로드된 SVG 파일을 살균하여 SVG/XML에 취약한 파일이 업로드되는 것을 방지할 수 있습니다.',
-	'TranslitFileName'			=> '파일 이름을 음역합니다:',
-	'TranslitFileNameInfo'		=> '해당되는 경우 유니코드 문자가 필요하지 않은 경우에는 영숫자 문자만 허용하는 것이 좋습니다.',
-	'TranslitCaseFolding'		=> '파일 이름을 소문자로 변환합니다:',
-	'TranslitCaseFoldingInfo'	=> '이 옵션은 음역이 활성화된 경우에만 유효합니다.',
+	'SvgSanitizerInfo'			=> 'Hiermee kunnen geüploade SVG-bestanden worden gezuiverd om te voorkomen dat SVG/XML kwetsbare bestanden worden geüpload.',
+	'TranslitFileName'			=> 'Transliterate file names:',
+	'TranslitFileNameInfo'		=> 'Als het van toepassing is en er is geen noodzaak om Unicode-tekens te gebruiken, is het sterk aanbevolen om alleen alfanumerieke tekens te accepteren.',
+	'TranslitCaseFolding'		=> 'Converteer bestandsnamen naar kleine letters:',
+	'TranslitCaseFoldingInfo'	=> 'Deze optie werkt alleen bij actieve transliteratie.',
 
 	'Thumbnails'				=> 'Thumbnails',
-	'CreateThumbnail'			=> 'Create thumbnail:',
-	'CreateThumbnailInfo'		=> 'Create a thumbnail in all possible situations.',
-	'JpegQuality'				=> 'JPEG 품질:',
-	'JpegQualityInfo'			=> 'JPEG 섬네일 크기 조정 시 품질입니다. 이 값은 1에서 100 사이여야 하며 100은 100% 품질을 나타냅니다.',
+	'CreateThumbnail'			=> 'Miniatuur aanmaken:',
+	'CreateThumbnailInfo'		=> 'Maakt een miniatuur aan in alle mogelijke situaties.',
+	'JpegQuality'				=> 'JPEG-kwaliteit:',
+	'JpegQualityInfo'			=> 'Kwaliteit bij het schalen van een JPEG-miniatuur. Deze moet liggen tussen 1 en 100, waarbij 100 staat voor 100% kwaliteit.',
 	'MaxImageArea'				=> 'Maximum Image Area:',
-	'MaxImageAreaInfo'			=> '소스 이미지가 가질 수 있는 최대 픽셀 수입니다. 이는 이미지 스케일러의 압축 해제 측에 대한 메모리 사용량 제한을 제공합니다. <br><code>-1</code>은 이미지 크기를 확인하기 전에 스케일링을 시도하지 않음을 의미합니다. <code>0</code>은 값을 자동으로 결정한다는 의미입니다.',
-	'MaxThumbWidth'				=> 'Maximum thumbnail width in pixels:',
-	'MaxThumbWidthInfo'			=> 'A generated thumbnail will not exceed the width set here.',
-	'MinThumbFilesize'			=> 'Minimum thumbnail file size:',
-	'MinThumbFilesizeInfo'		=> 'Do not create a thumbnail for images smaller than this.',
-	'MaxImageWidth'				=> '페이지의 이미지 크기 제한:',
-	'MaxImageWidthInfo'			=> '페이지에서 이미지가 가질 수 있는 최대 너비이며, 그렇지 않으면 축소된 썸네일이 생성됩니다.',
+	'MaxImageAreaInfo'			=> 'Het maximum aantal pixels dat een bronafbeelding kan hebben. Dit geeft een limiet aan het geheugengebruik voor de decompressiekant van de beeldschaler. <br><code>-1</code> betekent dat de grootte van de afbeelding niet wordt gecontroleerd voordat wordt geprobeerd deze te schalen. <code>0</code> betekent dat de waarde automatisch wordt bepaald.',
+	'MaxThumbWidth'				=> 'Maximum miniatuur breedte in pixel:',
+	'MaxThumbWidthInfo'			=> 'Een aangemaakte miniatuur zal de hier ingestelde breedte niet overschrijden.',
+	'MinThumbFilesize'			=> 'Minimum miniatuur bestandsgrootte:',
+	'MinThumbFilesizeInfo'		=> 'Maakt geen miniatuur aan voor afbeeldingen kleiner dan dit.',
+	'MaxImageWidth'				=> 'Afbeeldingsgroottelimiet op pagina\'s:',
+	'MaxImageWidthInfo'			=> 'De maximale breedte die een afbeelding mag hebben op pagina\'s, anders wordt een verkleinde thumbnail gegenereerd.
+',
 
 	// Deleted module
 	'DeletedObjectsInfo'		=> 'List of removed pages, revisions and files.
@@ -960,9 +956,9 @@ $ap_translation = [
 		'3'		=> 'equal',
 	],
 	'LogNoMatch'				=> 'No events that meet the criteria',
-	'LogDate'					=> 'Date',
+	'LogDate'					=> 'Datum',
 	'LogEvent'					=> 'Event',
-	'LogUsername'				=> '사용자 이름',
+	'LogUsername'				=> 'Gebruikersnaam',
 	'LogLevels'	=> [
 		'1'		=> 'critical',
 		'2'		=> 'highest',
@@ -974,39 +970,39 @@ $ap_translation = [
 	],
 
 	// Massemail module
-	'MassemailInfo'				=> 'Here you can email a message to either (1) all of your users or (2) all users of a specific group who have enabled receiving of mass emails. An email will be sent out to the administrative email address supplied, with a blind carbon copy (BCC) sent to all recipients. The default setting is to include a maximum of 20 recipients in such an email. If there are more than 20 recipients, additional emails will be sent. If you are emailing a large group of people, please be patient after submitting and do not stop the page halfway through. It is normal for a mass emailing to take a long time. You will be notified when the script has completed.',
+	'MassemailInfo'				=> 'Hier kan je een e-mail naar alle gebruikers of de leden van een specifieke groep sturen, <strong>die de ontvangst van massa e-mails toelaten</strong>. Hiervoor wordt een e-mail met alle ontvangers als onzichtbaar (bcc) ingesteld, naar het beheerders-e-mailadres gestuurd. Bij de standaard instellingen wordt de e-mail naar 20 mensen per pakket gestuurd. Indien er meer dan 50 ontvangers zijn, wordt de e-mail via meerdere pakketten verzonden. Indien je een e-mail naar een grote groep stuurt, wees dan geduldig en stop de pagina niet halverwege. Het is normaal dat het versturen van massa e-mails enige tijd in beslag neemt. Je wordt ervan op de hoogte gebracht zodra het script klaar is.',
 	'LogMassemail'				=> 'Mass email send %1 to group / user ',
 	'MassemailSend'				=> 'Mass email send',
 
-	'NoEmailMessage'			=> 'You must enter a message.',
-	'NoEmailSubject'			=> 'You must specify a subject for your message.',
+	'NoEmailMessage'			=> 'Het berichtveld is nog leeg.',
+	'NoEmailSubject'			=> 'Je hebt geen onderwerp opgegeven.',
 	'NoEmailRecipient'			=> 'You must specify at least one user or user group.',
 
 	'MassemailSection'			=> 'Mass email',
-	'MessageSubject'			=> '제목:',
+	'MessageSubject'			=> 'Onderwerp:',
 	'MessageSubjectInfo'		=> '',
-	'YourMessage'				=> 'Your message:',
-	'YourMessageInfo'			=> 'Please note that you may enter only plain text. All markup will be removed before sending.',
+	'YourMessage'				=> 'Je bericht:',
+	'YourMessageInfo'			=> 'Het bericht wordt verzonden zonder tekst-opmaak. Alle opmaak wordt voor het verzenden verwijderd.',
 
-	'NoUser'					=> 'No user',
-	'NoUserGroup'				=> 'No user group',
+	'NoUser'					=> 'Geen gebruiker',
+	'NoUserGroup'				=> 'Geen gebruikersgroep',
 
-	'SendToGroup'				=> 'Send to group:',
-	'SendToUser'				=> 'Send to user:',
+	'SendToGroup'				=> 'Verstuur naar groep:',
+	'SendToUser'				=> 'Verstuur naar gebruikers:',
 	'SendToUserInfo'			=> 'Only users who permit administrators to email them information will receive mass emails. This option is available in their user settings under Notifications.',
 
 	// System message module
 	'SystemMessageInfo'			=> '',
-	'SysMsgUpdated'				=> 'Updated system message',
+	'SysMsgUpdated'				=> 'Systeembericht bijgewerkt',
 
-	'SysMsgSection'				=> 'System message',
-	'SysMsg'					=> 'System message:',
+	'SysMsgSection'				=> 'Systeemmelding',
+	'SysMsg'					=> 'Systeemmelding:',
 	'SysMsgInfo'				=> 'Your text here',
 
 	'SysMsgType'				=> 'Type:',
 	'SysMsgTypeInfo'			=> 'Message type (CSS).',
-	'SysMsgAudience'			=> 'Audience:',
-	'SysMsgAudienceInfo'		=> 'Audience the system message is shown to.',
+	'SysMsgAudience'			=> 'Publiek:',
+	'SysMsgAudienceInfo'		=> 'Het publiek aan wie het systeembericht wordt getoond.',
 	'EnableSysMsg'				=> 'Enable system message:',
 	'EnableSysMsgInfo'			=> 'Show system message.',
 
@@ -1020,9 +1016,9 @@ $ap_translation = [
 	'LogUserUpdated'			=> 'Updated User ##%1##',
 
 	'UserApproveInfo'			=> 'Approve new users before they are able to login to the site.',
-	'Approve'					=> '승인',
-	'Deny'						=> '거절',
-	'Pending'					=> 'Pending',
+	'Approve'					=> 'Approve',
+	'Deny'						=> 'Deny',
+	'Pending'					=> 'Hangende',
 	'Approved'					=> 'Approved',
 	'Denied'					=> 'Denied',
 
@@ -1032,8 +1028,8 @@ $ap_translation = [
 	'BackupFolder'				=> 'Folder',
 	'BackupTable'				=> 'Table',
 	'BackupCluster'				=> 'Cluster:',
-	'BackupFiles'				=> '파일',
-	'BackupNote'				=> '참고:',
+	'BackupFiles'				=> 'Bestanden',
+	'BackupNote'				=> 'Opmerking:',
 	'BackupSettings'			=> 'Specify the desired scheme of backup.<br>' .
 									'The root cluster does not affect the global files backup and cache files backup (if chosen, they are always saved in full).<br>' .
 									'<br>' .
@@ -1041,7 +1037,7 @@ $ap_translation = [
 									'same as when backing up only table structure without saving the data. ' .
 									'To make a complete conversion of the tables to the backup format you must make the <em> full database backup (structure and data) without specifying the cluster</em>.',
 	'BackupCompleted'			=> 'Backing up and archiving completed.<br>' .
-									'The Backup package files were stored in the sub-directory %1.<br>' .
+									'The Backup package files were stored in the following sub-directory %1.<br>' .
 									'To download it use FTP (maintain the directory structure and file names when copying).<br>' .
 									'To restore a backup copy or remove a package, go to <a href="%2">Restore database</a>.',
 	'LogSavedBackup'			=> 'Saved backup database ##%1##',
@@ -1050,11 +1046,11 @@ $ap_translation = [
 
 	// DB Restore module
 	'RestoreInfo'				=> 'You can restore any of the backup packages found, or remove them from the server.',
-	'ConfirmDbRestore'			=> 'Do you want to restore backup %1?',
-	'ConfirmDbRestoreInfo'		=> 'Please wait, this can take some time.',
+	'ConfirmDbRestore'			=> 'Wilt u back-up %1 herstellen?',
+	'ConfirmDbRestoreInfo'		=> 'Wacht alstublieft even, dit kan enkele minuten duren.',
 	'RestoreWrongVersion'		=> 'Wrong WackoWiki version!',
-	'DirectoryNotExecutable'	=> 'The %1 directory is not executable.',
-	'BackupDelete'				=> 'Are you sure you want to remove backup %1?',
+	'DirectoryNotExecutable'	=> 'De map %1 is niet uitvoerbaar.',
+	'BackupDelete'				=> 'Weet u zeker dat u back-up %1 wilt verwijderen?',
 	'BackupDeleteInfo'			=> '',
 	'RestoreOptions'			=> 'Additional restore options:',
 	'RestoreOptionsInfo'		=> '* Before restoring the <strong>cluster backup</strong>, ' .
@@ -1089,7 +1085,7 @@ $ap_translation = [
 	'NoTableStructure'			=> 'The structure of the tables was not saved - skip',
 	'RestoreRecords'			=> 'Restore the contents of tables',
 	'ProcessTablesDump'			=> 'Just download and process table dumps',
-	'Instruction'				=> 'Instruction',
+	'Instruction'				=> 'Instructie',
 	'RestoredRecords'			=> 'records:',
 	'RecordsRestoreDone'		=> 'Completed. Total entries:',
 	'SkippedRecords'			=> 'Data not saved - skip',
@@ -1098,34 +1094,34 @@ $ap_translation = [
 	'HomonymicFiles'			=> 'homonymic files',
 	'RestoreSkip'				=> 'skip',
 	'RestoreReplace'			=> 'replace',
-	'RestoreFile'				=> '파일:',
+	'RestoreFile'				=> 'Bestand:',
 	'RestoredFiles'				=> 'restored:',
 	'SkippedFiles'				=> 'skipped:',
 	'FileRestoreDone'			=> 'Completed. Total files:',
-	'FilesAll'					=> '전체:',
+	'FilesAll'					=> 'alle:',
 	'SkipFiles'					=> 'Files are not stored - skip',
 	'RestoreDone'				=> 'RESTORATION COMPLETED',
 
 	'BackupCreationDate'		=> 'Creation Date',
 	'BackupPackageContents'		=> 'The contents of the package',
-	'BackupRestore'				=> '복구',
-	'BackupRemove'				=> '제거',
-	'RestoreYes'				=> 'Yes',
-	'RestoreNo'					=> 'No',
+	'BackupRestore'				=> 'Herstellen',
+	'BackupRemove'				=> 'Verwijderen',
+	'RestoreYes'				=> 'Ja',
+	'RestoreNo'					=> 'Nee',
 	'LogDbRestored'				=> 'Backup ##%1## of the database restored.',
 
-	'BackupArchived'			=> '백업 %1을(를) 보관했습니다.',
-	'BackupArchiveExists'		=> '백업 아카이브 %1이(가) 이미 있습니다.',
-	'LogBackupArchived'			=> '백업 ##%1##을(를) 보관했습니다.',
+	'BackupArchived'			=> 'Back-up %1 gearchiveerd.',
+	'BackupArchiveExists'		=> 'Back-uparchief %1 bestaat al.',
+	'LogBackupArchived'			=> 'Back-up ##%1## gearchiveerd.',
 
 	// User module
 	'UsersInfo'					=> 'Here you can change your users information and certain specific options.',
 
-	'UsersAdded'				=> 'User added',
+	'UsersAdded'				=> 'Gebruiker toegevoegd',
 	'UsersDeleteInfo'			=> '[User delete Info here..]',
-	'EditButton'				=> '편집',
+	'EditButton'				=> 'Bewerk',
 	'UsersAddNew'				=> 'Add new user',
-	'UsersDelete'				=> 'Are you sure you want to remove user %1?',
+	'UsersDelete'				=> 'Weet u zeker dat u gebruiker %1 wilt verwijderen?',
 	'UsersDeleted'				=> 'The user %1 was deleted from the database.',
 	'UsersRename'				=> 'Rename the user %1 to',
 	'UsersRenameInfo'			=> '* Note: Change will affect all pages that are assigned to that user.',
@@ -1136,10 +1132,10 @@ $ap_translation = [
 	'UserActions'				=> 'Actions',
 	'NoMatchingUser'			=> 'No users that meet the criteria',
 
-	'UserAccountNotify'			=> 'Notify user',
-	'UserNotifySignup'			=> 'inform the user about the new account',
-	'UserVerifyEmail'			=> 'set email confirm token and add link for email verification',
-	'UserReVerifyEmail'			=> 'Re-send email confirm token',
+	'UserAccountNotify'			=> 'Gebruiker informeren',
+	'UserNotifySignup'			=> 'de gebruiker informeren over het nieuwe account',
+	'UserVerifyEmail'			=> 'e-mailbevestig token instellen en een link toevoegen voor e-mailverificatie',
+	'UserReVerifyEmail'			=> 'Verzend het e-mailbevestigingstoken opnieuw',
 
 	// Groups module
 	'GroupsInfo'				=> 'From this panel you can administrate all your usergroups. You can delete, create and edit existing groups. Furthermore, you may choose group leaders, toggle open/hidden/closed group status and set the group name and description.',
@@ -1152,10 +1148,10 @@ $ap_translation = [
 	'LogGroupRemoved'			=> 'Removed group ##%1##',
 
 	'GroupsMembersFor'			=> 'Members for Group',
-	'GroupsDescription'			=> '설명',
-	'GroupsModerator'			=> '사회자',
+	'GroupsDescription'			=> 'Beschrijving',
+	'GroupsModerator'			=> 'Moderator',
 	'GroupsOpen'				=> 'Open',
-	'GroupsActive'				=> 'Active',
+	'GroupsActive'				=> 'Actief',
 	'GroupsTip'					=> 'Click to edit Group',
 	'GroupsUpdated'				=> 'Groups updated',
 	'GroupsAlreadyExists'		=> 'This group already exists.',
@@ -1165,17 +1161,17 @@ $ap_translation = [
 	'GroupsAdd'					=> 'Add a new group',
 	'GroupsRename'				=> 'Rename the group %1 to',
 	'GroupsRenameInfo'			=> '* Note: Change will affect all pages that are assigned to that group.',
-	'GroupsDelete'				=> 'Are you sure you want to remove group %1?',
+	'GroupsDelete'				=> 'Weet u zeker dat u groep %1 wilt verwijderen?',
 	'GroupsDeleteInfo'			=> '* Note: Change will affect all members that are assigned to that group.',
-	'GroupsIsSystem'			=> 'The group %1 belongs to the system and cannot be removed.',
+	'GroupsIsSystem'			=> 'De groep %1 behoort tot het systeem en kan niet worden verwijderd.',
 	'GroupsStoreButton'			=> 'Save Groups',
 	'GroupsEditInfo'			=> 'To edit the groups list select the radio button.',
 
-	'GroupAddMember'			=> 'Add member',
-	'GroupRemoveMember'			=> 'Remove Member',
-	'GroupAddNew'				=> 'Add group',
-	'GroupEdit'					=> 'Edit Group',
-	'GroupDelete'				=> 'Remove Group',
+	'GroupAddMember'			=> 'Lid toevoegen',
+	'GroupRemoveMember'			=> 'Lid verwijderen',
+	'GroupAddNew'				=> 'Groep toevoegen',
+	'GroupEdit'					=> 'Groep bewerken',
+	'GroupDelete'				=> 'Groep verwijderen',
 
 	'MembersAddNew'				=> 'Add new member',
 	'MembersAdded'				=> 'Added new member to the group successfully.',
@@ -1186,19 +1182,19 @@ $ap_translation = [
 	'DbStatSection'				=> 'Database Statistics',
 	'DbTable'					=> 'Table',
 	'DbRecords'					=> 'Records',
-	'DbSize'					=> '크기',
+	'DbSize'					=> 'Grootte',
 	'DbIndex'					=> 'Index',
 	'DbOverhead'				=> 'Overhead',
-	'DbTotal'					=> 'Total',
+	'DbTotal'					=> 'Totaal',
 
 	'FileStatSection'			=> 'File system Statistics',
 	'FileFolder'				=> 'Folder',
-	'FileFiles'					=> '파일',
-	'FileSize'					=> '크기',
-	'FileTotal'					=> 'Total',
+	'FileFiles'					=> 'Bestanden',
+	'FileSize'					=> 'Grootte',
+	'FileTotal'					=> 'Totaal',
 
 	// Sysinfo module
-	'SysInfo'					=> 'Version information:',
+	'SysInfo'					=> 'Versie informatie:',
 	'SysParameter'				=> 'Parameter',
 	'SysValues'					=> 'Values',
 
@@ -1244,10 +1240,10 @@ $ap_translation = [
 
 	// Inconsistencies module
 	'InconsistenciesInfo'		=> 'Show and fix inconsistencies, delete or assign orphaned records to a new user / value.',
-	'Inconsistencies'			=> 'Inconsistencies',
-	'CheckDatabase'				=> '데이터베이스',
+	'Inconsistencies'			=> 'Inconsistenties',
+	'CheckDatabase'				=> 'Database',
 	'CheckDatabaseInfo'			=> 'Checks for record inconsistencies in the database.',
-	'CheckFiles'				=> '파일',
+	'CheckFiles'				=> 'Bestanden',
 	'CheckFilesInfo'			=> 'Checks for abandoned files, files with no reference left in the file table.',
 	'Records'					=> 'Records',
 	'InconsistenciesNone'		=> 'No Data Inconsistencies found.',
@@ -1264,7 +1260,7 @@ $ap_translation = [
 
 	'BbSummary'					=> 'Summary',
 	'BbLog'						=> 'Log',
-	'BbSettings'				=> '설정',
+	'BbSettings'				=> 'Instellingen',
 	'BbWhitelist'				=> 'Whitelist',
 
 	// --> Log
@@ -1277,7 +1273,7 @@ $ap_translation = [
 	'BbGetPost'					=> 'GET/POST',
 	'BbUri'						=> 'URI',
 	'BbRecordsAll'				=> 'Displaying all %1 records',
-	'BbShow'					=> '표시하기',
+	'BbShow'					=> 'Show',
 	'BbIpDateStatus'			=> 'IP/Date/Status',
 	'BbHeaders'					=> 'Headers',
 	'BbEntity'					=> 'Entity',
