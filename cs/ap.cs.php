@@ -8,51 +8,51 @@ if (!defined('IN_WACKO'))
 $ap_translation = [
 
 	'CategoryArray'		=> [
-		'basics'		=> 'Basic functions',
-		'preferences'	=> 'Preferenciák',
-		'content'		=> 'Tartalom',
-		'users'			=> 'Felhasználók',
-		'maintenance'	=> 'Karbantartás',
-		'messages'		=> 'Üzenetek',
-		'extension'		=> 'Kiterjesztés',
-		'database'		=> 'Adatbázis',
+		'basics'		=> 'Funzioni base',
+		'preferences'	=> 'Preferenze',
+		'content'		=> 'Contenuto',
+		'users'			=> 'Utenti',
+		'maintenance'	=> 'Manutenzione',
+		'messages'		=> 'Messaggi',
+		'extension'		=> 'Extension',
+		'database'		=> 'Database',
 	],
 
 	// Admin panel
-	'AdminPanel'				=> 'Adminisztrátori vezérlőpult',
-	'RecoveryMode'				=> 'Recovery Mode',
-	'Authorization'				=> 'Authorization',
-	'AuthorizationTip'			=> 'Kérjük, adja meg az adminisztrátori jelszót (győződjön meg arról is, hogy a böngészőben engedélyezik a sütik használatát).',
-	'NoRecoveryPassword'		=> 'Az adminisztrációs jelszó nincs megadva!',
-	'NoRecoveryPasswordTip'		=> 'Megjegyzés: Az adminisztrációs jelszó hiánya veszélyezteti a biztonságot! Írja be jelszavát a konfigurációs fájlba, és futtassa újra a programot.',
+	'AdminPanel'				=> 'Pannello di Controllo Amministrazione',
+	'RecoveryMode'				=> 'Modalità di recupero',
+	'Authorization'				=> 'Autorizzazione',
+	'AuthorizationTip'			=> 'Inserisci la password amministrativa (assicurati anche che i cookie siano ammessi nel tuo browser).',
+	'NoRecoveryPassword'		=> 'La password amministrativa non è specificata!',
+	'NoRecoveryPasswordTip'		=> 'Nota: l’assenza di una password amministrativa è una minaccia alla sicurezza! Inserisci la tua password nel file di configurazione ed esegui nuovamente il programma.',
 
 	'ErrorLoadingModule'		=> 'Error loading admin module %1: does not exist.',
 
-	'ApHomePage'				=> 'Címlap',
+	'ApHomePage'				=> 'Home Page',
 	'ApHomePageTip'				=> 'Open the home page, you do not quit system administration',
-	'ApLogOut'					=> 'Kilépés',
+	'ApLogOut'					=> 'Esci',
 	'ApLogOutTip'				=> 'Quit system administration',
 
-	'TimeLeft'					=> 'Hátralévő idő:  %1 perc',
-	'ApVersion'					=> 'verzió',
+	'TimeLeft'					=> 'Tempo rimasto: %1 minuti',
+	'ApVersion'					=> 'versione',
 
-	'SiteOpen'					=> 'Nyitott',
+	'SiteOpen'					=> 'Open',
 	'SiteOpened'				=> 'site opened',
 	'SiteOpenedTip'				=> 'The site is open',
-	'SiteClose'					=> 'Bezár',
+	'SiteClose'					=> 'Close',
 	'SiteClosed'				=> 'site closed',
 	'SiteClosedTip'				=> 'The site is closed',
 
 	'System'					=> 'System',
 
 	// Generic
-	'Cancel'					=> 'Mégse',
-	'Add'						=> 'Hozzáadás',
-	'Edit'						=> 'Szerkesztés',
-	'Remove'					=> 'Eltávolítás',
-	'Enabled'					=> 'Engedélyezett',
-	'Disabled'					=> 'Tiltott',
-	'Mandatory'					=> 'Kötelező',
+	'Cancel'					=> 'Annulla',
+	'Add'						=> 'Aggiungi',
+	'Edit'						=> 'Modifica',
+	'Remove'					=> 'Rimuovere',
+	'Enabled'					=> 'Abilitata',
+	'Disabled'					=> 'Disabilitata',
+	'Mandatory'					=> 'Obbligatorio',
 	'Admin'						=> 'Admin',
 	'Min'						=> 'Min',
 	'Max'						=> 'Max',
@@ -60,7 +60,7 @@ $ap_translation = [
 	'MiscellaneousSection'		=> 'Miscellaneous',
 	'MainSection'				=> 'Basic Parameters',
 
-	'DirNotWritable'			=> 'The %1 directory is not writable.',
+	'DirNotWritable'			=> 'La directory %1 non è scrivibile',
 	'FileNotWritable'			=> 'The %1 file is not writable.',
 
 	/**
@@ -74,32 +74,32 @@ $ap_translation = [
 
 	// Config Basic module
 	'config_basic'		=> [
-		'name'		=> 'Alapvető',
-		'title'		=> 'Alapparaméterek',
+		'name'		=> 'Base',
+		'title'		=> 'Parametri base',
 	],
 
 	// Config Appearance module
 	'config_appearance'		=> [
-		'name'		=> 'Kinézet',
-		'title'		=> 'Kinézet beállítások',
+		'name'		=> 'Aspetto',
+		'title'		=> 'Appearance settings',
 	],
 
 	// Config Email module
 	'config_email'		=> [
 		'name'		=> 'E-mail',
-		'title'		=> 'E-mail beállítások',
+		'title'		=> 'Impostazioni e-mail',
 	],
 
 	// Config Syndication module
 	'config_syndication'		=> [
-		'name'		=> 'Hírfolyam',
-		'title'		=> 'Hírfolyam beállítások',
+		'name'		=> 'Sindacato',
+		'title'		=> 'Impostazioni di syndication',
 	],
 
 	// Config Filter module
 	'config_filter'		=> [
-		'name'		=> 'Szűrő',
-		'title'		=> 'Szűrőbeállítások',
+		'name'		=> 'Filter',
+		'title'		=> 'Filter settings',
 	],
 
 	// Config Formatter module
@@ -110,86 +110,86 @@ $ap_translation = [
 
 	// Config Notifications module
 	'config_notifications'		=> [
-		'name'		=> 'Értesítések',
-		'title'		=> 'Értesítések beállításai',
+		'name'		=> 'Notifiche',
+		'title'		=> 'Notifications settings',
 	],
 
 	// Config Pages module
 	'config_pages'		=> [
-		'name'		=> 'Oldalak',
-		'title'		=> 'Oldalak és webhelyparaméterek',
+		'name'		=> 'Pagine',
+		'title'		=> 'Pages and site parameters',
 	],
 
 	// Config Permissions module
 	'config_permissions'		=> [
-		'name'		=> 'Jogosultságok',
+		'name'		=> 'Permessi',
 		'title'		=> 'Permissions settings',
 	],
 
 	// Config Security module
 	'config_security'		=> [
-		'name'		=> 'Biztonság',
-		'title'		=> 'Biztonsági alrendszerek beállításai',
+		'name'		=> 'Security',
+		'title'		=> 'Security subsystems settings',
 	],
 
 	// Config System module
 	'config_system'		=> [
-		'name'		=> 'Rendszer',
-		'title'		=> 'Rendszeropciók',
+		'name'		=> 'System',
+		'title'		=> 'System options',
 	],
 
 	// Config Upload module
 	'config_upload'		=> [
-		'name'		=> 'Feltöltés',
-		'title'		=> 'Melléklet beállításai',
+		'name'		=> 'Carica',
+		'title'		=> 'Attachment settings',
 	],
 
 	// Deleted module
 	'content_deleted'		=> [
-		'name'		=> 'Törölve',
-		'title'		=> 'Újonnan törölt tartalom',
+		'name'		=> 'Deleted',
+		'title'		=> 'Newly deleted content',
 	],
 
 	// Menu module
 	'content_menu'		=> [
-		'name'		=> 'Menü',
-		'title'		=> 'Alapértelmezett menüelemek hozzáadása, szerkesztése vagy eltávolítása',
+		'name'		=> 'Menu',
+		'title'		=> 'Add, edit or remove default menu items',
 	],
 
 	// DB Backup module
 	'db_backup'		=> [
-		'name'		=> 'Kimentés',
-		'title'		=> 'Adatok biztonsági mentése',
+		'name'		=> 'Backup',
+		'title'		=> 'Backing up data',
 	],
 
 	// DB Repair module
 	'db_repair'		=> [
-		'name'		=> 'Javítás',
-		'title'		=> 'Javítás és optimalizálás adatbázisban',
+		'name'		=> 'Repair',
+		'title'		=> 'Repair and Optimize Database',
 	],
 
 	// DB Restore module
 	'db_restore'		=> [
-		'name'		=> 'Visszaállítás',
-		'title'		=> 'Visszaállítása mentési adatok',
+		'name'		=> 'Ripristina',
+		'title'		=> 'Restoring backup data',
 	],
 
 	// Dashboard module
 	'main'		=> [
-		'name'		=> 'Főmenü',
-		'title'		=> 'WackoWiki adminisztráció',
+		'name'		=> 'Main Menu',
+		'title'		=> 'WackoWiki Administration',
 	],
 
 	// Inconsistencies module
 	'maint_inconsistencies'		=> [
-		'name'		=> 'Következetlenségek',
-		'title'		=> 'Az adatok ellentmondásainak kijavítása',
+		'name'		=> 'Inconsistencies',
+		'title'		=> 'Fixing Data Inconsistencies',
 	],
 
 	// Data Synchronization module
 	'maint_resync'		=> [
-		'name'		=> 'Adatok szinkronizálása',
-		'title'		=> 'Adatok szinkronizálása',
+		'name'		=> 'Data Synchronization',
+		'title'		=> 'Synchronizing data',
 	],
 
 	// Mass email module
@@ -200,26 +200,26 @@ $ap_translation = [
 
 	// System message module
 	'messages'		=> [
-		'name'		=> 'Rendszerüzenet',
-		'title'		=> 'Rendszerüzenetek',
+		'name'		=> 'System message',
+		'title'		=> 'System messages',
 	],
 
 	// System Info module
 	'system_info'		=> [
-		'name'		=> 'Rendszer információ',
-		'title'		=> 'Rendszer információ',
+		'name'		=> 'System Info',
+		'title'		=> 'System Information',
 	],
 
 	// System log module
 	'system_log'		=> [
-		'name'		=> 'Rendszernapló',
-		'title'		=> 'A rendszeresemények naplója',
+		'name'		=> 'System log',
+		'title'		=> 'Log of system events',
 	],
 
 	// Statistics module
 	'system_statistics'		=> [
-		'name'		=> 'Statisztika',
-		'title'		=> 'Statisztikák megjelenítése',
+		'name'		=> 'Statistics',
+		'title'		=> 'Show statistics',
 	],
 
 	// Bad Behaviour module
@@ -230,26 +230,26 @@ $ap_translation = [
 
 	// Registration Approval module
 	'user_approve'		=> [
-		'name'		=> 'Jóváhagy',
-		'title'		=> 'Felhasználói regisztráció jóváhagyása',
+		'name'		=> 'Approve',
+		'title'		=> 'User registration approval',
 	],
 
 	// Groups module
 	'user_groups'		=> [
-		'name'		=> 'Csoportok',
-		'title'		=> 'Csoportok kezelése',
+		'name'		=> 'Gruppi',
+		'title'		=> 'Group management',
 	],
 
 	// User module
 	'user_users'		=> [
-		'name'		=> 'Felhasználók',
-		'title'		=> 'Felhasználók kezelése',
+		'name'		=> 'Utenti',
+		'title'		=> 'User management',
 	],
 
 	// Main module
 	'MainNote'					=> 'Note: It is recommended that access to the site be temporarily blocked for administrative maintenance.',
 
-	'PurgeSessions'				=> 'Purge',
+	'PurgeSessions'				=> 'Purga',
 	'PurgeSessionsTip'			=> 'Purge all sessions',
 	'PurgeSessionsConfirm'		=> 'Are you sure you wish to purge all sessions? This will log out all users.',
 	'PurgeSessionsExplain'		=> 'Purge all sessions. This will log out all users by truncating the auth_token table.',
@@ -267,16 +267,16 @@ $ap_translation = [
 	'AdminName'					=> 'Admin of site:',
 	'AdminNameInfo'				=> 'User name of individual who is responsible for overall support of the site. This name is not used to determine access rights, but it is desirable that it conforms to the name of the chief administrator of the site.',
 
-	'LanguageSection'			=> 'Nyelv',
-	'DefaultLanguage'			=> 'Alapértelmezett nyelv:',
+	'LanguageSection'			=> 'Lingua',
+	'DefaultLanguage'			=> 'Default language:',
 	'DefaultLanguageInfo'		=> 'Specifies the language of messages displayed to unregistered guests, as well as the locale settings.',
 	'MultiLanguage'				=> 'Multilanguage support:',
 	'MultiLanguageInfo'			=> 'Enable the ability to select a language on a page-by-page basis.',
-	'AllowedLanguages'			=> 'Engedélyezett nyelvek:',
-	'AllowedLanguagesInfo'		=> 'Javasoljuk, hogy csak azt a nyelvkészletet válassza, amelyet használni szeretne, egyébként minden nyelvet kiválasztva.',
+	'AllowedLanguages'			=> 'Allowed languages:',
+	'AllowedLanguagesInfo'		=> 'Si consiglia di selezionare solo l’insieme delle lingue che si desidera utilizzare, altre saggiamente tutte le lingue sono selezionate.',
 
-	'CommentSection'			=> 'Hozzászólások',
-	'AllowComments'				=> 'Hozzászólások engedélyezése:',
+	'CommentSection'			=> 'Commenti',
+	'AllowComments'				=> 'Allow comments:',
 	'AllowCommentsInfo'			=> 'Enable comments for guests or registered users only, or disable them on the entire site.',
 	'SortingComments'			=> 'Sorting comments:',
 	'SortingCommentsInfo'		=> 'Changes the order the page comments are presented, either with the most recent OR the oldest comment at the top.',
@@ -320,12 +320,12 @@ $ap_translation = [
 	'NotifyDiffModeInfo'		=> 'Diff mode used for notifications in the email body.',
 
 	'EditingSection'			=> 'Editing',
-	'EditSummary'				=> 'A változások összefoglalása:',
+	'EditSummary'				=> 'Edit summary:',
 	'EditSummaryInfo'			=> 'Shows change summary in the edit mode.',
-	'MinorEdit'					=> 'Apróbb változások:',
+	'MinorEdit'					=> 'Modifica minore:',
 	'MinorEditInfo'				=> 'Enables minor edit option in the edit mode.',
-	'SectionEdit'				=> 'Szekció szerkesztés:',
-	'SectionEditInfo'			=> 'Csak az oldal egy szakaszának szerkesztését teszi lehetővé.',
+	'SectionEdit'				=> 'Modifica sezione:',
+	'SectionEditInfo'			=> 'Consente di modificare solo una sezione di una pagina.',
 	'ReviewSettings'			=> 'Review:',
 	'ReviewSettingsInfo'		=> 'Enables review option in the edit mode.',
 	'PublishAnonymously'		=> 'Allow anonymous publishing:',
@@ -342,24 +342,24 @@ $ap_translation = [
 	'EnableReferrers'			=> 'Enable referrers:',
 	'EnableReferrersInfo'		=> 'Permits creation and display of external referrers.',
 	'ReferrersPurgeTime'		=> 'Storage time of referrers:',
-	'ReferrersPurgeTimeInfo'	=> 'Tartsa a hivatkozott külső oldalak történetét nem több, mint egy megadott napnál. A nulla az örök tárolást jelenti, de egy aktívan meglátogatott webhelyhez ez az adatbázis túlcsordulásához vezethet.',
+	'ReferrersPurgeTimeInfo'	=> 'Conservare la cronologia delle pagine esterne di riferimento non più di un determinato numero di giorni. Zero significa conservazione eterna, ma per un sito visitato attivamente questo può portare ad un overflow del database.',
 	'EnableCounters'			=> 'Hit Counters:',
-	'EnableCountersInfo'		=> 'Allows per page hit counters and enables display of simple statistics. Views of the page owner are not counted.',
+	'EnableCountersInfo'		=> 'Permette il conteggio delle visite per pagina e la visualizzazione di semplici statistiche. Le chiamate del proprietario della pagina non vengono contate.',
 
 	// Syndication settings
-	'SyndicationSettingsInfo'		=> 'Control default web syndication settings for your site.',
-	'SyndicationSettingsUpdated'	=> 'Updated syndication settings.',
+	'SyndicationSettingsInfo'		=> 'Controlla le impostazioni di syndication web predefinite per il vostro sito.',
+	'SyndicationSettingsUpdated'	=> 'Impostazioni di syndication aggiornate.',
 
 	'FeedsSection'				=> 'Feeds',
 	'EnableFeeds'				=> 'Enable feeds:',
-	'EnableFeedsInfo'			=> 'Az RSS-hírcsatornák be- és kikapcsolása a teljes wiki számára.',
+	'EnableFeedsInfo'			=> 'Attiva o disattiva i feed RSS per l’intero wiki.',
 	'XmlChangeLink'				=> 'Changes feed link mode:',
 	'XmlChangeLinkInfo'			=> 'Defines where the XML Changes feed items links to.',
 	'XmlChangeLinkMode'			=> [
-		'1'		=> 'a változás nézetre',
-		'2'		=> 'a jelenlegi oldalra',
-		'3'		=> 'a változatok listájára',
-		'4'		=> 'az átdolgozott oldalra',
+		'1'		=> 'vista differenze',
+		'2'		=> 'pagina attuale',
+		'3'		=> 'elenco revisioni',
+		'4'		=> 'pagina revisionata',
 	],
 
 	'XmlSitemap'				=> 'XML sitemap:',
@@ -367,46 +367,46 @@ $ap_translation = [
 	'XmlSitemapGz'				=> 'XML sitemap compression:',
 	'XmlSitemapGzInfo'			=> 'If you would like, you may compress your sitemap text file using gzip to reduce your bandwidth requirement.',
 	'XmlSitemapTime'			=> 'XML sitemap generation time:',
-	'XmlSitemapTimeInfo'		=> 'A webhelytérképet csak egyszer generálja az adott napszámban, nulla azt jelenti, hogy minden oldalváltozáson megy végbe.',
+	'XmlSitemapTimeInfo'		=> 'Genera la Sitemap una sola volta nel numero di giorni indicato, zero significa ad ogni cambio di pagina.',
 
-	'SearchSection'				=> 'Keresés',
+	'SearchSection'				=> 'Ricerca',
 	'OpenSearch'				=> 'OpenSearch:',
-	'OpenSearchInfo'			=> 'Létrehozza az OpenSearch leíró fájlt az XML mappában, és engedélyezi a keresési bővítmény automatikus felfedezését a HTML fejlécben.',
+	'OpenSearchInfo'			=> 'Crea il file di descrizione di OpenSearch nella cartella XML e abilita l’Autodiscovery del plugin di ricerca nell’intestazione HTML.',
 	'SearchEngineVisibility'	=> 'Block search engines (search engine visibility):',
 	'SearchEngineVisibilityInfo'=> 'Block search engines, but allow normal visitors. Overrides page settings. <br>Discourage search engines from indexing this site. It is up to search engines to honor this request.',
 
 
 
 	// Appearance settings
-	'AppearanceSettingsInfo'	=> 'Állítsa be a webhely alapértelmezett kinézet beállításait.',
-	'AppearanceSettingsUpdated'	=> 'Frissített kinézet beállítások.',
+	'AppearanceSettingsInfo'	=> 'Control default display settings for your site.',
+	'AppearanceSettingsUpdated'	=> 'Updated appearance settings.',
 
-	'LogoOff'					=> 'ki',
-	'LogoOnly'					=> 'logó',
-	'LogoAndTitle'				=> 'logó és cím',
+	'LogoOff'					=> 'Spento',
+	'LogoOnly'					=> 'logo',
+	'LogoAndTitle'				=> 'logo and title',
 
-	'LogoSection'				=> 'Logó',
+	'LogoSection'				=> 'Logo',
 	'SiteLogo'					=> 'Site logo:',
-	'SiteLogoInfo'				=> 'Logója általában az alkalmazás bal felső sarkában jelenik meg. A maximális méret 2 MiB. Optimális méretei 255 pixel széles 55 képpont magas.',
-	'LogoDimensions'			=> 'Logó méretek:',
-	'LogoDimensionsInfo'		=> 'Szélessége és magassága a megjelenített Logó.',
-	'LogoDisplayMode'			=> 'Logó megjelenítési mód:',
-	'LogoDisplayModeInfo'		=> 'Meghatározza a logó megjelenését. Alapban ki van kapcsolva.',
+	'SiteLogoInfo'				=> 'Your logo will typically appear at the top left corner of the application. Max size is 2 MiB. Optimal dimensions are 255 pixels wide by 55 pixels high.',
+	'LogoDimensions'			=> 'Logo dimensions:',
+	'LogoDimensionsInfo'		=> 'Width and height of the displayed logo.',
+	'LogoDisplayMode'			=> 'Logo display mode:',
+	'LogoDisplayModeInfo'		=> 'Defines the appearance of the logo. Default is off.',
 
 	'FaviconSection'			=> 'Favicon',
-	'SiteFavicon'				=> 'Favicon webhely:',
-	'SiteFaviconInfo'			=> 'A parancsikon favicon megjelenik a legtöbb böngésző címsorában, lapjain és könyvjelzőiben. Ez felülírja a favicon a témát.',
-	'SiteFaviconTooBig'			=> 'A Favicon nagyobb, mint 64 × 64px.',
-	'ThemeColor'				=> 'Theme color for address bar:',
-	'ThemeColorInfo'			=> 'A böngésző minden oldal címsorának színét a megadott CSS-színnek megfelelően állítja be.',
+	'SiteFavicon'				=> 'Site favicon:',
+	'SiteFaviconInfo'			=> 'Your shortcut icon, or favicon, is displayed in the address bar, tabs and bookmarks of most browsers. This will override the favicon of your theme.',
+	'SiteFaviconTooBig'			=> 'Favicon è più grande di 64 × 64px.',
+	'ThemeColor'				=> 'Colore del tema per la barra degli indirizzi:',
+	'ThemeColorInfo'			=> 'Il browser imposterà il colore della barra degli indirizzi di ogni pagina secondo il colore CSS fornito.',
 
-	'LayoutSection'				=> 'Elrendezés',
-	'Theme'						=> 'Sablon:',
-	'ThemeInfo'					=> 'A webhely alapértelmezés szerint használt sablontervezése.',
-	'ThemesAllowed'				=> 'Engedélyezett sablonok:',
-	'ThemesAllowedInfo'			=> 'Válassza ki a megengedett sablonok, amelyeket a felhasználó választhat, különben az összes elérhető sablonok engedélyezett.',
-	'ThemesPerPage'				=> 'Sablonok oldalanként:',
-	'ThemesPerPageInfo'			=> 'Engedélyezzen sablonokat oldalanként, amelyeket az oldal tulajdonosa az oldal tulajdonságain keresztül választhat ki.',
+	'LayoutSection'				=> 'Layout',
+	'Theme'						=> 'Theme:',
+	'ThemeInfo'					=> 'Template design the site uses by default.',
+	'ThemesAllowed'				=> 'Allowed Themes:',
+	'ThemesAllowedInfo'			=> 'Select the allowed themes, which the user can choose; otherwise, all available themes are allowed.',
+	'ThemesPerPage'				=> 'Themes per page:',
+	'ThemesPerPageInfo'			=> 'Allow themes per page, which the page owner can choose via page properties.',
 
 	// System settings
 	'SystemSettingsInfo'		=> 'Group of parameters responsible for fine-tuning the site. Do not change them unless you are confident in their actions.',
@@ -469,22 +469,20 @@ $ap_translation = [
 
 	'ReverseProxySection'		=> 'Reverse Proxy',
 	'ReverseProxy'				=> 'Use reverse proxy:',
-	'ReverseProxyInfo'			=> 'Enable this setting to determine the correct IP address of the remote
-									 client by examining information stored in the X-Forwarded-For headers.
-									 X-Forwarded-For headers are a standard mechanism for identifying client
-									 systems connecting through a reverse proxy server, such as Squid or
-									 Pound. Reverse proxy servers are often used to enhance the performance
-									 of heavily visited sites and may also provide other site caching,
-									 security or encryption benefits. If this WackoWiki installation operates
-									 behind a reverse proxy, this setting should be enabled so that correct
-									 IP address information is captured in WackoWiki\'s session management,
-									 logging, statistics and access management systems; if you are unsure
-									 about this setting, do not have a reverse proxy, or WackoWiki operates in
-									 a shared hosting environment, this setting should remain disabled.',
+	'ReverseProxyInfo'			=> 'Attivare questa impostazione per determinare l’indirizzo IP corretto del client remoto esaminando
+									le informazioni memorizzate nelle intestazioni X-Forwarded-For. Le intestazioni X-Forwarded-For
+									sono un meccanismo standard per identificare i sistemi client che si connettono attraverso un
+									server proxy inverso, come Squid o Pound. I server proxy inversi sono spesso utilizzati per migliorare
+									le prestazioni di siti molto visitati e possono anche fornire altri vantaggi in termini di caching,
+									sicurezza o crittografia. Se questa installazione di WackoWiki opera dietro un reverse proxy,
+									questa impostazione dovrebbe essere abilitata in modo che le informazioni corrette sull’indirizzo
+									IP siano catturate nei sistemi di gestione delle sessioni, dei log, delle statistiche e degli
+									accessi di WackoWiki; se non si è sicuri di questa impostazione, se non si dispone di un reverse proxy
+									o se WackoWiki opera in un ambiente di hosting condiviso, questa impostazione dovrebbe rimanere disabilitata.',
 	'ReverseProxyHeader'		=> 'Reverse proxy header:',
-	'ReverseProxyHeaderInfo'	=> 'Állítsa be ezt az értéket, ha a proxykiszolgáló az ügyfél IP-címét az X-Forwarded-For
-									fejléctől eltérő fejlécben küldi. Az "X-Forwarded-For" fejléc egy vesszővel és szóközzel
-									elválasztott IP-címek listája, csak az utolsó (a bal szélső) kerül felhasználásra.',
+	'ReverseProxyHeaderInfo'	=> 'Impostare questo valore se il server proxy invia l’IP del client in un’intestazione diversa
+									da X-Forwarded-For. L’intestazione "X-Forwarded-For" è un elenco di indirizzi IP separati da
+									virgole e spazi, di cui verrà utilizzato solo l’ultimo (quello più a sinistra).',
 	'ReverseProxyAddresses'		=> 'reverse_proxy accepts an array of IP addresses:',
 	'ReverseProxyAddressesInfo'	=> 'Each element of this array is the IP address of any of your reverse
 									 proxies. If using this array, WackoWiki will trust the information stored
@@ -497,13 +495,13 @@ $ap_translation = [
 	'SessionStorage'				=> 'Session storage:',
 	'SessionStorageInfo'			=> 'This option defines where the the session data is stored. By default, either file or database session storage is selected.',
 	'SessionModes'	=> [
-		'1'		=> 'Fájl',
-		'2'		=> 'Adatbázis',
+		'1'		=> 'File',
+		'2'		=> 'Database',
 	],
-	'SessionNotice'					=> 'Munkamenet befejezésének okának megjelenítése:',
-	'SessionNoticeInfo'				=> 'A munkamenet befejezésének okát jelzi.',
-	'LoginNotice'					=> 'Bejelentkezési értesítés:',
-	'LoginNoticeInfo'				=> 'Megjeleníti a bejelentkezési értesítést.',
+	'SessionNotice'					=> 'Mostra la causa di terminazione della sessione:',
+	'SessionNoticeInfo'				=> 'Indica la causa dell’interruzione della sessione.',
+	'LoginNotice'					=> 'Avviso di accesso:',
+	'LoginNoticeInfo'				=> 'Visualizza un avviso di accesso.',
 
 	'RewriteMode'					=> 'Use <code>mod_rewrite</code>:',
 	'RewriteModeInfo'				=> 'If your web server supports this feature, enable to "beautify" the page URLs.<br>
@@ -538,16 +536,16 @@ $ap_translation = [
 	'OwnersEditCategories'		=> 'Owners can edit page categories:',
 	'OwnersEditCategoriesInfo'	=> 'Allow owners to modify the pages category list of your site (add words, delete words), assigns to a page.',
 	'TermHumanModeration'		=> 'Human moderation expiration:',
-	'TermHumanModerationInfo'	=> 'A moderátorok csak akkor módosíthatják a megjegyzéseket, ha csak ennyi nappal ezelőtt hozták létre őket (ez a korlátozás nem vonatkozik a téma utolsó megjegyzésére).',
+	'TermHumanModerationInfo'	=> 'I moderatori possono modificare i commenti solo se sono stati creati non più di questo numero di giorni fa (questa limitazione non si applica all’ultimo commento nell’argomento).',
 
-	'UserCanDeleteAccount'		=> 'Engedélyezi, hogy a felhasználók törölhessék a saját fiókjukat',
+	'UserCanDeleteAccount'		=> 'Gli utenti possono eliminare il proprio account',
 
 	// Security settings
 	'SecuritySettingsInfo'		=> 'Parameters responsible for the overall safety of the platform, safety restrictions and additional security subsystems.',
 	'SecuritySettingsUpdated'	=> 'Updated security settings',
 
 	'AllowRegistration'			=> 'Register online:',
-	'AllowRegistrationInfo'		=> 'Nyissa meg a felhasználói regisztrációt. Ennek a lehetőségnek a letiltása megakadályozza az ingyenes regisztrációt, azonban a webhely adminisztrátora maga regisztrálhatja a többi felhasználót.',
+	'AllowRegistrationInfo'		=> 'Aprire la registrazione dell’utente. Disabilitando questa opzione si impedisce la registrazione gratuita, tuttavia, l’amministratore del sito potrà registrare personalmente gli altri utenti.',
 	'ApproveNewUser'			=> 'Approve new users:',
 	'ApproveNewUserInfo'		=> 'Allows administrators to approve users once they register. Only approved users will be allowed to log in the site.',
 	'PersistentCookies'			=> 'Persistent cookies:',
@@ -560,12 +558,12 @@ $ap_translation = [
 	'EmailSection'				=> 'Email',
 	'AllowEmailReuse'			=> 'Allow email address re-use:',
 	'AllowEmailReuseInfo'		=> 'Different users can register with the same email address.',
-	'EmailConfirmation'			=> 'Erősítse meg az e-mail megerősítést:',
-	'EmailConfirmationInfo'		=> 'A felhasználónak igazolnia kell az e-mail címét, mielőtt bejelentkezhet.',
-	'AllowedEmailDomains'		=> 'Engedélyezett e-mail tartományok:',
-	'AllowedEmailDomainsInfo'	=> 'Engedélyezett e-mail tartományok vesszővel elválasztva, pl. <code>example.com, local.lan</code> stb., egyébként minden e-mail tartomány engedélyezett.',
-	'ForbiddenEmailDomains'		=> 'Tiltott e-mail tartományok:',
-	'ForbiddenEmailDomainsInfo'	=> 'Tiltott e-mail tartományok vesszővel elválasztva, pl. <code>example.com, local.lan</code> stb. (csak akkor hatékony, ha a megengedett e-mail domainek listája üres)',
+	'EmailConfirmation'			=> 'Imporre la conferma via e-mail:',
+	'EmailConfirmationInfo'		=> 'Richiede all’utente di verificare il suo indirizzo e-mail prima di poter accedere.',
+	'AllowedEmailDomains'		=> 'Domini e-mail consentiti:',
+	'AllowedEmailDomainsInfo'	=> 'Domini e-mail consentiti separati da virgole, ad esempio <code>example.com, local.lan</code> ecc, otherwise all email domains are allowed.',
+	'ForbiddenEmailDomains'		=> 'Domini e-mail proibiti:',
+	'ForbiddenEmailDomainsInfo'	=> 'Domini e-mail vietati separati da una virgola, ad esempio <code>example.com, local.lan</code> ecc (efficace solo se l’elenco dei domini e-mail consentiti è vuoto)',
 
 	'CaptchaSection'			=> 'CAPTCHA',
 	'EnableCaptcha'				=> 'Enable captcha:',
@@ -576,7 +574,7 @@ $ap_translation = [
 	'CaptchaPageInfo'			=> 'As protection against spam, unregistered users must complete captcha before creating a new page.',
 	'CaptchaEdit'				=> 'Edit page:',
 	'CaptchaEditInfo'			=> 'As protection against spam, unregistered users must complete captcha before editing pages.',
-	'CaptchaRegistration'		=> 'Regisztráció:',
+	'CaptchaRegistration'		=> 'Registrazione:',
 	'CaptchaRegistrationInfo'	=> 'As protection against spam, unregistered users must complete captcha before registering.',
 
 	'TlsSection'				=> 'TLS Settings',
@@ -591,12 +589,12 @@ $ap_translation = [
 	'Csp'						=> 'Content-Security-Policy (CSP):',
 	'CspInfo'					=> 'Configuring CSP involves deciding what policies you want to enforce, and then configuring them and using Content-Security-Policy to establish your policy.',
 	'PolicyModes'	=> [
-		'0'		=> 'tiltott',
+		'0'		=> 'disabled',
 		'1'		=> 'strict',
 		'2'		=> 'custom',
 	],
 	'PermissionsPolicy'			=> 'Permissions policy:',
-	'PermissionsPolicyInfo'		=> 'The HTTP Permissions-Policy header provides a mechanism to explicitly enable or disable various powerful browser features.',
+	'PermissionsPolicyInfo'		=> 'L’intestazione HTTP Permissions-Policy fornisce un meccanismo per abilitare o disabilitare esplicitamente varie potenti caratteristiche del browser.',
 	'ReferrerPolicy'			=> 'Referrer policy:',
 	'ReferrerPolicyInfo'		=> 'The Referrer-Policy HTTP header governs which referrer information, sent in the Referer header, should be included in responses.',
 	'ReferrerPolicyModes'	=> [
@@ -630,7 +628,7 @@ $ap_translation = [
 		'2'		=> 'password does not contain username',
 	],
 
-	'LoginSection'				=> 'Bejelentkezés',
+	'LoginSection'				=> 'Entra',
 	'MaxLoginAttempts'			=> 'Maximum number of login attempts per username:',
 	'MaxLoginAttemptsInfo'		=> 'The number of login attempts allowed for a single account before the anti-spambot task is triggered. Enter 0 to prevent the anti-spambot task from being triggered for distinct user accounts.',
 	'IpLoginLimitMax'			=> 'Maximum number of login attempts per IP address:',
@@ -638,7 +636,7 @@ $ap_translation = [
 
 	'FormsSection'				=> 'Forms',
 	'FormTokenTime'				=> 'Maximum time to submit forms:',
-	'FormTokenTimeInfo'			=> 'Annak ideje, amikor a felhasználónak el kell küldenie az űrlapot (másodpercben). <br> Vegye figyelembe, hogy az űrlap érvénytelenné válhat, ha a munkamenet lejár, a beállítástól függetlenül.',
+	'FormTokenTimeInfo'			=> 'Il tempo che un utente deve inviare un modulo (in secondi).<br> Si noti che un modulo potrebbe diventare non valido se la sessione scade, indipendentemente da questa impostazione.',
 
 	'SessionLength'				=> 'Session cookie expiration:',
 	'SessionLengthInfo'			=> 'The lifetime of the user session cookie by default (in days).',
@@ -682,20 +680,20 @@ $ap_translation = [
 	'TimeFormatSecondsInfo'		=> '(hours, minutes, seconds)',
 	'NameDateMacro'				=> 'The format of the <code>::@::</code> macro:',
 	'NameDateMacroInfo'			=> '(name, time), e.g. <code>UserName (17.11.2016 16:48)</code>',
-	'Timezone'					=> 'Időzóna:',
-	'TimezoneInfo'				=> 'Időzóna, amelyet a be nem jelentkezett felhasználók (vendégek) számára megjelenítendő időpontokhoz használnak. A bejelentkezett felhasználók a felhasználói beállításaikban beállíthatják és megváltoztathatják az időzónát.',
+	'Timezone'					=> 'Fuso orario:',
+	'TimezoneInfo'				=> 'Fuso orario da utilizzare per la visualizzazione degli orari agli utenti che non sono collegati (ospiti). Gli utenti registrati impostano e possono cambiare il loro fuso orario nelle loro impostazioni utente.',
 
-	'Canonical'					=> 'Teljesen kanonikus URL-ek használata:',
-	'CanonicalInfo'				=> 'Az összes hivatkozás abszolút URL-ként jön létre a %1 formában. A %2 formában a kiszolgáló gyökéréhez viszonyított URL-eket kell előnyben részesíteni.',
+	'Canonical'					=> 'Usa URL canoniche:',
+	'CanonicalInfo'				=> 'Tutti i link vengono creati come URL assoluti nella forma %1. Sono da preferire gli URL relativi alla radice del server nella forma %2.',
 	'LinkTarget'				=> 'Where external links open:',
-	'LinkTargetInfo'			=> 'Minden külső linket megnyit egy új böngészőablakban. A <code>target="_blank"</code> ájlt hozzáadja a link szintaxisához.',
+	'LinkTargetInfo'			=> 'Apre ogni link esterno in una nuova finestra del browser. Aggiunge <code>target="_blank"</code> alla sintassi del link.',
 	'Noreferrer'				=> 'noreferrer:',
-	'NoreferrerInfo'			=> 'Requires that the browser should not send an HTTP referer header if the user follows the hyperlink. Adds <code>rel="noreferrer"</code> to the link syntax.',
+	'NoreferrerInfo'			=> 'Richiede che il browser non invii un header di riferimento HTTP se l’utente segue il collegamento ipertestuale. Aggiunge <code>rel="noreferrer"</code> alla sintassi del link.',
 	'Nofollow'					=> 'nofollow:',
-	'NofollowInfo'				=> 'Utasítsa néhány keresőmotorot, hogy a hiperhivatkozás ne befolyásolja a linkek céljának rangsorolását a keresőmotorok indexében. <code>rel="nofollow"</code> hozzáad a hivatkozás szintaxisához.',
+	'NofollowInfo'				=> 'Istruire alcuni motori di ricerca che il link ipertestuale non deve influenzare il posizionamento dei link target nell’indice dei motori di ricerca. Aggiunge <code>rel="nofollow"</code> alla sintassi del link.',
 	'UrlsUnderscores'			=> 'Form addresses (URLs) with underscores:',
 	'UrlsUnderscoresInfo'		=> 'For example, %1 becames %2 with this option.',
-	'ShowSpaces'				=> 'Show spaces in WikiNames:',
+	'ShowSpaces'				=> 'Mostra gli spazi nei NomiWiki:',
 	'ShowSpacesInfo'			=> 'Show spaces in WikiNames, e.g. <code>MyName</code> being displayed as <code>My Name</code> with this option.',
 	'NumerateLinks'				=> 'Enumerate links in print view:',
 	'NumerateLinksInfo'			=> 'Enumerates and lists all links at the bottom of the print view with this option.',
@@ -703,7 +701,7 @@ $ap_translation = [
 	'YouareHereTextInfo'		=> 'Visualize links to the same page, using <code>&lt;b&gt;####&lt;/b&gt;</code>. All links to self lose link formatting, but are displayed as bold text.',
 
 	// Pages settings
-	'PagesSettingsInfo'			=> 'Itt állíthatja be vagy módosíthatja a Wikiben használt rendszer alapoldalakat. Kérjük, ne felejtse el létrehozni vagy megváltoztatni a Wiki megfelelő oldalait az itt megadott beállításoknak megfelelően.',
+	'PagesSettingsInfo'			=> 'Qui è possibile impostare o modificare le pagine base del sistema utilizzate all’interno del Wiki. Non dimenticate di creare o modificare le pagine corrispondenti nel Wiki in base alle vostre impostazioni.',
 	'PagesSettingsUpdated'		=> 'Updated settings base pages',
 
 	'ListCount'					=> 'Number of items per list:',
@@ -723,7 +721,7 @@ $ap_translation = [
 	'NewsStructure'				=> 'News cluster structure:',
 	'NewsStructureInfo'			=> 'Stores the articles optionally in sub-clusters by year/month or week (e.g. <code>[cluster]/[year]/[month]</code>).',
 
-	'LicenseSection'			=> 'Engedély',
+	'LicenseSection'			=> 'Licenza',
 	'DefaultLicense'			=> 'Default license:',
 	'DefaultLicenseInfo'		=> 'Under which license your content can be released.',
 	'EnableLicense'				=> 'Enable license:',
@@ -735,15 +733,15 @@ $ap_translation = [
 	'RootPage'					=> 'Home page:',
 	'RootPageInfo'				=> 'Tag of your main page, opens automatically when a user visits your site.',
 
-	'PrivacyPage'				=> 'Adatvédelmi irányelvek:',
+	'PrivacyPage'				=> 'Informativa sulla privacy:',
 	'PrivacyPageInfo'			=> 'The page with the Privacy Policy of the site.',
 
 	'TermsPage'					=> 'Policies and regulations:',
 	'TermsPageInfo'				=> 'The page with the rules of the site.',
 
-	'SearchPage'				=> 'Keresés:',
+	'SearchPage'				=> 'Ricerca:',
 	'SearchPageInfo'			=> 'Page with the search form (action %1).',
-	'RegistrationPage'			=> 'Regisztráció:',
+	'RegistrationPage'			=> 'Registrazione:',
 	'RegistrationPageInfo'		=> 'Page for new user registration (action %1).',
 	'LoginPage'					=> 'User login:',
 	'LoginPageInfo'				=> 'Login page on the site (action %1).',
@@ -753,11 +751,11 @@ $ap_translation = [
 	'PasswordPageInfo'			=> 'Page with a form to change / query user password (action %1).',
 	'UsersPage'					=> 'User list:',
 	'UsersPageInfo'				=> 'Page with a list of registered users (action %1).',
-	'CategoryPage'				=> 'Kategória:',
+	'CategoryPage'				=> 'Categoria:',
 	'CategoryPageInfo'			=> 'Page with a list of categorized pages (action %1).',
-	'GroupsPage'				=> 'Csoportok:',
+	'GroupsPage'				=> 'Gruppi:',
 	'GroupsPageInfo'			=> 'Page with a list of working groups (action %1).',
-	'ChangesPage'				=> 'Friss változások:',
+	'ChangesPage'				=> 'Recent changes:',
 	'ChangesPageInfo'			=> 'Page with a list of the last modified pages (action %1).',
 	'CommentsPage'				=> 'Recent comments:',
 	'CommentsPageInfo'			=> 'Page with a list of recent comment on the page (action %1).',
@@ -769,12 +767,12 @@ $ap_translation = [
 	'OrphanedPageInfo'			=> 'Page with a list of existing pages are not related via links to any other page (action %1).',
 	'SandboxPage'				=> 'Sandbox:',
 	'SandboxPageInfo'			=> 'Page where users can practice their wiki markup skills.',
-	'HelpPage'					=> 'Segítség:',
+	'HelpPage'					=> 'Aiuto:',
 	'HelpPageInfo'				=> 'The documentation section for working with site tools.',
 	'IndexPage'					=> 'Index:',
-	'IndexPageInfo'				=> 'Oldal az összes oldal listájával (action %1).',
-	'RandomPage'				=> 'Lap találomra:',
-	'RandomPageInfo'			=> 'Véletlenszerű oldalt tölt be (action %1).',
+	'IndexPageInfo'				=> 'Pagina con l’elenco di tutte le pagine (action %1).',
+	'RandomPage'				=> 'Casuale:',
+	'RandomPageInfo'			=> 'Carica una pagina casuale  (action %1).',
 
 
 	// Notification settings
@@ -784,29 +782,29 @@ $ap_translation = [
 	'EmailNotification'			=> 'Email notification:',
 	'EmailNotificationInfo'		=> 'Allow email notification. Set to Enabled to enable email notifications, Disabled to disable them. Note that disabling email notifications has no effect on emails generated as part of the user signup process.',
 	'Autosubscribe'				=> 'Autosubscribe:',
-	'AutosubscribeInfo'			=> 'Automatically sign a new page in the owner\'s notice of its changes.',
+	'AutosubscribeInfo'			=> 'Automatically sign a new page in the owner’s notice of its changes.',
 
 	'NotificationSection'		=> 'Default User Notification Settings',
 	'NotifyPageEdit'			=> 'Notify page edit:',
-	'NotifyPageEditInfo'		=> 'Függőben - Sending a email notification only for the first change until the user visits the page again.',
+	'NotifyPageEditInfo'		=> 'Pending - Send an email notification only for the first change until the user visits the page again.',
 	'NotifyMinorEdit'			=> 'Notify minor edit:',
 	'NotifyMinorEditInfo'		=> 'Sends notifications also for minor edits.',
 	'NotifyNewComment'			=> 'Notify new comment:',
-	'NotifyNewCommentInfo'		=> 'Függőben - Sending a email notification only for the first comment until the user visits the page again.',
+	'NotifyNewCommentInfo'		=> 'Pending - Send an email notification only for the first comment until the user visits the page again.',
 
 	'NotifyUserAccount'			=> 'Notify new user account:',
 	'NotifyUserAccountInfo'		=> 'The Admin will to be notified when a new user has been created using the signup form.',
 	'NotifyUpload'				=> 'Notify file upload:',
 	'NotifyUploadInfo'			=> 'The Moderators will to be notified when a file has been uploaded.',
 
-	'PersonalMessagesSection'	=> 'Személyes üzenetek',
+	'PersonalMessagesSection'	=> 'Messaggi personali',
 	'AllowIntercomDefault'		=> 'Allow intercom:',
 	'AllowIntercomDefaultInfo'	=> 'Enabling this option allows other users to send personal messages to the recipient\'s email address without disclosing the address.',
 	'AllowMassemailDefault'		=> 'Allow mass email:',
 	'AllowMassemailDefaultInfo'	=> 'Only send messages to those users who have permitted administrators to email them information.',
 
 	// Resync settings
-	'Synchronize'				=> 'szinkronizálni',
+	'Synchronize'				=> 'Sincronizzare',
 	'UserStatsSynched'			=> 'User Statistics synchronized.',
 	'PageStatsSynched'			=> 'Page Statistics synchronized.',
 	'FeedsUpdated'				=> 'RSS-feeds updated.',
@@ -824,9 +822,9 @@ $ap_translation = [
 	'PageStats'					=> 'Page statistics',
 	'PageStatsInfo'				=> 'Page statistics (number of comments, files and revisions) may differ in some situations from actual data. <br>This operation allows updating statistics to match actual data contained in database.',
 
-	'AttachmentsInfo'			=> 'Frissíti az adatbázisban lévő összes csatolmány fájl hash-ját.',
-	'AttachmentsSynched'		=> 'Újrahangoltam az összes fájl csatolmányt',
-	'LogAttachmentsSynched'		=> 'Újrahangoltam az összes fájl csatolmányt',
+	'AttachmentsInfo'			=> 'Aggiorna l’hash del file per tutti gli allegati nel database.',
+	'AttachmentsSynched'		=> 'Revisione dell’hash di tutti i file allegati',
+	'LogAttachmentsSynched'		=> 'Revisione dell’hash di tutti i file allegati',
 
 	'Feeds'						=> 'Feeds',
 	'FeedsInfo'					=> 'In the case of direct editing of pages in the database, the content of RSS-feeds may not reflect the changes made. <br>This function synchronizes the RSS-channels with the current state of the database.',
@@ -841,27 +839,27 @@ $ap_translation = [
 
 	'WikiLinksResync'			=> 'Wiki-links',
 	'WikiLinksResyncInfo'		=> 'Performs a re-rendering for all intrasite links and restores the contents of the <code>page_link</code> and <code>file_link</code> tables in the event of damage or relocation (this can take considerable time).',
-	'RecompilePage'				=> 'Minden oldal újra összeállítása (rendkívül költséges)',
-	'ResyncOptions'				=> 'További beállítások',
+	'RecompilePage'				=> 'Ricompilazione di tutte le pagine (estremamente costose)',
+	'ResyncOptions'				=> 'Opzioni aggiuntive',
 	'RecompilePageLimit'		=> 'Number of pages to parse at once.',
 
 	// Email settings
-	'EmaiSettingsInfo'			=> 'Az alábbi információkat használja a fórum e-mailek küldésekor. Kérünk, győződj meg róla, hogy az e-mail cím, amit megadsz, helyes, mivel minden nem kézbesíthető levél erre a címre fog menni. Ha a tárhelyszolgáltatód nem biztosítja a natív (PHP alapú) e-mail küldést, használhatsz helyette SMTP-t. Ehhez szükség van egy megfelelő szerver címére (ha szükséges, kérdezd meg a szolgáltatód). Ha (és csak ha) a szerver megköveteli az azonosítást, add meg a szükséges felhasználónevet, jelszót és azonosítási módot.',
+	'EmaiSettingsInfo'			=> 'Questo modulo viene usato quando si inviano email ai propri utenti dalla Board. Assicurati che l’indirizzo email specificato sia valido; ogni messaggio respinto o non consegnato, verrà inviato a questo indirizzo. Se il tuo server non fornisce un servizio email (basato su PHP) puoi in alternativa inviare messaggi direttamente via SMTP. Questo richiede l’indirizzo di un server appropriato (chiedi al tuo provider, se necessario). Non specificare nomi vecchi qui. Se il server richiede autenticazione (e solo se lo fa) inserisci nome utente e password.',
 
-	'EmailSettingsUpdated'		=> 'Frissített e-mail beállítások',
+	'EmailSettingsUpdated'		=> 'Updated Email settings',
 
-	'EmailFunctionName'			=> 'E-mail függvény neve:',
-	'EmailFunctionNameInfo'		=> 'A függvény neve, amivel e-mailt lehet küldeni PHP-n keresztül.',
-	'UseSmtpInfo'				=> '<code>SMTP</code> Állítsd igenre, ha a helyi mail függvény helyett egy meghatározott szerveren keresztül szeretnéd az e-maileket kiküldeni.',
+	'EmailFunctionName'			=> 'Nome funzione email:',
+	'EmailFunctionNameInfo'		=> 'Funzione email usata per spedire mail attraverso PHP.',
+	'UseSmtpInfo'				=> 'Scegli <code>SMTP</code> se vuoi o devi inviare email attraverso un server specifico invece di usare la funzione mail locale.',
 
 	'EnableEmail'				=> 'Enable emails:',
 	'EnableEmailInfo'			=> 'Enable sending of emails.',
 
-	'EmailIdentitySettings'		=> 'Weboldal e-mailek Azonosság',
+	'EmailIdentitySettings'		=> 'Sito web Email Identità',
 	'FromEmailName'				=> 'From Name:',
 	'FromEmailNameInfo'			=> 'The sender name that is use for the <code>From:</code> header for all email notifications sent from the site.',
-	'EmailSubjectPrefix'		=> 'Tárgy előtag:',
-	'EmailSubjectPrefixInfo'	=> 'Alternatív e-mail tárgy előtag, pl. <code>[Előtag] Téma</code>. Ha nincs megadva, az alapértelmezett előtag a Helyszín neve: %1.',
+	'EmailSubjectPrefix'		=> 'Prefisso dell’oggetto:',
+	'EmailSubjectPrefixInfo'	=> 'Prefisso alternativo dell’oggetto dell’e-mail, ad esempio <code>[Prefisso] Argomento</code>. Se non è definito, il prefisso predefinito è Nome del sito: %1.',
 
 	'NoReplyEmail'				=> 'No-reply address:',
 	'NoReplyEmailInfo'			=> 'This address, e.g. <code>noreply@example.com</code>, will appear in the <code>From:</code> email address field of all email notifications sent from the site.',
@@ -870,68 +868,68 @@ $ap_translation = [
 	'AbuseEmail'				=> 'Email abuse service:',
 	'AbuseEmailInfo'			=> 'Address requests for urgent matters: registration for a foreign email, etc. It may be the same as the site owner email.',
 
-	'SendTestEmail'				=> 'Küldjön teszt e-mailt',
-	'SendTestEmailInfo'			=> 'This will send a test email to the address defined in your account.',
+	'SendTestEmail'				=> 'Invia email di prova',
+	'SendTestEmailInfo'			=> 'Questo invierà un’email di prova all’indirizzo specificato sul tuo account.',
 	'TestEmailSubject'			=> 'Your Wiki is correctly configured to send emails',
 	'TestEmailBody'				=> 'If you received this email, your Wiki is correctly configured to send emails.',
-	'TestEmailMessage'			=> 'The test email has been sent.<br>If you don\'t receive it, please check your email configuration settings.',
+	'TestEmailMessage'			=> 'The test email has been sent.<br>If you don’t receive it, please check your emails configuration.',
 
-	'SmtpSettings'				=> 'SMTP beállítások',
+	'SmtpSettings'				=> 'Impostazioni SMTP',
 	'SmtpAutoTls'				=> 'Opportunistic TLS:',
 	'SmtpAutoTlsInfo'			=> 'Enables encryption automatically, if it sees that the server is advertising TLS encryption (after you have connected to the server), even if you have not set the connection mode for <code>SMTPSecure</code>.',
-	'SmtpConnectionMode'		=> 'SMTP azonosítási mód:',
-	'SmtpConnectionModeInfo'	=> 'Csak akkor van használva, ha egy felhasználónév/jelszó páros meg van adva. Ha nem vagy biztos benne, melyik módot használd, kérdezd meg a szolgáltatódat.',
-	'SmtpPassword'				=> 'SMTP jelszó:',
-	'SmtpPasswordInfo'			=> 'Csak akkor adj meg jelszót, ha a használt SMTP szerver megköveteli.<br><em><strong>Figyelmeztetés:</strong> Ez a jelszó az adatbázisban sima szövegként kerül tárolásra, így bárki által hozzáférhető, aki hozzáfér az adatbázishoz vagy látja ezt a beállítás oldalt.</em>',
-	'SmtpPort'					=> 'SMTP szerver port:',
-	'SmtpPortInfo'				=> 'Csak akkor változtasd meg, ha tudod, hogy az SMTP szerver más porton van. <br>(default: <code>tls</code> on port 587 (or possibly 25) and <code>ssl</code> on port 465)',
-	'SmtpServer'				=> 'SMTP szerver cím:',
-	'SmtpServerInfo'			=> 'Note that you have to provide the protocol that your server uses. If you are using SSL, this has to be <code>ssl://mail.example.com</code>',
-	'SmtpUsername'				=> 'SMTP felhasználónév:',
-	'SmtpUsernameInfo'			=> 'Csak akkor adj meg felhasználónevet, ha a használt SMTP szerver megköveteli.',
+	'SmtpConnectionMode'		=> 'Metodo autenticazione per SMTP:',
+	'SmtpConnectionModeInfo'	=> 'Si usa solo se un nome utente o una password sono impostati. Chiedi al tuo provider se non sei sicuro del metodo da usare.',
+	'SmtpPassword'				=> 'Password SMTP:',
+	'SmtpPasswordInfo'			=> 'Inserisci una password solo se il tuo server SMTP la richiede. <br><em><strong>Attenzione:</strong> questa password è conservata come testo in chiaro nel database.</em>',
+	'SmtpPort'					=> 'Porta del server SMTP:',
+	'SmtpPortInfo'				=> 'Modifica questo parametro solo se sai che il tuo server SMTP si trova su una porta diversa. <br>(default: <code>tls</code> on port 587 (or possibly 25) and <code>ssl</code> on port 465)',
+	'SmtpServer'				=> 'Indirizzo server SMTP:',
+	'SmtpServerInfo'			=> 'Tieni presente che è necessario fornire il protocollo che il server utilizza. Se si utilizza il protocollo SSL, questo deve essere <code>ssl://mail.example.com</code>',
+	'SmtpUsername'				=> 'Nome utente SMTP:',
+	'SmtpUsernameInfo'			=> 'Inserisci un nome utente solo se il tuo server SMTP lo richiede.',
 
 	// Upload settings
-	'UploadSettingsInfo'		=> 'Itt a csatolmányok főbb beállításait adhatod meg, valamint a speciális kategóriák egyedi opcióit módosíthatod.',
-	'UploadSettingsUpdated'		=> 'Frissített feltöltési beállítások',
+	'UploadSettingsInfo'		=> 'Da qui puoi configurare le caratteristiche principali degli allegati e delle categorie speciali collegate.',
+	'UploadSettingsUpdated'		=> 'Updated upload settings',
 
-	'FileUploadsSection'		=> 'Fájl feltöltése',
-	'RegisteredUsers'			=> 'regisztrált felhasználók',
-	'RightToUpload'				=> 'Fájlok feltöltési joga:',
+	'FileUploadsSection'		=> 'File Uploads',
+	'RegisteredUsers'			=> 'utenti registrati',
+	'RightToUpload'				=> 'Permissions to upload files:',
 	'RightToUploadInfo'			=> '<code>admins</code> means that only users belonging to the admins group can upload  files. <code>1</code> means that uploading is opened to registered users. <code>0</code> means that upload disabled.',
-	'UploadMaxFilesize'			=> 'Maximális állományméret:',
-	'UploadMaxFilesizeInfo'		=> 'Legfeljebb ekkorák lehetnek az állományok. A 0 érték kikapcsolja a korlátozást.',
-	'UploadQuota'				=> 'Csatolmányok tárhelye:',
-	'UploadQuotaInfo'			=> 'Az egész fórumon a csatolmányok legfeljebb ekkora helyet foglalhatnak el összesen. A <code>0</code> érték kikapcsolja a korlátozást. %1 used.',
-	'UploadQuotaUser'			=> 'Tárolási kvóta felhasználónként:',
+	'UploadMaxFilesize'			=> 'Dimensione massima:',
+	'UploadMaxFilesizeInfo'		=> 'Dimensione massima di ogni file. Se questo valore è uguale a 0, la dimensione del file inviabile sarà limitata solo dalla configurazione PHP.',
+	'UploadQuota'				=> 'Quota massima allegati:',
+	'UploadQuotaInfo'			=> 'Dimensione massima riservata su disco per tutti gli allegati; <code>0</code> = illimitata. %1 used.',
+	'UploadQuotaUser'			=> 'Storage quota per user:',
 	'UploadQuotaUserInfo'		=> 'Restriction on the quota of storage that can be uploaded by one user, with <code>0</code> being unlimited.',
 
-	'FileTypes'					=> 'File types',
-	'UploadOnlyImages'			=> 'Csak képek feltöltését engedélyezze:',
-	'UploadOnlyImagesInfo'		=> 'Csak képfájlok feltöltését engedélyezze az oldalon.',
-	'AllowedUploadExts'			=> 'Engedélyezett fájltípusok:',
-	'AllowedUploadExtsInfo'		=> 'A fájlok feltöltéséhez engedélyezett kiterjesztések, vesszővel elválasztva pl. <code>png, ogg, mp4</code>, egyébként minden nem tiltott kiterjesztés engedélyezett.<br>A feltöltött fájltípusok engedélyezett listáját a webhely tartalmi funkcionalitásához szükséges minimumra kell korlátozni.',
-	'CheckMimetype'				=> 'Csatolt állományok ellenőrzése:',
-	'CheckMimetypeInfo'			=> 'Néhány böngésző rávehető, hogy a feltöltött állományokhoz helytelen MIME típust állapítson meg. Ezzel a beállítással az ennek okozására hajlamos állományok visszautasításra kerülnek.',
+	'FileTypes'					=> 'Tipi di file',
+	'UploadOnlyImages'			=> 'Allow only upload of images:',
+	'UploadOnlyImagesInfo'		=> 'Allow only uploading of image files on the page.',
+	'AllowedUploadExts'			=> 'Tipi di file consentiti:',
+	'AllowedUploadExtsInfo'		=> 'Estensioni consentite per il caricamento dei file, separate da una virgola, ad esempio <code>png, ogg, mp4</code>, altrimenti sono consentite tutte le estensioni di file non vietate.<br>Si consiglia di limitare l’elenco dei tipi di file caricati consentiti al minimo necessario per la funzionalità dei contenuti del sito.',
+	'CheckMimetype'				=> 'Controlla allegati:',
+	'CheckMimetypeInfo'			=> 'Alcuni browser possono essere ingannati nell’accettare un mimetype incorretto per i file da caricare. Questa opzione garantisce che i file che possono causare questo problema vengano respinti.',
 	'SvgSanitizer'				=> 'SVG Sanitizer:',
-	'SvgSanitizerInfo'			=> 'Ez lehetővé teszi a feltöltött SVG fájlok szanálását, hogy megakadályozza az SVG/XML sérülékeny fájlok feltöltését.',
+	'SvgSanitizerInfo'			=> 'Questo permette di sanificare i file SVG caricati per evitare che vengano caricati file SVG/XML vulnerabili.',
 	'TranslitFileName'			=> 'Transliterate file names:',
-	'TranslitFileNameInfo'		=> 'Ha alkalmazható, és nincs szükség Unicode karakterekre, akkor nagyon ajánlott csak alfa-numerikus karaktereket elfogadni.',
-	'TranslitCaseFolding'		=> 'A fájlnevek kisbetűsre alakítása:',
-	'TranslitCaseFoldingInfo'	=> 'Ez az opció csak aktív átírás esetén érvényes.',
+	'TranslitFileNameInfo'		=> 'Se è applicabile e non è necessario avere caratteri Unicode, si raccomanda vivamente di accettare solo caratteri alfanumerici.',
+	'TranslitCaseFolding'		=> 'Converte i nomi dei file in minuscolo:',
+	'TranslitCaseFoldingInfo'	=> 'Questa opzione è efficace solo con la traslitterazione attiva.',
 
 	'Thumbnails'				=> 'Thumbnails',
-	'CreateThumbnail'			=> 'Kiskép készítése:',
-	'CreateThumbnailInfo'		=> 'Minden lehetséges esetben készítsen kisképet.',
-	'JpegQuality'				=> 'JPEG minőség:',
-	'JpegQualityInfo'			=> 'Minőség a JPEG miniatűr kép méretezésénél. Ennek 1 és 100 között kell lennie, a 100-as érték 100%-os minőséget jelent.',
+	'CreateThumbnail'			=> 'Crea miniatura:',
+	'CreateThumbnailInfo'		=> 'Crea miniatura in tutte le situazioni possibili.',
+	'JpegQuality'				=> 'Qualità JPEG:',
+	'JpegQualityInfo'			=> 'Qualità quando si scala una miniatura JPEG. Dovrebbe essere compreso tra 1 e 100, con 100 che indica una qualità del 100%.',
 	'MaxImageArea'				=> 'Maximum Image Area:',
-	'MaxImageAreaInfo'			=> 'A forráskép maximális pixelszáma. Ez korlátozza a képméretező dekompressziós oldalának memóriahasználatát. A <br><code>-1</code> azt jelenti, hogy nem ellenőrzi a kép méretét, mielőtt megkísérli a méretezést. A <code>0</code> azt jelenti, hogy az értéket automatikusan meghatározza.',
-	'MaxThumbWidth'				=> 'Maximális kiskép szélesség pixelben:',
-	'MaxThumbWidthInfo'			=> 'A generált kiskép nem fogja túllépni az itt megadott szélességet.',
-	'MinThumbFilesize'			=> 'Maximális kiskép állományméret:',
-	'MinThumbFilesizeInfo'		=> 'Ennél kisebb képeknél nem lesz kiskép készítve.',
-	'MaxImageWidth'				=> 'Képméretkorlátozás az oldalakon:',
-	'MaxImageWidthInfo'			=> 'A kép maximális szélessége az oldalakon, különben a rendszer egy kicsinyített miniatűr képet generál.',
+	'MaxImageAreaInfo'			=> 'Il numero massimo di pixel che un’immagine sorgente può avere. Questo fornisce un limite all’uso della memoria per il lato di decompressione dello scalatore di immagini. <br><code>-1</code> significa che non controllerà la dimensione dell’immagine prima di tentare di scalarla. <code>0</code> significa che determinerà il valore automaticamente.',
+	'MaxThumbWidth'				=> 'Larghezza massima miniatura in pixel:',
+	'MaxThumbWidthInfo'			=> 'La miniatura generata non avrà una larghezza superiore a quella impostata qui.',
+	'MinThumbFilesize'			=> 'Dimensioni minime per miniatura:',
+	'MinThumbFilesizeInfo'		=> 'Non crea miniature per immagini con dimensioni inferiori a queste.',
+	'MaxImageWidth'				=> 'Limite di dimensione dell’immagine nelle pagine:',
+	'MaxImageWidthInfo'			=> 'La larghezza massima che un’immagine può avere nelle pagine, altrimenti viene generata una miniatura ridimensionata.',
 
 	// Deleted module
 	'DeletedObjectsInfo'		=> 'List of removed pages, revisions and files.
@@ -959,7 +957,7 @@ $ap_translation = [
 	'LogNoMatch'				=> 'No events that meet the criteria',
 	'LogDate'					=> 'Date',
 	'LogEvent'					=> 'Event',
-	'LogUsername'				=> 'Felhasználónév',
+	'LogUsername'				=> 'Nome utente',
 	'LogLevels'	=> [
 		'1'		=> 'critical',
 		'2'		=> 'highest',
@@ -971,39 +969,39 @@ $ap_translation = [
 	],
 
 	// Massemail module
-	'MassemailInfo'				=> 'Itt egy e-mailt küldhetsz az összes olyan felhasználónak vagy egy meghatározott csoport olyan tagjainak, <strong>akinek be van kapcsolva a csoport e-mail fogadása beállítása</strong>. Ez a következő módon fog történni: a megadott adminisztrációs e-mail címre egy e-mail kerül kiküldésre, és a címzettek titkos másolatot kapnak ebből a levélből. Az alap beállítás szerint egy levélben csak 50 címzett fog szerepelni, több címzettnél több e-mail kerül kiküldésre. Ha sok embernek küldesz e-mailt, az űrlap elküldése után, kérünk, légy türelmes, ne szakítsd meg az oldal töltését félúton. Teljesen normális, hogy a csoportos e-mail küldése hosszú ideig tart; amint a szkript befejezte futását, értesítve leszel.',
+	'MassemailInfo'				=> 'Da qui puoi inviare messaggi email a tutti gli utenti o a quelli di un gruppo specifico, <strong>purché abbiano l’opzione di ricevere email di massa dall’amministratore abilitata</strong>. L’email verrà inviata all’indirizzo amministrativo del Forum, e i destinatari la riceveranno come copia di conoscenza nascosta (CCN). Le impostazioni predefinite prevedono un massimo di 20 destinatari per ciascuna email, quindi se il numero è maggiore, verranno spedite diverse email; pertanto abbi pazienza dopo l’invio e non bloccare il procedimento in corso, in quanto potrebbe durare anche diversi minuti se il numero di destinatari è molto elevato. Al termine dell’operazione verrai informato dell’avvenuto invio.',
 	'LogMassemail'				=> 'Mass email send %1 to group / user ',
 	'MassemailSend'				=> 'Mass email send',
 
-	'NoEmailMessage'			=> 'Meg kell adnod az üzenetet.',
-	'NoEmailSubject'			=> 'Meg kell adnod az üzenet témáját.',
+	'NoEmailMessage'			=> 'Devi scrivere il messaggio.',
+	'NoEmailSubject'			=> 'Devi specificare un titolo per il tuo messaggio.',
 	'NoEmailRecipient'			=> 'You must specify at least one user or user group.',
 
 	'MassemailSection'			=> 'Mass email',
-	'MessageSubject'			=> 'Téma:',
+	'MessageSubject'			=> 'Soggetto:',
 	'MessageSubjectInfo'		=> '',
-	'YourMessage'				=> 'Your message:',
-	'YourMessageInfo'			=> 'Kérjük, vedd figyelembe, csak sima szöveget adhatsz meg. Az elküldés előtt minden kód eltávolításra kerül.',
+	'YourMessage'				=> 'Il tuo messaggio:',
+	'YourMessageInfo'			=> 'Puoi scrivere soltanto testo normale. Tutto il resto sarà rimosso prima della trasmissione.',
 
 	'NoUser'					=> 'No user',
 	'NoUserGroup'				=> 'No user group',
 
-	'SendToGroup'				=> 'Címzett csoport:',
-	'SendToUser'				=> 'Címzett felhasználók:',
+	'SendToGroup'				=> 'Invia a gruppo:',
+	'SendToUser'				=> 'Invia a utenti:',
 	'SendToUserInfo'			=> 'Only users who permit administrators to email them information will receive mass emails. This option is available in their user settings under Notifications.',
 
 	// System message module
 	'SystemMessageInfo'			=> '',
 	'SysMsgUpdated'				=> 'Updated system message',
 
-	'SysMsgSection'				=> 'Rendszerüzenet',
-	'SysMsg'					=> 'Rendszerüzenet:',
+	'SysMsgSection'				=> 'System message',
+	'SysMsg'					=> 'System message:',
 	'SysMsgInfo'				=> 'Your text here',
 
 	'SysMsgType'				=> 'Type:',
 	'SysMsgTypeInfo'			=> 'Message type (CSS).',
-	'SysMsgAudience'			=> 'Audience:',
-	'SysMsgAudienceInfo'		=> 'Audience the system message is shown to.',
+	'SysMsgAudience'			=> 'Pubblico:',
+	'SysMsgAudienceInfo'		=> 'Pubblico a cui viene mostrato il messaggio di sistema.',
 	'EnableSysMsg'				=> 'Enable system message:',
 	'EnableSysMsgInfo'			=> 'Show system message.',
 
@@ -1017,10 +1015,10 @@ $ap_translation = [
 	'LogUserUpdated'			=> 'Updated User ##%1##',
 
 	'UserApproveInfo'			=> 'Approve new users before they are able to login to the site.',
-	'Approve'					=> 'Jóváhagy',
+	'Approve'					=> 'Approve',
 	'Deny'						=> 'Deny',
-	'Pending'					=> 'Függőben',
-	'Approved'					=> 'Engedélyezve',
+	'Pending'					=> 'Pending',
+	'Approved'					=> 'Approved',
 	'Denied'					=> 'Denied',
 
 	// DB Backup module
@@ -1029,8 +1027,8 @@ $ap_translation = [
 	'BackupFolder'				=> 'Folder',
 	'BackupTable'				=> 'Table',
 	'BackupCluster'				=> 'Cluster:',
-	'BackupFiles'				=> 'Fájlok',
-	'BackupNote'				=> 'Megjegyzés:',
+	'BackupFiles'				=> 'Files',
+	'BackupNote'				=> 'Nota:',
 	'BackupSettings'			=> 'Specify the desired scheme of backup.<br>' .
 									'The root cluster does not affect the global files backup and cache files backup (if chosen, they are always saved in full).<br>' .
 									'<br>' .
@@ -1042,16 +1040,16 @@ $ap_translation = [
 									'To download it use FTP (maintain the directory structure and file names when copying).<br>' .
 									'To restore a backup copy or remove a package, go to <a href="%2">Restore database</a>.',
 	'LogSavedBackup'			=> 'Saved backup database ##%1##',
-	'Backup'					=> 'Kimentés',
-	'CantReadFile'				=> 'Can\'t read file %1.',
+	'Backup'					=> 'Backup',
+	'CantReadFile'				=> 'Can’t read file %1.',
 
 	// DB Restore module
 	'RestoreInfo'				=> 'You can restore any of the backup packages found, or remove them from the server.',
-	'ConfirmDbRestore'			=> 'Vissza szeretné állítani az %1 biztonsági mentést?',
-	'ConfirmDbRestoreInfo'		=> 'Kérjük, várjon, ez néhány percet vehet igénybe.',
+	'ConfirmDbRestore'			=> 'Si desidera ripristinare il backup %1?',
+	'ConfirmDbRestoreInfo'		=> 'Per favore, aspetta che ci vorrà qualche minuto.',
 	'RestoreWrongVersion'		=> 'Wrong WackoWiki version!',
-	'DirectoryNotExecutable'	=> 'A %1 könyvtár nem futtatható.',
-	'BackupDelete'				=> 'Biztosan el akarja távolítani az %1 biztonsági mentést?',
+	'DirectoryNotExecutable'	=> 'La directory %1 non è eseguibile.',
+	'BackupDelete'				=> 'Sei sicuro di voler rimuovere il backup %1?',
 	'BackupDeleteInfo'			=> '',
 	'RestoreOptions'			=> 'Additional restore options:',
 	'RestoreOptionsInfo'		=> '* Before restoring the <strong>cluster backup</strong>, ' .
@@ -1095,34 +1093,34 @@ $ap_translation = [
 	'HomonymicFiles'			=> 'homonymic files',
 	'RestoreSkip'				=> 'skip',
 	'RestoreReplace'			=> 'replace',
-	'RestoreFile'				=> 'Fájl:',
+	'RestoreFile'				=> 'File:',
 	'RestoredFiles'				=> 'restored:',
 	'SkippedFiles'				=> 'skipped:',
 	'FileRestoreDone'			=> 'Completed. Total files:',
-	'FilesAll'					=> 'mind:',
+	'FilesAll'					=> 'tutti:',
 	'SkipFiles'					=> 'Files are not stored - skip',
 	'RestoreDone'				=> 'RESTORATION COMPLETED',
 
 	'BackupCreationDate'		=> 'Creation Date',
 	'BackupPackageContents'		=> 'The contents of the package',
-	'BackupRestore'				=> 'Visszaállítás',
-	'BackupRemove'				=> 'Eltávolítás',
-	'RestoreYes'				=> 'Igen',
-	'RestoreNo'					=> 'Nem',
+	'BackupRestore'				=> 'Ripristina',
+	'BackupRemove'				=> 'Rimuovere',
+	'RestoreYes'				=> 'Yes',
+	'RestoreNo'					=> 'No',
 	'LogDbRestored'				=> 'Backup ##%1## of the database restored.',
 
-	'BackupArchived'			=> 'Biztonsági mentés %1 archiválva.',
-	'BackupArchiveExists'		=> 'A %1 biztonsági mentés archívuma már létezik.',
-	'LogBackupArchived'			=> 'Biztonsági mentés ##%1## archiválva.',
+	'BackupArchived'			=> 'Backup %1 archiviato.',
+	'BackupArchiveExists'		=> 'L’archivio di backup %1 esiste già.',
+	'LogBackupArchived'			=> 'Backup ##%1## archiviato.',
 
 	// User module
 	'UsersInfo'					=> 'Here you can change your users information and certain specific options.',
 
 	'UsersAdded'				=> 'User added',
 	'UsersDeleteInfo'			=> '[User delete Info here..]',
-	'EditButton'				=> 'Szerkesztés',
+	'EditButton'				=> 'Modificare',
 	'UsersAddNew'				=> 'Add new user',
-	'UsersDelete'				=> 'Biztosan el akarja távolítani az %1 felhasználót?',
+	'UsersDelete'				=> 'Sei sicuro di voler rimuovere l’utente %1?',
 	'UsersDeleted'				=> 'The user %1 was deleted from the database.',
 	'UsersRename'				=> 'Rename the user %1 to',
 	'UsersRenameInfo'			=> '* Note: Change will affect all pages that are assigned to that user.',
@@ -1133,10 +1131,10 @@ $ap_translation = [
 	'UserActions'				=> 'Actions',
 	'NoMatchingUser'			=> 'No users that meet the criteria',
 
-	'UserAccountNotify'			=> 'Értesítse a felhasználót',
-	'UserNotifySignup'			=> 'tájékoztassa a felhasználót az új fiókról',
-	'UserVerifyEmail'			=> 'állítsa be az e-mail megerősítő tokent és adjon hozzá linket az e-mail ellenőrzéséhez',
-	'UserReVerifyEmail'			=> 'E-mail újraküldése megerősítés token',
+	'UserAccountNotify'			=> 'Notifica utente',
+	'UserNotifySignup'			=> 'informare l’utente del nuovo account',
+	'UserVerifyEmail'			=> 'imposta il token di conferma e-mail e aggiungi link per la verifica e-mail',
+	'UserReVerifyEmail'			=> 'Invia di nuovo il token di conferma dell’e-mail',
 
 	// Groups module
 	'GroupsInfo'				=> 'From this panel you can administrate all your usergroups. You can delete, create and edit existing groups. Furthermore, you may choose group leaders, toggle open/hidden/closed group status and set the group name and description.',
@@ -1149,54 +1147,54 @@ $ap_translation = [
 	'LogGroupRemoved'			=> 'Removed group ##%1##',
 
 	'GroupsMembersFor'			=> 'Members for Group',
-	'GroupsDescription'			=> 'Leírás',
-	'GroupsModerator'			=> 'Moderátor',
-	'GroupsOpen'				=> 'Nyitott',
-	'GroupsActive'				=> 'Aktív',
+	'GroupsDescription'			=> 'Descrizione',
+	'GroupsModerator'			=> 'Moderatore',
+	'GroupsOpen'				=> 'Open',
+	'GroupsActive'				=> 'Active',
 	'GroupsTip'					=> 'Click to edit Group',
 	'GroupsUpdated'				=> 'Groups updated',
-	'GroupsAlreadyExists'		=> 'This group already exists.',
-	'GroupsAdded'				=> 'Group added successfully.',
-	'GroupsRenamed'				=> 'Group successfully renamed.',
+	'GroupsAlreadyExists'		=> 'Questo gruppo esiste già.',
+	'GroupsAdded'				=> 'Gruppo aggiunto con successo.',
+	'GroupsRenamed'				=> 'Gruppo rinominato con successo.',
 	'GroupsDeleted'				=> 'The group %1 and all associated pages were deleted from the database.',
-	'GroupsAdd'					=> 'Add a new group',
+	'GroupsAdd'					=> 'Aggiungere un nuovo gruppo',
 	'GroupsRename'				=> 'Rename the group %1 to',
 	'GroupsRenameInfo'			=> '* Note: Change will affect all pages that are assigned to that group.',
-	'GroupsDelete'				=> 'Biztosan el akarja távolítani a %1 csoportot?',
-	'GroupsDeleteInfo'			=> '* Note: Change will affect all members that are assigned to that group.',
-	'GroupsIsSystem'			=> 'The group %1 belongs to the system and cannot be removed.',
+	'GroupsDelete'				=> 'Sei sicuro di voler rimuovere il gruppo %1?',
+	'GroupsDeleteInfo'			=> '* Nota: Le modifiche riguardano tutti i membri assegnati a quel gruppo.',
+	'GroupsIsSystem'			=> 'Il gruppo %1 appartiene al sistema e non può essere rimosso.',
 	'GroupsStoreButton'			=> 'Save Groups',
 	'GroupsEditInfo'			=> 'To edit the groups list select the radio button.',
 
-	'GroupAddMember'			=> 'Add member',
-	'GroupRemoveMember'			=> 'Remove Member',
-	'GroupAddNew'				=> 'Add group',
-	'GroupEdit'					=> 'Edit Group',
-	'GroupDelete'				=> 'Remove Group',
+	'GroupAddMember'			=> 'Aggiungi membro',
+	'GroupRemoveMember'			=> 'Rimuovi Membro',
+	'GroupAddNew'				=> 'Aggiungi gruppo',
+	'GroupEdit'					=> 'Modifica gruppo',
+	'GroupDelete'				=> 'Rimuovi gruppo',
 
-	'MembersAddNew'				=> 'Add new member',
-	'MembersAdded'				=> 'Added new member to the group successfully.',
-	'MembersRemove'				=> 'Are you sure you want to remove member %1?',
-	'MembersRemoved'			=> 'The member was removed from the group.',
+	'MembersAddNew'				=> 'Aggiungere un nuovo membro',
+	'MembersAdded'				=> 'Aggiunto con successo un nuovo membro del gruppo.',
+	'MembersRemove'				=> 'Sei sicuro di voler rimuovere un membro %1?',
+	'MembersRemoved'			=> 'Il membro è stato allontanato dal gruppo.',
 
 	// Statistics module
 	'DbStatSection'				=> 'Database Statistics',
 	'DbTable'					=> 'Table',
 	'DbRecords'					=> 'Records',
-	'DbSize'					=> 'Méret',
+	'DbSize'					=> 'Size',
 	'DbIndex'					=> 'Index',
 	'DbOverhead'				=> 'Overhead',
 	'DbTotal'					=> 'Total',
 
 	'FileStatSection'			=> 'File system Statistics',
 	'FileFolder'				=> 'Folder',
-	'FileFiles'					=> 'Fájlok',
-	'FileSize'					=> 'Méret',
+	'FileFiles'					=> 'Files',
+	'FileSize'					=> 'Size',
 	'FileTotal'					=> 'Total',
 
 	// Sysinfo module
 	'SysInfo'					=> 'Version information:',
-	'SysParameter'				=> 'Paraméter',
+	'SysParameter'				=> 'Parameter',
 	'SysValues'					=> 'Values',
 
 	'WackoVersion'				=> 'WackoWiki',
@@ -1217,16 +1215,16 @@ $ap_translation = [
 	'SessionPath'				=> 'Session path',
 	'PhpDefaultCharset'			=> 'PHP default charset',
 	'GZipCompression'			=> 'GZip compression',
-	'PhpExtensions'				=> 'PHP-kiterjesztések',
+	'PhpExtensions'				=> 'PHP extensions',
 	'ApacheModules'				=> 'Apache modules',
 
 	// DB repair module
-	'DbRepairSection'			=> 'Javítási adatbázis',
-	'DbRepair'					=> 'Javítási adatbázis',
+	'DbRepairSection'			=> 'Repair Database',
+	'DbRepair'					=> 'Repair Database',
 	'DbRepairInfo'				=> 'This script can automatically look for some common database problems and repair them. Repairing can take a while, so please be patient.',
 
-	'DbOptimizeRepairSection'	=> 'Javítás és optimalizálás adatbázisban',
-	'DbOptimizeRepair'			=> 'Javítás és optimalizálás adatbázisban',
+	'DbOptimizeRepairSection'	=> 'Repair and Optimize Database',
+	'DbOptimizeRepair'			=> 'Repair and Optimize Database',
 	'DbOptimizeRepairInfo'		=> 'This script can also attempt to optimize the database. This improves performance in some situations. Repairing and optimizing the database can take a long time and the database will be locked while optimizing.',
 
 	'TableOk'					=> 'The %1 table is okay.',
@@ -1241,10 +1239,10 @@ $ap_translation = [
 
 	// Inconsistencies module
 	'InconsistenciesInfo'		=> 'Show and fix inconsistencies, delete or assign orphaned records to a new user / value.',
-	'Inconsistencies'			=> 'Következetlenségek',
-	'CheckDatabase'				=> 'Adatbázis',
+	'Inconsistencies'			=> 'Inconsistencies',
+	'CheckDatabase'				=> 'Database',
 	'CheckDatabaseInfo'			=> 'Checks for record inconsistencies in the database.',
-	'CheckFiles'				=> 'Fájlok',
+	'CheckFiles'				=> 'Files',
 	'CheckFilesInfo'			=> 'Checks for abandoned files, files with no reference left in the file table.',
 	'Records'					=> 'Records',
 	'InconsistenciesNone'		=> 'No Data Inconsistencies found.',
@@ -1261,7 +1259,7 @@ $ap_translation = [
 
 	'BbSummary'					=> 'Summary',
 	'BbLog'						=> 'Log',
-	'BbSettings'				=> 'Beállítások',
+	'BbSettings'				=> 'Preferenze',
 	'BbWhitelist'				=> 'Whitelist',
 
 	// --> Log
@@ -1274,7 +1272,7 @@ $ap_translation = [
 	'BbGetPost'					=> 'GET/POST',
 	'BbUri'						=> 'URI',
 	'BbRecordsAll'				=> 'Displaying all %1 records',
-	'BbShow'					=> 'Megjelenítés',
+	'BbShow'					=> 'Show',
 	'BbIpDateStatus'			=> 'IP/Date/Status',
 	'BbHeaders'					=> 'Headers',
 	'BbEntity'					=> 'Entity',
@@ -1295,20 +1293,20 @@ $ap_translation = [
 	'BbLogVerbose'				=> 'Verbose',
 	'BbLogNormal'				=> 'Normal (recommended)',
 	'BbLogOff'					=> 'Do not log (not recommended)',
-	'BbSecurity'				=> 'Biztonság',
+	'BbSecurity'				=> 'Security',
 	'BbStrict'					=> 'Strict checking',
 	'BbStrictInfo'				=> 'blocks more spam but may block some people',
 	'BbOffsiteForms'			=> 'Allow form postings from other web sites',
 	'BbOffsiteFormsInfo'		=> 'required for OpenID; increases spam received',
 	'BbHttpbl'					=> 'http:BL',
-	'BbHttpblInfo'				=> 'To use Bad Behaviour\'s http:BL features you must have an %1',
+	'BbHttpblInfo'				=> 'To use Bad Behaviour’s http:BL features you must have an %1',
 	'BbHttpblKey'				=> 'http:BL Access Key',
 	'BbHttpblThreat'			=> 'Minimum Threat Level (25 is recommended)',
 	'BbHttpblMaxage'			=> 'Maximum Age of Data (30 is recommended)',
 	'BbReverseProxy'			=> 'Reverse Proxy/Load Balancer',
 	'BbReverseProxyInfo'		=> 'If you are using Bad Behaviour behind a reverse proxy, load balancer, HTTP accelerator, content cache or similar technology, enable the Reverse Proxy option.<br>' .
-									'If you have a chain of two or more reverse proxies between your server and the public Internet, you must specify <em>all</em> of the IP address ranges (in CIDR format) of all of your proxy servers, load balancers, etc. Otherwise, Bad Behaviour may be unable to determine the client\'s true IP address.<br>' .
-									'In addition, your reverse proxy servers must set the IP address of the Internet client from which they received the request in an HTTP header. If you don\'t specify a header, %1 will be used. Most proxy servers already support X-Forwarded-For and you would then only need to ensure that it is enabled on your proxy servers. Some other header names in common use include %2 and %3.',
+									'If you have a chain of two or more reverse proxies between your server and the public Internet, you must specify <em>all</em> of the IP address ranges (in CIDR format) of all of your proxy servers, load balancers, etc. Otherwise, Bad Behaviour may be unable to determine the client’s true IP address.<br>' .
+									'In addition, your reverse proxy servers must set the IP address of the Internet client from which they received the request in an HTTP header. If you don’t specify a header, %1 will be used. Most proxy servers already support X-Forwarded-For and you would then only need to ensure that it is enabled on your proxy servers. Some other header names in common use include %2 and %3.',
 	'BbReverseProxyEnable'		=> 'Enable Reverse Proxy',
 	'BbReverseProxyHeader'		=> 'Header containing Internet clients IP address',
 	'BbReverseProxyAddresses'	=> 'IP address or CIDR format address ranges for your proxy servers (one per line)',
