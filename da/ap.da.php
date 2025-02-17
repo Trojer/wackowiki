@@ -9,32 +9,32 @@ $ap_translation = [
 
 	'CategoryArray'		=> [
 		'basics'		=> 'Basic functions',
-		'preferences'	=> 'Voorkeuren',
+		'preferences'	=> 'Preferences',
 		'content'		=> 'Content',
-		'users'			=> 'Gebruikers',
-		'maintenance'	=> 'Onderhoud',
-		'messages'		=> 'Berichten',
-		'extension'		=> 'Extensies',
-		'database'		=> 'Database',
+		'users'			=> 'Użytkownicy',
+		'maintenance'	=> 'Maintenance',
+		'messages'		=> 'Messages',
+		'extension'		=> 'Extension',
+		'database'		=> 'Baza danych',
 	],
 
 	// Admin panel
-	'AdminPanel'				=> 'Beheerderspaneel',
-	'RecoveryMode'				=> 'Herstelmodus',
+	'AdminPanel'				=> 'Panel administracji',
+	'RecoveryMode'				=> 'Tryb odzyskiwania',
 	'Authorization'				=> 'Authorization',
 	'AuthorizationTip'			=> 'Please enter the administrative password (make sure that cookies are allowed in your browser).',
-	'NoRecoveryPassword'		=> 'Het beheerderswachtwoord is niet opgegeven!',
-	'NoRecoveryPasswordTip'		=> 'Opmerking: Het ontbreken van een administratief wachtwoord is een bedreiging voor de veiligheid! Voer je wachtwoord hash in in het configuratiebestand en voer het programma opnieuw uit.',
+	'NoRecoveryPassword'		=> 'Hasło administracyjne nie zostało określone!',
+	'NoRecoveryPasswordTip'		=> 'Uwaga: Brak hasła administracyjnego stanowi zagrożenie dla bezpieczeństwa! Wprowadź hash hasła w pliku konfiguracyjnym i uruchom program ponownie.',
 
 	'ErrorLoadingModule'		=> 'Error loading admin module %1: does not exist.',
 
-	'ApHomePage'				=> 'Home pagina',
+	'ApHomePage'				=> 'Strona domowa',
 	'ApHomePageTip'				=> 'Open the home page, you do not quit system administration',
-	'ApLogOut'					=> 'Log uit',
+	'ApLogOut'					=> 'Wyloguj',
 	'ApLogOutTip'				=> 'Quit system administration',
 
-	'TimeLeft'					=> 'Resterende tijd:  %1 minuten',
-	'ApVersion'					=> 'versie',
+	'TimeLeft'					=> 'Pozostały czas: %1 minut',
+	'ApVersion'					=> 'wersja',
 
 	'SiteOpen'					=> 'Open',
 	'SiteOpened'				=> 'site opened',
@@ -46,18 +46,18 @@ $ap_translation = [
 	'System'					=> 'System',
 
 	// Generic
-	'Cancel'					=> 'Annuleren',
-	'Add'						=> 'Toevoegen',
-	'Edit'						=> 'Bewerk',
-	'Remove'					=> 'Verwijderen',
-	'Enabled'					=> 'Inschakelen',
-	'Disabled'					=> 'Uitschakelen',
-	'Mandatory'					=> 'Mandatory',
+	'Cancel'					=> 'Anuluj',
+	'Add'						=> 'Dodaj',
+	'Edit'						=> 'Edytuj',
+	'Remove'					=> 'Usuń',
+	'Enabled'					=> 'Odblokuj',
+	'Disabled'					=> 'Zablokuj',
+	'Mandatory'					=> 'Obowiązkowe',
 	'Admin'						=> 'Admin',
 	'Min'						=> 'Min',
 	'Max'						=> 'Max',
 
-	'MiscellaneousSection'		=> 'Overige',
+	'MiscellaneousSection'		=> 'Miscellaneous',
 	'MainSection'				=> 'Basic Parameters',
 
 	'DirNotWritable'			=> 'The %1 directory is not writable.',
@@ -80,26 +80,26 @@ $ap_translation = [
 
 	// Config Appearance module
 	'config_appearance'		=> [
-		'name'		=> 'Uiterlijk',
-		'title'		=> 'Appearance settings',
+		'name'		=> 'Wygląd',
+		'title'		=> 'Ustawienia Wygląd',
 	],
 
 	// Config Email module
 	'config_email'		=> [
-		'name'		=> 'E-mailadres',
-		'title'		=> 'Email instellingen',
+		'name'		=> 'E-mail',
+		'title'		=> 'Ustawienia E-mail',
 	],
 
 	// Config Syndication module
 	'config_syndication'		=> [
 		'name'		=> 'Syndication',
-		'title'		=> 'Syndication-instellingen',
+		'title'		=> 'Syndication settings',
 	],
 
 	// Config Filter module
 	'config_filter'		=> [
-		'name'		=> 'Filter',
-		'title'		=> 'Filter instellingen',
+		'name'		=> 'Filtr',
+		'title'		=> 'Ustawienia filtra',
 	],
 
 	// Config Formatter module
@@ -110,20 +110,20 @@ $ap_translation = [
 
 	// Config Notifications module
 	'config_notifications'		=> [
-		'name'		=> 'Meldingen',
-		'title'		=> 'Notifications settings',
+		'name'		=> 'Powiadomienia',
+		'title'		=> 'Ustawienia powiadomień',
 	],
 
 	// Config Pages module
 	'config_pages'		=> [
-		'name'		=> 'Pagina\'s',
+		'name'		=> 'Strony',
 		'title'		=> 'Pages and site parameters',
 	],
 
 	// Config Permissions module
 	'config_permissions'		=> [
-		'name'		=> 'Permissies',
-		'title'		=> 'Permissions settings',
+		'name'		=> 'Uprawnienia',
+		'title'		=> 'Ustawienia uprawnień',
 	],
 
 	// Config Security module
@@ -134,13 +134,13 @@ $ap_translation = [
 
 	// Config System module
 	'config_system'		=> [
-		'name'		=> 'Systeem',
+		'name'		=> 'System',
 		'title'		=> 'System options',
 	],
 
 	// Config Upload module
 	'config_upload'		=> [
-		'name'		=> 'Doorgaan',
+		'name'		=> 'Upload',
 		'title'		=> 'Attachment settings',
 	],
 
@@ -153,12 +153,12 @@ $ap_translation = [
 	// Menu module
 	'content_menu'		=> [
 		'name'		=> 'Menu',
-		'title'		=> 'Add, edit or remove default menu items',
+		'title'		=> 'Dodawanie, edytowanie lub usuwanie domyślnych elementów menu',
 	],
 
 	// DB Backup module
 	'db_backup'		=> [
-		'name'		=> 'Backup',
+		'name'		=> 'Kopia zapasowa',
 		'title'		=> 'Backing up data',
 	],
 
@@ -170,14 +170,14 @@ $ap_translation = [
 
 	// DB Restore module
 	'db_restore'		=> [
-		'name'		=> 'Herstellen',
+		'name'		=> 'Przywracanie',
 		'title'		=> 'Restoring backup data',
 	],
 
 	// Dashboard module
 	'main'		=> [
 		'name'		=> 'Main Menu',
-		'title'		=> 'WackoWiki Administration',
+		'title'		=> 'WackoWiki Administracja',
 	],
 
 	// Inconsistencies module
@@ -206,19 +206,19 @@ $ap_translation = [
 
 	// System Info module
 	'system_info'		=> [
-		'name'		=> 'Systeem Info',
-		'title'		=> 'Systeeminformatie',
+		'name'		=> 'System Info',
+		'title'		=> 'System Information',
 	],
 
 	// System log module
 	'system_log'		=> [
-		'name'		=> 'Systeem log',
+		'name'		=> 'System log',
 		'title'		=> 'Log of system events',
 	],
 
 	// Statistics module
 	'system_statistics'		=> [
-		'name'		=> 'Statistieken',
+		'name'		=> 'Statystyki',
 		'title'		=> 'Show statistics',
 	],
 
@@ -230,19 +230,19 @@ $ap_translation = [
 
 	// Registration Approval module
 	'user_approve'		=> [
-		'name'		=> 'Approve',
-		'title'		=> 'User registration approval',
+		'name'		=> 'Zatwierdź',
+		'title'		=> 'Zatwierdzenie rejestracji użytkownika',
 	],
 
 	// Groups module
 	'user_groups'		=> [
-		'name'		=> 'Groepen',
+		'name'		=> 'Grupy',
 		'title'		=> 'Group management',
 	],
 
 	// User module
 	'user_users'		=> [
-		'name'		=> 'Gebruikers',
+		'name'		=> 'Użytkownicy',
 		'title'		=> 'User management',
 	],
 
@@ -267,15 +267,15 @@ $ap_translation = [
 	'AdminName'					=> 'Admin of site:',
 	'AdminNameInfo'				=> 'User name of individual who is responsible for overall support of the site. This name is not used to determine access rights, but it is desirable that it conforms to the name of the chief administrator of the site.',
 
-	'LanguageSection'			=> 'Taal',
-	'DefaultLanguage'			=> 'Standaard taal:',
+	'LanguageSection'			=> 'Język',
+	'DefaultLanguage'			=> 'Default language:',
 	'DefaultLanguageInfo'		=> 'Specifies the language of messages displayed to unregistered guests, as well as the locale settings.',
 	'MultiLanguage'				=> 'Multilanguage support:',
 	'MultiLanguageInfo'			=> 'Enable the ability to select a language on a page-by-page basis.',
-	'AllowedLanguages'			=> 'Toegestane talen:',
-	'AllowedLanguagesInfo'		=> 'Het wordt aanbevolen om alleen de set van talen te selecteren die u wilt gebruiken, anders worden alle talen geselecteerd.',
+	'AllowedLanguages'			=> 'Allowed languages:',
+	'AllowedLanguagesInfo'		=> 'Zaleca się, aby wybrać tylko zestaw języków, które chcesz używać, w przeciwnym razie wszystkie języki zostaną wybrane.',
 
-	'CommentSection'			=> 'Reacties',
+	'CommentSection'			=> 'Komentarze',
 	'AllowComments'				=> 'Allow comments:',
 	'AllowCommentsInfo'			=> 'Enable comments for guests or registered users only, or disable them on the entire site.',
 	'SortingComments'			=> 'Sorting comments:',
@@ -312,20 +312,20 @@ $ap_translation = [
 	'ExportHandlerInfo'			=> 'Permits the display of the XML export handler.',
 
 	'DiffModeSection'			=> 'Diff Modes',
-	'DefaultDiffModeSetting'	=> 'Standaard diff modus:',
+	'DefaultDiffModeSetting'	=> 'Default diff mode:',
 	'DefaultDiffModeSettingInfo'=> 'Preselected diff mode.',
 	'AllowedDiffMode'			=> 'Allowed diff modes:',
 	'AllowedDiffModeInfo'		=> 'It is recommended to select only the set of diff modes you want to use, otherwise all diff modes are selected.',
 	'NotifyDiffMode'			=> 'Notify diff mode:',
 	'NotifyDiffModeInfo'		=> 'Diff mode used for notifications in the email body.',
 
-	'EditingSection'			=> 'Editing',
-	'EditSummary'				=> 'Samenvatting bewerken:',
+	'EditingSection'			=> 'Edytowanie',
+	'EditSummary'				=> 'Opis zmian:',
 	'EditSummaryInfo'			=> 'Shows change summary in the edit mode.',
-	'MinorEdit'					=> 'Kleine bewerking:',
+	'MinorEdit'					=> 'Drobna zmiana:',
 	'MinorEditInfo'				=> 'Enables minor edit option in the edit mode.',
-	'SectionEdit'				=> 'Sectie bewerken:',
-	'SectionEditInfo'			=> 'Maakt het mogelijk alleen een sectie van een pagina te bewerken.',
+	'SectionEdit'				=> 'Edycja sekcji:',
+	'SectionEditInfo'			=> 'Umożliwia edycję tylko fragmentu strony.',
 	'ReviewSettings'			=> 'Review:',
 	'ReviewSettingsInfo'		=> 'Enables review option in the edit mode.',
 	'PublishAnonymously'		=> 'Allow anonymous publishing:',
@@ -342,24 +342,24 @@ $ap_translation = [
 	'EnableReferrers'			=> 'Enable referrers:',
 	'EnableReferrersInfo'		=> 'Permits creation and display of external referrers.',
 	'ReferrersPurgeTime'		=> 'Storage time of referrers:',
-	'ReferrersPurgeTimeInfo'	=> 'Bewaar de geschiedenis van het doorverwijzen van externe pagina\'s niet langer dan een bepaald aantal dagen. Nul betekent eeuwige opslag, maar voor een actief bezochte site kan dit leiden tot een databaseoverloop.',
+	'ReferrersPurgeTimeInfo'	=> 'Przechowuj historię odsyłania stron zewnętrznych nie dłużej niż przez określoną liczbę dni. Zero oznacza wieczne przechowywanie, ale dla aktywnie odwiedzanej strony może to prowadzić do przepełnienia bazy danych.',
 	'EnableCounters'			=> 'Hit Counters:',
-	'EnableCountersInfo'		=> 'Maakt het tellen van hits per pagina mogelijk en maakt de weergave van eenvoudige statistieken mogelijk. Oproepen van de eigenaar van de pagina worden niet meegeteld.',
+	'EnableCountersInfo'		=> 'Allows per page hit counters and enables display of simple statistics. Views of the page owner are not counted.',
 
 	// Syndication settings
-	'SyndicationSettingsInfo'		=> 'Beheer de standaardinstellingen voor websyndicatie voor je site.',
-	'SyndicationSettingsUpdated'	=> 'Bijgewerkte syndicatie-instellingen.',
+	'SyndicationSettingsInfo'		=> 'Control default web syndication settings for your site.',
+	'SyndicationSettingsUpdated'	=> 'Updated syndication settings.',
 
 	'FeedsSection'				=> 'Feeds',
 	'EnableFeeds'				=> 'Enable feeds:',
-	'EnableFeedsInfo'			=> 'Schakelt RSS-feeds in of uit voor de hele wiki.',
+	'EnableFeedsInfo'			=> 'Włącza lub wyłącza zasilanie RSS dla całej wiki.',
 	'XmlChangeLink'				=> 'Changes feed link mode:',
 	'XmlChangeLinkInfo'			=> 'Defines where the XML Changes feed items links to.',
 	'XmlChangeLinkMode'			=> [
-		'1'		=> 'verschillen',
-		'2'		=> 'de huidige pagina',
-		'3'		=> 'lijst van revisies',
-		'4'		=> 'de gewijzigde pagina',
+		'1'		=> 'różnice',
+		'2'		=> 'aktualna strona',
+		'3'		=> 'lista zmian',
+		'4'		=> 'zmodyfikowana strona',
 	],
 
 	'XmlSitemap'				=> 'XML sitemap:',
@@ -367,11 +367,11 @@ $ap_translation = [
 	'XmlSitemapGz'				=> 'XML sitemap compression:',
 	'XmlSitemapGzInfo'			=> 'If you would like, you may compress your sitemap text file using gzip to reduce your bandwidth requirement.',
 	'XmlSitemapTime'			=> 'XML sitemap generation time:',
-	'XmlSitemapTimeInfo'		=> 'Genereert de Sitemap slechts één keer in het opgegeven aantal dagen, nul betekent op elke paginawissel.',
+	'XmlSitemapTimeInfo'		=> 'Generuje mapę Sitemap tylko raz w danej liczbie dni, zero oznacza na każdej zmianie strony.',
 
-	'SearchSection'				=> 'Zoeken',
+	'SearchSection'				=> 'Znajdź',
 	'OpenSearch'				=> 'OpenSearch:',
-	'OpenSearchInfo'			=> 'Maakt het OpenSearch-beschrijvingsbestand aan in de XML-map en activeert Autodiscovery van de zoekplugin in de HTML-header.',
+	'OpenSearchInfo'			=> 'Tworzy plik opisu OpenSearch w katalogu XML i włącza Autodiscovery pluginu wyszukiwania w nagłówku HTML.',
 	'SearchEngineVisibility'	=> 'Block search engines (search engine visibility):',
 	'SearchEngineVisibilityInfo'=> 'Block search engines, but allow normal visitors. Overrides page settings. <br>Discourage search engines from indexing this site. It is up to search engines to honor this request.',
 
@@ -381,12 +381,12 @@ $ap_translation = [
 	'AppearanceSettingsInfo'	=> 'Control default display settings for your site.',
 	'AppearanceSettingsUpdated'	=> 'Updated appearance settings.',
 
-	'LogoOff'					=> 'Uit',
+	'LogoOff'					=> 'Wyłączony',
 	'LogoOnly'					=> 'logo',
 	'LogoAndTitle'				=> 'logo and title',
 
 	'LogoSection'				=> 'Logo',
-	'SiteLogo'					=> 'Site logo:',
+	'SiteLogo'					=> 'Logo strony:',
 	'SiteLogoInfo'				=> 'Your logo will typically appear at the top left corner of the application. Max size is 2 MiB. Optimal dimensions are 255 pixels wide by 55 pixels high.',
 	'LogoDimensions'			=> 'Logo dimensions:',
 	'LogoDimensionsInfo'		=> 'Width and height of the displayed logo.',
@@ -396,14 +396,14 @@ $ap_translation = [
 	'FaviconSection'			=> 'Favicon',
 	'SiteFavicon'				=> 'Site favicon:',
 	'SiteFaviconInfo'			=> 'Your shortcut icon, or favicon, is displayed in the address bar, tabs and bookmarks of most browsers. This will override the favicon of your theme.',
-	'SiteFaviconTooBig'			=> 'Favicon is groter dan 64 × 64px.',
-	'ThemeColor'				=> 'Thema kleur voor adresbalk:',
-	'ThemeColorInfo'			=> 'De browser zal de kleur van de adresbalk van elke pagina instellen volgens de opgegeven CSS kleur.',
+	'SiteFaviconTooBig'			=> 'Favicon jest większy niż 64 × 64px.',
+	'ThemeColor'				=> 'Kolor motywu dla paska adresu:',
+	'ThemeColorInfo'			=> 'Przeglądarka ustawi kolor paska adresu każdej strony zgodnie z podanym kolorem CSS.',
 
 	'LayoutSection'				=> 'Layout',
-	'Theme'						=> 'Thema:',
+	'Theme'						=> 'Theme:',
 	'ThemeInfo'					=> 'Template design the site uses by default.',
-	'ThemesAllowed'				=> 'Toegestane thema\'s:',
+	'ThemesAllowed'				=> 'Allowed Themes:',
 	'ThemesAllowedInfo'			=> 'Select the allowed themes, which the user can choose; otherwise, all available themes are allowed.',
 	'ThemesPerPage'				=> 'Themes per page:',
 	'ThemesPerPageInfo'			=> 'Allow themes per page, which the page owner can choose via page properties.',
@@ -469,20 +469,20 @@ $ap_translation = [
 
 	'ReverseProxySection'		=> 'Reverse Proxy',
 	'ReverseProxy'				=> 'Use reverse proxy:',
-	'ReverseProxyInfo'			=> 'Schakel deze instelling in om het juiste IP adres van de remote client te bepalen door
-									de informatie opgeslagen in de X-Forwarded-For headers te onderzoeken. X-Forwarded-For headers
-									zijn een standaardmechanisme om cliëntsystemen te identificeren die verbinding maken via een
-									reverse proxyserver, zoals Squid of Pound. Reverse proxy servers worden vaak gebruikt om de prestatie
-									van druk bezochte sites te verbeteren en kunnen ook andere site caching, beveiliging of encryptie
-									voordelen bieden. Als deze WackoWiki installatie achter een reverse proxy opereert, zou deze instelling
-									aangezet moeten worden zodat correcte IP adres informatie wordt vastgelegd in WackoWiki\'s
-									sessie management, logging, statistieken en toegangsmanagement systemen; als u niet zeker bent
-									over deze instelling, geen reverse proxy heeft, of WackoWiki opereert in een gedeelde hosting omgeving,
-									zou deze instelling uitgeschakeld moeten blijven.',
+	'ReverseProxyInfo'			=> 'Włącz to ustawienie, aby określić prawidłowy adres IP zdalnego klienta, analizując informacje z
+									apisane w nagłówkach X-Forwarded-For. Nagłówki X-Forwarded-For są standardowym mechanizmem
+									identyfikacji systemów klienckich łączących się przez odwrotny serwer proxy, taki jak Squid lub Pound.
+									Odwrócone serwery proxy są często używane w celu zwiększenia wydajności często odwiedzanych witryn,
+									a także w celu zapewnienia innych korzyści związanych z buforowaniem, bezpieczeństwem lub szyfrowaniem.
+									Jeśli instalacja WackoWiki działa za pośrednictwem serwera proxy, ustawienie to powinno być włączone,
+									aby poprawne informacje o adresie IP były przechwytywane przez systemy zarządzania sesjami,
+									logowania, statystyk i zarządzania dostępem w WackoWiki; jeśli nie masz pewności co do tego ustawienia,
+									nie masz serwera proxy lub WackoWiki działa w środowisku hostingu współdzielonego,
+									ustawienie to powinno pozostać wyłączone.',
 	'ReverseProxyHeader'		=> 'Reverse proxy header:',
-	'ReverseProxyHeaderInfo'	=> 'Stel deze waarde in als je proxyserver het IP van de client in een andere
-									header dan X-Forwarded-For stuurt. De "X-Forwarded-For" header is een komma+spatie
-									gescheiden lijst van IP adressen, alleen het laatste (het meest linkse) zal worden gebruikt.',
+	'ReverseProxyHeaderInfo'	=> 'Ustaw tę wartość, jeśli Twój serwer proxy wysyła IP klienta w nagłówku innym
+									niż X-Forwarded-For. Nagłówek "X-Forwarded-For" to lista adresów IP oddzielonych
+									przecinkami i spacjami, z których tylko ostatni (najbardziej wysunięty w lewo) będzie używany.',
 	'ReverseProxyAddresses'		=> 'reverse_proxy accepts an array of IP addresses:',
 	'ReverseProxyAddressesInfo'	=> 'Each element of this array is the IP address of any of your reverse
 									 proxies. If using this array, WackoWiki will trust the information stored
@@ -495,13 +495,13 @@ $ap_translation = [
 	'SessionStorage'				=> 'Session storage:',
 	'SessionStorageInfo'			=> 'This option defines where the the session data is stored. By default, either file or database session storage is selected.',
 	'SessionModes'	=> [
-		'1'		=> 'Bestand',
-		'2'		=> 'Database',
+		'1'		=> 'Plik',
+		'2'		=> 'Baza danych',
 	],
-	'SessionNotice'					=> 'Toon sessie beëindiging oorzaak:',
-	'SessionNoticeInfo'				=> 'Geeft de oorzaak van de sessiebeëindiging aan.',
-	'LoginNotice'					=> 'Aanmeldingsbericht:',
-	'LoginNoticeInfo'				=> 'Geeft een aanmeldingsbericht weer.',
+	'SessionNotice'					=> 'Pokaż przyczynę zakończenia sesji:',
+	'SessionNoticeInfo'				=> 'Wskazuje przyczynę zakończenia sesji.',
+	'LoginNotice'					=> 'Powiadomienie o logowaniu:',
+	'LoginNoticeInfo'				=> 'Wyświetla powiadomienie o logowaniu.',
 
 	'RewriteMode'					=> 'Use <code>mod_rewrite</code>:',
 	'RewriteModeInfo'				=> 'If your web server supports this feature, enable to "beautify" the page URLs.<br>
@@ -536,48 +536,48 @@ $ap_translation = [
 	'OwnersEditCategories'		=> 'Owners can edit page categories:',
 	'OwnersEditCategoriesInfo'	=> 'Allow owners to modify the pages category list of your site (add words, delete words), assigns to a page.',
 	'TermHumanModeration'		=> 'Human moderation expiration:',
-	'TermHumanModerationInfo'	=> 'Moderators kunnen alleen commentaar bewerken als het niet meer dan dit aantal dagen geleden is aangemaakt (deze beperking is niet van toepassing op het laatste commentaar in het onderwerp).',
+	'TermHumanModerationInfo'	=> 'Moderatorzy mogą edytować komentarze tylko wtedy, gdy zostały one utworzone nie więcej niż przed tą liczbą dni (to ograniczenie nie dotyczy ostatniego komentarza w temacie).',
 
-	'UserCanDeleteAccount'		=> 'Gebruikers kunnen hun accounts verwijderen',
+	'UserCanDeleteAccount'		=> 'Użytkownicy mogą usuwać swoje konta',
 
 	// Security settings
 	'SecuritySettingsInfo'		=> 'Parameters responsible for the overall safety of the platform, safety restrictions and additional security subsystems.',
 	'SecuritySettingsUpdated'	=> 'Updated security settings',
 
 	'AllowRegistration'			=> 'Register online:',
-	'AllowRegistrationInfo'		=> 'Open gebruikersregistratie. Het uitschakelen van deze optie voorkomt gratis registratie, maar de beheerder van de site kan wel zelf andere gebruikers registreren.',
+	'AllowRegistrationInfo'		=> 'Otwórz rejestrację użytkownika. Wyłączenie tej opcji uniemożliwi bezpłatną rejestrację, jednak administrator strony będzie mógł sam zarejestrować innych użytkowników.',
 	'ApproveNewUser'			=> 'Approve new users:',
 	'ApproveNewUserInfo'		=> 'Allows administrators to approve users once they register. Only approved users will be allowed to log in the site.',
 	'PersistentCookies'			=> 'Persistent cookies:',
 	'PersistentCookiesInfo'		=> 'Allow persistent cookies.',
 	'DisableWikiName'			=> 'Disable WikiName:',
 	'DisableWikiNameInfo'		=> 'Disable the the mandatory use of a WikiName for users. Permits user registration with traditional nicknames instead of forced CamelCase-formatted names (i.e., NameSurname).',
-	'UsernameLength'			=> 'Gebruikersnaam lengte:',
+	'UsernameLength'			=> 'Username length:',
 	'UsernameLengthInfo'		=> 'Minimum and maximum number of characters in usernames.',
 
 	'EmailSection'				=> 'Email',
 	'AllowEmailReuse'			=> 'Allow email address re-use:',
 	'AllowEmailReuseInfo'		=> 'Different users can register with the same email address.',
-	'EmailConfirmation'			=> 'Bevestiging per e-mail afdwingen:',
-	'EmailConfirmationInfo'		=> 'Vereist dat de gebruiker zijn e-mailadres verifieert voordat hij kan inloggen.',
-	'AllowedEmailDomains'		=> 'Toegestane e-maildomeinen:',
-	'AllowedEmailDomainsInfo'	=> 'Toegestane e-maildomeinen, gescheiden door komma\'s, bijv. <code>example.com, local.lan</code> etc., anders zijn alle e-maildomeinen toegestaan.',
-	'ForbiddenEmailDomains'		=> 'Verboden e-maildomeinen:',
-	'ForbiddenEmailDomainsInfo'	=> 'Verboden e-maildomeinen, gescheiden door komma\'s, bijv. <code>example.com, local.lan</code> enz. (alleen effectief als lijst met toegestane e-maildomeinen leeg is)',
+	'EmailConfirmation'			=> 'Wymuś potwierdzenie e-mail:',
+	'EmailConfirmationInfo'		=> 'Wymaga, aby użytkownik zweryfikował swój adres e-mail, zanim będzie mógł się zalogować.',
+	'AllowedEmailDomains'		=> 'Dozwolone domeny e-mail:',
+	'AllowedEmailDomainsInfo'	=> 'Dozwolone domeny e-mail oddzielone przecinkami, np. <code>example.com, local.lan</code> itd., w przeciwnym razie wszystkie domeny e-mail są dozwolone.',
+	'ForbiddenEmailDomains'		=> 'Zabronione domeny e-mail:',
+	'ForbiddenEmailDomainsInfo'	=> 'Zakazane domeny e-mail oddzielone przecinkami, np. <code>example.com, local.lan</code> itp. (działa tylko wtedy, gdy lista dozwolonych domen e-mail jest pusta)',
 
 	'CaptchaSection'			=> 'CAPTCHA',
 	'EnableCaptcha'				=> 'Enable captcha:',
 	'EnableCaptchaInfo'			=> 'If enabled, captcha will be shown in the following cases, or if a security threshold is reached.',
 	'CaptchaComment'			=> 'New comment:',
 	'CaptchaCommentInfo'		=> 'As protection against spam, unregistered users must complete captcha before comment will be posted.',
-	'CaptchaPage'				=> 'Nieuwe pagina',
+	'CaptchaPage'				=> 'New page:',
 	'CaptchaPageInfo'			=> 'As protection against spam, unregistered users must complete captcha before creating a new page.',
 	'CaptchaEdit'				=> 'Edit page:',
 	'CaptchaEditInfo'			=> 'As protection against spam, unregistered users must complete captcha before editing pages.',
-	'CaptchaRegistration'		=> 'Registratie:',
+	'CaptchaRegistration'		=> 'Rejestracja:',
 	'CaptchaRegistrationInfo'	=> 'As protection against spam, unregistered users must complete captcha before registering.',
 
-	'TlsSection'				=> 'TLS instellingen',
+	'TlsSection'				=> 'TLS Settings',
 	'TlsConnection'				=> 'TLS-Connection:',
 	'TlsConnectionInfo'			=> 'Use TLS-secured connection. <span class="cite">Activate the required pre-installed TLS-certificate on the server, otherwise you will lose access to the admin panel!</span><br>It also determines if the the Cookie Secure Flag is set, the <code>secure</code> flag specifies whether cookies should only be sent over secure connections.',
 	'TlsImplicit'				=> 'Mandatory TLS:',
@@ -589,12 +589,12 @@ $ap_translation = [
 	'Csp'						=> 'Content-Security-Policy (CSP):',
 	'CspInfo'					=> 'Configuring CSP involves deciding what policies you want to enforce, and then configuring them and using Content-Security-Policy to establish your policy.',
 	'PolicyModes'	=> [
-		'0'		=> 'uitgeschakeld',
+		'0'		=> 'disabled',
 		'1'		=> 'strict',
 		'2'		=> 'custom',
 	],
 	'PermissionsPolicy'			=> 'Permissions policy:',
-	'PermissionsPolicyInfo'		=> 'De HTTP Permissions-Policy header biedt een mechanisme om verschillende krachtige browserfuncties expliciet in of uit te schakelen.',
+	'PermissionsPolicyInfo'		=> 'Nagłówek HTTP Permissions-Policy udostępnia mechanizm wyraźnego włączania lub wyłączania różnych zaawansowanych funkcji przeglądarki.',
 	'ReferrerPolicy'			=> 'Referrer policy:',
 	'ReferrerPolicyInfo'		=> 'The Referrer-Policy HTTP header governs which referrer information, sent in the Referer header, should be included in responses.',
 	'ReferrerPolicyModes'	=> [
@@ -616,19 +616,19 @@ $ap_translation = [
 	'AdminPwdMinCharsInfo'		=> 'Longer passwords are necessarily more secure than shorter passwords (e.g. 15 to 20 characters).<br>The use of passphrases instead of passwords is encouraged.',
 	'PwdCharComplexity'			=> 'The required password complexity:',
 	'PwdCharClasses'	=> [
-		'0'		=> 'niet getest',
+		'0'		=> 'not tested',
 		'1'		=> 'any letters + numbers',
 		'2'		=> 'uppercase and lowercase + numbers',
 		'3'		=> 'uppercase and lowercase + numbers + characters',
 	],
 	'PwdUnlikeLogin'			=> 'Additional complication:',
 	'PwdUnlikes'	=> [
-		'0'		=> 'niet getest',
+		'0'		=> 'not tested',
 		'1'		=> 'password is not identical to the login',
 		'2'		=> 'password does not contain username',
 	],
 
-	'LoginSection'				=> 'Inloggen',
+	'LoginSection'				=> 'Login',
 	'MaxLoginAttempts'			=> 'Maximum number of login attempts per username:',
 	'MaxLoginAttemptsInfo'		=> 'The number of login attempts allowed for a single account before the anti-spambot task is triggered. Enter 0 to prevent the anti-spambot task from being triggered for distinct user accounts.',
 	'IpLoginLimitMax'			=> 'Maximum number of login attempts per IP address:',
@@ -636,7 +636,7 @@ $ap_translation = [
 
 	'FormsSection'				=> 'Forms',
 	'FormTokenTime'				=> 'Maximum time to submit forms:',
-	'FormTokenTimeInfo'			=> 'De tijd die een gebruiker heeft om een formulier in te dienen (in seconden).<br> Merk op dat een formulier ongeldig kan worden als de sessie afloopt, ongeacht deze instelling.',
+	'FormTokenTimeInfo'			=> 'Czas, w którym użytkownik musi przesłać formularz (w sekundach).<br> Należy pamiętać, że formularz może stać się nieważny po zakończeniu sesji, niezależnie od tego ustawienia.',
 
 	'SessionLength'				=> 'Session cookie expiration:',
 	'SessionLengthInfo'			=> 'The lifetime of the user session cookie by default (in days).',
@@ -680,20 +680,20 @@ $ap_translation = [
 	'TimeFormatSecondsInfo'		=> '(hours, minutes, seconds)',
 	'NameDateMacro'				=> 'The format of the <code>::@::</code> macro:',
 	'NameDateMacroInfo'			=> '(name, time), e.g. <code>UserName (17.11.2016 16:48)</code>',
-	'Timezone'					=> 'Tijdszone:',
-	'TimezoneInfo'				=> 'Tijdzone te gebruiken voor het tonen van tijden aan gebruikers die niet zijn ingelogd (gasten). Aangemelde gebruikers kunnen hun tijdzone instellen en wijzigen in hun gebruikersinstellingen.',
+	'Timezone'					=> 'Strefa czasowa:',
+	'TimezoneInfo'				=> 'Strefa czasowa, która ma być używana do wyświetlania czasu niezalogowanym użytkownikom (gościom). Zalogowani użytkownicy ustawiają i mogą zmieniać swoją strefę czasową w ustawieniach użytkownika.',
 
-	'Canonical'					=> 'Herleid URL\'s tot hun basisvorm:',
-	'CanonicalInfo'				=> 'Alle links worden als absolute URL\'s aangemaakt in de vorm %1. URL\'s ten opzichte van de server root in de vorm %2 verdienen de voorkeur.',
+	'Canonical'					=> 'Kanoniczne adresy URL:',
+	'CanonicalInfo'				=> 'Wszystkie linki są tworzone jako bezwzględne adresy URL w postaci %1. Należy preferować adresy URL w stosunku do korzenia serwera w postaci %2.',
 	'LinkTarget'				=> 'Where external links open:',
-	'LinkTargetInfo'			=> 'Opent elke externe link in een nieuw browservenster. Voegt <code>target="_blank"</code> toe aan de syntaxis van de link.',
+	'LinkTargetInfo'			=> 'Otwiera każde zewnętrzne łącze w nowym oknie przeglądarki. Dodaje <code>target="_blank"</code> do składni linku.',
 	'Noreferrer'				=> 'noreferrer:',
-	'NoreferrerInfo'			=> 'Vereist dat de browser geen HTTP-referentiekop stuurt als de gebruiker de hyperlink volgt. Voegt <code>rel="noreferrer"</code> toe aan de syntaxis van de link.',
+	'NoreferrerInfo'			=> 'Wymaga, aby przeglądarka nie wysyłała nagłówka referenta HTTP, jeśli użytkownik podąża za hiperłączem. Dodaje <code>rel="noreferrer"</code> do składni linku.',
 	'Nofollow'					=> 'nofollow:',
-	'NofollowInfo'				=> 'Instrueer sommige zoekmachines dat de hyperlink geen invloed mag hebben op de ranking van het doel van de link in de index van de zoekmachines. Voegt <code>rel="nofollow"</code> toe aan de syntaxis van de link.',
+	'NofollowInfo'				=> 'Należy poinstruować niektóre wyszukiwarki, że hiperłącze nie powinno mieć wpływu na ranking linków docelowych w indeksie wyszukiwarek. Dodaje <code>rel="nofollow"</code> do składni linku.',
 	'UrlsUnderscores'			=> 'Form addresses (URLs) with underscores:',
 	'UrlsUnderscoresInfo'		=> 'For example, %1 becames %2 with this option.',
-	'ShowSpaces'				=> 'Toon spaties in WikiNames:',
+	'ShowSpaces'				=> 'Wyświetlaj NazwyWiki z odstępem:',
 	'ShowSpacesInfo'			=> 'Show spaces in WikiNames, e.g. <code>MyName</code> being displayed as <code>My Name</code> with this option.',
 	'NumerateLinks'				=> 'Enumerate links in print view:',
 	'NumerateLinksInfo'			=> 'Enumerates and lists all links at the bottom of the print view with this option.',
@@ -701,13 +701,13 @@ $ap_translation = [
 	'YouareHereTextInfo'		=> 'Visualize links to the same page, using <code>&lt;b&gt;####&lt;/b&gt;</code>. All links to self lose link formatting, but are displayed as bold text.',
 
 	// Pages settings
-	'PagesSettingsInfo'			=> 'Hier kunt u de systeembasispagina\'s die binnen de Wiki worden gebruikt, instellen of wijzigen. Vergeet niet om de overeenkomstige pagina\'s in de Wiki aan te maken of te wijzigen volgens uw instellingen hier.',
+	'PagesSettingsInfo'			=> 'Tutaj możesz ustawić lub zmienić strony bazowe systemu używane w Wiki. Upewnij się, że nie zapomniałeś utworzyć lub zmienić odpowiednich stron w Wiki zgodnie z Twoimi ustawieniami tutaj.',
 	'PagesSettingsUpdated'		=> 'Updated settings base pages',
 
 	'ListCount'					=> 'Number of items per list:',
 	'ListCountInfo'				=> 'Number of items displayed on each list for guest, or as default value for new users.',
 
-	'ForumSection'				=> 'Options Forum',
+	'ForumSection'				=> 'Ustawienia forum',
 	'ForumCluster'				=> 'Cluster forum:',
 	'ForumClusterInfo'			=> 'Root cluster for forum section (action %1).',
 	'ForumTopics'				=> 'Number of topics per page:',
@@ -721,27 +721,27 @@ $ap_translation = [
 	'NewsStructure'				=> 'News cluster structure:',
 	'NewsStructureInfo'			=> 'Stores the articles optionally in sub-clusters by year/month or week (e.g. <code>[cluster]/[year]/[month]</code>).',
 
-	'LicenseSection'			=> 'Licentie',
-	'DefaultLicense'			=> 'Standaard licentie:',
+	'LicenseSection'			=> 'Licencja',
+	'DefaultLicense'			=> 'Default license:',
 	'DefaultLicenseInfo'		=> 'Under which license your content can be released.',
 	'EnableLicense'				=> 'Enable license:',
 	'EnableLicenseInfo'			=> 'Enable to show license information.',
-	'LicensePerPage'			=> 'Licentie per pagina:',
+	'LicensePerPage'			=> 'License per page:',
 	'LicensePerPageInfo'		=> 'Allow license per page, which the page owner can choose via page properties.',
 
 	'ServicePagesSection'		=> 'Service Pages',
 	'RootPage'					=> 'Home page:',
 	'RootPageInfo'				=> 'Tag of your main page, opens automatically when a user visits your site.',
 
-	'PrivacyPage'				=> 'Privacybeleid:',
+	'PrivacyPage'				=> 'Polityka ochrony prywatności:',
 	'PrivacyPageInfo'			=> 'The page with the Privacy Policy of the site.',
 
 	'TermsPage'					=> 'Policies and regulations:',
 	'TermsPageInfo'				=> 'The page with the rules of the site.',
 
-	'SearchPage'				=> 'Zoeken:',
+	'SearchPage'				=> 'Znajdź:',
 	'SearchPageInfo'			=> 'Page with the search form (action %1).',
-	'RegistrationPage'			=> 'Registratie:',
+	'RegistrationPage'			=> 'Rejestracja:',
 	'RegistrationPageInfo'		=> 'Page for new user registration (action %1).',
 	'LoginPage'					=> 'User login:',
 	'LoginPageInfo'				=> 'Login page on the site (action %1).',
@@ -751,11 +751,11 @@ $ap_translation = [
 	'PasswordPageInfo'			=> 'Page with a form to change / query user password (action %1).',
 	'UsersPage'					=> 'User list:',
 	'UsersPageInfo'				=> 'Page with a list of registered users (action %1).',
-	'CategoryPage'				=> 'Categorie:',
+	'CategoryPage'				=> 'Kategoria:',
 	'CategoryPageInfo'			=> 'Page with a list of categorized pages (action %1).',
-	'GroupsPage'				=> 'Groepen:',
+	'GroupsPage'				=> 'Grupy:',
 	'GroupsPageInfo'			=> 'Page with a list of working groups (action %1).',
-	'ChangesPage'				=> 'Recent changes:',
+	'ChangesPage'				=> 'Ostatnie Zmiany:',
 	'ChangesPageInfo'			=> 'Page with a list of the last modified pages (action %1).',
 	'CommentsPage'				=> 'Recent comments:',
 	'CommentsPageInfo'			=> 'Page with a list of recent comment on the page (action %1).',
@@ -767,12 +767,12 @@ $ap_translation = [
 	'OrphanedPageInfo'			=> 'Page with a list of existing pages are not related via links to any other page (action %1).',
 	'SandboxPage'				=> 'Sandbox:',
 	'SandboxPageInfo'			=> 'Page where users can practice their wiki markup skills.',
-	'HelpPage'					=> 'Hulp:',
+	'HelpPage'					=> 'Pomoc:',
 	'HelpPageInfo'				=> 'The documentation section for working with site tools.',
 	'IndexPage'					=> 'Index:',
-	'IndexPageInfo'				=> 'Pagina met een lijst van alle pagina\'s (action %1).',
-	'RandomPage'				=> 'Willekeurig:',
-	'RandomPageInfo'			=> 'Laadt een willekeurige pagina  (action %1).',
+	'IndexPageInfo'				=> 'Strona z listą wszystkich stron (action %1).',
+	'RandomPage'				=> 'Losową:',
+	'RandomPageInfo'			=> 'Ładuje losowo wybraną stronę  (action %1).',
 
 
 	// Notification settings
@@ -797,14 +797,14 @@ $ap_translation = [
 	'NotifyUpload'				=> 'Notify file upload:',
 	'NotifyUploadInfo'			=> 'The Moderators will to be notified when a file has been uploaded.',
 
-	'PersonalMessagesSection'	=> 'Persoonlijke berichten',
+	'PersonalMessagesSection'	=> 'Wiadomości osobiste',
 	'AllowIntercomDefault'		=> 'Allow intercom:',
 	'AllowIntercomDefaultInfo'	=> 'Enabling this option allows other users to send personal messages to the recipient\'s email address without disclosing the address.',
 	'AllowMassemailDefault'		=> 'Allow mass email:',
 	'AllowMassemailDefaultInfo'	=> 'Only send messages to those users who have permitted administrators to email them information.',
 
 	// Resync settings
-	'Synchronize'				=> 'synchroniseren',
+	'Synchronize'				=> 'synchronizować',
 	'UserStatsSynched'			=> 'User Statistics synchronized.',
 	'PageStatsSynched'			=> 'Page Statistics synchronized.',
 	'FeedsUpdated'				=> 'RSS-feeds updated.',
@@ -822,9 +822,9 @@ $ap_translation = [
 	'PageStats'					=> 'Page statistics',
 	'PageStatsInfo'				=> 'Page statistics (number of comments, files and revisions) may differ in some situations from actual data. <br>This operation allows updating statistics to match actual data contained in database.',
 
-	'AttachmentsInfo'			=> 'Werkt de hash van alle bijlagen in de database bij.',
-	'AttachmentsSynched'		=> 'Alle bestandsbijlagen opnieuw gehasht',
-	'LogAttachmentsSynched'		=> 'Alle bestandsbijlagen opnieuw gehasht',
+	'AttachmentsInfo'			=> 'Aktualizuje hash pliku dla wszystkich załączników w bazie danych.',
+	'AttachmentsSynched'		=> 'Re-hashed all file attachments',
+	'LogAttachmentsSynched'		=> 'Re-hashed all file attachments',
 
 	'Feeds'						=> 'Feeds',
 	'FeedsInfo'					=> 'In the case of direct editing of pages in the database, the content of RSS-feeds may not reflect the changes made. <br>This function synchronizes the RSS-channels with the current state of the database.',
@@ -839,27 +839,27 @@ $ap_translation = [
 
 	'WikiLinksResync'			=> 'Wiki-links',
 	'WikiLinksResyncInfo'		=> 'Performs a re-rendering for all intrasite links and restores the contents of the <code>page_link</code> and <code>file_link</code> tables in the event of damage or relocation (this can take considerable time).',
-	'RecompilePage'				=> 'Alle pagina\'s opnieuw compileren (extreem duur)',
-	'ResyncOptions'				=> 'Toegevoegde opties',
+	'RecompilePage'				=> 'Ponowne kompilowanie wszystkich stron (bardzo drogie)',
+	'ResyncOptions'				=> 'Dodatkowe opcje',
 	'RecompilePageLimit'		=> 'Number of pages to parse at once.',
 
 	// Email settings
-	'EmaiSettingsInfo'			=> 'Deze informatie wordt gebruikt wanneer het site e-mails verstuurt naar je gebruikers. Zorg er voor dat het e-mailadres dat je specificeert geldig is, elk bericht dat niet verstuurd kan worden zal waarschijnlijk hier naar toe verstuurd worden. Als je host geen (PHP gebaseerde) e-mailservice aanbied, dan kan je berichten versturen door gebruik te maken van SMTP. Dit vereist het adres van een server (vraag je provider indien nodig). Als de server authenticatie vereist is (en alleen als het vereist wordt), voer dan de benodigde gebruikersnaam, wachtwoord en authenticatiemethode in.',
+	'EmaiSettingsInfo'			=> 'Te informacje są używane przez witrynę podczas wysyłania e-maili do użytkowników. Sprawdź czy podany adres e-mail jest ważnym adresem, ponieważ wszystkie zwrócone lub niedostarczone wiadomości będą prawdopodobnie odsyłane na ten adres. Jeśli serwer nie udostępnia natywnych (opartych na PHP) usług e-mail, można wysyłać wiadomości bezpośrednio, używając protokołu SMTP. Wymaga to adresu odpowiedniego serwera. Jeśli go nie znasz, zapytaj o niego swojego usługodawcę. Jeśli serwer wymaga uwierzytelnienia (i tylko, jeśli wymaga), wprowadź nazwę użytkownika, hasło i metodę uwierzytelniania.',
 
 	'EmailSettingsUpdated'		=> 'Updated Email settings',
 
-	'EmailFunctionName'			=> 'E-mailfunctie-naam:',
-	'EmailFunctionNameInfo'		=> 'De e-mailfunctie gebruikt om e-mails te versturen via PHP.',
-	'UseSmtpInfo'				=> 'Selecteer <code>SMTP</code> als je e-mail wilt versturen via een genoemde server in plaats van de lokale e-mailfunctie.',
+	'EmailFunctionName'			=> 'Nazwa funkcji:',
+	'EmailFunctionNameInfo'		=> 'Nazwa funkcji e-maila używana do wysyłania maili przez PHP.',
+	'UseSmtpInfo'				=> 'Wybierz <code>SMTP</code> , jeśli takie jest twoje życzenie lub trzeba wysyłać wiadomości e-mail przez dany serwer zamiast przez lokalną funkcję pocztową.',
 
-	'EnableEmail'				=> 'E-mails inschakelen:',
-	'EnableEmailInfo'			=> 'E-mails inschakelen',
+	'EnableEmail'				=> 'E-mail do wszystkich:',
+	'EnableEmailInfo'			=> 'Enable sending of emails.',
 
-	'EmailIdentitySettings'		=> 'Website E-mails Identiteit',
+	'EmailIdentitySettings'		=> 'Tożsamość witryny e-mail',
 	'FromEmailName'				=> 'From Name:',
 	'FromEmailNameInfo'			=> 'The sender name that is use for the <code>From:</code> header for all email notifications sent from the site.',
-	'EmailSubjectPrefix'		=> 'Onderwerp Voorvoegsel:',
-	'EmailSubjectPrefixInfo'	=> 'Alternatief e-mailonderwerpvoorvoegsel, bijv. <code>[Voorvoegsel] Onderwerp</code>. Als dit niet is gedefinieerd, is het standaardvoorvoegsel sitenaam: %1.',
+	'EmailSubjectPrefix'		=> 'Prefiks tematu:',
+	'EmailSubjectPrefixInfo'	=> 'Alternatywny prefiks tematu wiadomości e-mail, np. <code>[Prefiks] Tematu</code>. Jeśli nie zostanie zdefiniowany, domyślnym prefiksem jest Site Name: %1.',
 
 	'NoReplyEmail'				=> 'No-reply address:',
 	'NoReplyEmailInfo'			=> 'This address, e.g. <code>noreply@example.com</code>, will appear in the <code>From:</code> email address field of all email notifications sent from the site.',
@@ -868,69 +868,68 @@ $ap_translation = [
 	'AbuseEmail'				=> 'Email abuse service:',
 	'AbuseEmailInfo'			=> 'Address requests for urgent matters: registration for a foreign email, etc. It may be the same as the site owner email.',
 
-	'SendTestEmail'				=> 'Test e-mail versturen',
-	'SendTestEmailInfo'			=> 'Deze optie verstuurt een test-e-mail naar het e-mailadres dat is opgegeven bij je accountinstellingen.',
-	'TestEmailSubject'			=> 'Wiki is correct geconfigureerd om e-mails te versturen',
-	'TestEmailBody'				=> 'Als je deze e-mail hebt ontvangen, is je wiki correct geconfigureerd om e-mails te versturen.',
-	'TestEmailMessage'			=> 'De test-e-mail is verzonden.<br>Controleer je e-mailconfiguratie als je de test e-mail niet hebt ontvangen.',
+	'SendTestEmail'				=> 'Wyślij testową wiadomość e-mail',
+	'SendTestEmailInfo'			=> 'Spowoduje to wysłanie testowej wiadomości e-mail na adres zdefiniowany na Twoim koncie.',
+	'TestEmailSubject'			=> 'Twoja Wiki jest poprawnie skonfigurowana do wysyłania e-maili',
+	'TestEmailBody'				=> 'Jeśli otrzymałeś tę wiadomość e-mail, oznacza to, że Twój serwis Wiki jest poprawnie skonfigurowany do wysyłania wiadomości e-mail.',
+	'TestEmailMessage'			=> 'Email testowy został wysłany.<br>Jeśli nie otrzymałeś go, sprawdź konfigurację swojej poczty.',
 
-	'SmtpSettings'				=> 'SMTP-instellingen',
+	'SmtpSettings'				=> 'Ustawienia SMTP',
 	'SmtpAutoTls'				=> 'Opportunistic TLS:',
 	'SmtpAutoTlsInfo'			=> 'Enables encryption automatically, if it sees that the server is advertising TLS encryption (after you have connected to the server), even if you have not set the connection mode for <code>SMTPSecure</code>.',
-	'SmtpConnectionMode'		=> 'Authenticatiemethode voor SMTP:',
-	'SmtpConnectionModeInfo'	=> 'Alleen gebruiken als een gebruikersnaam/wachtwoord ingesteld is, vraag je provider als je niet zeker bent welke methode je moet gebruiken.',
-	'SmtpPassword'				=> 'SMTP-wachtwoord:',
-	'SmtpPasswordInfo'			=> 'Alleen een wachtwoord invoeren als je SMTP-server dit vereist.<br><em><strong>Waarschuwing:</strong> Dit wachtwoord zal opgeslagen worden als platte tekst in de database, zichtbaar voor iedereen die toegang heeft tot je database of die dit configuratiepagina kan bekijken.</em>',
-	'SmtpPort'					=> 'SMTP-serverpoort:',
-	'SmtpPortInfo'				=> 'Verander dit alleen als je weet dat je SMTP-server op een andere poort draait. <br>(default: <code>tls</code> on port 587 (or possibly 25) and <code>ssl</code> on port 465)',
-	'SmtpServer'				=> 'SMTP-serveradres:',
-	'SmtpServerInfo'			=> 'Let op dat je het gebruikte protocol ook opgeeft. Indien je SSL gebruikt, dan is dit <code>ssl://mail.example.com</code>',
-	'SmtpUsername'				=> 'SMTP-gebruikersnaam:',
-	'SmtpUsernameInfo'			=> 'Voer alleen een gebruikersnaam in als je SMTP-server dit vereist.',
+	'SmtpConnectionMode'		=> 'Metoda uwierzytelniania dla SMTP:',
+	'SmtpConnectionModeInfo'	=> 'Uwierzytelnianie jest używane tylko wtedy, gdy jest określona nazwa użytkownika i hasło. Jeśli nie wiesz, jakiej metody użyć, zapytaj swojego dostawcę usługi.',
+	'SmtpPassword'				=> 'SMTP Hasło:',
+	'SmtpPasswordInfo'			=> 'Należy wprowadzić tylko, jeśli serwer SMTP tego wymaga.<br><em><strong>Ostrzeżenie:</strong> Hasło zostanie zapisane w bazie danych jako zwykły tekst i będzie widoczne dla każdego, kto ma dostęp do bazy danych lub kto może przeglądać tę stronę konfiguracji.</em>',
+	'SmtpPort'					=> 'Port serwera:',
+	'SmtpPortInfo'				=> 'Można zmieniać tylko wtedy, gdy wiadomo, że serwer pracuje na innym porcie. <br>(default: <code>tls</code> on port 587 (or possibly 25) and <code>ssl</code> on port 465)',
+	'SmtpServer'				=> 'SMTP Adres serwera:',
+	'SmtpServerInfo'			=> 'Note that you have to provide the protocol that your server uses. If you are using SSL, this has to be <code>ssl://mail.example.com</code>',
+	'SmtpUsername'				=> 'SMTP Nazwa użytkownika:',
+	'SmtpUsernameInfo'			=> 'Należy wprowadzić tylko, jeśli serwer SMTP tego wymaga.',
 
 	// Upload settings
-	'UploadSettingsInfo'		=> 'Hier kan je de hoofdinstellingen voor bijlagen en bijbehorende speciale categorieën instellen.',
+	'UploadSettingsInfo'		=> 'Tutaj można dokonać konfiguracji głównych ustawień załączników i powiązanych z nimi kategorii specjalnych.',
 	'UploadSettingsUpdated'		=> 'Updated upload settings',
 
 	'FileUploadsSection'		=> 'File Uploads',
-	'RegisteredUsers'			=> 'geregistreerde gebruikers',
+	'RegisteredUsers'			=> 'zarejestrowani użytkownicy',
 	'RightToUpload'				=> 'Permissions to upload files:',
 	'RightToUploadInfo'			=> '<code>admins</code> means that only users belonging to the admins group can upload  files. <code>1</code> means that uploading is opened to registered users. <code>0</code> means that upload disabled.',
-	'UploadMaxFilesize'			=> 'Maximum bestandsgrootte:',
-	'UploadMaxFilesizeInfo'		=> 'Maximum grootte van elk bestand, met 0 als ongelimiteerd, bijgevoegd aan een privébericht.',
-	'UploadQuota'				=> 'Totaal bijlage quota:',
-	'UploadQuotaInfo'			=> 'Maximum schijfruimte beschikbaar voor bijlagen van het hele wiki, met <code>0</code> als ongelimiteerd. %1 used.',
+	'UploadMaxFilesize'			=> 'Maksymalny rozmiar pliku:',
+	'UploadMaxFilesizeInfo'		=> 'Maksymalny rozmiar zamieszczanego pliku. Wartość zero (0) - rozmiar zamieszczanego pliku ograniczany jest tylko przez ustawienia PHP.',
+	'UploadQuota'				=> 'Rozmiar przestrzeni dyskowej:',
+	'UploadQuotaInfo'			=> 'Maksymalna przestrzeń dyskowa dostępna dla wszystkich załączników w tej instalacji Wiki. Wartość zero <code>0</code> - brak ograniczenia przestrzeni. %1 used.',
 	'UploadQuotaUser'			=> 'Storage quota per user:',
 	'UploadQuotaUserInfo'		=> 'Restriction on the quota of storage that can be uploaded by one user, with <code>0</code> being unlimited.',
 
-	'FileTypes'					=> 'Bestandstypes',
+	'FileTypes'					=> 'Formaty plików',
 	'UploadOnlyImages'			=> 'Allow only upload of images:',
 	'UploadOnlyImagesInfo'		=> 'Allow only uploading of image files on the page.',
-	'AllowedUploadExts'			=> 'Toegelaten bestandstypes:',
-	'AllowedUploadExtsInfo'		=> 'Toegestane extensies voor het uploaden van bestanden, door komma\'s gescheiden bv. <code>png, ogg, mp4</code>, anders zijn alle niet verboden bestandsextensies toegestaan.<br>U moet de lijst met toegestane bestandstypen beperken tot het minimum dat nodig is voor de inhoud van uw site.',
-	'CheckMimetype'				=> 'Controleer bijlage bestanden:',
-	'CheckMimetypeInfo'			=> 'Sommige browsers kunnen een incorrecte mimetype voor geüploade bestanden aannemen. Deze optie verzekerd je er van dat zulke bestanden die dit veroorzaken worden afgewezen.',
+	'AllowedUploadExts'			=> 'Dopuszczalne formaty plików:',
+	'AllowedUploadExtsInfo'		=> 'Dozwolone rozszerzenia dla przesyłanych plików, oddzielone przecinkami np. <code>png, ogg, mp4</code>, w przeciwnym razie wszystkie nie zabronione rozszerzenia plików są dozwolone.<br>Należy ograniczyć listę dozwolonych typów plików do niezbędnego minimum wymaganego przez funkcjonalność witryny.',
+	'CheckMimetype'				=> 'Sprawdzaj pliki załącznika:',
+	'CheckMimetypeInfo'			=> 'Niektóre przeglądarki mogą być zmuszane do przybierania nieprawidłowego typu mediów (mimetype) dla wysyłanych plików. Funkcja ta zabezpiecza takie pliki przed odrzuceniem.',
 	'SvgSanitizer'				=> 'SVG Sanitizer:',
-	'SvgSanitizerInfo'			=> 'Hiermee kunnen geüploade SVG-bestanden worden gezuiverd om te voorkomen dat SVG/XML kwetsbare bestanden worden geüpload.',
+	'SvgSanitizerInfo'			=> 'Umożliwia to sanityzację wgrywanych plików SVG, aby zapobiec wgrywaniu plików SVG/XML podatnych na ataki.',
 	'TranslitFileName'			=> 'Transliterate file names:',
-	'TranslitFileNameInfo'		=> 'Als het van toepassing is en er is geen noodzaak om Unicode-tekens te gebruiken, is het sterk aanbevolen om alleen alfanumerieke tekens te accepteren.',
-	'TranslitCaseFolding'		=> 'Converteer bestandsnamen naar kleine letters:',
-	'TranslitCaseFoldingInfo'	=> 'Deze optie werkt alleen bij actieve transliteratie.',
+	'TranslitFileNameInfo'		=> 'Jeśli ma to zastosowanie i nie ma potrzeby posiadania znaków Unicode, wysoce zalecane jest akceptowanie tylko znaków alfanumerycznych.',
+	'TranslitCaseFolding'		=> 'Konwertuje nazwy plików na małe litery:',
+	'TranslitCaseFoldingInfo'	=> 'Ta opcja działa tylko z aktywną transliteracją.',
 
 	'Thumbnails'				=> 'Thumbnails',
-	'CreateThumbnail'			=> 'Miniatuur aanmaken:',
-	'CreateThumbnailInfo'		=> 'Maakt een miniatuur aan in alle mogelijke situaties.',
-	'JpegQuality'				=> 'JPEG-kwaliteit:',
-	'JpegQualityInfo'			=> 'Kwaliteit bij het schalen van een JPEG-miniatuur. Deze moet liggen tussen 1 en 100, waarbij 100 staat voor 100% kwaliteit.',
+	'CreateThumbnail'			=> 'Zawsze twórz miniaturę:',
+	'CreateThumbnailInfo'		=> 'Tworzy miniaturę we wszystkich możliwych sytuacjach. Dzięki tej funkcji miniatura będzie wyświetlana bezpośrednio w poście i użytkownik może ją kliknąć, aby zobaczyć pełny obrazek.',
+	'JpegQuality'				=> 'JPEG Quality:',
+	'JpegQualityInfo'			=> 'Jakość podczas skalowania miniatury JPEG. Powinna zawierać się w przedziale od 1 do 100, przy czym 100 oznacza 100% jakości.',
 	'MaxImageArea'				=> 'Maximum Image Area:',
-	'MaxImageAreaInfo'			=> 'Het maximum aantal pixels dat een bronafbeelding kan hebben. Dit geeft een limiet aan het geheugengebruik voor de decompressiekant van de beeldschaler. <br><code>-1</code> betekent dat de grootte van de afbeelding niet wordt gecontroleerd voordat wordt geprobeerd deze te schalen. <code>0</code> betekent dat de waarde automatisch wordt bepaald.',
-	'MaxThumbWidth'				=> 'Maximum miniatuur breedte in pixel:',
-	'MaxThumbWidthInfo'			=> 'Een aangemaakte miniatuur zal de hier ingestelde breedte niet overschrijden.',
-	'MinThumbFilesize'			=> 'Minimum miniatuur bestandsgrootte:',
-	'MinThumbFilesizeInfo'		=> 'Maakt geen miniatuur aan voor afbeeldingen kleiner dan dit.',
-	'MaxImageWidth'				=> 'Afbeeldingsgroottelimiet op pagina\'s:',
-	'MaxImageWidthInfo'			=> 'De maximale breedte die een afbeelding mag hebben op pagina\'s, anders wordt een verkleinde thumbnail gegenereerd.
-',
+	'MaxImageAreaInfo'			=> 'Maksymalna liczba pikseli, jaką może mieć obrazek źródłowy. Zapewnia to ograniczenie użycia pamięci przez stronę dekompresji skalera obrazu. <br><code>-1</code> oznacza, że nie będzie sprawdzał rozmiaru obrazu przed próbą skalowania. <code>0</code> oznacza, że wartość ta zostanie określona automatycznie.',
+	'MaxThumbWidth'				=> 'Maksymalna szerokość miniatury w pikselach:',
+	'MaxThumbWidthInfo'			=> 'Generowana miniatura nie będzie mogła przekroczyć określonej tutaj szerokości.',
+	'MinThumbFilesize'			=> 'Minimalny rozmiar pliku miniatury:',
+	'MinThumbFilesizeInfo'		=> 'Jeśli rozmiar pliku miniatury jest mniejszy niż zdefiniowana tutaj wartość, miniatura nie zostanie utworzona.',
+	'MaxImageWidth'				=> 'Ograniczenie rozmiaru obrazu na stronach:',
+	'MaxImageWidthInfo'			=> 'Maksymalna szerokość, jaką może mieć obraz na stronach, w przeciwnym razie generowana jest przeskalowana miniaturka.',
 
 	// Deleted module
 	'DeletedObjectsInfo'		=> 'List of removed pages, revisions and files.
@@ -956,9 +955,9 @@ $ap_translation = [
 		'3'		=> 'equal',
 	],
 	'LogNoMatch'				=> 'No events that meet the criteria',
-	'LogDate'					=> 'Datum',
+	'LogDate'					=> 'Date',
 	'LogEvent'					=> 'Event',
-	'LogUsername'				=> 'Gebruikersnaam',
+	'LogUsername'				=> 'Nazwa użytkownika',
 	'LogLevels'	=> [
 		'1'		=> 'critical',
 		'2'		=> 'highest',
@@ -970,39 +969,39 @@ $ap_translation = [
 	],
 
 	// Massemail module
-	'MassemailInfo'				=> 'Hier kan je een e-mail naar alle gebruikers of de leden van een specifieke groep sturen, <strong>die de ontvangst van massa e-mails toelaten</strong>. Hiervoor wordt een e-mail met alle ontvangers als onzichtbaar (bcc) ingesteld, naar het beheerders-e-mailadres gestuurd. Bij de standaard instellingen wordt de e-mail naar 20 mensen per pakket gestuurd. Indien er meer dan 50 ontvangers zijn, wordt de e-mail via meerdere pakketten verzonden. Indien je een e-mail naar een grote groep stuurt, wees dan geduldig en stop de pagina niet halverwege. Het is normaal dat het versturen van massa e-mails enige tijd in beslag neemt. Je wordt ervan op de hoogte gebracht zodra het script klaar is.',
+	'MassemailInfo'				=> 'Tutaj możesz wysłać wiadomość e-mail do wszystkich użytkowników lub do wszystkich członków konkretnej grupy, która ma włączoną <strong>funkcję odbierania masowych wiadomości e-mail</strong>. Aby to osiągnąć e-mail zostanie wysłany na adres e-maila wykonawczego z ukrytą kopią (odbiorca nie będzie widział adresów innych odbiorców) wysłaną do wszystkich odbiorców. Domyślnie ustawionych jest 50 odbiorców. Wysłanie wiadomości do dużej liczby osób może potrwać dłuższą chwilę. Zachowaj cierpliwość i nie przerywaj tej operacji. Po jej zakończeniu zostanie wyświetlone powiadomienie.',
 	'LogMassemail'				=> 'Mass email send %1 to group / user ',
 	'MassemailSend'				=> 'Mass email send',
 
-	'NoEmailMessage'			=> 'Het berichtveld is nog leeg.',
-	'NoEmailSubject'			=> 'Je hebt geen onderwerp opgegeven.',
+	'NoEmailMessage'			=> 'Należy wprowadzić treść wiadomości.',
+	'NoEmailSubject'			=> 'Należy określić temat wiadomości.',
 	'NoEmailRecipient'			=> 'You must specify at least one user or user group.',
 
 	'MassemailSection'			=> 'Mass email',
-	'MessageSubject'			=> 'Onderwerp:',
+	'MessageSubject'			=> 'Temat:',
 	'MessageSubjectInfo'		=> '',
-	'YourMessage'				=> 'Je bericht:',
-	'YourMessageInfo'			=> 'Het bericht wordt verzonden zonder tekst-opmaak. Alle opmaak wordt voor het verzenden verwijderd.',
+	'YourMessage'				=> 'Treść wiadomości:',
+	'YourMessageInfo'			=> 'Treść wiadomości musi być wpisana zwykłym tekstem. Przed wysłaniem wiadomości wszystkie znaczniki zostaną usunięte.',
 
-	'NoUser'					=> 'Geen gebruiker',
-	'NoUserGroup'				=> 'Geen gebruikersgroep',
+	'NoUser'					=> 'No user',
+	'NoUserGroup'				=> 'No user group',
 
-	'SendToGroup'				=> 'Verstuur naar groep:',
-	'SendToUser'				=> 'Verstuur naar gebruikers:',
+	'SendToGroup'				=> 'Wyślij do grupy:',
+	'SendToUser'				=> 'Wyślij do użytkowników:',
 	'SendToUserInfo'			=> 'Only users who permit administrators to email them information will receive mass emails. This option is available in their user settings under Notifications.',
 
 	// System message module
 	'SystemMessageInfo'			=> '',
-	'SysMsgUpdated'				=> 'Systeembericht bijgewerkt',
+	'SysMsgUpdated'				=> 'Updated system message',
 
-	'SysMsgSection'				=> 'Systeemmelding',
-	'SysMsg'					=> 'Systeemmelding:',
+	'SysMsgSection'				=> 'System message',
+	'SysMsg'					=> 'System message:',
 	'SysMsgInfo'				=> 'Your text here',
 
 	'SysMsgType'				=> 'Type:',
 	'SysMsgTypeInfo'			=> 'Message type (CSS).',
-	'SysMsgAudience'			=> 'Publiek:',
-	'SysMsgAudienceInfo'		=> 'Het publiek aan wie het systeembericht wordt getoond.',
+	'SysMsgAudience'			=> 'Audience:',
+	'SysMsgAudienceInfo'		=> 'Audience the system message is shown to.',
 	'EnableSysMsg'				=> 'Enable system message:',
 	'EnableSysMsgInfo'			=> 'Show system message.',
 
@@ -1016,9 +1015,9 @@ $ap_translation = [
 	'LogUserUpdated'			=> 'Updated User ##%1##',
 
 	'UserApproveInfo'			=> 'Approve new users before they are able to login to the site.',
-	'Approve'					=> 'Approve',
+	'Approve'					=> 'Zatwierdź',
 	'Deny'						=> 'Deny',
-	'Pending'					=> 'Hangende',
+	'Pending'					=> 'Pending',
 	'Approved'					=> 'Approved',
 	'Denied'					=> 'Denied',
 
@@ -1028,8 +1027,8 @@ $ap_translation = [
 	'BackupFolder'				=> 'Folder',
 	'BackupTable'				=> 'Table',
 	'BackupCluster'				=> 'Cluster:',
-	'BackupFiles'				=> 'Bestanden',
-	'BackupNote'				=> 'Opmerking:',
+	'BackupFiles'				=> 'Pliki',
+	'BackupNote'				=> 'Uwaga:',
 	'BackupSettings'			=> 'Specify the desired scheme of backup.<br>' .
 									'The root cluster does not affect the global files backup and cache files backup (if chosen, they are always saved in full).<br>' .
 									'<br>' .
@@ -1041,16 +1040,16 @@ $ap_translation = [
 									'To download it use FTP (maintain the directory structure and file names when copying).<br>' .
 									'To restore a backup copy or remove a package, go to <a href="%2">Restore database</a>.',
 	'LogSavedBackup'			=> 'Saved backup database ##%1##',
-	'Backup'					=> 'Backup',
+	'Backup'					=> 'Kopia zapasowa',
 	'CantReadFile'				=> 'Can\'t read file %1.',
 
 	// DB Restore module
 	'RestoreInfo'				=> 'You can restore any of the backup packages found, or remove them from the server.',
-	'ConfirmDbRestore'			=> 'Wilt u back-up %1 herstellen?',
-	'ConfirmDbRestoreInfo'		=> 'Wacht alstublieft even, dit kan enkele minuten duren.',
+	'ConfirmDbRestore'			=> 'Chcesz przywrócić kopię zapasową %1?',
+	'ConfirmDbRestoreInfo'		=> 'Proszę poczekać, to może potrwać kilka minut.',
 	'RestoreWrongVersion'		=> 'Wrong WackoWiki version!',
-	'DirectoryNotExecutable'	=> 'De map %1 is niet uitvoerbaar.',
-	'BackupDelete'				=> 'Weet u zeker dat u back-up %1 wilt verwijderen?',
+	'DirectoryNotExecutable'	=> 'Katalog %1 nie jest wykonywalny.',
+	'BackupDelete'				=> 'Na pewno chcesz usunąć kopię zapasową %1?',
 	'BackupDeleteInfo'			=> '',
 	'RestoreOptions'			=> 'Additional restore options:',
 	'RestoreOptionsInfo'		=> '* Before restoring the <strong>cluster backup</strong>, ' .
@@ -1085,7 +1084,7 @@ $ap_translation = [
 	'NoTableStructure'			=> 'The structure of the tables was not saved - skip',
 	'RestoreRecords'			=> 'Restore the contents of tables',
 	'ProcessTablesDump'			=> 'Just download and process table dumps',
-	'Instruction'				=> 'Instructie',
+	'Instruction'				=> 'Instruction',
 	'RestoredRecords'			=> 'records:',
 	'RecordsRestoreDone'		=> 'Completed. Total entries:',
 	'SkippedRecords'			=> 'Data not saved - skip',
@@ -1094,34 +1093,34 @@ $ap_translation = [
 	'HomonymicFiles'			=> 'homonymic files',
 	'RestoreSkip'				=> 'skip',
 	'RestoreReplace'			=> 'replace',
-	'RestoreFile'				=> 'Bestand:',
+	'RestoreFile'				=> 'Plik:',
 	'RestoredFiles'				=> 'restored:',
 	'SkippedFiles'				=> 'skipped:',
 	'FileRestoreDone'			=> 'Completed. Total files:',
-	'FilesAll'					=> 'alle:',
+	'FilesAll'					=> 'wszystko:',
 	'SkipFiles'					=> 'Files are not stored - skip',
 	'RestoreDone'				=> 'RESTORATION COMPLETED',
 
 	'BackupCreationDate'		=> 'Creation Date',
 	'BackupPackageContents'		=> 'The contents of the package',
-	'BackupRestore'				=> 'Herstellen',
-	'BackupRemove'				=> 'Verwijderen',
-	'RestoreYes'				=> 'Ja',
-	'RestoreNo'					=> 'Nee',
+	'BackupRestore'				=> 'Przywracanie',
+	'BackupRemove'				=> 'Usuń',
+	'RestoreYes'				=> 'Yes',
+	'RestoreNo'					=> 'No',
 	'LogDbRestored'				=> 'Backup ##%1## of the database restored.',
 
-	'BackupArchived'			=> 'Back-up %1 gearchiveerd.',
-	'BackupArchiveExists'		=> 'Back-uparchief %1 bestaat al.',
-	'LogBackupArchived'			=> 'Back-up ##%1## gearchiveerd.',
+	'BackupArchived'			=> 'Zarchiwizowano kopię zapasową %1.',
+	'BackupArchiveExists'		=> 'Archiwum kopii zapasowej %1 już istnieje.',
+	'LogBackupArchived'			=> 'Zarchiwizowano kopię zapasową ##%1##.',
 
 	// User module
 	'UsersInfo'					=> 'Here you can change your users information and certain specific options.',
 
-	'UsersAdded'				=> 'Gebruiker toegevoegd',
+	'UsersAdded'				=> 'User added',
 	'UsersDeleteInfo'			=> '[User delete Info here..]',
-	'EditButton'				=> 'Bewerk',
+	'EditButton'				=> 'Edytuj',
 	'UsersAddNew'				=> 'Add new user',
-	'UsersDelete'				=> 'Weet u zeker dat u gebruiker %1 wilt verwijderen?',
+	'UsersDelete'				=> 'Na pewno chcesz usunąć użytkownika %1?',
 	'UsersDeleted'				=> 'The user %1 was deleted from the database.',
 	'UsersRename'				=> 'Rename the user %1 to',
 	'UsersRenameInfo'			=> '* Note: Change will affect all pages that are assigned to that user.',
@@ -1132,10 +1131,10 @@ $ap_translation = [
 	'UserActions'				=> 'Actions',
 	'NoMatchingUser'			=> 'No users that meet the criteria',
 
-	'UserAccountNotify'			=> 'Gebruiker informeren',
-	'UserNotifySignup'			=> 'de gebruiker informeren over het nieuwe account',
-	'UserVerifyEmail'			=> 'e-mailbevestig token instellen en een link toevoegen voor e-mailverificatie',
-	'UserReVerifyEmail'			=> 'Verzend het e-mailbevestigingstoken opnieuw',
+	'UserAccountNotify'			=> 'Powiadomić użytkownika',
+	'UserNotifySignup'			=> 'poinformować użytkownika o nowym koncie',
+	'UserVerifyEmail'			=> 'ustaw email potwierdzający token i dodaj link do weryfikacji emaila.',
+	'UserReVerifyEmail'			=> 'Wyślij ponownie e-mail potwierdzający token',
 
 	// Groups module
 	'GroupsInfo'				=> 'From this panel you can administrate all your usergroups. You can delete, create and edit existing groups. Furthermore, you may choose group leaders, toggle open/hidden/closed group status and set the group name and description.',
@@ -1145,33 +1144,33 @@ $ap_translation = [
 	'LogMemberRemoved'			=> 'Removed member ##%1## from group ##%2##',
 	'LogGroupCreated'			=> 'Created a new group ##%1##',
 	'LogGroupRenamed'			=> 'Group ##%1## renamed to ##%2##',
-	'LogGroupRemoved'			=> 'Removed group ##%1##',
+	'LogGroupRemoved'			=> 'Usunięta grupa ##%1##',
 
 	'GroupsMembersFor'			=> 'Members for Group',
-	'GroupsDescription'			=> 'Beschrijving',
+	'GroupsDescription'			=> 'Opis',
 	'GroupsModerator'			=> 'Moderator',
 	'GroupsOpen'				=> 'Open',
-	'GroupsActive'				=> 'Actief',
+	'GroupsActive'				=> 'Aktywny',
 	'GroupsTip'					=> 'Click to edit Group',
 	'GroupsUpdated'				=> 'Groups updated',
-	'GroupsAlreadyExists'		=> 'This group already exists.',
-	'GroupsAdded'				=> 'Group added successfully.',
+	'GroupsAlreadyExists'		=> 'Ta grupa już istnieje.',
+	'GroupsAdded'				=> 'Grupa została pomyślnie dodana.',
 	'GroupsRenamed'				=> 'Group successfully renamed.',
 	'GroupsDeleted'				=> 'The group %1 and all associated pages were deleted from the database.',
 	'GroupsAdd'					=> 'Add a new group',
 	'GroupsRename'				=> 'Rename the group %1 to',
 	'GroupsRenameInfo'			=> '* Note: Change will affect all pages that are assigned to that group.',
-	'GroupsDelete'				=> 'Weet u zeker dat u groep %1 wilt verwijderen?',
+	'GroupsDelete'				=> 'Na pewno chcesz usunąć grupę %1?',
 	'GroupsDeleteInfo'			=> '* Note: Change will affect all members that are assigned to that group.',
-	'GroupsIsSystem'			=> 'De groep %1 behoort tot het systeem en kan niet worden verwijderd.',
+	'GroupsIsSystem'			=> 'Grupa %1 należy do systemu i nie może być usunięta.',
 	'GroupsStoreButton'			=> 'Save Groups',
 	'GroupsEditInfo'			=> 'To edit the groups list select the radio button.',
 
-	'GroupAddMember'			=> 'Lid toevoegen',
-	'GroupRemoveMember'			=> 'Lid verwijderen',
-	'GroupAddNew'				=> 'Groep toevoegen',
-	'GroupEdit'					=> 'Groep bewerken',
-	'GroupDelete'				=> 'Groep verwijderen',
+	'GroupAddMember'			=> 'Dodaj członka',
+	'GroupRemoveMember'			=> 'Usuń członka',
+	'GroupAddNew'				=> 'Dodaj grupę',
+	'GroupEdit'					=> 'Grupa redakcyjna',
+	'GroupDelete'				=> 'Usuń grupę',
 
 	'MembersAddNew'				=> 'Add new member',
 	'MembersAdded'				=> 'Added new member to the group successfully.',
@@ -1182,19 +1181,19 @@ $ap_translation = [
 	'DbStatSection'				=> 'Database Statistics',
 	'DbTable'					=> 'Table',
 	'DbRecords'					=> 'Records',
-	'DbSize'					=> 'Grootte',
+	'DbSize'					=> 'Rozmiar',
 	'DbIndex'					=> 'Index',
 	'DbOverhead'				=> 'Overhead',
-	'DbTotal'					=> 'Totaal',
+	'DbTotal'					=> 'Total',
 
 	'FileStatSection'			=> 'File system Statistics',
 	'FileFolder'				=> 'Folder',
-	'FileFiles'					=> 'Bestanden',
-	'FileSize'					=> 'Grootte',
-	'FileTotal'					=> 'Totaal',
+	'FileFiles'					=> 'Pliki',
+	'FileSize'					=> 'Rozmiar',
+	'FileTotal'					=> 'Total',
 
 	// Sysinfo module
-	'SysInfo'					=> 'Versie informatie:',
+	'SysInfo'					=> 'Version information:',
 	'SysParameter'				=> 'Parameter',
 	'SysValues'					=> 'Values',
 
@@ -1240,10 +1239,10 @@ $ap_translation = [
 
 	// Inconsistencies module
 	'InconsistenciesInfo'		=> 'Show and fix inconsistencies, delete or assign orphaned records to a new user / value.',
-	'Inconsistencies'			=> 'Inconsistenties',
-	'CheckDatabase'				=> 'Database',
+	'Inconsistencies'			=> 'Inconsistencies',
+	'CheckDatabase'				=> 'Baza danych',
 	'CheckDatabaseInfo'			=> 'Checks for record inconsistencies in the database.',
-	'CheckFiles'				=> 'Bestanden',
+	'CheckFiles'				=> 'Pliki',
 	'CheckFilesInfo'			=> 'Checks for abandoned files, files with no reference left in the file table.',
 	'Records'					=> 'Records',
 	'InconsistenciesNone'		=> 'No Data Inconsistencies found.',
@@ -1260,7 +1259,7 @@ $ap_translation = [
 
 	'BbSummary'					=> 'Summary',
 	'BbLog'						=> 'Log',
-	'BbSettings'				=> 'Instellingen',
+	'BbSettings'				=> 'Ustawienia',
 	'BbWhitelist'				=> 'Whitelist',
 
 	// --> Log
