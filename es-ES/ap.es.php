@@ -11,30 +11,30 @@ $ap_translation = [
 		'basics'		=> 'Basic functions',
 		'preferences'	=> 'Preferences',
 		'content'		=> 'Content',
-		'users'			=> 'Потребители',
-		'maintenance'	=> 'Поддръжка',
+		'users'			=> 'Brugere',
+		'maintenance'	=> 'Maintenance',
 		'messages'		=> 'Messages',
-		'extension'		=> 'Разширения',
-		'database'		=> 'База данни',
+		'extension'		=> 'Extension',
+		'database'		=> 'Database',
 	],
 
 	// Admin panel
-	'AdminPanel'				=> 'Администраторски контролен панел',
-	'RecoveryMode'				=> 'Режим на възстановяване',
+	'AdminPanel'				=> 'Administratorkontrolpanel',
+	'RecoveryMode'				=> 'Gendannelsestilstand',
 	'Authorization'				=> 'Authorization',
 	'AuthorizationTip'			=> 'Please enter the administrative password (make sure that cookies are allowed in your browser).',
-	'NoRecoveryPassword'		=> 'Административната парола не е зададена!',
-	'NoRecoveryPasswordTip'		=> 'Забележка: Липсата на административна парола е заплаха за сигурността! Въведете хеш паролата си в конфигурационния файл и стартирайте програмата отново.',
+	'NoRecoveryPassword'		=> 'Den administrative adgangskode er ikke angivet!',
+	'NoRecoveryPasswordTip'		=> 'Bemærk: Fraværet af en administrativ adgangskode er en trussel mod sikkerheden! Indtast dit password-hash i konfigurationsfilen, og kør programmet igen.',
 
 	'ErrorLoadingModule'		=> 'Error loading admin module %1: does not exist.',
 
-	'ApHomePage'				=> 'Главна страница',
+	'ApHomePage'				=> 'Startside',
 	'ApHomePageTip'				=> 'Open the home page, you do not quit system administration',
-	'ApLogOut'					=> 'Log out',
-	'ApLogOutTip'				=> 'Quit system administration and log out of site',
+	'ApLogOut'					=> 'Log af',
+	'ApLogOutTip'				=> 'Quit system administration',
 
 	'TimeLeft'					=> 'Time left:  %1 minutes',
-	'ApVersion'					=> 'версия',
+	'ApVersion'					=> 'version',
 
 	'SiteOpen'					=> 'Open',
 	'SiteOpened'				=> 'site opened',
@@ -46,12 +46,12 @@ $ap_translation = [
 	'System'					=> 'System',
 
 	// Generic
-	'Cancel'					=> 'Отмени',
-	'Add'						=> 'Добави',
-	'Edit'						=> 'Редактиране',
-	'Remove'					=> 'Изртиване',
-	'Enabled'					=> 'Включено',
-	'Disabled'					=> 'Изключено',
+	'Cancel'					=> 'Fortryd',
+	'Add'						=> 'Tilføj',
+	'Edit'						=> 'Rediger',
+	'Remove'					=> 'Fjern',
+	'Enabled'					=> 'Enabled',
+	'Disabled'					=> 'Disabled',
 	'Mandatory'					=> 'Mandatory',
 	'Admin'						=> 'Admin',
 	'Min'						=> 'Min',
@@ -75,7 +75,7 @@ $ap_translation = [
 	// Config Basic module
 	'config_basic'		=> [
 		'name'		=> 'Basic',
-		'title'		=> 'Basic parameters',
+		'title'		=> 'Basic settings',
 	],
 
 	// Config Appearance module
@@ -86,13 +86,13 @@ $ap_translation = [
 
 	// Config Email module
 	'config_email'		=> [
-		'name'		=> 'Email',
-		'title'		=> 'Email настройки',
+		'name'		=> 'E-mail',
+		'title'		=> 'Email settings',
 	],
 
 	// Config Syndication module
 	'config_syndication'		=> [
-		'name'		=> 'Syndication',
+		'name'		=> 'Syndikering',
 		'title'		=> 'Syndication settings',
 	],
 
@@ -110,19 +110,19 @@ $ap_translation = [
 
 	// Config Notifications module
 	'config_notifications'		=> [
-		'name'		=> 'Notifications',
+		'name'		=> 'Underretninger',
 		'title'		=> 'Notifications settings',
 	],
 
 	// Config Pages module
 	'config_pages'		=> [
-		'name'		=> 'Pages',
+		'name'		=> 'Sider',
 		'title'		=> 'Pages and site parameters',
 	],
 
 	// Config Permissions module
 	'config_permissions'		=> [
-		'name'		=> 'Права',
+		'name'		=> 'Permissions',
 		'title'		=> 'Permissions settings',
 	],
 
@@ -140,7 +140,7 @@ $ap_translation = [
 
 	// Config Upload module
 	'config_upload'		=> [
-		'name'		=> 'Upload',
+		'name'		=> 'Fortsæt',
 		'title'		=> 'Attachment settings',
 	],
 
@@ -170,7 +170,7 @@ $ap_translation = [
 
 	// DB Restore module
 	'db_restore'		=> [
-		'name'		=> 'Възстановяване',
+		'name'		=> 'Gendan',
 		'title'		=> 'Restoring backup data',
 	],
 
@@ -194,8 +194,8 @@ $ap_translation = [
 
 	// Mass email module
 	'massemail'		=> [
-		'name'		=> 'Масов email',
-		'title'		=> 'Масов email',
+		'name'		=> 'Mass email',
+		'title'		=> 'Mass email',
 	],
 
 	// System message module
@@ -212,13 +212,13 @@ $ap_translation = [
 
 	// System log module
 	'system_log'		=> [
-		'name'		=> 'System log',
+		'name'		=> 'System Log',
 		'title'		=> 'Log of system events',
 	],
 
 	// Statistics module
 	'system_statistics'		=> [
-		'name'		=> 'Статистика',
+		'name'		=> 'Statistics',
 		'title'		=> 'Show statistics',
 	],
 
@@ -236,20 +236,20 @@ $ap_translation = [
 
 	// Groups module
 	'user_groups'		=> [
-		'name'		=> 'Групи',
+		'name'		=> 'Grupper',
 		'title'		=> 'Group management',
 	],
 
 	// User module
 	'user_users'		=> [
-		'name'		=> 'Потребители',
+		'name'		=> 'Brugere',
 		'title'		=> 'User management',
 	],
 
 	// Main module
 	'MainNote'					=> 'Note: It is recommended that access to the site be temporarily blocked for administrative maintenance.',
 
-	'PurgeSessions'				=> 'Изчистване',
+	'PurgeSessions'				=> 'Rense',
 	'PurgeSessionsTip'			=> 'Purge all sessions',
 	'PurgeSessionsConfirm'		=> 'Are you sure you wish to purge all sessions? This will log out all users.',
 	'PurgeSessionsExplain'		=> 'Purge all sessions. This will log out all users by truncating the auth_token table.',
@@ -267,7 +267,7 @@ $ap_translation = [
 	'AdminName'					=> 'Admin of site:',
 	'AdminNameInfo'				=> 'User name of individual who is responsible for overall support of the site. This name is not used to determine access rights, but it is desirable that it conforms to the name of the chief administrator of the site.',
 
-	'LanguageSection'			=> 'Език',
+	'LanguageSection'			=> 'Sprog',
 	'DefaultLanguage'			=> 'Default language:',
 	'DefaultLanguageInfo'		=> 'Specifies the language of messages displayed to unregistered guests, as well as the locale settings.',
 	'MultiLanguage'				=> 'Multilanguage support:',
@@ -275,7 +275,7 @@ $ap_translation = [
 	'AllowedLanguages'			=> 'Allowed languages:',
 	'AllowedLanguagesInfo'		=> 'It is recommended to select only the set of languages you want to use, otherwise all languages are selected.',
 
-	'CommentSection'			=> 'Коментари',
+	'CommentSection'			=> 'Kommentarer',
 	'AllowComments'				=> 'Allow comments:',
 	'AllowCommentsInfo'			=> 'Enable comments for guests or registered users only, or disable them on the entire site.',
 	'SortingComments'			=> 'Sorting comments:',
@@ -312,20 +312,20 @@ $ap_translation = [
 	'ExportHandlerInfo'			=> 'Permits the display of the XML export handler.',
 
 	'DiffModeSection'			=> 'Diff Modes',
-	'DefaultDiffModeSetting'	=> 'Default diff mode:',
+	'DefaultDiffModeSetting'	=> 'Standard diff-tilstand:',
 	'DefaultDiffModeSettingInfo'=> 'Preselected diff mode.',
 	'AllowedDiffMode'			=> 'Allowed diff modes:',
 	'AllowedDiffModeInfo'		=> 'It is recommended to select only the set of diff modes you want to use, otherwise all diff modes are selected.',
 	'NotifyDiffMode'			=> 'Notify diff mode:',
 	'NotifyDiffModeInfo'		=> 'Diff mode used for notifications in the email body.',
 
-	'EditingSection'			=> 'Editing',
-	'EditSummary'				=> 'Edit summary:',
+	'EditingSection'			=> 'Redigering',
+	'EditSummary'				=> 'Opsummér redigering:',
 	'EditSummaryInfo'			=> 'Shows change summary in the edit mode.',
-	'MinorEdit'					=> 'Малка промяна:',
+	'MinorEdit'					=> 'Mindre redigere:',
 	'MinorEditInfo'				=> 'Enables minor edit option in the edit mode.',
-	'SectionEdit'				=> 'Редактиране на раздела:',
-	'SectionEditInfo'			=> 'Позволява редактиране само на раздел от страница.',
+	'SectionEdit'				=> 'Afsnit redigere:',
+	'SectionEditInfo'			=> 'Gør det muligt kun at redigere et afsnit af en side.',
 	'ReviewSettings'			=> 'Review:',
 	'ReviewSettingsInfo'		=> 'Enables review option in the edit mode.',
 	'PublishAnonymously'		=> 'Allow anonymous publishing:',
@@ -342,7 +342,7 @@ $ap_translation = [
 	'EnableReferrers'			=> 'Enable referrers:',
 	'EnableReferrersInfo'		=> 'Permits creation and display of external referrers.',
 	'ReferrersPurgeTime'		=> 'Storage time of referrers:',
-	'ReferrersPurgeTimeInfo'	=> 'Съхранявайте историята на препращането на външни страници не повече от определен брой дни. Нулата означава вечно съхранение, но за активно посещаван сайт това може да доведе до препълване на база данни.',
+	'ReferrersPurgeTimeInfo'	=> 'Opbevar historien om henvisning til eksterne sider ikke længere end et givet antal dage. Nul betyder evig lagring, men for et aktivt besøgt websted kan dette føre til databaseoverløb.',
 	'EnableCounters'			=> 'Hit Counters:',
 	'EnableCountersInfo'		=> 'Allows per page hit counters and enables display of simple statistics. Views of the page owner are not counted.',
 
@@ -352,14 +352,14 @@ $ap_translation = [
 
 	'FeedsSection'				=> 'Feeds',
 	'EnableFeeds'				=> 'Enable feeds:',
-	'EnableFeedsInfo'			=> 'Включва или изключва RSS емисии за цялата уики.',
+	'EnableFeedsInfo'			=> 'Slår RSS-feeds til eller fra for hele wikien.',
 	'XmlChangeLink'				=> 'Changes feed link mode:',
 	'XmlChangeLinkInfo'			=> 'Defines where the XML Changes feed items links to.',
 	'XmlChangeLinkMode'			=> [
-		'1'		=> 'изглед на разликите',
-		'2'		=> 'текущата страница',
-		'3'		=> 'списък на версиите',
-		'4'		=> 'променената страница',
+		'1'		=> 'liste over forskelle',
+		'2'		=> 'den nuværende side',
+		'3'		=> 'liste over revideringer',
+		'4'		=> 'den reviderede side',
 	],
 
 	'XmlSitemap'				=> 'XML sitemap:',
@@ -367,11 +367,11 @@ $ap_translation = [
 	'XmlSitemapGz'				=> 'XML sitemap compression:',
 	'XmlSitemapGzInfo'			=> 'If you would like, you may compress your sitemap text file using gzip to reduce your bandwidth requirement.',
 	'XmlSitemapTime'			=> 'XML sitemap generation time:',
-	'XmlSitemapTimeInfo'		=> 'Генерира Sitemap само веднъж за дадения брой дни, нула означава всяка промяна на страницата.',
+	'XmlSitemapTimeInfo'		=> 'Genererer sitemap kun én gang i det givne antal dage, nul betyder ved hver sideændring.',
 
-	'SearchSection'				=> 'Търси',
+	'SearchSection'				=> 'Søg',
 	'OpenSearch'				=> 'OpenSearch:',
-	'OpenSearchInfo'			=> 'Създава файла с описанието на OpenSearch в папката XML и активира функцията за автоматично откриване на приставката за търсене в заглавието на HTML.',
+	'OpenSearchInfo'			=> 'Opretter OpenSearch-beskrivelsesfilen i XML-mappen og aktiverer Autodiscovery of search plugin i HTML-headeren.',
 	'SearchEngineVisibility'	=> 'Block search engines (search engine visibility):',
 	'SearchEngineVisibilityInfo'=> 'Block search engines, but allow normal visitors. Overrides page settings. <br>Discourage search engines from indexing this site. It is up to search engines to honor this request.',
 
@@ -381,7 +381,7 @@ $ap_translation = [
 	'AppearanceSettingsInfo'	=> 'Control default display settings for your site.',
 	'AppearanceSettingsUpdated'	=> 'Updated appearance settings.',
 
-	'LogoOff'					=> 'Изключено',
+	'LogoOff'					=> 'Af',
 	'LogoOnly'					=> 'logo',
 	'LogoAndTitle'				=> 'logo and title',
 
@@ -396,9 +396,9 @@ $ap_translation = [
 	'FaviconSection'			=> 'Favicon',
 	'SiteFavicon'				=> 'Site favicon:',
 	'SiteFaviconInfo'			=> 'Your shortcut icon, or favicon, is displayed in the address bar, tabs and bookmarks of most browsers. This will override the favicon of your theme.',
-	'SiteFaviconTooBig'			=> 'Favicon е по-голям от  64 × 64px.',
-	'ThemeColor'				=> 'Цвят на темата за адресната лента:',
-	'ThemeColorInfo'			=> 'Браузърът ще зададе цвета на адресната лента на всяка страница в съответствие с предоставения CSS цвят.',
+	'SiteFaviconTooBig'			=> 'Favicon er større end 64 × 64px.',
+	'ThemeColor'				=> 'Temafarve for adresselinjen:',
+	'ThemeColorInfo'			=> 'Browseren indstiller farven på adresselinjen på hver side i overensstemmelse med den angivne CSS-farve.',
 
 	'LayoutSection'				=> 'Layout',
 	'Theme'						=> 'Theme:',
@@ -469,12 +469,20 @@ $ap_translation = [
 
 	'ReverseProxySection'		=> 'Reverse Proxy',
 	'ReverseProxy'				=> 'Use reverse proxy:',
-    'ReverseProxyInfo'			=> 
-    'Enable this setting to determine the correct IP address of the remote client by examining information stored in the X-Forwarded-For headers.  X-Forwarded-For headers are a standard mechanism for identifying client systems connecting through a reverse proxy server, such as Squid or Pound. Reverse proxy servers are often used to enhance the performance of heavily visited sites and may also provide other site caching, security or encryption benefits. If this WackoWiki installation operates behind a reverse proxy, this setting should be enabled so that correct IP address information is captured in WackoWiki\'s session management, logging, statistics and access management systems; if you are unsure about this setting, do not have a reverse proxy, or WackoWiki operates in a shared hosting environment, this setting should remain disabled.',
+	'ReverseProxyInfo'			=> 'Aktiver denne indstilling for at bestemme den korrekte IP-adresse for fjernklienten
+									ved at undersøge oplysninger, der er gemt i X-Forwarded-For-headerne. X-Forwarded-For-headere
+									er en standardmekanisme til identifikation af klientsystemer, der opretter forbindelse via en
+									reverse proxyserver, f.eks. Squid eller Pound. Reverse proxyservere bruges ofte til at forbedre
+									ydeevnen på meget besøgte websteder og kan også give andre fordele i forbindelse med caching,
+									sikkerhed eller kryptering af websteder. Hvis denne WackoWiki-installation opererer bag en
+									reverse proxy, bør denne indstilling aktiveres, så korrekte IP-adresseoplysninger opfanges
+									i WackoWikis systemer til sessionshåndtering, logning, statistik og adgangsstyring;
+									hvis du er usikker på denne indstilling, ikke har en reverse proxy, eller WackoWiki opererer
+									i et delt hostingmiljø, bør denne indstilling forblive deaktiveret.',
 	'ReverseProxyHeader'		=> 'Reverse proxy header:',
-	'ReverseProxyHeaderInfo'	=> 'Задайте тази стойност, ако вашият прокси сървър изпраща IP адреса на клиента в заглавие,
-									различно от X-Forwarded-For. Заглавието "X-Forwarded-For" представлява списък от IP адреси,
-									разделени със запетая + интервал, като ще бъде използван само последният (най-левият).',
+	'ReverseProxyHeaderInfo'	=> 'Indstil denne værdi, hvis din proxyserver sender klient-IP i en anden header
+									end X-Forwarded-For. "X-Forwarded-For"-headeren er en liste af IP-adresser adskilt af
+									kommaer og mellemrum, og kun den sidste (den længst til venstre) vil blive brugt.',
 	'ReverseProxyAddresses'		=> 'reverse_proxy accepts an array of IP addresses:',
 	'ReverseProxyAddressesInfo'	=> 'Each element of this array is the IP address of any of your reverse
 									 proxies. If using this array, WackoWiki will trust the information stored
@@ -487,13 +495,13 @@ $ap_translation = [
 	'SessionStorage'				=> 'Session storage:',
 	'SessionStorageInfo'			=> 'This option defines where the the session data is stored. By default, either file or database session storage is selected.',
 	'SessionModes'	=> [
-		'1'		=> 'Файла',
-		'2'		=> 'База данни',
+		'1'		=> 'Fil',
+		'2'		=> 'Database',
 	],
-	'SessionNotice'					=> 'Показване на причината за прекратяване на сесията:',
-	'SessionNoticeInfo'				=> 'Посочва причината за прекратяване на сесията.',
-	'LoginNotice'					=> 'Известие за влизане:',
-	'LoginNoticeInfo'				=> 'Показва известие за влизане в системата.',
+	'SessionNotice'					=> 'Vis årsagen til afslutning af sessionen:',
+	'SessionNoticeInfo'				=> 'Angiver årsagen til, at sessionen er blevet afbrudt.',
+	'LoginNotice'					=> 'Login-meddelelse:',
+	'LoginNoticeInfo'				=> 'Viser en login-meddelelse.',
 
 	'RewriteMode'					=> 'Use <code>mod_rewrite</code>:',
 	'RewriteModeInfo'				=> 'If your web server supports this feature, enable to "beautify" the page URLs.<br>
@@ -528,16 +536,16 @@ $ap_translation = [
 	'OwnersEditCategories'		=> 'Owners can edit page categories:',
 	'OwnersEditCategoriesInfo'	=> 'Allow owners to modify the pages category list of your site (add words, delete words), assigns to a page.',
 	'TermHumanModeration'		=> 'Human moderation expiration:',
-	'TermHumanModerationInfo'	=> 'Модераторите могат да редактират коментари само ако са създадени преди повече от този брой дни (това ограничение не важи за последния коментар в темата).',
+	'TermHumanModerationInfo'	=> 'Moderatorer kan kun redigere kommentarer, hvis de ikke blev oprettet mere end dette antal dage siden (denne begrænsning gælder ikke for den sidste kommentar i emnet).',
 
-	'UserCanDeleteAccount'		=> 'Потребителите могат да изтриват профилите си',
+	'UserCanDeleteAccount'		=> 'Brugererne kan selv slette deres konti',
 
 	// Security settings
 	'SecuritySettingsInfo'		=> 'Parameters responsible for the overall safety of the platform, safety restrictions and additional security subsystems.',
 	'SecuritySettingsUpdated'	=> 'Updated security settings',
 
 	'AllowRegistration'			=> 'Register online:',
-	'AllowRegistrationInfo'		=> 'Отворена регистрация на потребителя. Деактивирането на тази опция ще предотврати безплатна регистрация, обаче администраторът на сайта ще може сам да регистрира други потребители.',
+	'AllowRegistrationInfo'		=> 'Åben brugerregistrering. Deaktivering af denne mulighed forhindrer gratis registrering, men webstedsadministratoren kan selv registrere andre brugere.',
 	'ApproveNewUser'			=> 'Approve new users:',
 	'ApproveNewUserInfo'		=> 'Allows administrators to approve users once they register. Only approved users will be allowed to log in the site.',
 	'PersistentCookies'			=> 'Persistent cookies:',
@@ -550,12 +558,12 @@ $ap_translation = [
 	'EmailSection'				=> 'Email',
 	'AllowEmailReuse'			=> 'Allow email address re-use:',
 	'AllowEmailReuseInfo'		=> 'Different users can register with the same email address.',
-	'EmailConfirmation'			=> 'Наложете потвърждение по имейл:',
-	'EmailConfirmationInfo'		=> 'Изисква от потребителя да потвърди своя имейл адрес, преди да влезе в системата.',
-	'AllowedEmailDomains'		=> 'Разрешени имейл домейни:',
-	'AllowedEmailDomainsInfo'	=> 'Позволените имейл домейни се разделят със запетая, например <code>example.com, local.lan</code> и т.н., в противен случай всички имейл домейни са разрешени.',
-	'ForbiddenEmailDomains'		=> 'Забранени имейл домейни:',
-	'ForbiddenEmailDomainsInfo'	=> 'Забранени имейл домейни, разделени със запетая, например ##example.com, local.lan## и т.н. (ефективен само ако списъкът с разрешени имейл домейни е празен)',
+	'EmailConfirmation'			=> 'Gennemtving e-mail-bekræftelse:',
+	'EmailConfirmationInfo'		=> 'Kræver, at brugeren verificerer sin e-mailadresse, før han kan logge ind.',
+	'AllowedEmailDomains'		=> 'Tilladte e-mail-domæner:',
+	'AllowedEmailDomainsInfo'	=> 'Tilladte e-mail-domæner kommasepareret, f.eks. <code>example.com, local.lan</code> etc., ellers er alle e-mail-domæner tilladt.',
+	'ForbiddenEmailDomains'		=> 'Forbudte e-mail-domæner:',
+	'ForbiddenEmailDomainsInfo'	=> 'Forbudte e-mail-domæner kommasepareret, f.eks. <code>example.com, local.lan</code> osv. (kun effektiv, hvis listen over tilladte e-mail-domæner er tom)',
 
 	'CaptchaSection'			=> 'CAPTCHA',
 	'EnableCaptcha'				=> 'Enable captcha:',
@@ -566,7 +574,7 @@ $ap_translation = [
 	'CaptchaPageInfo'			=> 'As protection against spam, unregistered users must complete captcha before creating a new page.',
 	'CaptchaEdit'				=> 'Edit page:',
 	'CaptchaEditInfo'			=> 'As protection against spam, unregistered users must complete captcha before editing pages.',
-	'CaptchaRegistration'		=> 'Регистрация:',
+	'CaptchaRegistration'		=> 'Registration:',
 	'CaptchaRegistrationInfo'	=> 'As protection against spam, unregistered users must complete captcha before registering.',
 
 	'TlsSection'				=> 'TLS Settings',
@@ -586,7 +594,7 @@ $ap_translation = [
 		'2'		=> 'custom',
 	],
 	'PermissionsPolicy'			=> 'Permissions policy:',
-	'PermissionsPolicyInfo'		=> 'Заглавието HTTP Permissions-Policy предоставя механизъм за изрично разрешаване или забраняване на различни мощни функции на браузъра.',
+	'PermissionsPolicyInfo'		=> 'HTTP Permissions-Policy-headeren giver en mekanisme til eksplicit at aktivere eller deaktivere forskellige effektive browserfunktioner.',
 	'ReferrerPolicy'			=> 'Referrer policy:',
 	'ReferrerPolicyInfo'		=> 'The Referrer-Policy HTTP header governs which referrer information, sent in the Referer header, should be included in responses.',
 	'ReferrerPolicyModes'	=> [
@@ -620,7 +628,7 @@ $ap_translation = [
 		'2'		=> 'password does not contain username',
 	],
 
-	'LoginSection'				=> 'Вход',
+	'LoginSection'				=> 'Log ind',
 	'MaxLoginAttempts'			=> 'Maximum number of login attempts per username:',
 	'MaxLoginAttemptsInfo'		=> 'The number of login attempts allowed for a single account before the anti-spambot task is triggered. Enter 0 to prevent the anti-spambot task from being triggered for distinct user accounts.',
 	'IpLoginLimitMax'			=> 'Maximum number of login attempts per IP address:',
@@ -628,7 +636,7 @@ $ap_translation = [
 
 	'FormsSection'				=> 'Forms',
 	'FormTokenTime'				=> 'Maximum time to submit forms:',
-	'FormTokenTimeInfo'			=> 'Времето, което потребителят трябва да изпрати формуляр (в секунди). <br> Обърнете внимание, че формуляр може да стане невалиден, ако сесията изтече, независимо от тази настройка.',
+	'FormTokenTimeInfo'			=> 'Den tid, en bruger skal indsende en formular (i sekunder). <br> Bemærk, at en formular kan blive ugyldig, hvis sessionen udløber, uanset denne indstilling.',
 
 	'SessionLength'				=> 'Session cookie expiration:',
 	'SessionLengthInfo'			=> 'The lifetime of the user session cookie by default (in days).',
@@ -657,7 +665,7 @@ $ap_translation = [
 	'X11colors'					=> 'X11 colors usage:',
 	'X11colorsInfo'				=> 'Extends the available colors for <code>??(color) background??</code> and <code>!!(color) text!!</code>Disabling this option speeds up the processes of adding comments and saving pages.',
 	'WikiLinks'					=> 'Disable wiki links:',
-	'WikiLinksInfo'				=> 'Деактивира свързването за <code>CamelCaseWords</code>, вашите CamelCase Words вече няма да бъдат свързвани директно към нова страница. Това е полезно, когато работите в различни пространства от имена aks клъстери. По подразбиране е изключено.',
+	'WikiLinksInfo'				=> 'Deaktiverer linking for <code>CamelCaseWords</code>, dine CamelCase Words vil ikke længere blive linket direkte til en ny side. Dette er nyttigt, når du arbejder på tværs af forskellige namespaces aks klynger. Som standard er den slået fra.',
 	'BracketsLinks'				=> 'Disable bracketed links:',
 	'BracketsLinksInfo'			=> 'Disables <code>[[link]]</code> and <code>((link))</code> syntax.',
 	'Formatters'				=> 'Disable formatters:',
@@ -672,20 +680,20 @@ $ap_translation = [
 	'TimeFormatSecondsInfo'		=> '(hours, minutes, seconds)',
 	'NameDateMacro'				=> 'The format of the <code>::@::</code> macro:',
 	'NameDateMacroInfo'			=> '(name, time), e.g. <code>UserName (17.11.2016 16:48)</code>',
-	'Timezone'					=> 'Времева зона:',
-	'TimezoneInfo'				=> 'Времева зона, която да се използва за показване на времето на потребители, които не са влезли в системата (гости). Влезлите в системата потребители задават и могат да променят часовата си зона в потребителските си настройки.',
+	'Timezone'					=> 'Tidszone:',
+	'TimezoneInfo'				=> 'Tidszone, der skal bruges til at vise tidspunkter til brugere, der ikke er logget ind (gæster). Indloggede brugere indstiller og kan ændre deres tidszone i deres brugerindstillinger.',
 
-	'Canonical'					=> 'Ползване на напълно уеднаквени URL адреси:',
-	'CanonicalInfo'				=> 'Всички връзки са създадени като абсолютни URL адреси във формата %1. Трябва да се предпочитат URL адреси, свързани с корена на сървъра във формата %2.',
+	'Canonical'					=> 'Benyt fuldt kanoniske netadresser:',
+	'CanonicalInfo'				=> 'Alle links oprettes som absolutte URL\'er i formularen %1. URL\'er i forhold til serverroden i formularen %2 bør foretrækkes.',
 	'LinkTarget'				=> 'Where external links open:',
-	'LinkTargetInfo'			=> 'Отваря всяка външна връзка в нов прозорец на браузъра. Добавя <code>target="_blank"</code> към синтаксиса на връзката.',
+	'LinkTargetInfo'			=> 'Åbner hvert eksterne link i et nyt browservindue. Tilføjer <code>target="_blank"</code> til linksyntaxen.',
 	'Noreferrer'				=> 'noreferrer:',
 	'NoreferrerInfo'			=> 'Requires that the browser should not send an HTTP referer header if the user follows the hyperlink. Adds <code>rel="noreferrer"</code> to the link syntax.',
 	'Nofollow'					=> 'nofollow:',
-	'NofollowInfo'				=> 'Инструктирайте някои търсачки, че хипервръзката не трябва да влияе на класирането на целта за връзки в индекса на търсачките. Добавя <code>rel="nofollow"</code> към синтаксиса на връзката.',
+	'NofollowInfo'				=> 'Instruer nogle søgemaskiner, at hyperlinket ikke skal have indflydelse på rangeringen af linksmålet i søgemaskinens indeks. Tilføjer <code>rel="nofollow"</code> til linksyntaxen.',
 	'UrlsUnderscores'			=> 'Form addresses (URLs) with underscores:',
 	'UrlsUnderscoresInfo'		=> 'For example, %1 becames %2 with this option.',
-	'ShowSpaces'				=> 'Покажи празните символи в УикиИмента:',
+	'ShowSpaces'				=> 'Vis mellemrum i WikiNavne:',
 	'ShowSpacesInfo'			=> 'Show spaces in WikiNames, e.g. <code>MyName</code> being displayed as <code>My Name</code> with this option.',
 	'NumerateLinks'				=> 'Enumerate links in print view:',
 	'NumerateLinksInfo'			=> 'Enumerates and lists all links at the bottom of the print view with this option.',
@@ -693,7 +701,7 @@ $ap_translation = [
 	'YouareHereTextInfo'		=> 'Visualize links to the same page, using <code>&lt;b&gt;####&lt;/b&gt;</code>. All links to self lose link formatting, but are displayed as bold text.',
 
 	// Pages settings
-	'PagesSettingsInfo'			=> 'Тук можете да зададете или промените основните системни страници, използвани в Wiki. Моля, уверете се, че не забравяте да създадете или да промените съответните страници в Wiki според вашите настройки тук.',
+	'PagesSettingsInfo'			=> 'Her kan du indstille eller ændre de systembasissider, der bruges i Wiki. Sørg for, at du ikke glemmer at oprette eller ændre de tilsvarende sider i Wiki i henhold til dine indstillinger her.',
 	'PagesSettingsUpdated'		=> 'Updated settings base pages',
 
 	'ListCount'					=> 'Number of items per list:',
@@ -713,7 +721,7 @@ $ap_translation = [
 	'NewsStructure'				=> 'News cluster structure:',
 	'NewsStructureInfo'			=> 'Stores the articles optionally in sub-clusters by year/month or week (e.g. <code>[cluster]/[year]/[month]</code>).',
 
-	'LicenseSection'			=> 'Лиценза',
+	'LicenseSection'			=> 'License',
 	'DefaultLicense'			=> 'Default license:',
 	'DefaultLicenseInfo'		=> 'Under which license your content can be released.',
 	'EnableLicense'				=> 'Enable license:',
@@ -725,15 +733,15 @@ $ap_translation = [
 	'RootPage'					=> 'Home page:',
 	'RootPageInfo'				=> 'Tag of your main page, opens automatically when a user visits your site.',
 
-	'PrivacyPage'				=> 'Поверителност:',
+	'PrivacyPage'				=> 'Privacy policy:',
 	'PrivacyPageInfo'			=> 'The page with the Privacy Policy of the site.',
 
 	'TermsPage'					=> 'Policies and regulations:',
 	'TermsPageInfo'				=> 'The page with the rules of the site.',
 
-	'SearchPage'				=> 'Търси:',
+	'SearchPage'				=> 'Søg:',
 	'SearchPageInfo'			=> 'Page with the search form (action %1).',
-	'RegistrationPage'			=> 'Регистрация:',
+	'RegistrationPage'			=> 'Registrering:',
 	'RegistrationPageInfo'		=> 'Page for new user registration (action %1).',
 	'LoginPage'					=> 'User login:',
 	'LoginPageInfo'				=> 'Login page on the site (action %1).',
@@ -743,9 +751,9 @@ $ap_translation = [
 	'PasswordPageInfo'			=> 'Page with a form to change / query user password (action %1).',
 	'UsersPage'					=> 'User list:',
 	'UsersPageInfo'				=> 'Page with a list of registered users (action %1).',
-	'CategoryPage'				=> 'Категория:',
+	'CategoryPage'				=> 'Kategori:',
 	'CategoryPageInfo'			=> 'Page with a list of categorized pages (action %1).',
-	'GroupsPage'				=> 'Групи:',
+	'GroupsPage'				=> 'Grupper:',
 	'GroupsPageInfo'			=> 'Page with a list of working groups (action %1).',
 	'ChangesPage'				=> 'Recent changes:',
 	'ChangesPageInfo'			=> 'Page with a list of the last modified pages (action %1).',
@@ -759,12 +767,12 @@ $ap_translation = [
 	'OrphanedPageInfo'			=> 'Page with a list of existing pages are not related via links to any other page (action %1).',
 	'SandboxPage'				=> 'Sandbox:',
 	'SandboxPageInfo'			=> 'Page where users can practice their wiki markup skills.',
-	'HelpPage'					=> 'Помогне:',
+	'HelpPage'					=> 'Hjælp:',
 	'HelpPageInfo'				=> 'The documentation section for working with site tools.',
-	'IndexPage'					=> 'Каталог:',
-	'IndexPageInfo'				=> 'Страница със списък на всички страници (action %1).',
-	'RandomPage'				=> 'Случаен:',
-	'RandomPageInfo'			=> 'Зарежда произволна страница (action %1).',
+	'IndexPage'					=> 'Index:',
+	'IndexPageInfo'				=> 'Side med en liste over alle sider (action %1).',
+	'RandomPage'				=> 'Random:',
+	'RandomPageInfo'			=> 'Indlæser en tilfældig side (action %1).',
 
 
 	// Notification settings
@@ -789,14 +797,14 @@ $ap_translation = [
 	'NotifyUpload'				=> 'Notify file upload:',
 	'NotifyUploadInfo'			=> 'The Moderators will to be notified when a file has been uploaded.',
 
-	'PersonalMessagesSection'	=> 'Лични съобщения',
+	'PersonalMessagesSection'	=> 'Personlige beskeder',
 	'AllowIntercomDefault'		=> 'Allow intercom:',
 	'AllowIntercomDefaultInfo'	=> 'Enabling this option allows other users to send personal messages to the recipient\'s email address without disclosing the address.',
 	'AllowMassemailDefault'		=> 'Allow mass email:',
 	'AllowMassemailDefaultInfo'	=> 'Only send messages to those users who have permitted administrators to email them information.',
 
 	// Resync settings
-	'Synchronize'				=> 'синхронизирам',
+	'Synchronize'				=> 'synkronisere',
 	'UserStatsSynched'			=> 'User Statistics synchronized.',
 	'PageStatsSynched'			=> 'Page Statistics synchronized.',
 	'FeedsUpdated'				=> 'RSS-feeds updated.',
@@ -814,13 +822,13 @@ $ap_translation = [
 	'PageStats'					=> 'Page statistics',
 	'PageStatsInfo'				=> 'Page statistics (number of comments, files and revisions) may differ in some situations from actual data. <br>This operation allows updating statistics to match actual data contained in database.',
 
-	'AttachmentsInfo'			=> 'Актуализира хеша на файла за всички прикачени файлове в базата данни.',
-	'AttachmentsSynched'		=> 'Повторна проверка на всички прикачени файлове',
-	'LogAttachmentsSynched'		=> 'Повторна проверка на всички прикачени файлове',
+	'AttachmentsInfo'			=> 'Opdaterer filhashen for alle vedhæftede filer i databasen.',
+	'AttachmentsSynched'		=> 'Re-hashed all file attachments',
+	'LogAttachmentsSynched'		=> 'Re-hashed all file attachments',
 
 	'Feeds'						=> 'Feeds',
 	'FeedsInfo'					=> 'In the case of direct editing of pages in the database, the content of RSS-feeds may not reflect the changes made. <br>This function synchronizes the RSS-channels with the current state of the database.',
-	'XmlSiteMap'				=> 'XML Sitemap',
+	'XmlSiteMap'				=> 'XML-Sitemap',
 	'XmlSiteMapInfo'			=> 'This function synchronizes the XML-Sitemap with the current state of the database.',
 	'XmlSiteMapPeriod'			=> 'Period %1 days. Last written %2.',
 	'XmlSiteMapView'			=> 'Show Sitemap in a new window.',
@@ -829,29 +837,29 @@ $ap_translation = [
 	'ReparseBodyInfo'			=> 'Empties <code>body_r</code> in page table, so that each page gets rendered again on the next page view. This may be useful if you modified the formatter or changed the domain of your wiki.',
 	'PreparsedBodyPurged'		=> 'Emptied <code>body_r</code> field in page table.',
 
-	'WikiLinksResync'			=> 'Wiki links',
+	'WikiLinksResync'			=> 'Wiki-links',
 	'WikiLinksResyncInfo'		=> 'Performs a re-rendering for all intrasite links and restores the contents of the <code>page_link</code> and <code>file_link</code> tables in the event of damage or relocation (this can take considerable time).',
-	'RecompilePage'				=> 'Преизграждане на всички страници (изключително скъпо)',
-	'ResyncOptions'				=> 'Допълнителни опции',
+	'RecompilePage'				=> 'Genopbygning af alle sider (ekstremt dyre)',
+	'ResyncOptions'				=> 'Yderligere muligheder',
 	'RecompilePageLimit'		=> 'Number of pages to parse at once.',
 
 	// Email settings
-	'EmaiSettingsInfo'			=> 'Тази информация се използва от форума при изпращане на email-и до други потребители. Уверете се че email адреса, който сте въвели е валиден, повредените и неполучените съобщения ще бъдат изпращани на този адрес. Ако хостинга ви не позволява използването на php базираната mail(); функция, можете да използвате директно SMTP.',
+	'EmaiSettingsInfo'			=> 'Disse indstillinger anvendes af webstedet ved forsendelse af emails til tilmeldte brugere. Bemærk venligst at denne emailadresse skal være gyldig, da enhver tilbagesendt eller vildfaren email sandsynligvis vil blive returneret til denne emailaddresse. Hvis din vært ikke lader dig bruge den indbyggede (PHP-baserede) emailservice, kan du i stedet sende emails direkte igennem SMTP. Dette kræver adressen på en passende server (spørg om nødvendigt din vært). Hvis serveren kræver autentifikation (og kun hvis den gør) angives det nødvendige brugernavn, kodeord og autentifikationsmetoden.',
 
 	'EmailSettingsUpdated'		=> 'Updated Email settings',
 
-	'EmailFunctionName'			=> 'Email функция име:',
-	'EmailFunctionNameInfo'		=> 'Функцията използвана за изпращане на съобщения чрез PHP.',
-	'UseSmtpInfo'				=> 'Избери <code>SMTP</code>, ако искаш или трябва да изпращат email адреси през именован сървър вместо локалната mail функция.',
+	'EmailFunctionName'			=> 'Navn på emailfunktion:',
+	'EmailFunctionNameInfo'		=> 'Navnet på den anvendte emailfunktion ved forsendelse af emails gennem PHP.',
+	'UseSmtpInfo'				=> 'Vælg <code>SMTP</code>, hvis du vil eller skal bruge en navngiven server til at sende email i stedet for boardets indbyggede emailfunktion.',
 
-	'EnableEmail'				=> 'Enable emails:',
+	'EnableEmail'				=> 'Boardets emailsystem er:',
 	'EnableEmailInfo'			=> 'Enable sending of emails.',
 
-	'EmailIdentitySettings'		=> 'Уебсайт Имейли Идентичност',
-	'FromEmailName'				=> 'From Name:',
+	'EmailIdentitySettings'		=> 'Hjemmeside E-mails Identitet',
+	'FromEmailName'				=> 'From name:',
 	'FromEmailNameInfo'			=> 'The sender name that is use for the <code>From:</code> header for all email notifications sent from the site.',
-	'EmailSubjectPrefix'		=> 'Префикс на предмета:',
-	'EmailSubjectPrefixInfo'	=> 'Алтернативен префикс на темата на имейла, например <code>[Префикс] Тема</code>. Ако не е дефиниран, се използва евентуално по-дългото Име на сайта %1 като префикс.',
+	'EmailSubjectPrefix'		=> 'Emne-præfiks:',
+	'EmailSubjectPrefixInfo'	=> 'Alternativt e-mail-emnepræfiks, f.eks. <code>[Præfiks] Emne</code>. Hvis det ikke er defineret, er standardpræfikset Site Name: %1.',
 
 	'NoReplyEmail'				=> 'No-reply address:',
 	'NoReplyEmailInfo'			=> 'This address, e.g. <code>noreply@example.com</code>, will appear in the <code>From:</code> email address field of all email notifications sent from the site.',
@@ -860,68 +868,68 @@ $ap_translation = [
 	'AbuseEmail'				=> 'Email abuse service:',
 	'AbuseEmailInfo'			=> 'Address requests for urgent matters: registration for a foreign email, etc. It may be the same as the site owner email.',
 
-	'SendTestEmail'				=> 'Send a test email',
-	'SendTestEmailInfo'			=> 'This will send a test email to the address defined in your account.',
-	'TestEmailSubject'			=> 'Your Wiki is correctly configured to send emails',
-	'TestEmailBody'				=> 'If you received this email, your Wiki is correctly configured to send emails.',
-	'TestEmailMessage'			=> 'The test email has been sent.<br>If you don\'t receive it, please check your email configuration settings.',
+	'SendTestEmail'				=> 'Send en test-email',
+	'SendTestEmailInfo'			=> 'Der afsendes en test-email til den mailadresse der er angivet for din konto.',
+	'TestEmailSubject'			=> 'Din Wiki er opsat korrekt til at sende emails',
+	'TestEmailBody'				=> 'Tillykke, da du har modtaget denne email er din Wiki korrekt konfigureret og kan sende emails.',
+	'TestEmailMessage'			=> 'Der er netop afsendt en test-email.<br>Modtager du den ikke, bedes du kontrollere dine emailkonfigurationer.',
 
-	'SmtpSettings'				=> 'SMTP Settings',
+	'SmtpSettings'				=> 'SMTP-indstillinger',
 	'SmtpAutoTls'				=> 'Opportunistic TLS:',
 	'SmtpAutoTlsInfo'			=> 'Enables encryption automatically, if it sees that the server is advertising TLS encryption (after you have connected to the server), even if you have not set the connection mode for <code>SMTPSecure</code>.',
-	'SmtpConnectionMode'		=> 'Автентичност SMTP:',
-	'SmtpConnectionModeInfo'	=> 'Only used if a username/password is required. Ask your provider if you are unsure which method to use.',
-	'SmtpPassword'				=> 'SMTP парола:',
-	'SmtpPasswordInfo'			=> 'Въведи парола само ако SMTP сървъра я изисква. <em><strong>Важно:</strong> паролата се запазва като прост текст в базата данни.</em>',
-	'SmtpPort'					=> 'SMTP сървър порт:',
-	'SmtpPortInfo'				=> 'Промени само, ако знаеш че SMTP е на друг порт. <br>(default: <code>tls</code> on port 587 (or possibly 25) and <code>ssl</code> on port 465)',
-	'SmtpServer'				=> 'SMTP сървър адрес:',
-	'SmtpServerInfo'			=> 'Note that you have to provide the protocol that your server uses. If you are using SSL, this has to be <code>ssl://mail.example.com</code>',
-	'SmtpUsername'				=> 'SMTP име:',
-	'SmtpUsernameInfo'			=> 'Въведи името само ако SMTP го изисква.',
+	'SmtpConnectionMode'		=> 'Godkendelsesmetode for SMTP:',
+	'SmtpConnectionModeInfo'	=> 'Bruges kun, hvis et brugernavn og kodeord er angivet, spørg din vært, hvis du er usikker på hvilken metode, der skal bruges.',
+	'SmtpPassword'				=> 'SMTP-kodeord:',
+	'SmtpPasswordInfo'			=> 'Indtast kun et kodeord, hvis din SMTP-server kræver det.<br><em><strong>Advarsel:</strong> Kodeordet bliver lagret i databasen i klar og ukrypteret tekst, og vil være synligt for alle med adgang til databasen eller til denne konfigurationsside.</em>',
+	'SmtpPort'					=> 'SMTP-serverport:',
+	'SmtpPortInfo'				=> 'Skift kun denne, hvis du ved, at din SMTP-server benytter en anden port. <br>(default: <code>tls</code> on port 587 (or possibly 25) and <code>ssl</code> on port 465)',
+	'SmtpServer'				=> 'Adresse på SMTP-server:',
+	'SmtpServerInfo'			=> 'Bemærk at du skal anføre den protokol din server anvender. Hvis der anvendes SSL, anføres <code>ssl://mail.example.com</code>',
+	'SmtpUsername'				=> 'SMTP-brugernavn:',
+	'SmtpUsernameInfo'			=> 'Indtast kun et brugernavn, hvis din SMTP-server kræver det.',
 
 	// Upload settings
-	'UploadSettingsInfo'		=> 'От тук можете да конфигурирате главните настройки за прикачените файлове.',
+	'UploadSettingsInfo'		=> 'Her kan du ændre og vedligeholde indstillingerne for vedhæftede filer og tilknyttede specialkategorier.',
 	'UploadSettingsUpdated'		=> 'Updated upload settings',
 
 	'FileUploadsSection'		=> 'File Uploads',
-	'RegisteredUsers'			=> 'регистрирани потребители',
+	'RegisteredUsers'			=> 'registrerede brugere',
 	'RightToUpload'				=> 'Permissions to upload files:',
 	'RightToUploadInfo'			=> '<code>admins</code> means that only users belonging to the admins group can upload  files. <code>1</code> means that uploading is opened to registered users. <code>0</code> means that upload disabled.',
-	'UploadMaxFilesize'			=> 'Максимален размер на файла:',
-	'UploadMaxFilesizeInfo'		=> 'Максимален размер на всеки файл, ако поставите 0, размера ще се ограничава от настройките на PHP-то.',
-	'UploadQuota'				=> 'Обща квота на прикачените файлове:',
-	'UploadQuotaInfo'			=> 'Максимален размер на всички прикачени файлове, <code>0</code> е неограничен. %1 used.',
+	'UploadMaxFilesize'			=> 'Maksimal filstørrelse:',
+	'UploadMaxFilesizeInfo'		=> 'Er størrelsen sat til 0, er det alene din interne PHP-konfiguration, der begrænser filstørrelsen.',
+	'UploadQuota'				=> 'Den totale kvote for vedhæftede filer:',
+	'UploadQuotaInfo'			=> 'Maksimum drevplads tilgængelig for vedhæftede filer på hele wiki, <code>0</code> betyder ubegrænset. %1 used.',
 	'UploadQuotaUser'			=> 'Storage quota per user:',
 	'UploadQuotaUserInfo'		=> 'Restriction on the quota of storage that can be uploaded by one user, with <code>0</code> being unlimited.',
 
-	'FileTypes'					=> 'Файлови формати',
+	'FileTypes'					=> 'Filtyper',
 	'UploadOnlyImages'			=> 'Allow only upload of images:',
 	'UploadOnlyImagesInfo'		=> 'Allow only uploading of image files on the page.',
-	'AllowedUploadExts'			=> 'Разрешени файлови формати:',
-	'AllowedUploadExtsInfo'		=> 'Разрешени разширения за качване на файлове, разделени със запетая, например <code>png, ogg, mp4</code>, в противен случай всички незабранени разширения на файлове са разрешени.<br>Трябва да ограничите списъка с разрешените типове файлове до необходимия минимум, необходим за функционалността на съдържанието на сайта ви.',
-	'CheckMimetype'				=> 'Провери прикачените файлове:',
-	'CheckMimetypeInfo'			=> 'При някои браузъри може да има проблем с MIME типовете. Тази опция оправя този проблем.',
-	'SvgSanitizer'				=> 'SVG sanitizer:',
-	'SvgSanitizerInfo'			=> 'Това дава възможност за обработка на качените SVG файлове, за да се предотврати качването на уязвими SVG/XML файлове.',
-	'TranslitFileName'			=> 'Транслитериране на имената на файловете:',
-	'TranslitFileNameInfo'		=> 'Ако е приложимо и не е необходимо да има символи Unicode, силно препоръчително е да се приемат само алфа-цифрови символи.',
-	'TranslitCaseFolding'		=> 'Преобразувайте имената на файловете в малки букви:',
-	'TranslitCaseFoldingInfo'	=> 'Тази опция е ефективна само при активна транслитерация.',
+	'AllowedUploadExts'			=> 'Tilladte filtyper:',
+	'AllowedUploadExtsInfo'		=> 'Tilladte filtypenavne til upload af filer, kommasepareret, f.eks. <code>png, ogg, mp4</code>, ellers er alle ikke forbudte filtypenavne tilladt.<br>Du bør begrænse listen over tilladte uploadede filtyper til det nødvendige minimum, der kræves for funktionaliteten af dit websted.',
+	'CheckMimetype'				=> 'Kontrol af vedhæftede filer:',
+	'CheckMimetypeInfo'			=> 'Nogle browsere kan snydes og medfører fejlfortolkning af uploadede filers mimetype. Denne kontrol sikrer afvisning af filer der er årsag hertil.',
+	'SvgSanitizer'				=> 'SVG Sanitizer:',
+	'SvgSanitizerInfo'			=> 'Dette gør det muligt at rense uploadede SVG-filer for at forhindre, at SVG/XML sårbare filer bliver uploadet.',
+	'TranslitFileName'			=> 'Translitterere filnavne:',
+	'TranslitFileNameInfo'		=> 'Hvis det er relevant, og der ikke er behov for Unicode-tegn, anbefales det stærkt kun at acceptere alfanumeriske tegn.',
+	'TranslitCaseFolding'		=> 'Konverter filnavne til små bogstaver:',
+	'TranslitCaseFoldingInfo'	=> 'Denne indstilling er kun effektiv med aktiv translitteration.',
 
 	'Thumbnails'				=> 'Thumbnails',
-	'CreateThumbnail'			=> 'Създай галерия:',
-	'CreateThumbnailInfo'		=> 'Създай галерия за всички възможни ситуации.',
-	'JpegQuality'				=> 'Качество на JPEG::',
-	'JpegQualityInfo'			=> 'Качество при мащабиране на миниатюра JPEG. То трябва да бъде между 1 и 100, като 100 означава 100% качество.',
-	'MaxImageArea'				=> 'Maximum image area:',
-	'MaxImageAreaInfo'			=> 'Максималният брой пиксели, които може да има едно изходно изображение. Това осигурява ограничение на използването на паметта от страна на декомпресията на мащабатора на изображения. <br><code>-1</code> означава, че няма да се проверява размерът на изображението, преди да се опита да го мащабира. <code>0</code> означава, че той ще определи стойността автоматично.',
-	'MaxThumbWidth'				=> 'Максимална ширина на галерия:',
-	'MaxThumbWidthInfo'			=> 'Генерираната галерия няма да превиши ширината тук.',
-	'MinThumbFilesize'			=> 'Минимален размер на галерията:',
-	'MinThumbFilesizeInfo'		=> 'Не създавайте галерия на изображения по-малки от размера тук.',
-	'MaxImageWidth'				=> 'Ограничение на размера на изображението на страниците:',
-	'MaxImageWidthInfo'			=> 'Максималната ширина на изображението на страниците, в противен случай се генерира умалена миниатюра.',
+	'CreateThumbnail'			=> 'Opret miniature:',
+	'CreateThumbnailInfo'		=> 'Der oprettes altid en miniature.',
+	'JpegQuality'				=> 'JPEG-kvalitet:',
+	'JpegQualityInfo'			=> 'Kvalitet: Kvalitet ved skalering af et JPEG-miniaturebillede. Den skal være mellem 1 og 100, hvor 100 angiver 100 % kvalitet.',
+	'MaxImageArea'				=> 'Maximum Image Area:',
+	'MaxImageAreaInfo'			=> 'Det maksimale antal pixels, som et kildebillede kan have. Dette giver en grænse for hukommelsesforbruget for billedskaleringens dekomprimeringsside. <br><code>-1</code> betyder, at den ikke kontrollerer billedets størrelse, før den forsøger at skalere det. <code>0</code> betyder, at den vil bestemme værdien automatisk.',
+	'MaxThumbWidth'				=> 'Maksimal bredde på miniature i pixels:',
+	'MaxThumbWidthInfo'			=> 'Miniaturer vil ikke blive oprettet bredere end værdien defineret her.',
+	'MinThumbFilesize'			=> 'Grænse for oprettelse af miniature:',
+	'MinThumbFilesizeInfo'		=> 'Opret ikke miniature for billeder der er mindre end.',
+	'MaxImageWidth'				=> 'Begrænsning af billedstørrelse på sider:',
+	'MaxImageWidthInfo'			=> 'Den maksimale bredde, som et billede kan have på siderne, ellers genereres et nedskaleret miniaturebillede.',
 
 	// Deleted module
 	'DeletedObjectsInfo'		=> 'List of removed pages, revisions and files.
@@ -961,26 +969,26 @@ $ap_translation = [
 	],
 
 	// Massemail module
-	'MassemailInfo'				=> 'Here you can email a message to either (1) all of your users or (2) all users of a specific group who have enabled receiving of mass emails. An email will be sent out to the administrative email address supplied, with a blind carbon copy (BCC) sent to all recipients. The default setting is to include a maximum of 20 recipients in such an email. If there are more than 20 recipients, additional emails will be sent. If you are emailing a large group of people, please be patient after submitting and do not stop the page halfway through. It is normal for a mass emailing to take a long time. You will be notified when the script has completed.',
+	'MassemailInfo'				=> 'Her kan du sende en email til enten alle dine brugere, eller til de brugere i en specifik gruppe som <strong>har muligheden for at modtage masse-emails aktiveret</strong>. Når en masse-email afsendes bliver administrator sat som afsender, og afsendes med modtagere som blind kopi, som derfor ikke kan se øvrige modtagere. Som standard afsendes emailen til 20 brugere ad gangen. Vær tålmodig, når du sender email til en stor gruppe af personer og stop ikke siden halvvejs. Afsendelsen af en masse-email kan tage lang tid, men du bliver informeret når scriptet er fuldført.',
 	'LogMassemail'				=> 'Mass email send %1 to group / user ',
 	'MassemailSend'				=> 'Mass email send',
 
-	'NoEmailMessage'			=> 'Трябва да въведете съобщение.',
-	'NoEmailSubject'			=> 'Трябва да въведете заглавие на съобщението си.',
+	'NoEmailMessage'			=> 'Du skal skrive en besked.',
+	'NoEmailSubject'			=> 'Du skal angive en overskrift i din email.',
 	'NoEmailRecipient'			=> 'You must specify at least one user or user group.',
 
-	'MassemailSection'			=> 'Масов email',
-	'MessageSubject'			=> 'Заглавие:',
+	'MassemailSection'			=> 'Mass email',
+	'MessageSubject'			=> 'Emne:',
 	'MessageSubjectInfo'		=> '',
-	'YourMessage'				=> 'Your message:',
-	'YourMessageInfo'			=> 'Please note that you may enter only plaintext. All markup will be removed before sending.',
+	'YourMessage'				=> 'Emailens tekst:',
+	'YourMessageInfo'			=> 'Bemærk venligst at du kun bør skrive ren tekst. Al opmærkning vil blive fjernet inden afsendelse.',
 
 	'NoUser'					=> 'No user',
 	'NoUserGroup'				=> 'No user group',
 
-	'SendToGroup'				=> 'Изпрати на група:',
-	'SendToUser'				=> 'Изпрати на потребители:',
-	'SendToUserInfo'			=> 'Only users who permit administrators to email them information will receive mass emails. This option is available in their user settings under Notifications.',
+	'SendToGroup'				=> 'Send til gruppe:',
+	'SendToUser'				=> 'Send til brugere:',
+	'SendToUserInfo'			=> 'Only users who permit Administrators to email them information will receive mass emails. This option is available in their user settings under Notifications.',
 
 	// System message module
 	'SystemMessageInfo'			=> '',
@@ -1009,7 +1017,7 @@ $ap_translation = [
 	'UserApproveInfo'			=> 'Approve new users before they are able to login to the site.',
 	'Approve'					=> 'Approve',
 	'Deny'						=> 'Deny',
-	'Pending'					=> 'Pending',
+	'Pending'					=> 'Verserende',
 	'Approved'					=> 'Approved',
 	'Denied'					=> 'Denied',
 
@@ -1019,8 +1027,8 @@ $ap_translation = [
 	'BackupFolder'				=> 'Folder',
 	'BackupTable'				=> 'Table',
 	'BackupCluster'				=> 'Cluster:',
-	'BackupFiles'				=> 'Файлове',
-	'BackupNote'				=> 'Забележка:',
+	'BackupFiles'				=> 'Filer',
+	'BackupNote'				=> 'Bemærk:',
 	'BackupSettings'			=> 'Specify the desired scheme of backup.<br>' .
     	'The root cluster does not affect the global files backup and cache files backup (if chosen, they are always saved in full).<br>' .  '<br>' .
 		'<strong>Attention</strong>: To avoid loss of information from the database when specifying the root cluster, the tables from this backup will not be restructured, same as when backing up only table structure without saving the data. To make a complete conversion of the tables to the backup format you must make the <em> full database backup (structure and data) without specifying the cluster</em>.',
@@ -1032,11 +1040,11 @@ $ap_translation = [
 
 	// DB Restore module
 	'RestoreInfo'				=> 'You can restore any of the backup packages found, or remove them from the server.',
-	'ConfirmDbRestore'			=> 'Искате ли да възстановите архивното копиране %1?',
-	'ConfirmDbRestoreInfo'		=> 'Моля, изчакайте това може да отнеме няколко минути.',
+	'ConfirmDbRestore'			=> 'Vil du gendanne sikkerhedskopi %1?',
+	'ConfirmDbRestoreInfo'		=> 'Vent venligst, dette kan tage nogle minutter.',
 	'RestoreWrongVersion'		=> 'Wrong WackoWiki version!',
-	'DirectoryNotExecutable'	=> 'Директорията %1 не е изпълнима.',
-	'BackupDelete'				=> 'Сигурни ли сте, че искате да премахнете архивното копие %1?',
+	'DirectoryNotExecutable'	=> 'Mappen %1 er ikke eksekverbar.',
+	'BackupDelete'				=> 'Er du sikker på, at du vil fjerne backup %1?',
 	'BackupDeleteInfo'			=> '',
 	'RestoreOptions'			=> 'Additional restore options:',
 	'RestoreOptionsInfo'		=> '* Before restoring the <strong>cluster backup</strong>, ' .
@@ -1080,34 +1088,34 @@ $ap_translation = [
 	'HomonymicFiles'			=> 'homonymic files',
 	'RestoreSkip'				=> 'skip',
 	'RestoreReplace'			=> 'replace',
-	'RestoreFile'				=> 'Файла:',
+	'RestoreFile'				=> 'Fil:',
 	'RestoredFiles'				=> 'restored:',
 	'SkippedFiles'				=> 'skipped:',
 	'FileRestoreDone'			=> 'Completed. Total files:',
-	'FilesAll'					=> 'all:',
+	'FilesAll'					=> 'alle:',
 	'SkipFiles'					=> 'Files are not stored - skip',
 	'RestoreDone'				=> 'RESTORATION COMPLETED',
 
 	'BackupCreationDate'		=> 'Creation Date',
 	'BackupPackageContents'		=> 'The contents of the package',
-	'BackupRestore'				=> 'Възстановяване',
-	'BackupRemove'				=> 'Премахни',
+	'BackupRestore'				=> 'Gendan',
+	'BackupRemove'				=> 'Slet',
 	'RestoreYes'				=> 'Yes',
 	'RestoreNo'					=> 'No',
 	'LogDbRestored'				=> 'Backup ##%1## of the database restored.',
 
-	'BackupArchived'			=> 'Архивирано е резервно копие %1.',
-	'BackupArchiveExists'		=> 'Архивът на резервно копие %1 вече съществува.',
-	'LogBackupArchived'			=> 'Архивирано е резервно копие ##%1##.',
+	'BackupArchived'			=> 'Backup %1 arkiveret.',
+	'BackupArchiveExists'		=> 'Backup-arkivet %1 findes allerede.',
+	'LogBackupArchived'			=> 'Backup ##%1## arkiveret.',
 
 	// User module
 	'UsersInfo'					=> 'Here you can change your users information and certain specific options.',
 
 	'UsersAdded'				=> 'User added',
 	'UsersDeleteInfo'			=> '[User delete Info here..]',
-	'EditButton'				=> 'Промени',
+	'EditButton'				=> 'Redigere',
 	'UsersAddNew'				=> 'Add new user',
-	'UsersDelete'				=> 'Наистина ли искате да премахнете потребител %1?',
+	'UsersDelete'				=> 'Er du sikker på, at du vil fjerne bruger %1?',
 	'UsersDeleted'				=> 'The user %1 was deleted from the database.',
 	'UsersRename'				=> 'Rename the user %1 to',
 	'UsersRenameInfo'			=> '* Note: Change will affect all pages that are assigned to that user.',
@@ -1118,10 +1126,10 @@ $ap_translation = [
 	'UserActions'				=> 'Actions',
 	'NoMatchingUser'			=> 'No users that meet the criteria',
 
-	'UserAccountNotify'			=> 'Уведомяване на потребителя',
-	'UserNotifySignup'			=> 'информирайте потребителя за новия акаунт',
-	'UserVerifyEmail'			=> 'задайте маркера за потвърждение на имейл и добавете връзка за потвърждаване на имейл',
-	'UserReVerifyEmail'			=> 'Re-send email confirm token',
+	'UserAccountNotify'			=> 'Underret bruger',
+	'UserNotifySignup'			=> 'informere brugeren om den nye konto',
+	'UserVerifyEmail'			=> 'angiv e-mail-bekræftelses-token og tilføj link til e-mail-verifikation',
+	'UserReVerifyEmail'			=> 'Send e-mail-bekræftelsestoken igen',
 
 	// Groups module
 	'GroupsInfo'				=> 'From this panel you can administrate all your usergroups. You can delete, create and edit existing groups. Furthermore, you may choose group leaders, toggle open/hidden/closed group status and set the group name and description.',
@@ -1134,7 +1142,7 @@ $ap_translation = [
 	'LogGroupRemoved'			=> 'Removed group ##%1##',
 
 	'GroupsMembersFor'			=> 'Members for Group',
-	'GroupsDescription'			=> 'Описание',
+	'GroupsDescription'			=> 'Beskrivelse',
 	'GroupsModerator'			=> 'Moderator',
 	'GroupsOpen'				=> 'Open',
 	'GroupsActive'				=> 'Active',
@@ -1147,7 +1155,7 @@ $ap_translation = [
 	'GroupsAdd'					=> 'Add a new group',
 	'GroupsRename'				=> 'Rename the group %1 to',
 	'GroupsRenameInfo'			=> '* Note: Change will affect all pages that are assigned to that group.',
-	'GroupsDelete'				=> 'Сигурни ли сте, че искате да премахнете група %1?',
+	'GroupsDelete'				=> 'Er du sikker på, at du vil fjerne gruppe %1?',
 	'GroupsDeleteInfo'			=> '* Note: Change will affect all members that are assigned to that group.',
 	'GroupsIsSystem'			=> 'The group %1 belongs to the system and cannot be removed.',
 	'GroupsStoreButton'			=> 'Save Groups',
@@ -1168,15 +1176,15 @@ $ap_translation = [
 	'DbStatSection'				=> 'Database Statistics',
 	'DbTable'					=> 'Table',
 	'DbRecords'					=> 'Records',
-	'DbSize'					=> 'Size',
-	'DbIndex'					=> 'Каталог',
+	'DbSize'					=> 'Størrelse',
+	'DbIndex'					=> 'Index',
 	'DbOverhead'				=> 'Overhead',
 	'DbTotal'					=> 'Total',
 
 	'FileStatSection'			=> 'File system Statistics',
 	'FileFolder'				=> 'Folder',
-	'FileFiles'					=> 'Файлове',
-	'FileSize'					=> 'Size',
+	'FileFiles'					=> 'Filer',
+	'FileSize'					=> 'Størrelse',
 	'FileTotal'					=> 'Total',
 
 	// Sysinfo module
@@ -1227,9 +1235,9 @@ $ap_translation = [
 	// Inconsistencies module
 	'InconsistenciesInfo'		=> 'Show and fix inconsistencies, delete or assign orphaned records to a new user / value.',
 	'Inconsistencies'			=> 'Inconsistencies',
-	'CheckDatabase'				=> 'База данни',
+	'CheckDatabase'				=> 'Database',
 	'CheckDatabaseInfo'			=> 'Checks for record inconsistencies in the database.',
-	'CheckFiles'				=> 'Файлове',
+	'CheckFiles'				=> 'Filer',
 	'CheckFilesInfo'			=> 'Checks for abandoned files, files with no reference left in the file table.',
 	'Records'					=> 'Records',
 	'InconsistenciesNone'		=> 'No Data Inconsistencies found.',
@@ -1246,7 +1254,7 @@ $ap_translation = [
 
 	'BbSummary'					=> 'Summary',
 	'BbLog'						=> 'Log',
-	'BbSettings'				=> 'Настройки',
+	'BbSettings'				=> 'Indstillinger',
 	'BbWhitelist'				=> 'Whitelist',
 
 	// --> Log
