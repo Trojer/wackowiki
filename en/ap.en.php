@@ -11,30 +11,30 @@ $ap_translation = [
 		'basics'		=> 'Basic functions',
 		'preferences'	=> 'Preferences',
 		'content'		=> 'Content',
-		'users'			=> 'பயனர்கள்',
-		'maintenance'	=> 'பராமரிப்பு',
+		'users'			=> '使用者',
+		'maintenance'	=> 'Maintenance',
 		'messages'		=> 'Messages',
 		'extension'		=> 'Extension',
-		'database'		=> 'தரவுத்தள',
+		'database'		=> 'Database',
 	],
 
 	// Admin panel
 	'AdminPanel'				=> 'Administration Control Panel',
 	'RecoveryMode'				=> 'Recovery Mode',
-	'Authorization'				=> 'Authorization',
+	'Authorization'				=> '授權',
 	'AuthorizationTip'			=> 'Please enter the administrative password (make sure that cookies are allowed in your browser).',
 	'NoRecoveryPassword'		=> 'The administrative password is not specified!',
 	'NoRecoveryPasswordTip'		=> 'Note: The absence of an administrative password is a threat to security! Enter your password hash in the configuration file and run the program again.',
 
 	'ErrorLoadingModule'		=> 'Error loading admin module %1: does not exist.',
 
-	'ApHomePage'				=> 'இல்லப்பக்கம்',
-	'ApHomePageTip'				=> 'Quit system administration and open the home page',
-	'ApLogOut'					=> 'Log out',
-	'ApLogOutTip'				=> 'Quit system administration and log out of site',
+	'ApHomePage'				=> 'Home Page',
+	'ApHomePageTip'				=> 'Open the home page, you do not quit system administration',
+	'ApLogOut'					=> '註銷',
+	'ApLogOutTip'				=> 'Quit system administration',
 
-	'TimeLeft'					=> 'Time left:  %1 minute(s)',
-	'ApVersion'					=> 'பதிப்பு',
+	'TimeLeft'					=> 'Time left:  %1 minutes',
+	'ApVersion'					=> '版本',
 
 	'SiteOpen'					=> 'Open',
 	'SiteOpened'				=> 'site opened',
@@ -46,14 +46,14 @@ $ap_translation = [
 	'System'					=> 'System',
 
 	// Generic
-	'Cancel'					=> 'வேண்டாம்',
-	'Add'						=> 'சேர்',
-	'Edit'						=> 'Edit',
-	'Remove'					=> 'நீக்கு',
+	'Cancel'					=> '取消',
+	'Add'						=> '新增',
+	'Edit'						=> '編輯',
+	'Remove'					=> '移除',
 	'Enabled'					=> 'Enabled',
-	'Disabled'					=> 'முடக்கப்பட்டது',
+	'Disabled'					=> 'Disabled',
 	'Mandatory'					=> 'Mandatory',
-	'Admin'						=> 'Admin',
+	'Admin'						=> '管理',
 	'Min'						=> 'Min',
 	'Max'						=> 'Max',
 
@@ -74,26 +74,26 @@ $ap_translation = [
 
 	// Config Basic module
 	'config_basic'		=> [
-		'name'		=> 'Basic',
-		'title'		=> 'அடிப்படை அமைப்புகள்',
+		'name'		=> '基本',
+		'title'		=> '基本設定',
 	],
 
 	// Config Appearance module
 	'config_appearance'		=> [
-		'name'		=> 'தோற்றம்',
+		'name'		=> 'Appearance',
 		'title'		=> 'Appearance settings',
 	],
 
 	// Config Email module
 	'config_email'		=> [
-		'name'		=> 'Email',
+		'name'		=> '電郵',
 		'title'		=> 'Email settings',
 	],
 
 	// Config Syndication module
 	'config_syndication'		=> [
-		'name'		=> 'Syndication',
-		'title'		=> 'Syndication settings',
+		'name'		=> '聚合',
+		'title'		=> '聚合設定',
 	],
 
 	// Config Filter module
@@ -110,19 +110,19 @@ $ap_translation = [
 
 	// Config Notifications module
 	'config_notifications'		=> [
-		'name'		=> 'அறிவிப்புகள்',
-		'title'		=> 'அறிவிப்பு அமைப்புகள்',
+		'name'		=> '通知',
+		'title'		=> '提醒設定',
 	],
 
 	// Config Pages module
 	'config_pages'		=> [
-		'name'		=> 'பக்கங்கள்',
+		'name'		=> '頁面',
 		'title'		=> 'Pages and site parameters',
 	],
 
 	// Config Permissions module
 	'config_permissions'		=> [
-		'name'		=> 'அனுமதிகள்',
+		'name'		=> '權限',
 		'title'		=> 'Permissions settings',
 	],
 
@@ -140,7 +140,7 @@ $ap_translation = [
 
 	// Config Upload module
 	'config_upload'		=> [
-		'name'		=> 'பதிவேற்றம்',
+		'name'		=> '上傳',
 		'title'		=> 'Attachment settings',
 	],
 
@@ -158,7 +158,7 @@ $ap_translation = [
 
 	// DB Backup module
 	'db_backup'		=> [
-		'name'		=> 'காப்புப் பிரதி',
+		'name'		=> 'Backup',
 		'title'		=> 'Backing up data',
 	],
 
@@ -170,7 +170,7 @@ $ap_translation = [
 
 	// DB Restore module
 	'db_restore'		=> [
-		'name'		=> 'Restore',
+		'name'		=> '復原',
 		'title'		=> 'Restoring backup data',
 	],
 
@@ -212,13 +212,13 @@ $ap_translation = [
 
 	// System log module
 	'system_log'		=> [
-		'name'		=> 'System Log',
+		'name'		=> 'System log',
 		'title'		=> 'Log of system events',
 	],
 
 	// Statistics module
 	'system_statistics'		=> [
-		'name'		=> 'புள்ளிவிவரங்கள்',
+		'name'		=> 'Statistics',
 		'title'		=> 'Show statistics',
 	],
 
@@ -236,13 +236,13 @@ $ap_translation = [
 
 	// Groups module
 	'user_groups'		=> [
-		'name'		=> 'குழுக்கள்',
+		'name'		=> '群組',
 		'title'		=> 'Group management',
 	],
 
 	// User module
 	'user_users'		=> [
-		'name'		=> 'பயனர்கள்',
+		'name'		=> '使用者',
 		'title'		=> 'User management',
 	],
 
@@ -260,22 +260,22 @@ $ap_translation = [
 	'BasicSettingsUpdated'		=> 'Updated basic settings',
 	'LogBasicSettingsUpdated'	=> 'Updated basic settings',
 
-	'SiteName'					=> 'Site name:',
+	'SiteName'					=> 'Site Name:',
 	'SiteNameInfo'				=> 'The title of this site. Appears on browser title, theme header, email-notification, etc.',
 	'SiteDesc'					=> 'Site description:',
 	'SiteDescInfo'				=> 'Supplement to the title of the site that appears in the pages header. Explains, in a few words, what this site is about.',
 	'AdminName'					=> 'Admin of site:',
 	'AdminNameInfo'				=> 'User name of individual who is responsible for overall support of the site. This name is not used to determine access rights, but it is desirable that it conforms to the name of the chief administrator of the site.',
 
-	'LanguageSection'			=> 'மொழி',
-	'DefaultLanguage'			=> 'இயல்புநிலை மொழி:',
+	'LanguageSection'			=> '語言',
+	'DefaultLanguage'			=> 'Default language:',
 	'DefaultLanguageInfo'		=> 'Specifies the language of messages displayed to unregistered guests, as well as the locale settings.',
 	'MultiLanguage'				=> 'Multilanguage support:',
 	'MultiLanguageInfo'			=> 'Enable the ability to select a language on a page-by-page basis.',
 	'AllowedLanguages'			=> 'Allowed languages:',
 	'AllowedLanguagesInfo'		=> 'It is recommended to select only the set of languages you want to use, otherwise all languages are selected.',
 
-	'CommentSection'			=> 'கருத்துகள்',
+	'CommentSection'			=> '回應',
 	'AllowComments'				=> 'Allow comments:',
 	'AllowCommentsInfo'			=> 'Enable comments for guests or registered users only, or disable them on the entire site.',
 	'SortingComments'			=> 'Sorting comments:',
@@ -320,12 +320,12 @@ $ap_translation = [
 	'NotifyDiffModeInfo'		=> 'Diff mode used for notifications in the email body.',
 
 	'EditingSection'			=> 'Editing',
-	'EditSummary'				=> 'Edit summary:',
+	'EditSummary'				=> '編輯摘要：',
 	'EditSummaryInfo'			=> 'Shows change summary in the edit mode.',
-	'MinorEdit'					=> 'Minor edit:',
+	'MinorEdit'					=> '小修改：',
 	'MinorEditInfo'				=> 'Enables minor edit option in the edit mode.',
-	'SectionEdit'				=> 'Section edit:',
-	'SectionEditInfo'			=> 'Enables editing only a section of a page.',
+	'SectionEdit'				=> '部分編輯：',
+	'SectionEditInfo'			=> '僅允許編輯頁面的一部分。',
 	'ReviewSettings'			=> 'Review:',
 	'ReviewSettingsInfo'		=> 'Enables review option in the edit mode.',
 	'PublishAnonymously'		=> 'Allow anonymous publishing:',
@@ -356,10 +356,10 @@ $ap_translation = [
 	'XmlChangeLink'				=> 'Changes feed link mode:',
 	'XmlChangeLinkInfo'			=> 'Defines where the XML Changes feed items links to.',
 	'XmlChangeLinkMode'			=> [
-		'1'		=> 'difference view',
-		'2'		=> 'the revised page',
-		'3'		=> 'list of revisions',
-		'4'		=> 'the current page',
+		'1'		=> '差異檢視',
+		'2'		=> '目前頁面',
+		'3'		=> '版本清單',
+		'4'		=> '已修訂的頁面',
 	],
 
 	'XmlSitemap'				=> 'XML sitemap:',
@@ -369,9 +369,9 @@ $ap_translation = [
 	'XmlSitemapTime'			=> 'XML sitemap generation time:',
 	'XmlSitemapTimeInfo'		=> 'Generates the sitemap only once in the given number of days. Set to zero to generate on every page change.',
 
-	'SearchSection'				=> 'தேடு',
+	'SearchSection'				=> '搜尋',
 	'OpenSearch'				=> 'OpenSearch:',
-	'OpenSearchInfo'			=> 'Creates the OpenSearch description file in the XML folder and enables Autodiscovery of search plugin in the HTML header.',
+	'OpenSearchInfo'			=> '在XML文件夾中創建OpenSearch描述文件，並在HTML標頭中啟用搜索插件的自動發現。',
 	'SearchEngineVisibility'	=> 'Block search engines (search engine visibility):',
 	'SearchEngineVisibilityInfo'=> 'Block search engines, but allow normal visitors. Overrides page settings. <br>Discourage search engines from indexing this site. It is up to search engines to honor this request.',
 
@@ -381,7 +381,7 @@ $ap_translation = [
 	'AppearanceSettingsInfo'	=> 'Control default display settings for your site.',
 	'AppearanceSettingsUpdated'	=> 'Updated appearance settings.',
 
-	'LogoOff'					=> 'Off',
+	'LogoOff'					=> '關閉',
 	'LogoOnly'					=> 'logo',
 	'LogoAndTitle'				=> 'logo and title',
 
@@ -396,9 +396,9 @@ $ap_translation = [
 	'FaviconSection'			=> 'Favicon',
 	'SiteFavicon'				=> 'Site favicon:',
 	'SiteFaviconInfo'			=> 'Your shortcut icon, or favicon, is displayed in the address bar, tabs and bookmarks of most browsers. This will override the favicon of your theme.',
-	'SiteFaviconTooBig'			=> 'Favicon is bigger than 64 x 64 px.',
-	'ThemeColor'				=> 'Theme color for address bar:',
-	'ThemeColorInfo'			=> 'The browser will set the address bar color of every page according to the provided CSS color.',
+	'SiteFaviconTooBig'			=> 'Favicon is bigger than 64 × 64 px.',
+	'ThemeColor'				=> '地址欄的主題顏色：',
+	'ThemeColorInfo'			=> '瀏覽器將根據提供的 CSS 顏色設置每個頁面的地址欄顏色。',
 
 	'LayoutSection'				=> 'Layout',
 	'Theme'						=> 'Theme:',
@@ -466,18 +466,28 @@ $ap_translation = [
 	'LogPurgeTime'				=> 'Storage time of Log:',
 	'LogPurgeTimeInfo'			=> 'Remove event log after the specified number of days.',
 
-	'PrivacySection'			=> 'தனியுரிமை',
-	'AnonymizeIp'				=> 'Anonymize users\' IP addresses:',
+	'PrivacySection'			=> 'Privacy',
+	'AnonymizeIp'				=> 'Anonymize users IP addresses:',
 	'AnonymizeIpInfo'			=> 'Anonymize IP addresses where applicable (i.e., page, revision or referrers).',
 
 	'ReverseProxySection'		=> 'Reverse Proxy',
 	'ReverseProxy'				=> 'Use reverse proxy:',
-    'ReverseProxyInfo'			=> 
-    'Enable this setting to determine the correct IP address of the remote client by examining information stored in the X-Forwarded-For headers.  X-Forwarded-For headers are a standard mechanism for identifying client systems connecting through a reverse proxy server, such as Squid or Pound. Reverse proxy servers are often used to enhance the performance of heavily visited sites and may also provide other site caching, security or encryption benefits. If this WackoWiki installation operates behind a reverse proxy, this setting should be enabled so that correct IP address information is captured in WackoWiki\'s session management, logging, statistics and access management systems; if you are unsure about this setting, do not have a reverse proxy, or WackoWiki operates in a shared hosting environment, this setting should remain disabled.',
+	'ReverseProxyInfo'			=> 'Enable this setting to determine the correct IP address of the remote
+									 client by examining information stored in the X-Forwarded-For headers.
+									 X-Forwarded-For headers are a standard mechanism for identifying client
+									 systems connecting through a reverse proxy server, such as Squid or
+									 Pound. Reverse proxy servers are often used to enhance the performance
+									 of heavily visited sites and may also provide other site caching,
+									 security or encryption benefits. If this WackoWiki installation operates
+									 behind a reverse proxy, this setting should be enabled so that correct
+									 IP address information is captured in WackoWiki\'s session management,
+									 logging, statistics and access management systems; if you are unsure
+									 about this setting, do not have a reverse proxy, or WackoWiki operates in
+									 a shared hosting environment, this setting should remain disabled.',
 	'ReverseProxyHeader'		=> 'Reverse proxy header:',
 	'ReverseProxyHeaderInfo'	=> 'Set this value if your proxy server sends the client IP in a header
-									 other than X-Forwarded-For. The "X-Forwarded-For" header is a comma-delimited list of IP
-									 addresses; only the last one (the left-most) will be used.',
+									 other than X-Forwarded-For. The "X-Forwarded-For" header is a comma+space separated list of IP
+									 addresses, only the last one (the left-most) will be used.',
 	'ReverseProxyAddresses'		=> 'reverse_proxy accepts an array of IP addresses:',
 	'ReverseProxyAddressesInfo'	=> 'Each element of this array is the IP address of any of your reverse
 									 proxies. If using this array, WackoWiki will trust the information stored
@@ -490,11 +500,11 @@ $ap_translation = [
 	'SessionStorage'				=> 'Session storage:',
 	'SessionStorageInfo'			=> 'This option defines where the the session data is stored. By default, either file or database session storage is selected.',
 	'SessionModes'	=> [
-		'1'		=> 'File',
-		'2'		=> 'தரவுத்தள',
+		'1'		=> '檔案',
+		'2'		=> 'Database',
 	],
-	'SessionNotice'					=> 'Session termination notice:',
-	'SessionNoticeInfo'				=> 'Indicates the cause of the session termination.',
+	'SessionNotice'					=> '顯示會話終止原因：',
+	'SessionNoticeInfo'				=> '指示會話終止的原因。',
 	'LoginNotice'					=> 'Login notice:',
 	'LoginNoticeInfo'				=> 'Displays login notice.',
 
@@ -514,7 +524,7 @@ $ap_translation = [
 	'CommentRights'				=> 'Comment rights by default:',
 	'CommentRightsInfo'			=> 'Default assigned to the created root pages, as well as pages for which parent ACLs cannot be defined.',
 	'CreateRights'				=> 'Create rights of a sub page by default:',
-	'CreateRightsInfo'			=> 'Default assigned to the created sub pages.',
+	'CreateRightsInfo'			=> 'Define the right for creating root pages and assign them to pages for which parental rights cannot be defined.',
 	'UploadRights'				=> 'Upload rights by default:',
 	'UploadRightsInfo'			=> 'Default upload rights.',
 	'RenameRights'				=> 'Global rename right:',
@@ -553,38 +563,39 @@ $ap_translation = [
 	'EmailSection'				=> 'Email',
 	'AllowEmailReuse'			=> 'Allow email address re-use:',
 	'AllowEmailReuseInfo'		=> 'Different users can register with the same email address.',
-	'EmailConfirmation'			=> 'Enforce email confirmation:',
-	'EmailConfirmationInfo'		=> 'Requires the user to verify their email address before they can log in.',
-	'AllowedEmailDomains'		=> 'Allowed email domains:',
-	'AllowedEmailDomainsInfo'	=> 'Comma-separated email domains, e.g. <code>example.com, local.lan</code> etc. If not specified, all email domains are allowed.',
-	'ForbiddenEmailDomains'		=> 'Forbidden email domains:',
-	'ForbiddenEmailDomainsInfo'	=> 'Comma-separated forbidden email domains, e.g. <code>example.com, local.lan</code> etc. Only effective if allowed email domains list is empty.',
+	'EmailConfirmation'			=> '強制電子郵件確認：',
+	'EmailConfirmationInfo'		=> '要求用戶在登錄之前驗證其電子郵件地址。',
+	'AllowedEmailDomains'		=> '允許的電子郵件域：',
+	'AllowedEmailDomainsInfo'	=> '允許的電子郵件域以逗號分隔，例如 <code>example.com, local.lan</code> 等，否則所有電子郵件域都是允許的。',
+	'ForbiddenEmailDomains'		=> '禁止的電子郵件域：',
+	'ForbiddenEmailDomainsInfo'	=> '禁止的電子郵件域以逗號分隔，例如 <code>example.com, local.lan</code> 等。 (only effective if allowed email domains list is empty)',
 
-	'CaptchaSection'			=> 'காப்ச்சா',
+
+	'CaptchaSection'			=> 'CAPTCHA',
 	'EnableCaptcha'				=> 'Enable captcha:',
 	'EnableCaptchaInfo'			=> 'If enabled, captcha will be shown in the following cases, or if a security threshold is reached.',
 	'CaptchaComment'			=> 'New comment:',
 	'CaptchaCommentInfo'		=> 'As protection against spam, unregistered users must complete captcha before comment will be posted.',
 	'CaptchaPage'				=> 'New page:',
 	'CaptchaPageInfo'			=> 'As protection against spam, unregistered users must complete captcha before creating a new page.',
-	'CaptchaEdit'				=> 'பக்கத்தைத் திருத்து:',
+	'CaptchaEdit'				=> 'Edit page:',
 	'CaptchaEditInfo'			=> 'As protection against spam, unregistered users must complete captcha before editing pages.',
-	'CaptchaRegistration'		=> 'பதிவு:',
+	'CaptchaRegistration'		=> '建立帳號：',
 	'CaptchaRegistrationInfo'	=> 'As protection against spam, unregistered users must complete captcha before registering.',
 
 	'TlsSection'				=> 'TLS Settings',
-	'TlsConnection'				=> 'TLS connection:',
-	'TlsConnectionInfo'			=> 'Use TLS-secured connection. <span class="cite">Activate the required pre-installed TLS certificate on the server, otherwise you will lose access to the admin panel!</span><br>It also determines if the the Cookie Secure Flag is set: The <code>secure</code> flag specifies whether cookies should only be sent over secure connections.',
+	'TlsConnection'				=> 'TLS-Connection:',
+	'TlsConnectionInfo'			=> 'Use TLS-secured connection. <span class="cite">Activate the required pre-installed TLS-certificate on the server, otherwise you will lose access to the admin panel!</span><br>It also determines if the the Cookie Secure Flag is set, the <code>secure</code> flag specifies whether cookies should only be sent over secure connections.',
 	'TlsImplicit'				=> 'Mandatory TLS:',
 	'TlsImplicitInfo'			=> 'Forcibly reconnect the client from HTTP to HTTPS. With the option disabled, the client can browse the site through an open HTTP channel.',
 
 	'HttpSecurityHeaders'		=> 'HTTP Security Headers',
 	'EnableSecurityHeaders'		=> 'Enable security headers:',
 	'EnableSecurityHeadersinfo'	=> 'Set security headers (frame busting, clickjacking/XSS/CSRF protection). <br>CSP may cause issues in certain situations (e.g. during development), or when using plugins relying on externally hosted resources such as images or scripts. <br>Disabling Content Security Policy is a security risk!',
-	'Csp'						=> 'Content security policy (CSP):',
+	'Csp'						=> 'Content-Security-Policy (CSP):',
 	'CspInfo'					=> 'Configuring CSP involves deciding what policies you want to enforce, and then configuring them and using Content-Security-Policy to establish your policy.',
 	'PolicyModes'	=> [
-		'0'		=> 'முடக்கப்பட்டது',
+		'0'		=> 'disabled',
 		'1'		=> 'strict',
 		'2'		=> 'custom',
 	],
@@ -623,7 +634,7 @@ $ap_translation = [
 		'2'		=> 'password does not contain username',
 	],
 
-	'LoginSection'				=> 'புகுபதிகை',
+	'LoginSection'				=> '登入',
 	'MaxLoginAttempts'			=> 'Maximum number of login attempts per username:',
 	'MaxLoginAttemptsInfo'		=> 'The number of login attempts allowed for a single account before the anti-spambot task is triggered. Enter 0 to prevent the anti-spambot task from being triggered for distinct user accounts.',
 	'IpLoginLimitMax'			=> 'Maximum number of login attempts per IP address:',
@@ -640,7 +651,7 @@ $ap_translation = [
 	'IntercomDelay'				=> 'Anti-flood for personal communications:',
 	'IntercomDelayInfo'			=> 'The minimum delay between sending private messages (in seconds).',
 	'RegistrationDelay'			=> 'Time threshold for registering:',
-	'RegistrationDelayInfo'		=> 'The minimum time threshold between registration form submissions to discourage registration bots (in seconds).',
+	'RegistrationDelayInfo'		=> 'The minimum time threshold for filling out the registration form to tell away bots from humans (in seconds).',
 
 	// Formatter settings
 	'FormatterSettingsInfo'		=> 'Group of parameters responsible for fine-tuning the site. Do not change them unless you are confident in their actions.',
@@ -654,7 +665,7 @@ $ap_translation = [
 	'AllowRawhtml'				=> 'Global HTML support:',
 	'AllowRawhtmlInfo'			=> 'This option is potentially unsafe for an open site.',
 	'SafeHtml'					=> 'Filtering HTML:',
-	'SafeHtmlInfo'				=> 'Prevents saving of dangerous HTML objects. Turning off the filter on an open site with HTML support is <span class="underline">extremely</span> undesirable!',
+	'SafeHtmlInfo'				=> 'Prevents saving of dangerous HTML-objects. Turning off the filter on an open site with HTML support is <span class="underline">extremely</span> undesirable!',
 
 	'WackoFormatterSection'		=> 'Wiki Text Formatter (Wacko Formatter)',
 	'X11colors'					=> 'X11 colors usage:',
@@ -675,10 +686,10 @@ $ap_translation = [
 	'TimeFormatSecondsInfo'		=> '(hours, minutes, seconds)',
 	'NameDateMacro'				=> 'The format of the <code>::@::</code> macro:',
 	'NameDateMacroInfo'			=> '(name, time), e.g. <code>UserName (17.11.2016 16:48)</code>',
-	'Timezone'					=> 'Timezone:',
+	'Timezone'					=> '時區：',
 	'TimezoneInfo'				=> 'Timezone to use for displaying times to users who are not logged in (guests). Logged-in users can change their timezone in their user settings.',
 
-	'Canonical'					=> 'Use fully-canonical URLs:',
+	'Canonical'					=> 'Use fully canonical URLs:',
 	'CanonicalInfo'				=> 'All links are created as absolute URLs in the form %1. URLs relative to the server root in the form %2 should be preferred.',
 	'LinkTarget'				=> 'Where external links open:',
 	'LinkTargetInfo'			=> 'Opens each external link in a new browser window. Adds <code>target="_blank"</code> to the link syntax.',
@@ -716,7 +727,7 @@ $ap_translation = [
 	'NewsStructure'				=> 'News cluster structure:',
 	'NewsStructureInfo'			=> 'Stores the articles optionally in sub-clusters by year/month or week (e.g. <code>[cluster]/[year]/[month]</code>).',
 
-	'LicenseSection'			=> 'உரிமம்',
+	'LicenseSection'			=> 'License',
 	'DefaultLicense'			=> 'Default license:',
 	'DefaultLicenseInfo'		=> 'Under which license your content can be released.',
 	'EnableLicense'				=> 'Enable license:',
@@ -725,35 +736,35 @@ $ap_translation = [
 	'LicensePerPageInfo'		=> 'Allow license per page, which the page owner can choose via page properties.',
 
 	'ServicePagesSection'		=> 'Service Pages',
-	'RootPage'					=> 'இல்லப்பக்கம்:',
+	'RootPage'					=> 'Home page:',
 	'RootPageInfo'				=> 'Tag of your main page, opens automatically when a user visits your site.',
 
-	'PrivacyPage'				=> 'தனியுரிமைக் கொள்கை:',
+	'PrivacyPage'				=> 'Privacy Policy:',
 	'PrivacyPageInfo'			=> 'The page with the Privacy Policy of the site.',
 
 	'TermsPage'					=> 'Policies and regulations:',
 	'TermsPageInfo'				=> 'The page with the rules of the site.',
 
-	'SearchPage'				=> 'தேடு:',
+	'SearchPage'				=> '搜尋：',
 	'SearchPageInfo'			=> 'Page with the search form (action %1).',
-	'RegistrationPage'			=> 'பதிவு:',
+	'RegistrationPage'			=> '建立帳號：',
 	'RegistrationPageInfo'		=> 'Page for new user registration (action %1).',
 	'LoginPage'					=> 'User login:',
 	'LoginPageInfo'				=> 'Login page on the site (action %1).',
-	'SettingsPage'				=> 'பயனர் அமைப்புகள்:',
+	'SettingsPage'				=> 'User Settings:',
 	'SettingsPageInfo'			=> 'Page to customize the user profile (action %1).',
 	'PasswordPage'				=> 'Change Password:',
 	'PasswordPageInfo'			=> 'Page with a form to change / query user password (action %1).',
 	'UsersPage'					=> 'User list:',
 	'UsersPageInfo'				=> 'Page with a list of registered users (action %1).',
-	'CategoryPage'				=> 'வகை:',
+	'CategoryPage'				=> '分類：',
 	'CategoryPageInfo'			=> 'Page with a list of categorized pages (action %1).',
-	'GroupsPage'				=> 'குழுக்கள்:',
+	'GroupsPage'				=> '群組：',
 	'GroupsPageInfo'			=> 'Page with a list of working groups (action %1).',
-	'ChangesPage'				=> 'அண்மைய மாற்றங்கள்:',
+	'ChangesPage'				=> 'Recent changes:',
 	'ChangesPageInfo'			=> 'Page with a list of the last modified pages (action %1).',
 	'CommentsPage'				=> 'Recent comments:',
-	'CommentsPageInfo'			=> 'Page with a list of recent comments on the page (action %1).',
+	'CommentsPageInfo'			=> 'Page with a list of recent comment on the page (action %1).',
 	'RemovalsPage'				=> 'Deleted pages:',
 	'RemovalsPageInfo'			=> 'Page with a list of recently deleted pages (action %1).',
 	'WantedPage'				=> 'Wanted pages:',
@@ -762,7 +773,7 @@ $ap_translation = [
 	'OrphanedPageInfo'			=> 'Page with a list of existing pages are not related via links to any other page (action %1).',
 	'SandboxPage'				=> 'Sandbox:',
 	'SandboxPageInfo'			=> 'Page where users can practice their wiki markup skills.',
-	'HelpPage'					=> 'உதவி:',
+	'HelpPage'					=> '說明：',
 	'HelpPageInfo'				=> 'The documentation section for working with site tools.',
 	'IndexPage'					=> 'Index:',
 	'IndexPageInfo'				=> 'Page with a list of all pages (action %1).',
@@ -777,7 +788,7 @@ $ap_translation = [
 	'EmailNotification'			=> 'Email notification:',
 	'EmailNotificationInfo'		=> 'Allow email notification. Set to Enabled to enable email notifications, Disabled to disable them. Note that disabling email notifications has no effect on emails generated as part of the user signup process.',
 	'Autosubscribe'				=> 'Autosubscribe:',
-	'AutosubscribeInfo'			=> 'Automatically notify owner of page changes.',
+	'AutosubscribeInfo'			=> 'Automatically sign a new page in the owner\'s notice of its changes.',
 
 	'NotificationSection'		=> 'Default User Notification Settings',
 	'NotifyPageEdit'			=> 'Notify page edit:',
@@ -799,7 +810,7 @@ $ap_translation = [
 	'AllowMassemailDefaultInfo'	=> 'Only send messages to those users who have permitted administrators to email them information.',
 
 	// Resync settings
-	'Synchronize'				=> 'ஒத்திசைவாக்குங்கள்',
+	'Synchronize'				=> 'Synchronize',
 	'UserStatsSynched'			=> 'User Statistics synchronized.',
 	'PageStatsSynched'			=> 'Page Statistics synchronized.',
 	'FeedsUpdated'				=> 'RSS-feeds updated.',
@@ -817,13 +828,13 @@ $ap_translation = [
 	'PageStats'					=> 'Page statistics',
 	'PageStatsInfo'				=> 'Page statistics (number of comments, files and revisions) may differ in some situations from actual data. <br>This operation allows updating statistics to match actual data contained in database.',
 
-	'AttachmentsInfo'			=> 'Update the file hash for all attachments in the database.',
-	'AttachmentsSynched'		=> 'Re-hashed all file attachments',
-	'LogAttachmentsSynched'		=> 'Re-hashed all file attachments',
+	'AttachmentsInfo'			=> '更新數據庫中所有附件的文件哈希。',
+	'AttachmentsSynched'		=> '重新散列所有文件附件',
+	'LogAttachmentsSynched'		=> '重新散列所有文件附件',
 
 	'Feeds'						=> 'Feeds',
 	'FeedsInfo'					=> 'In the case of direct editing of pages in the database, the content of RSS-feeds may not reflect the changes made. <br>This function synchronizes the RSS-channels with the current state of the database.',
-	'XmlSiteMap'				=> 'XML Sitemap',
+	'XmlSiteMap'				=> 'XML-Sitemap',
 	'XmlSiteMapInfo'			=> 'This function synchronizes the XML-Sitemap with the current state of the database.',
 	'XmlSiteMapPeriod'			=> 'Period %1 days. Last written %2.',
 	'XmlSiteMapView'			=> 'Show Sitemap in a new window.',
@@ -832,7 +843,7 @@ $ap_translation = [
 	'ReparseBodyInfo'			=> 'Empties <code>body_r</code> in page table, so that each page gets rendered again on the next page view. This may be useful if you modified the formatter or changed the domain of your wiki.',
 	'PreparsedBodyPurged'		=> 'Emptied <code>body_r</code> field in page table.',
 
-	'WikiLinksResync'			=> 'Wiki links',
+	'WikiLinksResync'			=> 'Wiki-links',
 	'WikiLinksResyncInfo'		=> 'Performs a re-rendering for all intrasite links and restores the contents of the <code>page_link</code> and <code>file_link</code> tables in the event of damage or relocation (this can take considerable time).',
 	'RecompilePage'				=> 'Re-compiling all pages (extremely costly)',
 	'ResyncOptions'				=> 'Additional options',
@@ -850,11 +861,11 @@ $ap_translation = [
 	'EnableEmail'				=> 'Enable emails:',
 	'EnableEmailInfo'			=> 'Enable sending of emails.',
 
-	'EmailIdentitySettings'		=> 'Website Email Identities',
-	'FromEmailName'				=> 'From name:',
+	'EmailIdentitySettings'		=> '網站 電子郵件 身份',
+	'FromEmailName'				=> 'From Name:',
 	'FromEmailNameInfo'			=> 'The sender name that is use for the <code>From:</code> header for all email notifications sent from the site.',
-	'EmailSubjectPrefix'		=> 'Subject prefix:',
-	'EmailSubjectPrefixInfo'	=> 'Alternate email subject prefix, e.g. <code>[Prefix] Topic</code>. If not defined, the default prefix is Site Name: %1.',
+	'EmailSubjectPrefix'		=> '主題前綴：',
+	'EmailSubjectPrefixInfo'	=> '備用電子郵件主題前綴，例如 <code>[前綴] 主題</code>。 如果未定義，如果未定義，默認前綴為站點名稱：%1。',
 
 	'NoReplyEmail'				=> 'No-reply address:',
 	'NoReplyEmailInfo'			=> 'This address, e.g. <code>noreply@example.com</code>, will appear in the <code>From:</code> email address field of all email notifications sent from the site.',
@@ -863,7 +874,7 @@ $ap_translation = [
 	'AbuseEmail'				=> 'Email abuse service:',
 	'AbuseEmailInfo'			=> 'Address requests for urgent matters: registration for a foreign email, etc. It may be the same as the site owner email.',
 
-	'SendTestEmail'				=> 'Send a test email',
+	'SendTestEmail'				=> '傳送測試電子郵件',
 	'SendTestEmailInfo'			=> 'This will send a test email to the address defined in your account.',
 	'TestEmailSubject'			=> 'Your Wiki is correctly configured to send emails',
 	'TestEmailBody'				=> 'If you received this email, your Wiki is correctly configured to send emails.',
@@ -873,13 +884,13 @@ $ap_translation = [
 	'SmtpAutoTls'				=> 'Opportunistic TLS:',
 	'SmtpAutoTlsInfo'			=> 'Enables encryption automatically, if it sees that the server is advertising TLS encryption (after you have connected to the server), even if you have not set the connection mode for <code>SMTPSecure</code>.',
 	'SmtpConnectionMode'		=> 'Connection mode for SMTP:',
-	'SmtpConnectionModeInfo'	=> 'Only used if a username/password is required. Ask your provider if you are unsure which method to use',
+	'SmtpConnectionModeInfo'	=> 'Only used if a username/password is required. Ask your provider if you are unsure which method to use.',
 	'SmtpPassword'				=> 'SMTP password:',
-	'SmtpPasswordInfo'			=> 'Only enter a password if your SMTP server requires it.<br><em><strong>Warning:</strong> This password will be stored as plaintext in the database, visible to everybody who can access your database or who can view this configuration page.</em>',
+	'SmtpPasswordInfo'			=> 'Only enter a password if your SMTP server requires it.<br><em><strong>Warning:</strong> This password will be stored as plain text in the database, visible to everybody who can access your database or who can view this configuration page.</em>',
 	'SmtpPort'					=> 'SMTP server port:',
-	'SmtpPortInfo'				=> 'Only change this if you know your SMTP server is on a different port. <br>(default: <code>tls</code> on port 587 (or possibly 25) and <code>ssl</code> on port 465).',
+	'SmtpPortInfo'				=> 'Only change this if you know your SMTP server is on a different port. <br>(default: <code>tls</code> on port 587 (or possibly 25) and <code>ssl</code> on port 465)',
 	'SmtpServer'				=> 'SMTP server address:',
-	'SmtpServerInfo'			=> 'Note that you have to provide the protocol that your server uses. If you are using SSL, this has to be <code>ssl://mail.example.com</code>.',
+	'SmtpServerInfo'			=> 'Note that you have to provide the protocol that your server uses. If you are using SSL, this has to be <code>ssl://mail.example.com</code>',
 	'SmtpUsername'				=> 'SMTP username:',
 	'SmtpUsernameInfo'			=> 'Only enter a username if your SMTP server requires it.',
 
@@ -888,7 +899,7 @@ $ap_translation = [
 	'UploadSettingsUpdated'		=> 'Updated upload settings',
 
 	'FileUploadsSection'		=> 'File Uploads',
-	'RegisteredUsers'			=> 'registered users',
+	'RegisteredUsers'			=> '註冊用戶',
 	'RightToUpload'				=> 'Permissions to upload files:',
 	'RightToUploadInfo'			=> '<code>admins</code> means that only users belonging to the admins group can upload  files. <code>1</code> means that uploading is opened to registered users. <code>0</code> means that upload disabled.',
 	'UploadMaxFilesize'			=> 'Maximum file size:',
@@ -898,33 +909,33 @@ $ap_translation = [
 	'UploadQuotaUser'			=> 'Storage quota per user:',
 	'UploadQuotaUserInfo'		=> 'Restriction on the quota of storage that can be uploaded by one user, with <code>0</code> being unlimited.',
 
-	'FileTypes'					=> 'File Types',
+	'FileTypes'					=> 'File types',
 	'UploadOnlyImages'			=> 'Allow only upload of images:',
 	'UploadOnlyImagesInfo'		=> 'Allow only uploading of image files on the page.',
-	'AllowedUploadExts'			=> 'Allowed file types:',
-	'AllowedUploadExtsInfo'		=> 'Allowed extensions for uploading files, comma-separated (i.e., <code>png, ogg, mp4</code>); otherwise, all file extensions are allowed.<br>You should limit the allowed file extensions to the minimum required for your site\'s proper functionality.',
+	'AllowedUploadExts'			=> '允許的檔案類型：',
+	'AllowedUploadExtsInfo'		=> '允許上傳文件的擴展名，以逗號分隔，例如 <code>png, ogg, mp4</code>，除此之外所有未禁止的文件擴展名都是允許的。<br>您應該將允許的上傳文件類型列表限制為網站內容功能所需的最低限度。',
 	'CheckMimetype'				=> 'Check MIME type:',
 	'CheckMimetypeInfo'			=> 'Some browsers can be tricked to assume an incorrect mimetype for uploaded files. This option ensures that such files likely to cause this are rejected.',
-	'SvgSanitizer'				=> 'SVG sanitizer:',
-	'SvgSanitizerInfo'			=> 'This enables sanitizing SVG files to to prevent SVG/XML vulnerabilities from being uploaded.',
-	'TranslitFileName'			=> 'Transliterate file names:',
-	'TranslitFileNameInfo'		=> 'If it is applicable and there is no need to have Unicode characters, it is highly recommended to only accept alphanumeric characters in filenames.',
-	'TranslitCaseFolding'		=> 'Convert file names to lowercase:',
-	'TranslitCaseFoldingInfo'	=> 'This option is only effective with active transliteration.',
+	'SvgSanitizer'				=> 'SVG Sanitizer:',
+	'SvgSanitizerInfo'			=> '這樣可以對上傳的 SVG 文件進行清理，以防止上傳 SVG/XML 易受攻擊的文件。',
+	'TranslitFileName'			=> '音譯檔名：',
+	'TranslitFileNameInfo'		=> '如果適用且不需要 Unicode 字符，強烈建議僅接受字母數字字元。',
+	'TranslitCaseFolding'		=> '將檔案名稱轉換為小寫：',
+	'TranslitCaseFoldingInfo'	=> '此選項僅對主動音譯有效。',
 
 	'Thumbnails'				=> 'Thumbnails',
 	'CreateThumbnail'			=> 'Create thumbnail:',
 	'CreateThumbnailInfo'		=> 'Create a thumbnail in all possible situations.',
-	'JpegQuality'				=> 'JPEG quality:',
-	'JpegQualityInfo'			=> 'Quality when scaling a JPEG thumbnail. It should be between 1 and 100, with 100 indicating 100% quality.',
-	'MaxImageArea'				=> 'Maximum image area:',
-	'MaxImageAreaInfo'			=> 'The maximum number of pixels a source image can have. This provides a limit on memory usage for the decompression side of the image scaler.<br><code>-1</code> means it will not check the size of the image before attempting to scale it. <code>0</code> means it will determine the value automatically.',
+	'JpegQuality'				=> 'JPEG 質量：',
+	'JpegQualityInfo'			=> '縮放 JPEG 縮略圖時的質量。 它應該在 1 到 100 之間，100 表示 100% 質量。',
+	'MaxImageArea'				=> 'Maximum Image Area:',
+	'MaxImageAreaInfo'			=> '源圖像可以具有的最大像素數。 這為圖像縮放器的解壓縮端提供了內存使用限制。 <br><code>-1</code> 表示它在嘗試縮放之前不會檢查圖像的大小。 <code>0</code> 表示它將自動確定該值。',
 	'MaxThumbWidth'				=> 'Maximum thumbnail width in pixels:',
 	'MaxThumbWidthInfo'			=> 'A generated thumbnail will not exceed the width set here.',
 	'MinThumbFilesize'			=> 'Minimum thumbnail file size:',
 	'MinThumbFilesizeInfo'		=> 'Do not create a thumbnail for images smaller than this.',
-	'MaxImageWidth'				=> 'Image size limit on pages:',
-	'MaxImageWidthInfo'			=> 'The maximum width a image can have on pages, otherwise a scaled down thumbnail is generated.',
+	'MaxImageWidth'				=> '頁面上的圖像大小限制：',
+	'MaxImageWidthInfo'			=> '圖像在頁面上可以具有的最大寬度，否則會生成按比例縮小的縮略圖。',
 
 	// Deleted module
 	'DeletedObjectsInfo'		=> 'List of removed pages, revisions and files.
@@ -952,7 +963,7 @@ $ap_translation = [
 	'LogNoMatch'				=> 'No events that meet the criteria',
 	'LogDate'					=> 'Date',
 	'LogEvent'					=> 'Event',
-	'LogUsername'				=> 'பயனர் பெயர்',
+	'LogUsername'				=> '用户名',
 	'LogLevels'	=> [
 		'1'		=> 'critical',
 		'2'		=> 'highest',
@@ -973,23 +984,23 @@ $ap_translation = [
 	'NoEmailRecipient'			=> 'You must specify at least one user or user group.',
 
 	'MassemailSection'			=> 'Mass email',
-	'MessageSubject'			=> 'Subject:',
+	'MessageSubject'			=> '標題：',
 	'MessageSubjectInfo'		=> '',
 	'YourMessage'				=> 'Your message:',
-	'YourMessageInfo'			=> 'Please note that you may enter only plaintext. All markup will be removed before sending.',
+	'YourMessageInfo'			=> 'Please note that you may enter only plain text. All markup will be removed before sending.',
 
 	'NoUser'					=> 'No user',
 	'NoUserGroup'				=> 'No user group',
 
 	'SendToGroup'				=> 'Send to group:',
 	'SendToUser'				=> 'Send to user:',
-	'SendToUserInfo'			=> 'Only users who permit Administrators to email them information will receive mass emails. This option is available in their user settings under Notifications.',
+	'SendToUserInfo'			=> 'Only users who permit administrators to email them information will receive mass emails. This option is available in their user settings under Notifications.',
 
 	// System message module
 	'SystemMessageInfo'			=> '',
 	'SysMsgUpdated'				=> 'Updated system message',
 
-	'SysMsgSection'				=> 'System Message',
+	'SysMsgSection'				=> 'System message',
 	'SysMsg'					=> 'System message:',
 	'SysMsgInfo'				=> 'Your text here',
 
@@ -1022,15 +1033,20 @@ $ap_translation = [
 	'BackupFolder'				=> 'Folder',
 	'BackupTable'				=> 'Table',
 	'BackupCluster'				=> 'Cluster:',
-	'BackupFiles'				=> 'Files',
-	'BackupNote'				=> 'Note:',
+	'BackupFiles'				=> '檔案',
+	'BackupNote'				=> '注意：',
 	'BackupSettings'			=> 'Specify the desired scheme of backup.<br>' .
-    	'The root cluster does not affect the global files backup and cache files backup (if chosen, they are always saved in full).<br>' .  '<br>' .
-		'<strong>Attention</strong>: To avoid loss of information from the database when specifying the root cluster, the tables from this backup will not be restructured, same as when backing up only table structure without saving the data. To make a complete conversion of the tables to the backup format you must make the <em> full database backup (structure and data) without specifying the cluster</em>.',
+									'The root cluster does not affect the global files backup and cache files backup (if chosen, they are always saved in full).<br>' .
+									'<br>' .
+									'<strong>Attention</strong>: To avoid loss of information from the database when specifying the root cluster, the tables from this backup will not be restructured, ' .
+									'same as when backing up only table structure without saving the data. ' .
+									'To make a complete conversion of the tables to the backup format you must make the <em> full database backup (structure and data) without specifying the cluster</em>.',
 	'BackupCompleted'			=> 'Backing up and archiving completed.<br>' .
-    	'The Backup package files were stored in the sub-directory %1.<br>. To download it use FTP (maintain the directory structure and file names when copying).<br> To restore a backup copy or remove a package, go to <a href="%2">Restore database</a>.',
+									'The Backup package files were stored in the sub-directory %1.<br>' .
+									'To download it use FTP (maintain the directory structure and file names when copying).<br>' .
+									'To restore a backup copy or remove a package, go to <a href="%2">Restore database</a>.',
 	'LogSavedBackup'			=> 'Saved backup database ##%1##',
-	'Backup'					=> 'காப்புப் பிரதி',
+	'Backup'					=> 'Backup',
 	'CantReadFile'				=> 'Can\'t read file %1.',
 
 	// DB Restore module
@@ -1045,9 +1061,9 @@ $ap_translation = [
 	'RestoreOptionsInfo'		=> '* Before restoring the <strong>cluster backup</strong>, ' .
 									'the target tables are not deleted (to prevent loss of information from the clusters that have not been backed up). ' .
 									'Thus, during the recovery process duplicate records will occur. ' .
-									'In normal mode, all of them will be replaced by the records form backup (using SQL <code>REPLACE</code>), ' .
+									'In normal mode, all of them will be replaced by the records form backup (using SQL-instruction <code>REPLACE</code>), ' .
 									'but if this checkbox is checked, all duplicates are skipped (the current values of records will be kept), ' .
-									'and only the records with new keys are added to the table (SQL <code>INSERT IGNORE</code>).<br>' .
+									'and only the records with new keys are added to the table (SQL-instruction <code>INSERT IGNORE</code>).<br>' .
 									'<strong>Notice</strong>: When restore complete backup of the site, this option has no value.<br>' .
 									'<br>' .
 									'** If the backup contains the user files (global and perpage, cache files, etc.), ' .
@@ -1069,7 +1085,7 @@ $ap_translation = [
 	'DataProtection'			=> 'Data Protection - %1 omitted',
 	'AssumeDropTable'			=> 'Assume %1',
 	'RestoreTableStructure'		=> 'Restoring the structure of the table',
-	'RunSqlQueries'				=> 'Perform SQL instructions:',
+	'RunSqlQueries'				=> 'Perform SQL-instructions:',
 	'CompletedSqlQueries'		=> 'Completed. Processed instructions:',
 	'NoTableStructure'			=> 'The structure of the tables was not saved - skip',
 	'RestoreRecords'			=> 'Restore the contents of tables',
@@ -1083,32 +1099,32 @@ $ap_translation = [
 	'HomonymicFiles'			=> 'homonymic files',
 	'RestoreSkip'				=> 'skip',
 	'RestoreReplace'			=> 'replace',
-	'RestoreFile'				=> 'File:',
+	'RestoreFile'				=> '檔案：',
 	'RestoredFiles'				=> 'restored:',
 	'SkippedFiles'				=> 'skipped:',
 	'FileRestoreDone'			=> 'Completed. Total files:',
-	'FilesAll'					=> 'all:',
+	'FilesAll'					=> '所有：',
 	'SkipFiles'					=> 'Files are not stored - skip',
 	'RestoreDone'				=> 'RESTORATION COMPLETED',
 
 	'BackupCreationDate'		=> 'Creation Date',
 	'BackupPackageContents'		=> 'The contents of the package',
-	'BackupRestore'				=> 'மீட்டெடு',
-	'BackupRemove'				=> 'நீக்கு',
+	'BackupRestore'				=> '復原',
+	'BackupRemove'				=> '移除',
 	'RestoreYes'				=> 'Yes',
 	'RestoreNo'					=> 'No',
 	'LogDbRestored'				=> 'Backup ##%1## of the database restored.',
 
-	'BackupArchived'			=> 'Backup %1 archived.',
-	'BackupArchiveExists'		=> 'Backup archive %1 already exists.',
-	'LogBackupArchived'			=> 'Backup ##%1## archived.',
+	'BackupArchived'			=> '備份 %1 已存檔。',
+	'BackupArchiveExists'		=> '備份存檔 %1 已經存在。',
+	'LogBackupArchived'			=> '備份 ##%1## 已存檔。',
 
 	// User module
-	'UsersInfo'					=> 'Here you can change your users\' information and certain specific options.',
+	'UsersInfo'					=> 'Here you can change your users information and certain specific options.',
 
 	'UsersAdded'				=> 'User added',
-	'UsersDeleteInfo'			=> 'Delete user:',
-	'EditButton'				=> 'தொகு',
+	'UsersDeleteInfo'			=> '[User delete Info here..]',
+	'EditButton'				=> '編輯',
 	'UsersAddNew'				=> 'Add new user',
 	'UsersDelete'				=> 'Are you sure you want to remove user %1?',
 	'UsersDeleted'				=> 'The user %1 was deleted from the database.',
@@ -1137,8 +1153,8 @@ $ap_translation = [
 	'LogGroupRemoved'			=> 'Removed group ##%1##',
 
 	'GroupsMembersFor'			=> 'Members for Group',
-	'GroupsDescription'			=> 'விளக்கம்',
-	'GroupsModerator'			=> 'மட்டுறுத்துனர்',
+	'GroupsDescription'			=> '說明',
+	'GroupsModerator'			=> '版主',
 	'GroupsOpen'				=> 'Open',
 	'GroupsActive'				=> 'Active',
 	'GroupsTip'					=> 'Click to edit Group',
@@ -1147,7 +1163,7 @@ $ap_translation = [
 	'GroupsAdded'				=> 'Group added successfully.',
 	'GroupsRenamed'				=> 'Group successfully renamed.',
 	'GroupsDeleted'				=> 'The group %1 and all associated pages were deleted from the database.',
-	'GroupsAdd'					=> 'ஒரு புதிய குழுவை சேர்',
+	'GroupsAdd'					=> 'Add a new group',
 	'GroupsRename'				=> 'Rename the group %1 to',
 	'GroupsRenameInfo'			=> '* Note: Change will affect all pages that are assigned to that group.',
 	'GroupsDelete'				=> 'Are you sure you want to remove group %1?',
@@ -1158,7 +1174,7 @@ $ap_translation = [
 
 	'GroupAddMember'			=> 'Add member',
 	'GroupRemoveMember'			=> 'Remove Member',
-	'GroupAddNew'				=> 'குழுவைச் சேர்',
+	'GroupAddNew'				=> 'Add group',
 	'GroupEdit'					=> 'Edit Group',
 	'GroupDelete'				=> 'Remove Group',
 
@@ -1171,15 +1187,15 @@ $ap_translation = [
 	'DbStatSection'				=> 'Database Statistics',
 	'DbTable'					=> 'Table',
 	'DbRecords'					=> 'Records',
-	'DbSize'					=> 'Size',
+	'DbSize'					=> '大小',
 	'DbIndex'					=> 'Index',
 	'DbOverhead'				=> 'Overhead',
 	'DbTotal'					=> 'Total',
 
 	'FileStatSection'			=> 'File system Statistics',
 	'FileFolder'				=> 'Folder',
-	'FileFiles'					=> 'Files',
-	'FileSize'					=> 'Size',
+	'FileFiles'					=> '檔案',
+	'FileSize'					=> '大小',
 	'FileTotal'					=> 'Total',
 
 	// Sysinfo module
@@ -1230,9 +1246,9 @@ $ap_translation = [
 	// Inconsistencies module
 	'InconsistenciesInfo'		=> 'Show and fix inconsistencies, delete or assign orphaned records to a new user / value.',
 	'Inconsistencies'			=> 'Inconsistencies',
-	'CheckDatabase'				=> 'தரவுத்தள',
+	'CheckDatabase'				=> 'Database',
 	'CheckDatabaseInfo'			=> 'Checks for record inconsistencies in the database.',
-	'CheckFiles'				=> 'கோப்புகள்',
+	'CheckFiles'				=> '檔案',
 	'CheckFilesInfo'			=> 'Checks for abandoned files, files with no reference left in the file table.',
 	'Records'					=> 'Records',
 	'InconsistenciesNone'		=> 'No Data Inconsistencies found.',
@@ -1249,7 +1265,7 @@ $ap_translation = [
 
 	'BbSummary'					=> 'Summary',
 	'BbLog'						=> 'Log',
-	'BbSettings'				=> 'அமைப்புகள்',
+	'BbSettings'				=> '設定',
 	'BbWhitelist'				=> 'Whitelist',
 
 	// --> Log
@@ -1262,7 +1278,7 @@ $ap_translation = [
 	'BbGetPost'					=> 'GET/POST',
 	'BbUri'						=> 'URI',
 	'BbRecordsAll'				=> 'Displaying all %1 records',
-	'BbShow'					=> 'காட்டு',
+	'BbShow'					=> 'Show',
 	'BbIpDateStatus'			=> 'IP/Date/Status',
 	'BbHeaders'					=> 'Headers',
 	'BbEntity'					=> 'Entity',
