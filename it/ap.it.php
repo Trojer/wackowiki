@@ -8,59 +8,59 @@ if (!defined('IN_WACKO'))
 $ap_translation = [
 
 	'CategoryArray'		=> [
-		'basics'		=> 'Βασικές λειτουργίες',
-		'preferences'	=> 'Προτιμήσεις',
-		'content'		=> 'Περιεχόμενο',
-		'users'			=> 'Μέλη',
-		'maintenance'	=> 'Συντήρηση',
-		'messages'		=> 'Μηνύματα',
-		'extension'		=> 'Επεκτάσεις',
-		'database'		=> 'Βάση δεδομένων',
+		'basics'		=> 'Basic functions',
+		'preferences'	=> 'Preferences',
+		'content'		=> 'Content',
+		'users'			=> 'Users',
+		'maintenance'	=> 'Maintenance',
+		'messages'		=> 'Messages',
+		'extension'		=> 'Extension',
+		'database'		=> 'Database',
 	],
 
 	// Admin panel
-	'AdminPanel'				=> 'Πίνακας Ελέγχου Διαχειριστή',
-	'RecoveryMode'				=> 'Λειτουργία ανάκτησης',
-	'Authorization'				=> 'Εξουσιοδότηση',
+	'AdminPanel'				=> 'Administration Control Panel',
+	'RecoveryMode'				=> 'Recovery Mode',
+	'Authorization'				=> 'Authorization',
 	'AuthorizationTip'			=> 'Please enter the administrative password (make sure that cookies are allowed in your browser).',
-	'NoRecoveryPassword'		=> 'Ο κωδικός πρόσβασης διαχειριστή δεν έχει καθοριστεί!',
-	'NoRecoveryPasswordTip'		=> 'Σημείωση: Η απουσία κωδικού πρόσβασης διαχειριστή αποτελεί απειλή για την ασφάλεια! Εισάγετε το hash του κωδικού πρόσβασης στο αρχείο ρυθμίσεων και εκτελέστε ξανά το πρόγραμμα.',
+	'NoRecoveryPassword'		=> 'The administrative password is not specified!',
+	'NoRecoveryPasswordTip'		=> 'Note: The absence of an administrative password is a threat to security! Enter your password hash in the configuration file and run the program again.',
 
 	'ErrorLoadingModule'		=> 'Error loading admin module %1: does not exist.',
 
-	'ApHomePage'				=> 'Αρχική Σελίδα',
+	'ApHomePage'				=> 'Home Page',
 	'ApHomePageTip'				=> 'Open the home page, you do not quit system administration',
-	'ApLogOut'					=> 'Αποσύνδεση',
-	'ApLogOutTip'				=> 'εγκατάλειψη διαχείρισης συστήματος',
+	'ApLogOut'					=> 'Log out',
+	'ApLogOutTip'				=> 'Quit system administration',
 
-	'TimeLeft'					=> 'Χρόνος που απομένει:  %1 λεπτά',
-	'ApVersion'					=> 'έκδοση',
+	'TimeLeft'					=> 'Time left:  %1 minute(s)',
+	'ApVersion'					=> 'version',
 
-	'SiteOpen'					=> 'Άνοιγμα',
-	'SiteOpened'				=> 'ο ιστότοπος άνοιξε',
-	'SiteOpenedTip'				=> 'Ο ιστότοπος είναι ανοιχτός',
-	'SiteClose'					=> 'Κλείσιμο',
-	'SiteClosed'				=> 'ο ιστότοπος έκλεισε',
-	'SiteClosedTip'				=> 'Ο ιστότοπος είναι κλειστός',
+	'SiteOpen'					=> 'Open',
+	'SiteOpened'				=> 'site opened',
+	'SiteOpenedTip'				=> 'The site is open',
+	'SiteClose'					=> 'Close',
+	'SiteClosed'				=> 'site closed',
+	'SiteClosedTip'				=> 'The site is closed',
 
 	'System'					=> 'System',
 
 	// Generic
-	'Cancel'					=> 'Ακύρωση',
-	'Add'						=> 'Προσθήκη',
-	'Edit'						=> 'Επεξεργασία',
-	'Remove'					=> 'Αφαίρεση',
-	'Enabled'					=> 'Ενεργοποίηση',
-	'Disabled'					=> 'Απενεργοποιημένο',
-	'Mandatory'					=> 'Υποχρεωτικό',
-	'Admin'						=> 'Διαχειριστής',
+	'Cancel'					=> 'Cancel',
+	'Add'						=> 'Add',
+	'Edit'						=> 'Edit',
+	'Remove'					=> 'Remove',
+	'Enabled'					=> 'Enabled',
+	'Disabled'					=> 'Disabled',
+	'Mandatory'					=> 'Mandatory',
+	'Admin'						=> 'Admin',
 	'Min'						=> 'Min',
 	'Max'						=> 'Max',
 
-	'MiscellaneousSection'		=> 'Διάφορα',
+	'MiscellaneousSection'		=> 'Miscellaneous',
 	'MainSection'				=> 'General Options',
 
-	'DirNotWritable'			=> 'Ο κατάλογος %1 δεν είναι εγγράψιμος.',
+	'DirNotWritable'			=> 'The %1 directory is not writable.',
 	'FileNotWritable'			=> 'The %1 file is not writable.',
 
 	/**
@@ -74,32 +74,32 @@ $ap_translation = [
 
 	// Config Basic module
 	'config_basic'		=> [
-		'name'		=> 'Βασικό',
+		'name'		=> 'Basic',
 		'title'		=> 'Basic settings',
 	],
 
 	// Config Appearance module
 	'config_appearance'		=> [
-		'name'		=> 'Εμφάνιση',
-		'title'		=> 'Ρυθμίσεις εμφάνισης',
+		'name'		=> 'Appearance',
+		'title'		=> 'Appearance settings',
 	],
 
 	// Config Email module
 	'config_email'		=> [
-		'name'		=> 'E-mail',
-		'title'		=> 'Ρυθμίσεις Email',
+		'name'		=> 'Email',
+		'title'		=> 'Email settings',
 	],
 
 	// Config Syndication module
 	'config_syndication'		=> [
 		'name'		=> 'Syndication',
-		'title'		=> 'Ρυθμίσεις σύνδεσης',
+		'title'		=> 'Syndication settings',
 	],
 
 	// Config Filter module
 	'config_filter'		=> [
-		'name'		=> 'Φίλτρο',
-		'title'		=> 'Ρυθμίσεις φίλτρου',
+		'name'		=> 'Filter',
+		'title'		=> 'Filter settings',
 	],
 
 	// Config Formatter module
@@ -110,37 +110,37 @@ $ap_translation = [
 
 	// Config Notifications module
 	'config_notifications'		=> [
-		'name'		=> 'Ειδοποιήσεις',
+		'name'		=> 'Notifications',
 		'title'		=> 'Notifications settings',
 	],
 
 	// Config Pages module
 	'config_pages'		=> [
-		'name'		=> 'Σελίδες',
+		'name'		=> 'Pages',
 		'title'		=> 'Pages and site parameters',
 	],
 
 	// Config Permissions module
 	'config_permissions'		=> [
-		'name'		=> 'Προσβάσεις',
+		'name'		=> 'Permissions',
 		'title'		=> 'Permissions settings',
 	],
 
 	// Config Security module
 	'config_security'		=> [
-		'name'		=> 'Ασφάλεια',
+		'name'		=> 'Security',
 		'title'		=> 'Security subsystems settings',
 	],
 
 	// Config System module
 	'config_system'		=> [
-		'name'		=> 'Σύστημα',
+		'name'		=> 'System',
 		'title'		=> 'System options',
 	],
 
 	// Config Upload module
 	'config_upload'		=> [
-		'name'		=> 'Ανέβασμα',
+		'name'		=> 'Upload',
 		'title'		=> 'Attachment settings',
 	],
 
@@ -152,7 +152,7 @@ $ap_translation = [
 
 	// Menu module
 	'content_menu'		=> [
-		'name'		=> 'Μενού',
+		'name'		=> 'Menu',
 		'title'		=> 'Add, edit or remove default menu items',
 	],
 
@@ -164,13 +164,13 @@ $ap_translation = [
 
 	// DB Repair module
 	'db_repair'		=> [
-		'name'		=> 'Επισκευή',
+		'name'		=> 'Repair',
 		'title'		=> 'Repair and Optimize Database',
 	],
 
 	// DB Restore module
 	'db_restore'		=> [
-		'name'		=> 'Επαναφορά',
+		'name'		=> 'Restore',
 		'title'		=> 'Restoring backup data',
 	],
 
@@ -188,7 +188,7 @@ $ap_translation = [
 
 	// Data Synchronization module
 	'maint_resync'		=> [
-		'name'		=> 'Συγχρονισμός Δεδομένων',
+		'name'		=> 'Data Synchronization',
 		'title'		=> 'Synchronizing data',
 	],
 
@@ -200,8 +200,8 @@ $ap_translation = [
 
 	// System message module
 	'messages'		=> [
-		'name'		=> 'Μήνυμα συστήματος',
-		'title'		=> 'Μηνύματα συστήματος',
+		'name'		=> 'System message',
+		'title'		=> 'System messages',
 	],
 
 	// System Info module
@@ -218,7 +218,7 @@ $ap_translation = [
 
 	// Statistics module
 	'system_statistics'		=> [
-		'name'		=> 'Στατιστικά',
+		'name'		=> 'Statistics',
 		'title'		=> 'Show statistics',
 	],
 
@@ -236,20 +236,20 @@ $ap_translation = [
 
 	// Groups module
 	'user_groups'		=> [
-		'name'		=> 'Ομάδες',
+		'name'		=> 'Groups',
 		'title'		=> 'Group management',
 	],
 
 	// User module
 	'user_users'		=> [
-		'name'		=> 'Χρήστες',
+		'name'		=> 'Users',
 		'title'		=> 'User management',
 	],
 
 	// Main module
 	'MainNote'					=> 'Note: It is recommended that access to the site be temporarily blocked for administrative maintenance.',
 
-	'PurgeSessions'				=> 'Εκκαθάριση',
+	'PurgeSessions'				=> 'Purge',
 	'PurgeSessionsTip'			=> 'Purge all sessions',
 	'PurgeSessionsConfirm'		=> 'Are you sure you wish to purge all sessions? This will log out all users.',
 	'PurgeSessionsExplain'		=> 'Purge all sessions. This will log out all users by truncating the auth_token table.',
@@ -267,15 +267,15 @@ $ap_translation = [
 	'AdminName'					=> 'Admin of site:',
 	'AdminNameInfo'				=> 'User name of individual who is responsible for overall support of the site. This name is not used to determine access rights, but it is desirable that it conforms to the name of the chief administrator of the site.',
 
-	'LanguageSection'			=> 'Γλώσσα',
-	'DefaultLanguage'			=> 'Προεπιλεγμένη γλώσσα:',
+	'LanguageSection'			=> 'Language',
+	'DefaultLanguage'			=> 'Default language:',
 	'DefaultLanguageInfo'		=> 'Specifies the language of messages displayed to unregistered guests, as well as the locale settings.',
 	'MultiLanguage'				=> 'Multilanguage support:',
 	'MultiLanguageInfo'			=> 'Enable the ability to select a language on a page-by-page basis.',
-	'AllowedLanguages'			=> 'Επιτρεπόμενες γλώσσες:',
-	'AllowedLanguagesInfo'		=> 'Συνιστάται να επιλέξετε μόνο το σύνολο των γλωσσών που θέλετε να χρησιμοποιήσετε, άλλες σοφές επιλέγονται όλες οι γλώσσες.',
+	'AllowedLanguages'			=> 'Allowed languages:',
+	'AllowedLanguagesInfo'		=> 'It is recommended to select only the set of languages you want to use, otherwise all languages are selected.',
 
-	'CommentSection'			=> 'Σχόλια',
+	'CommentSection'			=> 'Comments',
 	'AllowComments'				=> 'Allow comments:',
 	'AllowCommentsInfo'			=> 'Enable comments for guests or registered users only, or disable them on the entire site.',
 	'SortingComments'			=> 'Sorting comments:',
@@ -320,12 +320,12 @@ $ap_translation = [
 	'NotifyDiffModeInfo'		=> 'Diff mode used for notifications in the email body.',
 
 	'EditingSection'			=> 'Editing',
-	'EditSummary'				=> 'Σύνοψη επεξεργασίας:',
+	'EditSummary'				=> 'Edit summary:',
 	'EditSummaryInfo'			=> 'Shows change summary in the edit mode.',
-	'MinorEdit'					=> 'Μικρή αλλαγή:',
+	'MinorEdit'					=> 'Minor edit:',
 	'MinorEditInfo'				=> 'Enables minor edit option in the edit mode.',
-	'SectionEdit'				=> 'Επεξεργασία τμήματος:',
-	'SectionEditInfo'			=> 'Επιτρέπει την επεξεργασία μόνο ενός τμήματος μιας σελίδας.',
+	'SectionEdit'				=> 'Section edit:',
+	'SectionEditInfo'			=> 'Enables editing only a section of a page.',
 	'ReviewSettings'			=> 'Review:',
 	'ReviewSettingsInfo'		=> 'Enables review option in the edit mode.',
 	'PublishAnonymously'		=> 'Allow anonymous publishing:',
@@ -352,14 +352,14 @@ $ap_translation = [
 
 	'FeedsSection'				=> 'Feeds',
 	'EnableFeeds'				=> 'Enable feeds:',
-	'EnableFeedsInfo'			=> 'Ενεργοποιεί ή απενεργοποιεί τις τροφοδοσίες RSS για ολόκληρο το wiki.',
+	'EnableFeedsInfo'			=> 'Turns RSS feeds on or off for the entire wiki.',
 	'XmlChangeLink'				=> 'Changes feed link mode:',
 	'XmlChangeLinkInfo'			=> 'Defines where the XML Changes feed items links to.',
 	'XmlChangeLinkMode'			=> [
-		'1'		=> 'προβολή αλλαγών',
-		'2'		=> 'τρέχουσα σελίδα',
-		'3'		=> 'εκδόσεις σελίδας',
-		'4'		=> 'τροποποιημένη σελίδα',
+		'1'		=> 'difference view',
+		'2'		=> 'the revised page',
+		'3'		=> 'list of revisions',
+		'4'		=> 'the current page',
 	],
 
 	'XmlSitemap'				=> 'XML sitemap:',
@@ -367,11 +367,11 @@ $ap_translation = [
 	'XmlSitemapGz'				=> 'XML sitemap compression:',
 	'XmlSitemapGzInfo'			=> 'If you would like, you may compress your sitemap text file using gzip to reduce your bandwidth requirement.',
 	'XmlSitemapTime'			=> 'XML sitemap generation time:',
-	'XmlSitemapTimeInfo'		=> 'Δημιουργεί το Χάρτη ιστοτόπου μόνο μία φορά στον δεδομένο αριθμό ημερών, μηδέν μέσα σε κάθε σελίδα αλλαγή.',
+	'XmlSitemapTimeInfo'		=> 'Generates the sitemap only once in the given number of days. Set to zero to generate on every page change.',
 
-	'SearchSection'				=> 'Αναζήτηση',
+	'SearchSection'				=> 'Search',
 	'OpenSearch'				=> 'OpenSearch:',
-	'OpenSearchInfo'			=> 'Δημιουργεί το αρχείο περιγραφής OpenSearch στο φάκελο XML και ενεργοποιεί την αυτόματη ανακάλυψη του πρόσθετου αναζήτησης στην επικεφαλίδα HTML.',
+	'OpenSearchInfo'			=> 'Creates the OpenSearch description file in the XML folder and enables Autodiscovery of search plugin in the HTML header.',
 	'SearchEngineVisibility'	=> 'Block search engines (search engine visibility):',
 	'SearchEngineVisibilityInfo'=> 'Block search engines, but allow normal visitors. Overrides page settings. <br>Discourage search engines from indexing this site. It is up to search engines to honor this request.',
 
@@ -381,11 +381,11 @@ $ap_translation = [
 	'AppearanceSettingsInfo'	=> 'Control default display settings for your site.',
 	'AppearanceSettingsUpdated'	=> 'Updated appearance settings.',
 
-	'LogoOff'					=> 'Κλειστό',
-	'LogoOnly'					=> 'λογότυπο',
-	'LogoAndTitle'				=> 'λογότυπο και τίτλος',
+	'LogoOff'					=> 'Off',
+	'LogoOnly'					=> 'logo',
+	'LogoAndTitle'				=> 'logo and title',
 
-	'LogoSection'				=> 'Λογότυπο',
+	'LogoSection'				=> 'Logo',
 	'SiteLogo'					=> 'Site logo:',
 	'SiteLogoInfo'				=> 'Your logo will typically appear at the top left corner of the application. Max size is 2 MiB. Optimal dimensions are 255 pixels wide by 55 pixels high.',
 	'LogoDimensions'			=> 'Logo dimensions:',
@@ -396,13 +396,16 @@ $ap_translation = [
 	'FaviconSection'			=> 'Favicon',
 	'SiteFavicon'				=> 'Site favicon:',
 	'SiteFaviconInfo'			=> 'Your shortcut icon, or favicon, is displayed in the address bar, tabs and bookmarks of most browsers. This will override the favicon of your theme.',
-	'SiteFaviconTooBig'			=> 'Το Favicon είναι μεγαλύτερο από 64 × 64px.',
-	'ThemeColor'				=> 'Χρώμα θέματος για τη γραμμή διευθύνσεων:',
-	'ThemeColorInfo'			=> 'Το πρόγραμμα περιήγησης θα ορίσει το χρώμα της γραμμής διευθύνσεων κάθε σελίδας σύμφωνα με το παρεχόμενο χρώμα CSS.',
+	'SiteFaviconTooBig'			=> 'Favicon is bigger than 64 × 64 px.',
+	'ThemeColor'				=> 'Theme color for address bar:',
+	'ThemeColorInfo'			=> 'The browser will set the address bar color of every page according to the provided CSS color.',
 
 	'LayoutSection'				=> 'Layout',
-	'Theme'						=> 'Θέμα:',
+	'Theme'						=> 'Theme:',
 	'ThemeInfo'					=> 'Template design the site uses by default.',
+	'ResetUserTheme'			=> 'Reset all user themes:',
+	'ResetUserThemeInfo'		=> 'Resets all user themes. Warning: This action will revert all user-selected themes to the global default theme.',
+	'SetBackUserTheme'			=> 'Revert all user themes to %1 theme.',
 	'ThemesAllowed'				=> 'Allowed Themes:',
 	'ThemesAllowedInfo'			=> 'Select the allowed themes, which the user can choose; otherwise, all available themes are allowed.',
 	'ThemesPerPage'				=> 'Themes per page:',
@@ -472,9 +475,9 @@ $ap_translation = [
     'ReverseProxyInfo'			=> 
     'Enable this setting to determine the correct IP address of the remote client by examining information stored in the X-Forwarded-For headers.  X-Forwarded-For headers are a standard mechanism for identifying client systems connecting through a reverse proxy server, such as Squid or Pound. Reverse proxy servers are often used to enhance the performance of heavily visited sites and may also provide other site caching, security or encryption benefits. If this WackoWiki installation operates behind a reverse proxy, this setting should be enabled so that correct IP address information is captured in WackoWiki\'s session management, logging, statistics and access management systems; if you are unsure about this setting, do not have a reverse proxy, or WackoWiki operates in a shared hosting environment, this setting should remain disabled.',
 	'ReverseProxyHeader'		=> 'Reverse proxy header:',
-	'ReverseProxyHeaderInfo'	=> 'Ορίστε αυτήν την τιμή εάν ο διακομιστής μεσολάβησης στέλνει την IP του πελάτη
-									σε μια κεφαλίδα διαφορετική από την X-Forwarded-For. Η επικεφαλίδα "X-Forwarded-For"
-									είναι μια λίστα διευθύνσεων IP που διαχωρίζεται με κόμμα και κενό, και μόνο η τελευταία (η πιο αριστερή) θα χρησιμοποιηθεί.',
+	'ReverseProxyHeaderInfo'	=> 'Set this value if your proxy server sends the client IP in a header
+									 other than X-Forwarded-For. The "X-Forwarded-For" header is a comma-delimited list of IP
+									 addresses; only the last one (the left-most) will be used.',
 	'ReverseProxyAddresses'		=> 'reverse_proxy accepts an array of IP addresses:',
 	'ReverseProxyAddressesInfo'	=> 'Each element of this array is the IP address of any of your reverse
 									 proxies. If using this array, WackoWiki will trust the information stored
@@ -487,13 +490,13 @@ $ap_translation = [
 	'SessionStorage'				=> 'Session storage:',
 	'SessionStorageInfo'			=> 'This option defines where the the session data is stored. By default, either file or database session storage is selected.',
 	'SessionModes'	=> [
-		'1'		=> 'Αρχείο',
-		'2'		=> 'Βάση δεδομένων',
+		'1'		=> 'File',
+		'2'		=> 'Database',
 	],
-	'SessionNotice'					=> 'Εμφάνιση αιτίας τερματισμού συνόδου:',
-	'SessionNoticeInfo'				=> 'Υποδεικνύει την αιτία τερματισμού της συνόδου.',
-	'LoginNotice'					=> 'Ειδοποίηση σύνδεσης:',
-	'LoginNoticeInfo'				=> 'Εμφανίζει μια ειδοποίηση σύνδεσης.',
+	'SessionNotice'					=> 'Session termination notice:',
+	'SessionNoticeInfo'				=> 'Indicates the cause of the session termination.',
+	'LoginNotice'					=> 'Login notice:',
+	'LoginNoticeInfo'				=> 'Displays login notice.',
 
 	'RewriteMode'					=> 'Use <code>mod_rewrite</code>:',
 	'RewriteModeInfo'				=> 'If your web server supports this feature, enable to "beautify" the page URLs.<br>
@@ -528,7 +531,7 @@ $ap_translation = [
 	'OwnersEditCategories'		=> 'Owners can edit page categories:',
 	'OwnersEditCategoriesInfo'	=> 'Allow owners to modify the pages category list of your site (add words, delete words), assigns to a page.',
 	'TermHumanModeration'		=> 'Human moderation expiration:',
-	'TermHumanModerationInfo'	=> 'Οι επόπτες μπορούν να επεξεργαστούν σχόλια μόνο εάν δημιουργήθηκαν πριν από αυτόν τον αριθμό ημερών (αυτός ο περιορισμός δεν ισχύει για το τελευταίο σχόλιο στο θέμα).',
+	'TermHumanModerationInfo'	=> 'Moderators can only edit comments if they were created no more than this number of days ago (this limitation does not apply to the last comment in the topic).',
 
 	'UserCanDeleteAccount'		=> 'Allow users to delete their accounts',
 
@@ -537,7 +540,7 @@ $ap_translation = [
 	'SecuritySettingsUpdated'	=> 'Updated security settings',
 
 	'AllowRegistration'			=> 'Register online:',
-	'AllowRegistrationInfo'		=> 'Άνοιγμα εγγραφής χρήστη. Η απενεργοποίηση αυτής της επιλογής θα αποτρέψει την δωρεάν εγγραφή, ωστόσο, ο διαχειριστής του ιστότοπου θα μπορεί να εγγράψει ο ίδιος άλλους χρήστες.',
+	'AllowRegistrationInfo'		=> 'Open user registration. Disabling this option will prevent free registration, however, the site administrator will still be able to register users.',
 	'ApproveNewUser'			=> 'Approve new users:',
 	'ApproveNewUserInfo'		=> 'Allows administrators to approve users once they register. Only approved users will be allowed to log in the site.',
 	'PersistentCookies'			=> 'Persistent cookies:',
@@ -550,12 +553,12 @@ $ap_translation = [
 	'EmailSection'				=> 'Email',
 	'AllowEmailReuse'			=> 'Allow email address re-use:',
 	'AllowEmailReuseInfo'		=> 'Different users can register with the same email address.',
-	'EmailConfirmation'			=> 'Επιβολή επιβεβαίωσης μέσω email:',
-	'EmailConfirmationInfo'		=> 'Απαιτεί από τον χρήστη να επιβεβαιώσει τη διεύθυνση ηλεκτρονικού ταχυδρομείου του πριν συνδεθεί.',
-	'AllowedEmailDomains'		=> 'Επιτρεπόμενοι τομείς ηλεκτρονικού ταχυδρομείου:',
-	'AllowedEmailDomainsInfo'	=> 'Επιτρεπόμενοι τομείς ηλεκτρονικού ταχυδρομείου διαχωρισμένοι με κόμμα, π.χ. <code>example.com, local.lan</code> κ.λπ., διαφορετικά επιτρέπονται όλοι οι τομείς ηλεκτρονικού ταχυδρομείου.',
-	'ForbiddenEmailDomains'		=> 'Απαγορευμένοι τομείς ηλεκτρονικού ταχυδρομείου:',
-	'ForbiddenEmailDomainsInfo'	=> 'Απαγορευμένοι τομείς ηλεκτρονικού ταχυδρομείου διαχωρισμένοι με κόμμα, π.χ. <code>example.com, local.lan</code> κ.λπ. (μόνο αν η λίστα των επιτρεπόμενων τομέων ηλεκτρονικού ταχυδρομείου είναι κενή)',
+	'EmailConfirmation'			=> 'Enforce email confirmation:',
+	'EmailConfirmationInfo'		=> 'Requires the user to verify their email address before they can log in.',
+	'AllowedEmailDomains'		=> 'Allowed email domains:',
+	'AllowedEmailDomainsInfo'	=> 'Comma-separated email domains, e.g. <code>example.com, local.lan</code> etc. If not specified, all email domains are allowed.',
+	'ForbiddenEmailDomains'		=> 'Forbidden email domains:',
+	'ForbiddenEmailDomainsInfo'	=> 'Comma-separated forbidden email domains, e.g. <code>example.com, local.lan</code> etc. Only effective if allowed email domains list is empty.',
 
 	'CaptchaSection'			=> 'CAPTCHA',
 	'EnableCaptcha'				=> 'Enable captcha:',
@@ -566,7 +569,7 @@ $ap_translation = [
 	'CaptchaPageInfo'			=> 'As protection against spam, unregistered users must complete captcha before creating a new page.',
 	'CaptchaEdit'				=> 'Edit page:',
 	'CaptchaEditInfo'			=> 'As protection against spam, unregistered users must complete captcha before editing pages.',
-	'CaptchaRegistration'		=> 'Εγγραφή:',
+	'CaptchaRegistration'		=> 'Registration:',
 	'CaptchaRegistrationInfo'	=> 'As protection against spam, unregistered users must complete captcha before registering.',
 
 	'TlsSection'				=> 'TLS Settings',
@@ -620,7 +623,7 @@ $ap_translation = [
 		'2'		=> 'password does not contain username',
 	],
 
-	'LoginSection'				=> 'Σύνδεση',
+	'LoginSection'				=> 'Login',
 	'MaxLoginAttempts'			=> 'Maximum number of login attempts per username:',
 	'MaxLoginAttemptsInfo'		=> 'The number of login attempts allowed for a single account before the anti-spambot task is triggered. Enter 0 to prevent the anti-spambot task from being triggered for distinct user accounts.',
 	'IpLoginLimitMax'			=> 'Maximum number of login attempts per IP address:',
@@ -628,7 +631,7 @@ $ap_translation = [
 
 	'FormsSection'				=> 'Forms',
 	'FormTokenTime'				=> 'Maximum time to submit forms:',
-	'FormTokenTimeInfo'			=> 'Η ώρα που ο χρήστης πρέπει να υποβάλει μια φόρμα (σε δευτερόλεπτα). <br> Λάβετε υπόψη ότι μια φόρμα ενδέχεται να καταστεί άκυρη εάν λήξει η περίοδος σύνδεσης, ανεξάρτητα από αυτήν τη ρύθμιση.',
+	'FormTokenTimeInfo'			=> 'The time a user has to submit a form (in seconds).<br> Note that a form might become invalid if the session expires, regardless of this setting.',
 
 	'SessionLength'				=> 'Session cookie expiration:',
 	'SessionLengthInfo'			=> 'The lifetime of the user session cookie by default (in days).',
@@ -637,7 +640,7 @@ $ap_translation = [
 	'IntercomDelay'				=> 'Anti-flood for personal communications:',
 	'IntercomDelayInfo'			=> 'The minimum delay between sending private messages (in seconds).',
 	'RegistrationDelay'			=> 'Time threshold for registering:',
-	'RegistrationDelayInfo'		=> 'The minimum time threshold between registration form submissions to discourage registration bots (in seconds).',
+	'RegistrationDelayInfo'		=> 'The minimum time threshold for filling out the registration form to tell away bots from humans (in seconds).',
 
 	// Formatter settings
 	'FormatterSettingsInfo'		=> 'Group of parameters responsible for fine-tuning the site. Do not change them unless you are confident in their actions.',
@@ -672,20 +675,20 @@ $ap_translation = [
 	'TimeFormatSecondsInfo'		=> '(hours, minutes, seconds)',
 	'NameDateMacro'				=> 'The format of the <code>::@::</code> macro:',
 	'NameDateMacroInfo'			=> '(name, time), e.g. <code>UserName (17.11.2016 16:48)</code>',
-	'Timezone'					=> 'Ωρολογιακή ζώνη:',
-	'TimezoneInfo'				=> 'Χρονοζώνη που θα χρησιμοποιείται για την εμφάνιση των ωρών σε χρήστες που δεν είναι συνδεδεμένοι (επισκέπτες). Οι συνδεδεμένοι χρήστες ορίζουν και μπορούν να αλλάξουν τη ζώνη ώρας στις ρυθμίσεις χρήστη.',
+	'Timezone'					=> 'Timezone:',
+	'TimezoneInfo'				=> 'Timezone to use for displaying times to users who are not logged in (guests). Logged-in users can change their timezone in their user settings.',
 
-	'Canonical'					=> 'Πλήρη και κανονικοποιημένα URLs:',
-	'CanonicalInfo'				=> 'Όλοι οι σύνδεσμοι δημιουργούνται ως απόλυτα URL με τη μορφή %1. Οι διευθύνσεις URL που σχετίζονται με τη ρίζα του διακομιστή με τη μορφή %2 θα πρέπει να προτιμώνται.',
+	'Canonical'					=> 'Use fully-canonical URLs:',
+	'CanonicalInfo'				=> 'All links are created as absolute URLs in the form %1. URLs relative to the server root in the form %2 should be preferred.',
 	'LinkTarget'				=> 'Where external links open:',
-	'LinkTargetInfo'			=> 'Ανοίγει κάθε εξωτερικό σύνδεσμο σε ένα νέο παράθυρο του προγράμματος περιήγησης. Προσθέτει <code>target="_ blank"</code> στη σύνταξη του συνδέσμου.',
+	'LinkTargetInfo'			=> 'Opens each external link in a new browser window. Adds <code>target="_blank"</code> to the link syntax.',
 	'Noreferrer'				=> 'noreferrer:',
 	'NoreferrerInfo'			=> 'Requires that the browser should not send an HTTP referer header if the user follows the hyperlink. Adds <code>rel="noreferrer"</code> to the link syntax.',
 	'Nofollow'					=> 'nofollow:',
-	'NofollowInfo'				=> 'Διδάξτε σε ορισμένες μηχανές αναζήτησης ότι ο υπερσύνδεσμος δεν πρέπει να επηρεάζει την κατάταξη του στόχου συνδέσμων στο ευρετήριο των μηχανών αναζήτησης. Προσθέτει <code>rel="nofollow"</code> στη σύνταξη του συνδέσμου.',
+	'NofollowInfo'				=> 'Tells search engines that the hyperlinks should not affect the page ranking of the target page in the search engine index. Adds <code>rel="nofollow"</code> to the link syntax.',
 	'UrlsUnderscores'			=> 'Form addresses (URLs) with underscores:',
 	'UrlsUnderscoresInfo'		=> 'For example, %1 becames %2 with this option.',
-	'ShowSpaces'				=> 'Εμφάνιση κενών στα WikiNames:',
+	'ShowSpaces'				=> 'Show spaces in WikiNames:',
 	'ShowSpacesInfo'			=> 'Show spaces in WikiNames, e.g. <code>MyName</code> being displayed as <code>My Name</code> with this option.',
 	'NumerateLinks'				=> 'Enumerate links in print view:',
 	'NumerateLinksInfo'			=> 'Enumerates and lists all links at the bottom of the print view with this option.',
@@ -693,7 +696,7 @@ $ap_translation = [
 	'YouareHereTextInfo'		=> 'Visualize links to the same page, using <code>&lt;b&gt;####&lt;/b&gt;</code>. All links to self lose link formatting, but are displayed as bold text.',
 
 	// Pages settings
-	'PagesSettingsInfo'			=> 'Εδώ μπορείτε να ορίσετε ή να αλλάξετε τις βασικές σελίδες του συστήματος που χρησιμοποιούνται στο Wiki.',
+	'PagesSettingsInfo'			=> 'Here you can set or change the system base pages used within the Wiki. Please ensure you do not forget to create or change the corresponding pages in the Wiki according your settings here.',
 	'PagesSettingsUpdated'		=> 'Updated settings base pages',
 
 	'ListCount'					=> 'Number of items per list:',
@@ -713,7 +716,7 @@ $ap_translation = [
 	'NewsStructure'				=> 'News cluster structure:',
 	'NewsStructureInfo'			=> 'Stores the articles optionally in sub-clusters by year/month or week (e.g. <code>[cluster]/[year]/[month]</code>).',
 
-	'LicenseSection'			=> 'Άδεια',
+	'LicenseSection'			=> 'License',
 	'DefaultLicense'			=> 'Default license:',
 	'DefaultLicenseInfo'		=> 'Under which license your content can be released.',
 	'EnableLicense'				=> 'Enable license:',
@@ -725,15 +728,15 @@ $ap_translation = [
 	'RootPage'					=> 'Home page:',
 	'RootPageInfo'				=> 'Tag of your main page, opens automatically when a user visits your site.',
 
-	'PrivacyPage'				=> 'Πολιτική προσωπικών δεδομένων:',
+	'PrivacyPage'				=> 'Privacy policy:',
 	'PrivacyPageInfo'			=> 'The page with the Privacy Policy of the site.',
 
 	'TermsPage'					=> 'Policies and regulations:',
 	'TermsPageInfo'				=> 'The page with the rules of the site.',
 
-	'SearchPage'				=> 'Αναζήτηση:',
+	'SearchPage'				=> 'Search:',
 	'SearchPageInfo'			=> 'Page with the search form (action %1).',
-	'RegistrationPage'			=> 'Εγγραφή:',
+	'RegistrationPage'			=> 'Registration:',
 	'RegistrationPageInfo'		=> 'Page for new user registration (action %1).',
 	'LoginPage'					=> 'User login:',
 	'LoginPageInfo'				=> 'Login page on the site (action %1).',
@@ -743,9 +746,9 @@ $ap_translation = [
 	'PasswordPageInfo'			=> 'Page with a form to change / query user password (action %1).',
 	'UsersPage'					=> 'User list:',
 	'UsersPageInfo'				=> 'Page with a list of registered users (action %1).',
-	'CategoryPage'				=> 'Κατηγορία:',
+	'CategoryPage'				=> 'Category:',
 	'CategoryPageInfo'			=> 'Page with a list of categorized pages (action %1).',
-	'GroupsPage'				=> 'Ομάδες:',
+	'GroupsPage'				=> 'Groups:',
 	'GroupsPageInfo'			=> 'Page with a list of working groups (action %1).',
 	'ChangesPage'				=> 'Recent changes:',
 	'ChangesPageInfo'			=> 'Page with a list of the last modified pages (action %1).',
@@ -759,12 +762,12 @@ $ap_translation = [
 	'OrphanedPageInfo'			=> 'Page with a list of existing pages are not related via links to any other page (action %1).',
 	'SandboxPage'				=> 'Sandbox:',
 	'SandboxPageInfo'			=> 'Page where users can practice their wiki markup skills.',
-	'HelpPage'					=> 'Βοήθεια:',
+	'HelpPage'					=> 'Help:',
 	'HelpPageInfo'				=> 'The documentation section for working with site tools.',
 	'IndexPage'					=> 'Index:',
-	'IndexPageInfo'				=> 'Σελίδα με λίστα όλων των σελίδων (action %1).',
-	'RandomPage'				=> 'Τυχαία:',
-	'RandomPageInfo'			=> 'Φορτώνει μια τυχαία σελίδα (action %1).',
+	'IndexPageInfo'				=> 'Page with a list of all pages (action %1).',
+	'RandomPage'				=> 'Random:',
+	'RandomPageInfo'			=> 'Loads a random page (action %1).',
 
 
 	// Notification settings
@@ -789,14 +792,14 @@ $ap_translation = [
 	'NotifyUpload'				=> 'Notify file upload:',
 	'NotifyUploadInfo'			=> 'The Moderators will to be notified when a file has been uploaded.',
 
-	'PersonalMessagesSection'	=> 'Προσωπικά μηνύματα',
+	'PersonalMessagesSection'	=> 'Personal Messages',
 	'AllowIntercomDefault'		=> 'Allow intercom:',
 	'AllowIntercomDefaultInfo'	=> 'Enabling this option allows other users to send personal messages to the recipient\'s email address without disclosing the address.',
 	'AllowMassemailDefault'		=> 'Allow mass email:',
 	'AllowMassemailDefaultInfo'	=> 'Only send messages to those users who have permitted administrators to email them information.',
 
 	// Resync settings
-	'Synchronize'				=> 'συγχρονίζω',
+	'Synchronize'				=> 'Synchronize',
 	'UserStatsSynched'			=> 'User Statistics synchronized.',
 	'PageStatsSynched'			=> 'Page Statistics synchronized.',
 	'FeedsUpdated'				=> 'RSS-feeds updated.',
@@ -814,9 +817,9 @@ $ap_translation = [
 	'PageStats'					=> 'Page statistics',
 	'PageStatsInfo'				=> 'Page statistics (number of comments, files and revisions) may differ in some situations from actual data. <br>This operation allows updating statistics to match actual data contained in database.',
 
-	'AttachmentsInfo'			=> 'Ενημερώνει το hash του αρχείου για όλα τα συνημμένα αρχεία στη βάση δεδομένων.',
-	'AttachmentsSynched'		=> 'Επανέκδοση όλων των συνημμένων αρχείων',
-	'LogAttachmentsSynched'		=> 'Επανέκδοση όλων των συνημμένων αρχείων',
+	'AttachmentsInfo'			=> 'Update the file hash for all attachments in the database.',
+	'AttachmentsSynched'		=> 'Re-hashed all file attachments',
+	'LogAttachmentsSynched'		=> 'Re-hashed all file attachments',
 
 	'Feeds'						=> 'Feeds',
 	'FeedsInfo'					=> 'In the case of direct editing of pages in the database, the content of RSS-feeds may not reflect the changes made. <br>This function synchronizes the RSS-channels with the current state of the database.',
@@ -829,29 +832,29 @@ $ap_translation = [
 	'ReparseBodyInfo'			=> 'Empties <code>body_r</code> in page table, so that each page gets rendered again on the next page view. This may be useful if you modified the formatter or changed the domain of your wiki.',
 	'PreparsedBodyPurged'		=> 'Emptied <code>body_r</code> field in page table.',
 
-	'WikiLinksResync'			=> 'Wiki-links',
+	'WikiLinksResync'			=> 'Wiki links',
 	'WikiLinksResyncInfo'		=> 'Performs a re-rendering for all intrasite links and restores the contents of the <code>page_link</code> and <code>file_link</code> tables in the event of damage or relocation (this can take considerable time).',
-	'RecompilePage'				=> 'Ανασυγκρότηση όλων των σελίδων (εξαιρετικά δαπανηρή)',
-	'ResyncOptions'				=> 'Επιπλέον επιλογές',
+	'RecompilePage'				=> 'Re-compiling all pages (extremely costly)',
+	'ResyncOptions'				=> 'Additional options',
 	'RecompilePageLimit'		=> 'Number of pages to parse at once.',
 
 	// Email settings
-	'EmaiSettingsInfo'			=> 'Αυτές οι πληροφορίες χρησιμοποιούνται όταν το σύστημα συζητήσεων στέλνει μηνύματα ηλεκτρονικού ταχυδρομείου στα μέλη σας. Παρακαλώ βεβαιωθείτε ότι η διεύθυνση ηλεκτρονικού ταχυδρομείου που έχετε ορίσει είναι έγκυρη, όλα τα απαγορευμένα ή μη απεσταλμένα μηνύματα μηνύματα κατά πάσα πιθανότητα θα αποστέλλονται σε αυτή τη διεύθυνση. Εάν ο πάροχος φιλοξενίας σας δεν παρέχει μια μητρική (βασισμένη σε PHP) υπηρεσία ηλεκτρονικού ταχυδρομείου, μπορείτε αντί αυτού να στέλνετε μηνύματα απευθείας με χρήση του SMTP. Αυτό απαιτεί τη διεύθυνση ενός κατάλληλου διακομιστή (ρωτήστε τον πάροχο σας εάν είναι απαραίτητο). Εάν ο διακομιστής απαιτεί πιστοποίηση (και μόνο εάν το κάνει) εισάγετε τα απαιτούμενα όνομα χρήστη, κωδικό πρόσβασης και μέθοδο πιστοποίησης.',
+	'EmaiSettingsInfo'			=> 'This information is used when the engine sends emails to your users. Please ensure the email address you specify is valid, as any bounced or undeliverable messages will likely be sent to that address. If your hosting provider does not provide a native (PHP-based) email service, you can instead send messages directly using SMTP. This requires the address of an appropriate server (ask your hosting provider if necessary). If the server requires authentication (and only if it does), enter the necessary username, password and authentication method.',
 
 	'EmailSettingsUpdated'		=> 'Updated Email settings',
 
-	'EmailFunctionName'			=> 'Όνομα λειτουργίας ηλεκτρονικού ταχυδρομείου:',
-	'EmailFunctionNameInfo'		=> 'Η λειτουργία ηλεκτρονικού ταχυδρομείου που χρησιμοποιείται για την αποστολή ηλεκτρονικών μηνυμάτων μέσω της PHP.',
-	'UseSmtpInfo'				=> 'Επιλέξτε <code>SMTP</code> εάν θέλετε ή πρέπει να στείλετε μήνυμα ηλεκτρονικού ταχυδρομείου μέσω ενός έγκυρου διακομιστή (SMTP), αντί της λειτουργίας τοπικού ταχυδρομείου (λειτουργία PHP).',
+	'EmailFunctionName'			=> 'Email function name:',
+	'EmailFunctionNameInfo'		=> 'The email function used to send mails through PHP.',
+	'UseSmtpInfo'				=> 'Select <code>SMTP</code> if you want to, or have to, send email via a named server instead of via the local mail function.',
 
 	'EnableEmail'				=> 'Enable emails:',
 	'EnableEmailInfo'			=> 'Enable sending of emails.',
 
-	'EmailIdentitySettings'		=> 'Ιστοσελίδα Emails Ταυτότητα',
+	'EmailIdentitySettings'		=> 'Website Email Identities',
 	'FromEmailName'				=> 'From name:',
 	'FromEmailNameInfo'			=> 'The sender name that is use for the <code>From:</code> header for all email notifications sent from the site.',
-	'EmailSubjectPrefix'		=> 'Πρόθεμα υποκειμένου:',
-	'EmailSubjectPrefixInfo'	=> 'Θέμα: Εναλλακτικό πρόθεμα θέματος ηλεκτρονικού ταχυδρομείου, π.χ. <code>[Πρόθεμα] Θέμα</code>. Εάν δεν οριστεί, το προεπιλεγμένο πρόθεμα είναι το Όνομα τοποθεσίας: %1.',
+	'EmailSubjectPrefix'		=> 'Subject prefix:',
+	'EmailSubjectPrefixInfo'	=> 'Alternate email subject prefix, e.g. <code>[Prefix] Topic</code>. If not defined, the default prefix is Site Name: %1.',
 
 	'NoReplyEmail'				=> 'No-reply address:',
 	'NoReplyEmailInfo'			=> 'This address, e.g. <code>noreply@example.com</code>, will appear in the <code>From:</code> email address field of all email notifications sent from the site.',
@@ -860,68 +863,68 @@ $ap_translation = [
 	'AbuseEmail'				=> 'Email abuse service:',
 	'AbuseEmailInfo'			=> 'Address requests for urgent matters: registration for a foreign email, etc. It may be the same as the site owner email.',
 
-	'SendTestEmail'				=> 'Αποστολή δοκιμαστικού μηνύματος ηλεκτρονικού ταχυδρομείου',
-	'SendTestEmailInfo'			=> 'Αυτό θα αποστείλει ένα δοκιμαστικό μήνυμα ηλεκτρονικού ταχυδρομείου στη διεύθυνση που ορίστηκε στο λογαριασμό σας.',
-	'TestEmailSubject'			=> 'Το WackoWiki είναι σωστά ρυθμισμένο για την αποστολή μηνυμάτων ηλεκτρονικού ταχυδρομείου',
-	'TestEmailBody'				=> 'Αν λάβατε αυτό το μήνυμα ηλεκτρονικού ταχυδρομείου, το WackoWiki είναι σωστά ρυθμισμένο για την αποστολή μηνυμάτων ηλεκτρονικού ταχυδρομείου.',
-	'TestEmailMessage'			=> 'Το δοκιμαστικό μήνυμα ηλεκτρονικού ταχυδρομείου στάλθηκε.<br>Αν δεν το λάβατε, παρακαλούμε ελέγξτε τις ρυθμίσεις του ηλεκτρονικού ταχυδρομείου.',
+	'SendTestEmail'				=> 'Send a test email',
+	'SendTestEmailInfo'			=> 'This will send a test email to the address defined in your account.',
+	'TestEmailSubject'			=> 'Your Wiki is correctly configured to send emails',
+	'TestEmailBody'				=> 'If you received this email, your Wiki is correctly configured to send emails.',
+	'TestEmailMessage'			=> 'The test email has been sent.<br>If you don\'t receive it, please check your email configuration settings.',
 
-	'SmtpSettings'				=> 'Ρυθμίσεις SMTP',
+	'SmtpSettings'				=> 'SMTP Settings',
 	'SmtpAutoTls'				=> 'Opportunistic TLS:',
 	'SmtpAutoTlsInfo'			=> 'Enables encryption automatically, if it sees that the server is advertising TLS encryption (after you have connected to the server), even if you have not set the connection mode for <code>SMTPSecure</code>.',
-	'SmtpConnectionMode'		=> 'Μέθοδος πιστοποίησης για SMTP:',
-	'SmtpConnectionModeInfo'	=> 'Χρησιμοποιείται μόνο εάν έχει οριστεί το όνομα χρήστη / κωδικός πρόσβασης, ρωτήστε τον πάροχο σας εάν δεν είστε βέβαιοι ποια μέθοδο θα χρησιμοποιήσετε.',
-	'SmtpPassword'				=> 'Κωδικός πρόσβασης SMTP:',
-	'SmtpPasswordInfo'			=> 'Εισάγετε ένα κωδικό πρόσβασης μόνο εάν ο διακομιστής SMTP το απαιτεί. <em><strong>ΠΡΟΕΙΔΟΠΟΙΗΣΗ:</strong> Αυτός ο κωδικός πρόσβασης θα αποθηκευτεί σαν απλό κείμενο στη βάση δεδομένων, ορατός σε όποιον μπορεί να έχει πρόσβαση στη βάση δεδομένων σας ή που μπορεί να προβάλει αυτή τη σελίδα ρυθμίσεων.</em>',
-	'SmtpPort'					=> 'Θύρα διακομιστή SMTP:',
-	'SmtpPortInfo'				=> 'Αλλάξτε το μόνο εάν γνωρίζετε ότι ο διακομιστής SMTP είναι σε μια διαφορετική θύρα. <br>(default: <code>tls</code> on port 587 (or possibly 25) and <code>ssl</code> on port 465)',
-	'SmtpServer'				=> 'Διεύθυνση διακομιστή SMTP:',
-	'SmtpServerInfo'			=> 'Σημει΄ψστε ότι πρέπει να περέχετε και το πρωτόκολλο που χρησιμοποιεί ο διακομιστής σας. Αν χρησιμοποιείται SSL, πρέπει να το γράψετε <code>ssl://mail.example.com</code>',
-	'SmtpUsername'				=> 'Όνομα χρήστη SMTP:',
-	'SmtpUsernameInfo'			=> 'Εισάγετε ένα όνομα χρήστη μόνο εάν ο διακομιστής SMTP το απαιτεί.',
+	'SmtpConnectionMode'		=> 'Connection mode for SMTP:',
+	'SmtpConnectionModeInfo'	=> 'Only used if a username/password is required. Ask your provider if you are unsure which method to use.',
+	'SmtpPassword'				=> 'SMTP password:',
+	'SmtpPasswordInfo'			=> 'Only enter a password if your SMTP server requires it.<br><em><strong>Warning:</strong> This password will be stored as plaintext in the database, visible to everybody who can access your database or who can view this configuration page.</em>',
+	'SmtpPort'					=> 'SMTP server port:',
+	'SmtpPortInfo'				=> 'Only change this if you know your SMTP server is on a different port. <br>(default: <code>tls</code> on port 587 (or possibly 25) and <code>ssl</code> on port 465).',
+	'SmtpServer'				=> 'SMTP server address:',
+	'SmtpServerInfo'			=> 'Note that you have to provide the protocol that your server uses. If you are using SSL, this has to be <code>ssl://mail.example.com</code>.',
+	'SmtpUsername'				=> 'SMTP username:',
+	'SmtpUsernameInfo'			=> 'Only enter a username if your SMTP server requires it.',
 
 	// Upload settings
-	'UploadSettingsInfo'		=> 'Εδώ μπορείτε να διαμορφώσετε τις προεπιλεγμένες ρυθμίσεις για τα συνημμένα και τις σχετικές ειδικές κατηγορίες.',
+	'UploadSettingsInfo'		=> 'Here you can configure the main settings for attachments and the associated special categories.',
 	'UploadSettingsUpdated'		=> 'Updated upload settings',
 
 	'FileUploadsSection'		=> 'File Uploads',
-	'RegisteredUsers'			=> 'εγγεγραμμένοι χρήστες',
+	'RegisteredUsers'			=> 'registered users',
 	'RightToUpload'				=> 'Permissions to upload files:',
 	'RightToUploadInfo'			=> '<code>admins</code> means that only users belonging to the admins group can upload  files. <code>1</code> means that uploading is opened to registered users. <code>0</code> means that upload disabled.',
-	'UploadMaxFilesize'			=> 'Μέγιστο μέγεθος αρχείου:',
-	'UploadMaxFilesizeInfo'		=> 'Μέγιστο μέγεθος του κάθε αρχείου. Εάν η τιμή είναι 0, το μέγεθος του προς φόρτωση αρχείου περιορίζεται μόνο από τις ρυθμίσεις του PHP σας.',
-	'UploadQuota'				=> 'Συνολική ποσόστωση συνημμένων:',
-	'UploadQuotaInfo'			=> 'Μέγιστος διαθέσιμος χώρος στη μονάδα δίσκου για ολόκληρo το σύστημα συζητήσεων, με <code>0</code> είναι απεριόριστος. %1 used.',
+	'UploadMaxFilesize'			=> 'Maximum file size:',
+	'UploadMaxFilesizeInfo'		=> 'Maximum size of each file. If this value is 0, the maximum uploadable filesize is only limited by your PHP configuration.',
+	'UploadQuota'				=> 'Total attachment quota:',
+	'UploadQuotaInfo'			=> 'Maximum drive space available for attachments for the whole wiki, with <code>0</code> being unlimited. %1 used.',
 	'UploadQuotaUser'			=> 'Storage quota per user:',
 	'UploadQuotaUserInfo'		=> 'Restriction on the quota of storage that can be uploaded by one user, with <code>0</code> being unlimited.',
 
 	'FileTypes'					=> 'File Types',
 	'UploadOnlyImages'			=> 'Allow only upload of images:',
 	'UploadOnlyImagesInfo'		=> 'Allow only uploading of image files on the page.',
-	'AllowedUploadExts'			=> 'Επιτρεπτοί τύποι αρχείων:',
-	'AllowedUploadExtsInfo'		=> 'Επιτρεπόμενες επεκτάσεις για τη μεταφόρτωση αρχείων, με διαχωρισμό με κόμμα, π.χ. <code>png, ogg, mp4</code>, διαφορετικά επιτρέπονται όλες οι μη απαγορευμένες επεκτάσεις αρχείων.<br>Θα πρέπει να περιορίσετε τη λίστα των επιτρεπόμενων τύπων αρχείων που μεταφορτώνονται στο ελάχιστο που απαιτείται για τη λειτουργικότητα του περιεχομένου του ιστότοπού σας.',
-	'CheckMimetype'				=> 'Έλεγχος αρχείων συνημμένων:',
-	'CheckMimetypeInfo'			=> 'Ορισμένα προγράμματα περιήγησης μπορεί να εξαπατηθούν και να υποθέσουν ένα ανακριβές είδος κωδικοποίησης για τα φορτώσιμα αρχεία. Αυτή η επιλογή εξασφαλίζει ότι τέτοια αρχεία που είναι πιθανό να προκαλέσουν αυτό, να απορρίπτονται.',
+	'AllowedUploadExts'			=> 'Allowed file types:',
+	'AllowedUploadExtsInfo'		=> 'Allowed extensions for uploading files, comma-separated (i.e., <code>png, ogg, mp4</code>); otherwise, all file extensions are allowed.<br>You should limit the allowed file extensions to the minimum required for your site\'s proper functionality.',
+	'CheckMimetype'				=> 'Check MIME type:',
+	'CheckMimetypeInfo'			=> 'Some browsers can be tricked to assume an incorrect mimetype for uploaded files. This option ensures that such files likely to cause this are rejected.',
 	'SvgSanitizer'				=> 'SVG sanitizer:',
-	'SvgSanitizerInfo'			=> 'Αυτό επιτρέπει την εξυγίανση των αρχείων SVG που μεταφορτώνονται για να αποτρέψει τη μεταφόρτωση ευάλωτων αρχείων SVG/XML.',
-	'TranslitFileName'			=> 'Μεταγραφή ονομάτων αρχείων:',
-	'TranslitFileNameInfo'		=> 'Συνιστάται ιδιαίτερα να δέχεστε μόνο αλφαριθμητικούς χαρακτήρες.',
-	'TranslitCaseFolding'		=> 'Μετατροπή ονομάτων αρχείων σε πεζά:',
-	'TranslitCaseFoldingInfo'	=> 'Αυτή η επιλογή είναι αποτελεσματική μόνο με ενεργή μεταγραφή.',
+	'SvgSanitizerInfo'			=> 'This enables sanitizing SVG files to to prevent SVG/XML vulnerabilities from being uploaded.',
+	'TranslitFileName'			=> 'Transliterate file names:',
+	'TranslitFileNameInfo'		=> 'If it is applicable and there is no need to have Unicode characters, it is highly recommended to only accept alphanumeric characters in filenames.',
+	'TranslitCaseFolding'		=> 'Convert file names to lowercase:',
+	'TranslitCaseFoldingInfo'	=> 'This option is only effective with active transliteration.',
 
 	'Thumbnails'				=> 'Thumbnails',
-	'CreateThumbnail'			=> 'Δημιουργία μικρογραφίας:',
-	'CreateThumbnailInfo'		=> 'Δημιουργία μιας μικρογραφίας σε όλες τις δυνατές θέσεις.',
-	'JpegQuality'				=> 'Ποιότητα JPEG:',
-	'JpegQualityInfo'			=> 'Ποιότητα κατά την κλιμάκωση μιας μικρογραφίας JPEG. Θα πρέπει να κυμαίνεται μεταξύ 1 και 100, με το 100 να υποδηλώνει ποιότητα 100%.',
-	'MaxImageArea'				=> 'Maximum Image Area:',
-	'MaxImageAreaInfo'			=> 'Ο μέγιστος αριθμός εικονοστοιχείων που μπορεί να έχει μια αρχική εικόνα. Αυτό παρέχει ένα όριο στη χρήση μνήμης για την πλευρά της αποσυμπίεσης του κλιμακωτή εικόνας. <br><code>-1</code> σημαίνει ότι δεν θα ελέγχει το μέγεθος της εικόνας πριν επιχειρήσει να την κλιμακώσει. Το <code>0</code> σημαίνει ότι θα καθορίσει την τιμή αυτόματα.',
-	'MaxThumbWidth'				=> 'Μέγιστο πλάτος μικρογραφίας σε εικονοστοιχεία:',
-	'MaxThumbWidthInfo'			=> 'Μια μικρογραφία που δημιουργείται δεν θα υπερβαίνει το πλάτος που καθορίζεται εδώ.',
-	'MinThumbFilesize'			=> 'Ελάχιστο μέγεθος αρχείου μικρογραφίας:',
-	'MinThumbFilesizeInfo'		=> 'Να μη δημιουργείται μικρογραφία για εικόνες μικρότερες από αυτό.',
-	'MaxImageWidth'				=> 'Όριο μεγέθους εικόνας στις σελίδες:',
-	'MaxImageWidthInfo'			=> 'Διαφορετικά, δημιουργείται μια μικρογραφία σε μικρότερη κλίμακα.',
+	'CreateThumbnail'			=> 'Create thumbnail:',
+	'CreateThumbnailInfo'		=> 'Create a thumbnail in all possible situations.',
+	'JpegQuality'				=> 'JPEG quality:',
+	'JpegQualityInfo'			=> 'Quality when scaling a JPEG thumbnail. It should be between 1 and 100, with 100 indicating 100% quality.',
+	'MaxImageArea'				=> 'Maximum image area:',
+	'MaxImageAreaInfo'			=> 'The maximum number of pixels a source image can have. This provides a limit on memory usage for the decompression side of the image scaler.<br><code>-1</code> means it will not check the size of the image before attempting to scale it. <code>0</code> means it will determine the value automatically.',
+	'MaxThumbWidth'				=> 'Maximum thumbnail width in pixels:',
+	'MaxThumbWidthInfo'			=> 'A generated thumbnail will not exceed the width set here.',
+	'MinThumbFilesize'			=> 'Minimum thumbnail file size:',
+	'MinThumbFilesizeInfo'		=> 'Do not create a thumbnail for images smaller than this.',
+	'MaxImageWidth'				=> 'Image size limit on pages:',
+	'MaxImageWidthInfo'			=> 'The maximum width a image can have on pages, otherwise a scaled down thumbnail is generated.',
 
 	// Deleted module
 	'DeletedObjectsInfo'		=> 'List of removed pages, revisions and files.
@@ -949,7 +952,7 @@ $ap_translation = [
 	'LogNoMatch'				=> 'No events that meet the criteria',
 	'LogDate'					=> 'Date',
 	'LogEvent'					=> 'Event',
-	'LogUsername'				=> 'Όνομα χρήστη',
+	'LogUsername'				=> 'Username',
 	'LogLevels'	=> [
 		'1'		=> 'critical',
 		'2'		=> 'highest',
@@ -961,26 +964,26 @@ $ap_translation = [
 	],
 
 	// Massemail module
-	'MassemailInfo'				=> 'Εδώ μπορείτε να στείλετε ένα μήνυμα είτε σε όλα τα μέλη σας είτε σε όλα τα μέλη μιας συγκεκριμένης ομάδας <strong>που έχουν την επιλογή να λαμβάνουν μαζικά μηνύματα ηλεκτρονικού ταχυδρομείου ενεργοποιημένη</strong>. Για να επιτευχθεί αυτό, ένα μήνυμα ηλεκτρονικού ταχυδρομείου θα αποσταλεί στη διεύθυνση ηλεκτρονικού ταχυδρομείου του διαχειριστή που παρέσχατε, με την οποία ένα τυφλό πιστό αντίγραφο θα αποσταλεί σε όλους τους παραλήπτες. Η προεπιλεγμένη ρύθμιση είναι να συμπεριλάβει μόνο 20 παραλήπτες σε ένα τέτοιο ηλεκτρονικό ταχυδρομείο, για περισσότερους παραλήπτες θα σταλούν περισσότερα μηνύματα ηλεκτρονικού ταχυδρομείου. Εάν στέλνετε ηλεκτρονικό ταχυδρομείο σε μια μεγάλη ομάδα ατόμων, παρακαλώ να είστε υπομονετικοί μετά την υποβολή και μη διακόψετε τη σελίδα κατά τη διάρκεια της αποστολής. Είναι φυσιολογικό για μια μαζική αποστολή μηνύματος ηλεκτρονικού ταχυδρομείου να πάρει πολύ χρόνο, θα ενημερωθείτε όταν το σενάριο έχει ολοκληρωθεί.',
+	'MassemailInfo'				=> 'Here you can email a message to either (1) all of your users or (2) all users of a specific group who have enabled receiving of mass emails. An email will be sent out to the administrative email address supplied, with a blind carbon copy (BCC) sent to all recipients. The default setting is to include a maximum of 20 recipients in such an email. If there are more than 20 recipients, additional emails will be sent. If you are emailing a large group of people, please be patient after submitting and do not stop the page halfway through. It is normal for a mass emailing to take a long time. You will be notified when the script has completed.',
 	'LogMassemail'				=> 'Mass email send %1 to group / user ',
 	'MassemailSend'				=> 'Mass email send',
 
-	'NoEmailMessage'			=> 'Πρέπει να εισάγετε κάποιο κείμενο.',
-	'NoEmailSubject'			=> 'Πρέπει να ορίσετε ένα θέμα για το μήνυμά σας.',
+	'NoEmailMessage'			=> 'You must enter a message.',
+	'NoEmailSubject'			=> 'You must specify a subject for your message.',
 	'NoEmailRecipient'			=> 'You must specify at least one user or user group.',
 
 	'MassemailSection'			=> 'Mass email',
-	'MessageSubject'			=> 'Θέμα:',
+	'MessageSubject'			=> 'Subject:',
 	'MessageSubjectInfo'		=> '',
 	'YourMessage'				=> 'Your message:',
-	'YourMessageInfo'			=> 'Σημειώστε ότι μπορείτε να γράψετε μόνο απλό κείμενο. Οτιδήποτε άλλο θα αφαιρεθεί πριν την αποστολή.',
+	'YourMessageInfo'			=> 'Please note that you may enter only plaintext. All markup will be removed before sending.',
 
 	'NoUser'					=> 'No user',
 	'NoUserGroup'				=> 'No user group',
 
-	'SendToGroup'				=> 'Αποστολή σε ομάδα:',
-	'SendToUser'				=> 'Αποστολή σε μέλη:',
-	'SendToUserInfo'			=> 'Only users who permit Administrators to email them information will receive mass emails. This option is available in their user settings under Notifications.',
+	'SendToGroup'				=> 'Send to group:',
+	'SendToUser'				=> 'Send to user:',
+	'SendToUserInfo'			=> 'Only users who permit administrators to email them information will receive mass emails. This option is available in their user settings under Notifications.',
 
 	// System message module
 	'SystemMessageInfo'			=> '',
@@ -1019,8 +1022,8 @@ $ap_translation = [
 	'BackupFolder'				=> 'Folder',
 	'BackupTable'				=> 'Table',
 	'BackupCluster'				=> 'Cluster:',
-	'BackupFiles'				=> 'Αρχεία',
-	'BackupNote'				=> 'Προσοχή:',
+	'BackupFiles'				=> 'Files',
+	'BackupNote'				=> 'Note:',
 	'BackupSettings'			=> 'Specify the desired scheme of backup.<br>' .
     	'The root cluster does not affect the global files backup and cache files backup (if chosen, they are always saved in full).<br>' .  '<br>' .
 		'<strong>Attention</strong>: To avoid loss of information from the database when specifying the root cluster, the tables from this backup will not be restructured, same as when backing up only table structure without saving the data. To make a complete conversion of the tables to the backup format you must make the <em> full database backup (structure and data) without specifying the cluster</em>.',
@@ -1032,11 +1035,11 @@ $ap_translation = [
 
 	// DB Restore module
 	'RestoreInfo'				=> 'You can restore any of the backup packages found, or remove them from the server.',
-	'ConfirmDbRestore'			=> 'Θέλετε να επαναφέρετε το αντίγραφο ασφαλείας %1;',
-	'ConfirmDbRestoreInfo'		=> 'Περιμένετε να διαρκέσει μερικά λεπτά.',
+	'ConfirmDbRestore'			=> 'Do you want to restore backup %1?',
+	'ConfirmDbRestoreInfo'		=> 'Please wait, this can take some time.',
 	'RestoreWrongVersion'		=> 'Wrong WackoWiki version!',
-	'DirectoryNotExecutable'	=> 'Ο κατάλογος %1 δεν είναι εκτελέσιμος.',
-	'BackupDelete'				=> 'Είστε βέβαιοι ότι θέλετε να καταργήσετε το backup %1?',
+	'DirectoryNotExecutable'	=> 'The %1 directory is not executable.',
+	'BackupDelete'				=> 'Are you sure you want to remove backup %1?',
 	'BackupDeleteInfo'			=> '',
 	'RestoreOptions'			=> 'Additional restore options:',
 	'RestoreOptionsInfo'		=> '* Before restoring the <strong>cluster backup</strong>, ' .
@@ -1080,7 +1083,7 @@ $ap_translation = [
 	'HomonymicFiles'			=> 'homonymic files',
 	'RestoreSkip'				=> 'skip',
 	'RestoreReplace'			=> 'replace',
-	'RestoreFile'				=> 'Αρχείο:',
+	'RestoreFile'				=> 'File:',
 	'RestoredFiles'				=> 'restored:',
 	'SkippedFiles'				=> 'skipped:',
 	'FileRestoreDone'			=> 'Completed. Total files:',
@@ -1090,24 +1093,24 @@ $ap_translation = [
 
 	'BackupCreationDate'		=> 'Creation Date',
 	'BackupPackageContents'		=> 'The contents of the package',
-	'BackupRestore'				=> 'Επαναφορά',
-	'BackupRemove'				=> 'Αφαίρεση',
+	'BackupRestore'				=> 'Restore',
+	'BackupRemove'				=> 'Remove',
 	'RestoreYes'				=> 'Yes',
 	'RestoreNo'					=> 'No',
 	'LogDbRestored'				=> 'Backup ##%1## of the database restored.',
 
-	'BackupArchived'			=> 'Το αντίγραφο ασφαλείας %1 αρχειοθετήθηκε.',
-	'BackupArchiveExists'		=> 'Το αρχείο αντιγράφων ασφαλείας %1 υπάρχει ήδη.',
-	'LogBackupArchived'			=> 'Το αντίγραφο ασφαλείας ##%1## αρχειοθετήθηκε.',
+	'BackupArchived'			=> 'Backup %1 archived.',
+	'BackupArchiveExists'		=> 'Backup archive %1 already exists.',
+	'LogBackupArchived'			=> 'Backup ##%1## archived.',
 
 	// User module
-	'UsersInfo'					=> 'Here you can change your users information and certain specific options.',
+	'UsersInfo'					=> 'Here you can change your users\' information and certain specific options.',
 
 	'UsersAdded'				=> 'User added',
-	'UsersDeleteInfo'			=> '[User delete Info here..]',
-	'EditButton'				=> 'Επεξεργασία',
+	'UsersDeleteInfo'			=> 'Delete user:',
+	'EditButton'				=> 'Edit',
 	'UsersAddNew'				=> 'Add new user',
-	'UsersDelete'				=> 'Είστε βέβαιοι ότι θέλετε να καταργήσετε το χρήστη %1;',
+	'UsersDelete'				=> 'Are you sure you want to remove user %1?',
 	'UsersDeleted'				=> 'The user %1 was deleted from the database.',
 	'UsersRename'				=> 'Rename the user %1 to',
 	'UsersRenameInfo'			=> '* Note: Change will affect all pages that are assigned to that user.',
@@ -1118,9 +1121,9 @@ $ap_translation = [
 	'UserActions'				=> 'Actions',
 	'NoMatchingUser'			=> 'No users that meet the criteria',
 
-	'UserAccountNotify'			=> 'Ειδοποίηση χρήστη',
-	'UserNotifySignup'			=> 'ενημερώστε το χρήστη σχετικά με το νέο λογαριασμό',
-	'UserVerifyEmail'			=> 'ορίστε το διακριτικό σήματος ηλεκτρονικού ταχυδρομείου και προσθέστε το σύνδεσμο για επαλήθευση μέσω ηλεκτρονικού ταχυδρομείου',
+	'UserAccountNotify'			=> 'Notify user',
+	'UserNotifySignup'			=> 'inform the user about the new account',
+	'UserVerifyEmail'			=> 'set email confirm token and add link for email verification',
 	'UserReVerifyEmail'			=> 'Re-send email confirm token',
 
 	// Groups module
@@ -1134,7 +1137,7 @@ $ap_translation = [
 	'LogGroupRemoved'			=> 'Removed group ##%1##',
 
 	'GroupsMembersFor'			=> 'Members for Group',
-	'GroupsDescription'			=> 'Περιγραφή',
+	'GroupsDescription'			=> 'Description',
 	'GroupsModerator'			=> 'Moderator',
 	'GroupsOpen'				=> 'Open',
 	'GroupsActive'				=> 'Active',
@@ -1147,7 +1150,7 @@ $ap_translation = [
 	'GroupsAdd'					=> 'Add a new group',
 	'GroupsRename'				=> 'Rename the group %1 to',
 	'GroupsRenameInfo'			=> '* Note: Change will affect all pages that are assigned to that group.',
-	'GroupsDelete'				=> 'Είστε βέβαιοι ότι θέλετε να καταργήσετε την ομάδα %1?',
+	'GroupsDelete'				=> 'Are you sure you want to remove group %1?',
 	'GroupsDeleteInfo'			=> '* Note: Change will affect all members that are assigned to that group.',
 	'GroupsIsSystem'			=> 'The group %1 belongs to the system and cannot be removed.',
 	'GroupsStoreButton'			=> 'Save Groups',
@@ -1168,15 +1171,15 @@ $ap_translation = [
 	'DbStatSection'				=> 'Database Statistics',
 	'DbTable'					=> 'Table',
 	'DbRecords'					=> 'Records',
-	'DbSize'					=> 'Μέγεθος',
+	'DbSize'					=> 'Size',
 	'DbIndex'					=> 'Index',
 	'DbOverhead'				=> 'Overhead',
 	'DbTotal'					=> 'Total',
 
 	'FileStatSection'			=> 'File system Statistics',
 	'FileFolder'				=> 'Folder',
-	'FileFiles'					=> 'Αρχεία',
-	'FileSize'					=> 'Μέγεθος',
+	'FileFiles'					=> 'Files',
+	'FileSize'					=> 'Size',
 	'FileTotal'					=> 'Total',
 
 	// Sysinfo module
@@ -1227,9 +1230,9 @@ $ap_translation = [
 	// Inconsistencies module
 	'InconsistenciesInfo'		=> 'Show and fix inconsistencies, delete or assign orphaned records to a new user / value.',
 	'Inconsistencies'			=> 'Inconsistencies',
-	'CheckDatabase'				=> 'Βάση δεδομένων',
+	'CheckDatabase'				=> 'Database',
 	'CheckDatabaseInfo'			=> 'Checks for record inconsistencies in the database.',
-	'CheckFiles'				=> 'Αρχεία',
+	'CheckFiles'				=> 'Files',
 	'CheckFilesInfo'			=> 'Checks for abandoned files, files with no reference left in the file table.',
 	'Records'					=> 'Records',
 	'InconsistenciesNone'		=> 'No Data Inconsistencies found.',
@@ -1246,7 +1249,7 @@ $ap_translation = [
 
 	'BbSummary'					=> 'Summary',
 	'BbLog'						=> 'Log',
-	'BbSettings'				=> 'Ρυθμίσεις',
+	'BbSettings'				=> 'Settings',
 	'BbWhitelist'				=> 'Whitelist',
 
 	// --> Log
