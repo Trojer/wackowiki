@@ -8,60 +8,60 @@ if (!defined('IN_WACKO'))
 $ap_translation = [
 
 	'CategoryArray'		=> [
-		'basics'		=> 'Basic functions',
-		'preferences'	=> 'Preferences',
-		'content'		=> 'Content',
-		'users'			=> 'Użytkownicy',
-		'maintenance'	=> 'Maintenance',
-		'messages'		=> 'Messages',
-		'extension'		=> 'Extension',
-		'database'		=> 'Baza danych',
+		'basics'		=> 'Funções básicas',
+		'preferences'	=> 'Preferências',
+		'content'		=> 'Conteúdo',
+		'users'			=> 'Usuários',
+		'maintenance'	=> 'Manutenção',
+		'messages'		=> 'Mensagens',
+		'extension'		=> 'Extensão',
+		'database'		=> 'Base de dados',
 	],
 
 	// Admin panel
-	'AdminPanel'				=> 'Panel administracji',
-	'RecoveryMode'				=> 'Tryb odzyskiwania',
-	'Authorization'				=> 'Authorization',
-	'AuthorizationTip'			=> 'Please enter the administrative password (make sure that cookies are allowed in your browser).',
-	'NoRecoveryPassword'		=> 'Hasło administracyjne nie zostało określone!',
-	'NoRecoveryPasswordTip'		=> 'Uwaga: Brak hasła administracyjnego stanowi zagrożenie dla bezpieczeństwa! Wprowadź hash hasła w pliku konfiguracyjnym i uruchom program ponownie.',
+	'AdminPanel'				=> 'Painel de Administração',
+	'RecoveryMode'				=> 'Modo de recuperação',
+	'Authorization'				=> 'Autorização',
+	'AuthorizationTip'			=> 'Digite a senha administrativa (certifique-se também de que os cookies são permitidos no seu navegador).',
+	'NoRecoveryPassword'		=> 'A senha administrativa não é especificada!',
+	'NoRecoveryPasswordTip'		=> 'Nota: A ausência de uma senha administrativa é uma ameaça à segurança! Digite sua senha no arquivo de configuração e execute o programa novamente.',
 
-	'ErrorLoadingModule'		=> 'Error loading admin module %1: does not exist.',
+	'ErrorLoadingModule'		=> 'Erro ao carregar o módulo admin %1: não existe.',
 
-	'ApHomePage'				=> 'Strona domowa',
+	'ApHomePage'				=> 'Página inicial',
 	'ApHomePageTip'				=> 'Open the home page, you do not quit system administration',
-	'ApLogOut'					=> 'Wyloguj',
+	'ApLogOut'					=> 'Desligar',
 	'ApLogOutTip'				=> 'Quit system administration',
 
-	'TimeLeft'					=> 'Pozostały czas: %1 minut',
-	'ApVersion'					=> 'wersja',
+	'TimeLeft'					=> 'Tempo restante: %1 minutos',
+	'ApVersion'					=> 'versão',
 
-	'SiteOpen'					=> 'Open',
-	'SiteOpened'				=> 'site opened',
-	'SiteOpenedTip'				=> 'The site is open',
-	'SiteClose'					=> 'Close',
-	'SiteClosed'				=> 'site closed',
+	'SiteOpen'					=> 'Abrir',
+	'SiteOpened'				=> 'site aberto',
+	'SiteOpenedTip'				=> 'O site está aberto',
+	'SiteClose'					=> 'Fechar',
+	'SiteClosed'				=> 'site fechado',
 	'SiteClosedTip'				=> 'The site is closed',
 
-	'System'					=> 'System',
+	'System'					=> 'Sistema',
 
 	// Generic
-	'Cancel'					=> 'Anuluj',
-	'Add'						=> 'Dodaj',
-	'Edit'						=> 'Edytuj',
-	'Remove'					=> 'Usuń',
-	'Enabled'					=> 'Odblokuj',
-	'Disabled'					=> 'Zablokuj',
-	'Mandatory'					=> 'Obowiązkowe',
-	'Admin'						=> 'Admin',
-	'Min'						=> 'Min',
-	'Max'						=> 'Max',
+	'Cancel'					=> 'Cancelar',
+	'Add'						=> 'Adicionar',
+	'Edit'						=> 'Editar',
+	'Remove'					=> 'Remover',
+	'Enabled'					=> 'Ativado',
+	'Disabled'					=> 'Desativado',
+	'Mandatory'					=> 'Obrigatório',
+	'Admin'						=> 'Administrador',
+	'Min'						=> 'Mínimo',
+	'Max'						=> 'Máximo',
 
-	'MiscellaneousSection'		=> 'Miscellaneous',
+	'MiscellaneousSection'		=> 'Diversos',
 	'MainSection'				=> 'Basic Parameters',
 
-	'DirNotWritable'			=> 'The %1 directory is not writable.',
-	'FileNotWritable'			=> 'The %1 file is not writable.',
+	'DirNotWritable'			=> 'O diretório %1 não pode ser escrito.',
+	'FileNotWritable'			=> 'O arquivo %1 não pode ser escrito.',
 
 	/**
 	 * AP MENU
@@ -74,212 +74,212 @@ $ap_translation = [
 
 	// Config Basic module
 	'config_basic'		=> [
-		'name'		=> 'Basic',
-		'title'		=> 'Basic parameters',
+		'name'		=> 'Básico',
+		'title'		=> 'Parâmetros básicos',
 	],
 
 	// Config Appearance module
 	'config_appearance'		=> [
-		'name'		=> 'Wygląd',
-		'title'		=> 'Ustawienia Wygląd',
+		'name'		=> 'Aparência',
+		'title'		=> 'Configurações de aparência',
 	],
 
 	// Config Email module
 	'config_email'		=> [
 		'name'		=> 'E-mail',
-		'title'		=> 'Ustawienia E-mail',
+		'title'		=> 'Configurações de e-mail',
 	],
 
 	// Config Syndication module
 	'config_syndication'		=> [
-		'name'		=> 'Syndication',
-		'title'		=> 'Syndication settings',
+		'name'		=> 'Sindicação',
+		'title'		=> 'Configurações de sindicação',
 	],
 
 	// Config Filter module
 	'config_filter'		=> [
-		'name'		=> 'Filtr',
-		'title'		=> 'Ustawienia filtra',
+		'name'		=> 'Filtrar',
+		'title'		=> 'Configurações do filtro',
 	],
 
 	// Config Formatter module
 	'config_formatter'		=> [
-		'name'		=> 'Formatter',
-		'title'		=> 'Formatting options',
+		'name'		=> 'Formatador',
+		'title'		=> 'Opções de formatação',
 	],
 
 	// Config Notifications module
 	'config_notifications'		=> [
-		'name'		=> 'Powiadomienia',
-		'title'		=> 'Ustawienia powiadomień',
+		'name'		=> 'Notificações',
+		'title'		=> 'Notifications settings',
 	],
 
 	// Config Pages module
 	'config_pages'		=> [
-		'name'		=> 'Strony',
-		'title'		=> 'Pages and site parameters',
+		'name'		=> 'Páginas',
+		'title'		=> 'Páginas e parâmetros do site',
 	],
 
 	// Config Permissions module
 	'config_permissions'		=> [
-		'name'		=> 'Uprawnienia',
-		'title'		=> 'Ustawienia uprawnień',
+		'name'		=> 'Permissões',
+		'title'		=> 'Configurações de permissões',
 	],
 
 	// Config Security module
 	'config_security'		=> [
-		'name'		=> 'Security',
-		'title'		=> 'Security subsystems settings',
+		'name'		=> 'Segurança',
+		'title'		=> 'Configurações dos subsistemas de segurança',
 	],
 
 	// Config System module
 	'config_system'		=> [
-		'name'		=> 'System',
-		'title'		=> 'System options',
+		'name'		=> 'Sistema',
+		'title'		=> 'Opções do sistema',
 	],
 
 	// Config Upload module
 	'config_upload'		=> [
-		'name'		=> 'Upload',
-		'title'		=> 'Attachment settings',
+		'name'		=> 'Enviar',
+		'title'		=> 'Definições dos Anexos',
 	],
 
 	// Deleted module
 	'content_deleted'		=> [
-		'name'		=> 'Deleted',
+		'name'		=> 'Eliminado',
 		'title'		=> 'Newly deleted content',
 	],
 
 	// Menu module
 	'content_menu'		=> [
 		'name'		=> 'Menu',
-		'title'		=> 'Dodawanie, edytowanie lub usuwanie domyślnych elementów menu',
+		'title'		=> 'Add, edit or remove default menu items',
 	],
 
 	// DB Backup module
 	'db_backup'		=> [
-		'name'		=> 'Kopia zapasowa',
+		'name'		=> 'Cópia de segurança',
 		'title'		=> 'Backing up data',
 	],
 
 	// DB Repair module
 	'db_repair'		=> [
-		'name'		=> 'Repair',
-		'title'		=> 'Repair and Optimize Database',
+		'name'		=> 'Reparar',
+		'title'		=> 'Reparar e Otimizar o Banco de Dados',
 	],
 
 	// DB Restore module
 	'db_restore'		=> [
-		'name'		=> 'Przywracanie',
-		'title'		=> 'Restoring backup data',
+		'name'		=> 'Restaurar',
+		'title'		=> 'Restaurar dados da cópia de segurança',
 	],
 
 	// Dashboard module
 	'main'		=> [
-		'name'		=> 'Main Menu',
-		'title'		=> 'WackoWiki Administracja',
+		'name'		=> 'Menu principal',
+		'title'		=> 'Administração de WackoWiki',
 	],
 
 	// Inconsistencies module
 	'maint_inconsistencies'		=> [
-		'name'		=> 'Inconsistencies',
-		'title'		=> 'Fixing Data Inconsistencies',
+		'name'		=> 'Inconsistências',
+		'title'		=> 'Correção de inconsistências de dados',
 	],
 
 	// Data Synchronization module
 	'maint_resync'		=> [
-		'name'		=> 'Data Synchronization',
-		'title'		=> 'Synchronizing data',
+		'name'		=> 'Sincronização de dados',
+		'title'		=> 'Sincronização de dados',
 	],
 
 	// Mass email module
 	'massemail'		=> [
-		'name'		=> 'Mass email',
-		'title'		=> 'Mass email',
+		'name'		=> 'E-mails em massa',
+		'title'		=> 'E-mails em massa',
 	],
 
 	// System message module
 	'messages'		=> [
-		'name'		=> 'System message',
-		'title'		=> 'System messages',
+		'name'		=> 'Mensagem do sistema',
+		'title'		=> 'Mensagens do sistema',
 	],
 
 	// System Info module
 	'system_info'		=> [
-		'name'		=> 'System Info',
-		'title'		=> 'System Information',
+		'name'		=> 'Informação do Sistema',
+		'title'		=> 'Informação do Sistema',
 	],
 
 	// System log module
 	'system_log'		=> [
 		'name'		=> 'System log',
-		'title'		=> 'Log of system events',
+		'title'		=> 'Log de eventos do sistema',
 	],
 
 	// Statistics module
 	'system_statistics'		=> [
-		'name'		=> 'Statystyki',
-		'title'		=> 'Show statistics',
+		'name'		=> 'Estatística',
+		'title'		=> 'Mostrar estatísticas',
 	],
 
 	// Bad Behaviour module
 	'tool_badbehaviour'		=> [
-		'name'		=> 'Bad Behaviour',
-		'title'		=> 'Bad Behaviour',
+		'name'		=> 'Má conduta',
+		'title'		=> 'Má conduta',
 	],
 
 	// Registration Approval module
 	'user_approve'		=> [
-		'name'		=> 'Zatwierdź',
-		'title'		=> 'Zatwierdzenie rejestracji użytkownika',
+		'name'		=> 'Aprovar',
+		'title'		=> 'Registro do Utilizador aprovado',
 	],
 
 	// Groups module
 	'user_groups'		=> [
-		'name'		=> 'Grupy',
-		'title'		=> 'Group management',
+		'name'		=> 'Grupos',
+		'title'		=> 'Gestão de grupos',
 	],
 
 	// User module
 	'user_users'		=> [
-		'name'		=> 'Użytkownicy',
-		'title'		=> 'User management',
+		'name'		=> 'Usuários',
+		'title'		=> 'Gestão de utilizadores',
 	],
 
 	// Main module
 	'MainNote'					=> 'Note: It is recommended that access to the site be temporarily blocked for administrative maintenance.',
 
-	'PurgeSessions'				=> 'Purge',
-	'PurgeSessionsTip'			=> 'Purge all sessions',
-	'PurgeSessionsConfirm'		=> 'Are you sure you wish to purge all sessions? This will log out all users.',
-	'PurgeSessionsExplain'		=> 'Purge all sessions. This will log out all users by truncating the auth_token table.',
-	'PurgeSessionsDone'			=> 'Sessions successfully purged.',
+	'PurgeSessions'				=> 'Purgar',
+	'PurgeSessionsTip'			=> 'Terminar todas as sessões',
+	'PurgeSessionsConfirm'		=> 'Tem certeza que deseja terminar todas as sessões? Esta ação terminará as sessões de todos os utilizadores.',
+	'PurgeSessionsExplain'		=> 'Eliminar todas as sessões. Isto irá terminar a sessão de todos os utilizadores, truncando a tabela auth_token.',
+	'PurgeSessionsDone'			=> 'Sessões eliminadas com sucesso.',
 
 	// Basic settings
 	'BasicSettingsInfo'			=> '',
-	'BasicSettingsUpdated'		=> 'Updated basic settings',
-	'LogBasicSettingsUpdated'	=> 'Updated basic settings',
+	'BasicSettingsUpdated'		=> 'Definições básicas actualizadas',
+	'LogBasicSettingsUpdated'	=> 'Definições básicas actualizadas',
 
 	'SiteName'					=> 'Site Name:',
 	'SiteNameInfo'				=> 'The title of this site. Appears on browser title, theme header, email-notification, etc.',
 	'SiteDesc'					=> 'Site description:',
 	'SiteDescInfo'				=> 'Supplement to the title of the site that appears in the pages header. Explains, in a few words, what this site is about.',
 	'AdminName'					=> 'Admin of site:',
-	'AdminNameInfo'				=> 'User name of individual who is responsible for overall support of the site. This name is not used to determine access rights, but it is desirable that it conforms to the name of the chief administrator of the site.',
+	'AdminNameInfo'				=> 'Nome do utilizador, que é responsável pelo apoio geral do sítio. Este nome não é utilizado para determinar os direitos de acesso, mas é desejável que esteja em conformidade com o nome do administrador principal do sítio.',
 
-	'LanguageSection'			=> 'Język',
-	'DefaultLanguage'			=> 'Default language:',
-	'DefaultLanguageInfo'		=> 'Specifies the language of messages displayed to unregistered guests, as well as the locale settings.',
-	'MultiLanguage'				=> 'Multilanguage support:',
-	'MultiLanguageInfo'			=> 'Enable the ability to select a language on a page-by-page basis.',
-	'AllowedLanguages'			=> 'Allowed languages:',
-	'AllowedLanguagesInfo'		=> 'Zaleca się, aby wybrać tylko zestaw języków, które chcesz używać, w przeciwnym razie wszystkie języki zostaną wybrane.',
+	'LanguageSection'			=> 'Língua',
+	'DefaultLanguage'			=> 'Língua predefinida:',
+	'DefaultLanguageInfo'		=> 'Especifica o idioma das mensagens apresentadas aos convidados não registados, bem como as definições de localidade.',
+	'MultiLanguage'				=> 'Suporte multilingue:',
+	'MultiLanguageInfo'			=> 'Permitir a capacidade de selecionar uma língua numa base página a página.',
+	'AllowedLanguages'			=> 'Línguas permitidas:',
+	'AllowedLanguagesInfo'		=> 'Recomenda-se que seleccione apenas o conjunto de idiomas que pretende utilizar, caso contrário todos os idiomas são seleccionados.',
 
-	'CommentSection'			=> 'Komentarze',
+	'CommentSection'			=> 'Comentários',
 	'AllowComments'				=> 'Allow comments:',
-	'AllowCommentsInfo'			=> 'Enable comments for guests or registered users only, or disable them on the entire site.',
-	'SortingComments'			=> 'Sorting comments:',
-	'SortingCommentsInfo'		=> 'Changes the order the page comments are presented, either with the most recent OR the oldest comment at the top.',
+	'AllowCommentsInfo'			=> 'Ativar os comentários apenas para convidados ou utilizadores registados ou desactivá-los em todo o sítio.',
+	'SortingComments'			=> 'Ordenar comentários:',
+	'SortingCommentsInfo'		=> 'Altera a ordem pela qual os comentários da página são apresentados, com o comentário mais recente OU o mais antigo no topo.',
 
 	'ToolbarSection'			=> 'Toolbar',
 	'CommentsPanel'				=> 'Comments panel:',
@@ -305,27 +305,27 @@ $ap_translation = [
 	'HideRevisions'				=> 'Hide revisions:',
 	'HideRevisionsInfo'			=> 'The default display of revisions of the page.',
 	'AttachmentHandler'			=> 'Enable attachments handler:',
-	'AttachmentHandlerInfo'		=> 'Permits display of the attachments handler.',
+	'AttachmentHandlerInfo'		=> 'Permite exibir o manipulador de anexos.',
 	'SourceHandler'				=> 'Enable source handler:',
 	'SourceHandlerInfo'			=> 'Permits the display of the source handler.',
-	'ExportHandler'				=> 'Enable XML export handler:',
+	'ExportHandler'				=> 'Ativar a exportação XML:',
 	'ExportHandlerInfo'			=> 'Permits the display of the XML export handler.',
 
 	'DiffModeSection'			=> 'Diff Modes',
-	'DefaultDiffModeSetting'	=> 'Default diff mode:',
+	'DefaultDiffModeSetting'	=> 'Modo de comparação padrão:',
 	'DefaultDiffModeSettingInfo'=> 'Preselected diff mode.',
 	'AllowedDiffMode'			=> 'Allowed diff modes:',
-	'AllowedDiffModeInfo'		=> 'It is recommended to select only the set of diff modes you want to use, otherwise all diff modes are selected.',
+	'AllowedDiffModeInfo'		=> 'Recomenda-se que seleccione apenas o conjunto de modos de diferenças que pretende utilizar; caso contrário, todos os modos de diferenças são seleccionados.',
 	'NotifyDiffMode'			=> 'Notify diff mode:',
 	'NotifyDiffModeInfo'		=> 'Diff mode used for notifications in the email body.',
 
-	'EditingSection'			=> 'Edytowanie',
-	'EditSummary'				=> 'Opis zmian:',
+	'EditingSection'			=> 'Editing',
+	'EditSummary'				=> 'Sumário da edição:',
 	'EditSummaryInfo'			=> 'Shows change summary in the edit mode.',
-	'MinorEdit'					=> 'Drobna zmiana:',
+	'MinorEdit'					=> 'Alterações menores:',
 	'MinorEditInfo'				=> 'Enables minor edit option in the edit mode.',
-	'SectionEdit'				=> 'Edycja sekcji:',
-	'SectionEditInfo'			=> 'Umożliwia edycję tylko fragmentu strony.',
+	'SectionEdit'				=> 'Edição da secção:',
+	'SectionEditInfo'			=> 'Permite a edição apenas de uma secção de uma página.',
 	'ReviewSettings'			=> 'Review:',
 	'ReviewSettingsInfo'		=> 'Enables review option in the edit mode.',
 	'PublishAnonymously'		=> 'Allow anonymous publishing:',
@@ -338,42 +338,42 @@ $ap_translation = [
 	'KeepDeletedTime'			=> 'Storage time of deleted pages:',
 	'KeepDeletedTimeInfo'		=> 'The period in days. It makes sense only with the previous option. Use zero to ensure entities are never deleted (in this case the administrator can clear the "cart" manually).',
 	'PagesPurgeTime'			=> 'Storage time of page revisions:',
-	'PagesPurgeTimeInfo'		=> 'Automatically deletes the older versions within the given number of days. If you enter zero, the older versions will not be removed.',
+	'PagesPurgeTimeInfo'		=> 'Elimina automaticamente as versões mais antigas dentro do número de dias indicado. Se introduzir zero, as versões mais antigas não serão removidas.',
 	'EnableReferrers'			=> 'Enable referrers:',
 	'EnableReferrersInfo'		=> 'Permits creation and display of external referrers.',
 	'ReferrersPurgeTime'		=> 'Storage time of referrers:',
-	'ReferrersPurgeTimeInfo'	=> 'Przechowuj historię odsyłania stron zewnętrznych nie dłużej niż przez określoną liczbę dni. Zero oznacza wieczne przechowywanie, ale dla aktywnie odwiedzanej strony może to prowadzić do przepełnienia bazy danych.',
+	'ReferrersPurgeTimeInfo'	=> 'Manter o histórico de referência de páginas externas não mais do que um determinado número de dias. Zero significa armazenamento eterno, mas para um site visitado activamente isto pode levar ao transbordamento da base de dados.',
 	'EnableCounters'			=> 'Hit Counters:',
-	'EnableCountersInfo'		=> 'Allows per page hit counters and enables display of simple statistics. Views of the page owner are not counted.',
+	'EnableCountersInfo'		=> 'Permite a contagem de acertos por página e permite a exibição de estatísticas simples. As chamadas do proprietário da página não são contadas.',
 
 	// Syndication settings
-	'SyndicationSettingsInfo'		=> 'Control default web syndication settings for your site.',
-	'SyndicationSettingsUpdated'	=> 'Updated syndication settings.',
+	'SyndicationSettingsInfo'		=> 'Controlar as definições predefinidas de sindicação da Web para o seu site.',
+	'SyndicationSettingsUpdated'	=> 'Definições de sindicação actualizadas.',
 
-	'FeedsSection'				=> 'Feeds',
+	'FeedsSection'				=> 'Atividade',
 	'EnableFeeds'				=> 'Enable feeds:',
-	'EnableFeedsInfo'			=> 'Włącza lub wyłącza zasilanie RSS dla całej wiki.',
-	'XmlChangeLink'				=> 'Changes feed link mode:',
-	'XmlChangeLinkInfo'			=> 'Defines where the XML Changes feed items links to.',
+	'EnableFeedsInfo'			=> 'Liga ou desliga os feeds RSS para todo o wiki.',
+	'XmlChangeLink'				=> 'Altera o modo de ligação do feed::',
+	'XmlChangeLinkInfo'			=> 'Define o local para onde os itens do feed de Alterações XML estão ligados.',
 	'XmlChangeLinkMode'			=> [
-		'1'		=> 'różnice',
-		'2'		=> 'aktualna strona',
-		'3'		=> 'lista zmian',
-		'4'		=> 'zmodyfikowana strona',
+		'1'		=> 'visualizar diferenças',
+		'2'		=> 'página atual',
+		'3'		=> 'lista de revisões',
+		'4'		=> 'página revista',
 	],
 
 	'XmlSitemap'				=> 'XML sitemap:',
-	'XmlSitemapInfo'			=> 'Creates an XML file called %1 inside the xml folder. You can add the path to the sitemap in the robots.txt file in your root directory as follows:',
-	'XmlSitemapGz'				=> 'XML sitemap compression:',
-	'XmlSitemapGzInfo'			=> 'If you would like, you may compress your sitemap text file using gzip to reduce your bandwidth requirement.',
-	'XmlSitemapTime'			=> 'XML sitemap generation time:',
-	'XmlSitemapTimeInfo'		=> 'Generuje mapę Sitemap tylko raz w danej liczbie dni, zero oznacza na każdej zmianie strony.',
+	'XmlSitemapInfo'			=> 'Cria um ficheiro XML chamado %1 dentro da pasta xml. Pode adicionar o caminho para o mapa do site no ficheiro robots.txt no seu diretório raiz da seguinte forma:',
+	'XmlSitemapGz'				=> 'Compressão do Sitemap XML:',
+	'XmlSitemapGzInfo'			=> 'Se desejar, pode comprimir o ficheiro de texto do Sitemap utilizando gzip para reduzir os requisitos de largura de banda.',
+	'XmlSitemapTime'			=> 'Tempo de geração do Sitemap XML:',
+	'XmlSitemapTimeInfo'		=> 'Gera o Mapa do Sítio apenas uma vez no determinado número de dias, zero significa em cada mudança de página.',
 
-	'SearchSection'				=> 'Znajdź',
+	'SearchSection'				=> 'Pesquisa',
 	'OpenSearch'				=> 'OpenSearch:',
-	'OpenSearchInfo'			=> 'Tworzy plik opisu OpenSearch w katalogu XML i włącza Autodiscovery pluginu wyszukiwania w nagłówku HTML.',
-	'SearchEngineVisibility'	=> 'Block search engines (search engine visibility):',
-	'SearchEngineVisibilityInfo'=> 'Block search engines, but allow normal visitors. Overrides page settings. <br>Discourage search engines from indexing this site. It is up to search engines to honor this request.',
+	'OpenSearchInfo'			=> 'Cria o ficheiro de descrição OpenSearch na pasta XML e permite a Autodiscovery do plugin de pesquisa no cabeçalho HTML.',
+	'SearchEngineVisibility'	=> 'Bloquear os motores de busca (Visibilidade nos motores de busca):',
+	'SearchEngineVisibilityInfo'=> 'Bloqueia os motores de busca, mas permite visitantes normais. Substitui as definições da página. <br>Desencorajar os motores de busca de indexar este sítio, cabe aos motores de busca honrar este pedido.',
 
 
 
@@ -381,24 +381,24 @@ $ap_translation = [
 	'AppearanceSettingsInfo'	=> 'Control default display settings for your site.',
 	'AppearanceSettingsUpdated'	=> 'Updated appearance settings.',
 
-	'LogoOff'					=> 'Wyłączony',
+	'LogoOff'					=> 'Desligado',
 	'LogoOnly'					=> 'logo',
 	'LogoAndTitle'				=> 'logo and title',
 
 	'LogoSection'				=> 'Logo',
-	'SiteLogo'					=> 'Logo strony:',
-	'SiteLogoInfo'				=> 'Your logo will typically appear at the top left corner of the application. Max size is 2 MiB. Optimal dimensions are 255 pixels wide by 55 pixels high.',
+	'SiteLogo'					=> 'Site logo:',
+	'SiteLogoInfo'				=> 'O seu logótipo aparecerá normalmente no canto superior esquerdo da aplicação. O tamanho máximo é de 2 MiB. As dimensões ideais são 255 píxeis de largura por 55 píxeis de altura.',
 	'LogoDimensions'			=> 'Logo dimensions:',
-	'LogoDimensionsInfo'		=> 'Width and height of the displayed logo.',
+	'LogoDimensionsInfo'		=> 'Largura e altura do logótipo apresentado.',
 	'LogoDisplayMode'			=> 'Logo display mode:',
-	'LogoDisplayModeInfo'		=> 'Defines the appearance of the logo. Default is off.',
+	'LogoDisplayModeInfo'		=> 'Define o aspeto do logótipo. A predefinição é desligado.',
 
 	'FaviconSection'			=> 'Favicon',
 	'SiteFavicon'				=> 'Site favicon:',
-	'SiteFaviconInfo'			=> 'Your shortcut icon, or favicon, is displayed in the address bar, tabs and bookmarks of most browsers. This will override the favicon of your theme.',
-	'SiteFaviconTooBig'			=> 'Favicon jest większy niż 64 × 64px.',
-	'ThemeColor'				=> 'Kolor motywu dla paska adresu:',
-	'ThemeColorInfo'			=> 'Przeglądarka ustawi kolor paska adresu każdej strony zgodnie z podanym kolorem CSS.',
+	'SiteFaviconInfo'			=> 'O seu ícone de atalho, ou favicon, é apresentado na barra de endereço, nos separadores e nos favoritos da maioria dos browsers. Isto irá substituir o favicon do seu tema.',
+	'SiteFaviconTooBig'			=> 'O Favicon é maior que 64 × 64px.',
+	'ThemeColor'				=> 'Cor do tema para a barra de endereços:',
+	'ThemeColorInfo'			=> 'O navegador irá definir a cor da barra de endereço de cada página de acordo com a cor CSS fornecida.',
 
 	'LayoutSection'				=> 'Layout',
 	'Theme'						=> 'Theme:',
@@ -469,20 +469,20 @@ $ap_translation = [
 
 	'ReverseProxySection'		=> 'Reverse Proxy',
 	'ReverseProxy'				=> 'Use reverse proxy:',
-	'ReverseProxyInfo'			=> 'Włącz to ustawienie, aby określić prawidłowy adres IP zdalnego klienta, analizując informacje z
-									apisane w nagłówkach X-Forwarded-For. Nagłówki X-Forwarded-For są standardowym mechanizmem
-									identyfikacji systemów klienckich łączących się przez odwrotny serwer proxy, taki jak Squid lub Pound.
-									Odwrócone serwery proxy są często używane w celu zwiększenia wydajności często odwiedzanych witryn,
-									a także w celu zapewnienia innych korzyści związanych z buforowaniem, bezpieczeństwem lub szyfrowaniem.
-									Jeśli instalacja WackoWiki działa za pośrednictwem serwera proxy, ustawienie to powinno być włączone,
-									aby poprawne informacje o adresie IP były przechwytywane przez systemy zarządzania sesjami,
-									logowania, statystyk i zarządzania dostępem w WackoWiki; jeśli nie masz pewności co do tego ustawienia,
-									nie masz serwera proxy lub WackoWiki działa w środowisku hostingu współdzielonego,
-									ustawienie to powinno pozostać wyłączone.',
+	'ReverseProxyInfo'			=> 'Habilitar esta configuração para determinar o endereço IP correcto do cliente remoto,
+									examinando a informação armazenada nos cabeçalhos do X-Forwarded-For. X-Forwarded-For headers
+									são um mecanismo padrão para identificar sistemas clientes que se ligam através de um servidor
+									proxy reverso, como o Squid ou o Pound. Os servidores proxy reversos são frequentemente utilizados
+									para melhorar o desempenho de sites muito visitados e podem também proporcionar outros benefícios
+									de cache, segurança ou encriptação de sites. Se esta instalação WackoWiki funcionar por detrás de
+									um proxy reverso, esta configuração deve ser activada para que a informação correcta do endereço IP
+									seja capturada na gestão de sessões, registo, estatísticas e sistemas de gestão de acesso de WackoWiki;
+									se não tiver a certeza sobre esta configuração, não tenha um proxy reverso, ou WackoWiki funcione
+									num ambiente de alojamento partilhado, esta configuração deve permanecer desactivada.',
 	'ReverseProxyHeader'		=> 'Reverse proxy header:',
-	'ReverseProxyHeaderInfo'	=> 'Ustaw tę wartość, jeśli Twój serwer proxy wysyła IP klienta w nagłówku innym
-									niż X-Forwarded-For. Nagłówek "X-Forwarded-For" to lista adresów IP oddzielonych
-									przecinkami i spacjami, z których tylko ostatni (najbardziej wysunięty w lewo) będzie używany.',
+	'ReverseProxyHeaderInfo'	=> 'Defina este valor se o seu servidor proxy enviar o IP do cliente num cabeçalho
+									diferente de X-Forwarded-For. O cabeçalho "X-Forwarded-For" é uma lista de endereços
+									IP separada por vírgula+espaço, apenas o último (o mais à esquerda) será utilizado.',
 	'ReverseProxyAddresses'		=> 'reverse_proxy accepts an array of IP addresses:',
 	'ReverseProxyAddressesInfo'	=> 'Each element of this array is the IP address of any of your reverse
 									 proxies. If using this array, WackoWiki will trust the information stored
@@ -495,20 +495,20 @@ $ap_translation = [
 	'SessionStorage'				=> 'Session storage:',
 	'SessionStorageInfo'			=> 'This option defines where the the session data is stored. By default, either file or database session storage is selected.',
 	'SessionModes'	=> [
-		'1'		=> 'Plik',
-		'2'		=> 'Baza danych',
+		'1'		=> 'Ficheiro',
+		'2'		=> 'Base de dados',
 	],
-	'SessionNotice'					=> 'Pokaż przyczynę zakończenia sesji:',
-	'SessionNoticeInfo'				=> 'Wskazuje przyczynę zakończenia sesji.',
-	'LoginNotice'					=> 'Powiadomienie o logowaniu:',
-	'LoginNoticeInfo'				=> 'Wyświetla powiadomienie o logowaniu.',
+	'SessionNotice'					=> 'Mostrar causa de encerramento da sessão:',
+	'SessionNoticeInfo'				=> 'Indica a causa do encerramento da sessão.',
+	'LoginNotice'					=> 'Aviso de início de sessão:',
+	'LoginNoticeInfo'				=> 'Apresenta um aviso de início de sessão.',
 
 	'RewriteMode'					=> 'Use <code>mod_rewrite</code>:',
 	'RewriteModeInfo'				=> 'If your web server supports this feature, enable to "beautify" the page URLs.<br>
 										<span class="cite">The value might be  overwritten by the Settings class at runtime, regardless of whether it is switched off, if HTTP_MOD_REWRITE is on.',
 
 	// Permissions settings
-	'PermissionsSettingsInfo'		=> 'Parameters responsible for Access control and permissions.',
+	'PermissionsSettingsInfo'		=> 'Parâmetros responsáveis pelo controlo de acesso e permissões.',
 	'PermissionsSettingsUpdated'	=> 'Updated permissions settings',
 
 	'PermissionsSection'		=> 'Rights and Privileges',
@@ -536,16 +536,16 @@ $ap_translation = [
 	'OwnersEditCategories'		=> 'Owners can edit page categories:',
 	'OwnersEditCategoriesInfo'	=> 'Allow owners to modify the pages category list of your site (add words, delete words), assigns to a page.',
 	'TermHumanModeration'		=> 'Human moderation expiration:',
-	'TermHumanModerationInfo'	=> 'Moderatorzy mogą edytować komentarze tylko wtedy, gdy zostały one utworzone nie więcej niż przed tą liczbą dni (to ograniczenie nie dotyczy ostatniego komentarza w temacie).',
+	'TermHumanModerationInfo'	=> 'Os moderadores só podem editar comentários se tiverem sido criados não mais do que este número de dias atrás (esta limitação não se aplica ao último comentário no tópico).',
 
-	'UserCanDeleteAccount'		=> 'Użytkownicy mogą usuwać swoje konta',
+	'UserCanDeleteAccount'		=> 'Os utilizadores podem eliminar as suas contas',
 
 	// Security settings
 	'SecuritySettingsInfo'		=> 'Parameters responsible for the overall safety of the platform, safety restrictions and additional security subsystems.',
 	'SecuritySettingsUpdated'	=> 'Updated security settings',
 
 	'AllowRegistration'			=> 'Register online:',
-	'AllowRegistrationInfo'		=> 'Otwórz rejestrację użytkownika. Wyłączenie tej opcji uniemożliwi bezpłatną rejestrację, jednak administrator strony będzie mógł sam zarejestrować innych użytkowników.',
+	'AllowRegistrationInfo'		=> 'Registo de utilizador aberto. A desactivação desta opção impedirá o registo gratuito, no entanto, o próprio administrador do sítio poderá registar outros utilizadores.',
 	'ApproveNewUser'			=> 'Approve new users:',
 	'ApproveNewUserInfo'		=> 'Allows administrators to approve users once they register. Only approved users will be allowed to log in the site.',
 	'PersistentCookies'			=> 'Persistent cookies:',
@@ -558,12 +558,12 @@ $ap_translation = [
 	'EmailSection'				=> 'Email',
 	'AllowEmailReuse'			=> 'Allow email address re-use:',
 	'AllowEmailReuseInfo'		=> 'Different users can register with the same email address.',
-	'EmailConfirmation'			=> 'Wymuś potwierdzenie e-mail:',
-	'EmailConfirmationInfo'		=> 'Wymaga, aby użytkownik zweryfikował swój adres e-mail, zanim będzie mógł się zalogować.',
-	'AllowedEmailDomains'		=> 'Dozwolone domeny e-mail:',
-	'AllowedEmailDomainsInfo'	=> 'Dozwolone domeny e-mail oddzielone przecinkami, np. <code>example.com, local.lan</code> itd., w przeciwnym razie wszystkie domeny e-mail są dozwolone.',
-	'ForbiddenEmailDomains'		=> 'Zabronione domeny e-mail:',
-	'ForbiddenEmailDomainsInfo'	=> 'Zakazane domeny e-mail oddzielone przecinkami, np. <code>example.com, local.lan</code> itp. (działa tylko wtedy, gdy lista dozwolonych domen e-mail jest pusta)',
+	'EmailConfirmation'			=> 'Impor confirmação por correio eletrónico:',
+	'EmailConfirmationInfo'		=> 'Requer que o utilizador verifique o seu endereço de correio eletrónico antes de poder iniciar sessão.',
+	'AllowedEmailDomains'		=> 'Domínios de correio eletrónico permitidos:',
+	'AllowedEmailDomainsInfo'	=> 'Domínios de correio eletrónico permitidos separados por vírgulas, por exemplo, <code>example.com, local.lan</code> etc., caso contrário, todos os domínios de correio eletrónico são permitidos.',
+	'ForbiddenEmailDomains'		=> 'Domínios de correio eletrónico proibidos:',
+	'ForbiddenEmailDomainsInfo'	=> 'Domínios de correio eletrónico proibidos separados por vírgulas, por exemplo, <code>example.com, local.lan</code> etc. (só é eficaz se a lista de domínios de correio eletrónico permitidos estiver vazia)',
 
 	'CaptchaSection'			=> 'CAPTCHA',
 	'EnableCaptcha'				=> 'Enable captcha:',
@@ -574,7 +574,7 @@ $ap_translation = [
 	'CaptchaPageInfo'			=> 'As protection against spam, unregistered users must complete captcha before creating a new page.',
 	'CaptchaEdit'				=> 'Edit page:',
 	'CaptchaEditInfo'			=> 'As protection against spam, unregistered users must complete captcha before editing pages.',
-	'CaptchaRegistration'		=> 'Rejestracja:',
+	'CaptchaRegistration'		=> 'Criar conta:',
 	'CaptchaRegistrationInfo'	=> 'As protection against spam, unregistered users must complete captcha before registering.',
 
 	'TlsSection'				=> 'TLS Settings',
@@ -594,7 +594,7 @@ $ap_translation = [
 		'2'		=> 'custom',
 	],
 	'PermissionsPolicy'			=> 'Permissions policy:',
-	'PermissionsPolicyInfo'		=> 'Nagłówek HTTP Permissions-Policy udostępnia mechanizm wyraźnego włączania lub wyłączania różnych zaawansowanych funkcji przeglądarki.',
+	'PermissionsPolicyInfo'		=> 'O cabeçalho HTTP Permissions-Policy fornece um mecanismo para activar ou desactivar explicitamente várias funcionalidades poderosas do navegador.',
 	'ReferrerPolicy'			=> 'Referrer policy:',
 	'ReferrerPolicyInfo'		=> 'The Referrer-Policy HTTP header governs which referrer information, sent in the Referer header, should be included in responses.',
 	'ReferrerPolicyModes'	=> [
@@ -628,7 +628,7 @@ $ap_translation = [
 		'2'		=> 'password does not contain username',
 	],
 
-	'LoginSection'				=> 'Login',
+	'LoginSection'				=> 'Conecte-se',
 	'MaxLoginAttempts'			=> 'Maximum number of login attempts per username:',
 	'MaxLoginAttemptsInfo'		=> 'The number of login attempts allowed for a single account before the anti-spambot task is triggered. Enter 0 to prevent the anti-spambot task from being triggered for distinct user accounts.',
 	'IpLoginLimitMax'			=> 'Maximum number of login attempts per IP address:',
@@ -636,7 +636,7 @@ $ap_translation = [
 
 	'FormsSection'				=> 'Forms',
 	'FormTokenTime'				=> 'Maximum time to submit forms:',
-	'FormTokenTimeInfo'			=> 'Czas, w którym użytkownik musi przesłać formularz (w sekundach).<br> Należy pamiętać, że formularz może stać się nieważny po zakończeniu sesji, niezależnie od tego ustawienia.',
+	'FormTokenTimeInfo'			=> 'O tempo que um utilizador tem de submeter um formulário (em segundos).<br> Note que um formulário pode tornar-se inválido se a sessão expirar, independentemente desta configuração.',
 
 	'SessionLength'				=> 'Session cookie expiration:',
 	'SessionLengthInfo'			=> 'The lifetime of the user session cookie by default (in days).',
@@ -665,10 +665,10 @@ $ap_translation = [
 	'X11colors'					=> 'X11 colors usage:',
 	'X11colorsInfo'				=> 'Extends the available colors for <code>??(color) background??</code> and <code>!!(color) text!!</code>Disabling this option speeds up the processes of adding comments and saving pages.',
 	'WikiLinks'					=> 'Disable wiki links:',
-	'WikiLinksInfo'				=> 'Disables linking for <code>CamelCaseWords</code>: Your CamelCase words will no longer be linked directly to a new page. This is useful when you work across different namespaces/clusters. By default it is off.',
+	'WikiLinksInfo'				=> 'Desactiva a ligação para <code>CamelCaseWords</code>, as suas Palavras CamelCase não serão mais ligadas directamente a uma nova página. Isto é útil quando se trabalha em diferentes namespaces aks clusters. Por defeito, está desligado.',
 	'BracketsLinks'				=> 'Disable bracketed links:',
 	'BracketsLinksInfo'			=> 'Disables <code>[[link]]</code> and <code>((link))</code> syntax.',
-	'Formatters'				=> 'Disable formatters:',
+	'Formatters'				=> 'Desativar formatadores:',
 	'FormattersInfo'			=> 'Disables <code>%%code%%</code> syntax, used for highlighters.',
 
 	'DateFormatsSection'		=> 'Date Formats',
@@ -680,20 +680,20 @@ $ap_translation = [
 	'TimeFormatSecondsInfo'		=> '(hours, minutes, seconds)',
 	'NameDateMacro'				=> 'The format of the <code>::@::</code> macro:',
 	'NameDateMacroInfo'			=> '(name, time), e.g. <code>UserName (17.11.2016 16:48)</code>',
-	'Timezone'					=> 'Strefa czasowa:',
-	'TimezoneInfo'				=> 'Strefa czasowa, która ma być używana do wyświetlania czasu niezalogowanym użytkownikom (gościom). Zalogowani użytkownicy ustawiają i mogą zmieniać swoją strefę czasową w ustawieniach użytkownika.',
+	'Timezone'					=> 'Fuso Horário:',
+	'TimezoneInfo'				=> 'Fuso horário a utilizar para mostrar os horários aos utilizadores que não estão ligados (convidados). Os utilizadores com sessão iniciada definem e podem alterar o seu fuso horário nas suas definições de utilizador.',
 
-	'Canonical'					=> 'Kanoniczne adresy URL:',
-	'CanonicalInfo'				=> 'Wszystkie linki są tworzone jako bezwzględne adresy URL w postaci %1. Należy preferować adresy URL w stosunku do korzenia serwera w postaci %2.',
+	'Canonical'					=> 'Usar URLs absolutas:',
+	'CanonicalInfo'				=> 'Todos os links são criados como URLs absolutos no formulário %1. Os URLs relativos à raiz do servidor no formulário %2 devem ser preferidos.',
 	'LinkTarget'				=> 'Where external links open:',
-	'LinkTargetInfo'			=> 'Otwiera każde zewnętrzne łącze w nowym oknie przeglądarki. Dodaje <code>target="_blank"</code> do składni linku.',
+	'LinkTargetInfo'			=> 'Abre cada ligação externa numa nova janela do navegador. Adiciona <code>target="_blank"</code> à sintaxe do link.',
 	'Noreferrer'				=> 'noreferrer:',
-	'NoreferrerInfo'			=> 'Wymaga, aby przeglądarka nie wysyłała nagłówka referenta HTTP, jeśli użytkownik podąża za hiperłączem. Dodaje <code>rel="noreferrer"</code> do składni linku.',
+	'NoreferrerInfo'			=> 'Requer que o browser não deve enviar um cabeçalho de referência HTTP se o utilizador seguir o hiperlink. Adiciona <code>rel="noreferrer"</code> à sintaxe do link.',
 	'Nofollow'					=> 'nofollow:',
-	'NofollowInfo'				=> 'Należy poinstruować niektóre wyszukiwarki, że hiperłącze nie powinno mieć wpływu na ranking linków docelowych w indeksie wyszukiwarek. Dodaje <code>rel="nofollow"</code> do składni linku.',
+	'NofollowInfo'				=> 'Instrua alguns motores de busca que o hiperlink não deve influenciar a classificação dos links alvo no índice dos motores de busca. Adiciona <code>rel="nofollow"</code> à sintaxe da hiperligação.',
 	'UrlsUnderscores'			=> 'Form addresses (URLs) with underscores:',
 	'UrlsUnderscoresInfo'		=> 'For example, %1 becames %2 with this option.',
-	'ShowSpaces'				=> 'Wyświetlaj NazwyWiki z odstępem:',
+	'ShowSpaces'				=> 'Mostrar espaço em WikiNames:',
 	'ShowSpacesInfo'			=> 'Show spaces in WikiNames, e.g. <code>MyName</code> being displayed as <code>My Name</code> with this option.',
 	'NumerateLinks'				=> 'Enumerate links in print view:',
 	'NumerateLinksInfo'			=> 'Enumerates and lists all links at the bottom of the print view with this option.',
@@ -701,13 +701,13 @@ $ap_translation = [
 	'YouareHereTextInfo'		=> 'Visualize links to the same page, using <code>&lt;b&gt;####&lt;/b&gt;</code>. All links to self lose link formatting, but are displayed as bold text.',
 
 	// Pages settings
-	'PagesSettingsInfo'			=> 'Tutaj możesz ustawić lub zmienić strony bazowe systemu używane w Wiki. Upewnij się, że nie zapomniałeś utworzyć lub zmienić odpowiednich stron w Wiki zgodnie z Twoimi ustawieniami tutaj.',
+	'PagesSettingsInfo'			=> 'Aqui pode definir ou alterar as páginas base do sistema utilizadas dentro do Wiki. Por favor não se esqueça de criar ou alterar as páginas correspondentes no Wiki de acordo com as suas definições aqui.',
 	'PagesSettingsUpdated'		=> 'Updated settings base pages',
 
 	'ListCount'					=> 'Number of items per list:',
 	'ListCountInfo'				=> 'Number of items displayed on each list for guest, or as default value for new users.',
 
-	'ForumSection'				=> 'Ustawienia forum',
+	'ForumSection'				=> 'Options Forum',
 	'ForumCluster'				=> 'Cluster forum:',
 	'ForumClusterInfo'			=> 'Root cluster for forum section (action %1).',
 	'ForumTopics'				=> 'Number of topics per page:',
@@ -721,7 +721,7 @@ $ap_translation = [
 	'NewsStructure'				=> 'News cluster structure:',
 	'NewsStructureInfo'			=> 'Stores the articles optionally in sub-clusters by year/month or week (e.g. <code>[cluster]/[year]/[month]</code>).',
 
-	'LicenseSection'			=> 'Licencja',
+	'LicenseSection'			=> 'Licença',
 	'DefaultLicense'			=> 'Default license:',
 	'DefaultLicenseInfo'		=> 'Under which license your content can be released.',
 	'EnableLicense'				=> 'Enable license:',
@@ -733,15 +733,15 @@ $ap_translation = [
 	'RootPage'					=> 'Home page:',
 	'RootPageInfo'				=> 'Tag of your main page, opens automatically when a user visits your site.',
 
-	'PrivacyPage'				=> 'Polityka ochrony prywatności:',
+	'PrivacyPage'				=> 'Política de privacidade:',
 	'PrivacyPageInfo'			=> 'The page with the Privacy Policy of the site.',
 
 	'TermsPage'					=> 'Policies and regulations:',
 	'TermsPageInfo'				=> 'The page with the rules of the site.',
 
-	'SearchPage'				=> 'Znajdź:',
+	'SearchPage'				=> 'Pesquisa:',
 	'SearchPageInfo'			=> 'Page with the search form (action %1).',
-	'RegistrationPage'			=> 'Rejestracja:',
+	'RegistrationPage'			=> 'CriarConta:',
 	'RegistrationPageInfo'		=> 'Page for new user registration (action %1).',
 	'LoginPage'					=> 'User login:',
 	'LoginPageInfo'				=> 'Login page on the site (action %1).',
@@ -751,11 +751,11 @@ $ap_translation = [
 	'PasswordPageInfo'			=> 'Page with a form to change / query user password (action %1).',
 	'UsersPage'					=> 'User list:',
 	'UsersPageInfo'				=> 'Page with a list of registered users (action %1).',
-	'CategoryPage'				=> 'Kategoria:',
+	'CategoryPage'				=> 'Categoria:',
 	'CategoryPageInfo'			=> 'Page with a list of categorized pages (action %1).',
-	'GroupsPage'				=> 'Grupy:',
+	'GroupsPage'				=> 'Grupos:',
 	'GroupsPageInfo'			=> 'Page with a list of working groups (action %1).',
-	'ChangesPage'				=> 'Ostatnie Zmiany:',
+	'ChangesPage'				=> 'Recent changes:',
 	'ChangesPageInfo'			=> 'Page with a list of the last modified pages (action %1).',
 	'CommentsPage'				=> 'Recent comments:',
 	'CommentsPageInfo'			=> 'Page with a list of recent comment on the page (action %1).',
@@ -767,12 +767,12 @@ $ap_translation = [
 	'OrphanedPageInfo'			=> 'Page with a list of existing pages are not related via links to any other page (action %1).',
 	'SandboxPage'				=> 'Sandbox:',
 	'SandboxPageInfo'			=> 'Page where users can practice their wiki markup skills.',
-	'HelpPage'					=> 'Pomoc:',
+	'HelpPage'					=> 'Socorro:',
 	'HelpPageInfo'				=> 'The documentation section for working with site tools.',
 	'IndexPage'					=> 'Index:',
-	'IndexPageInfo'				=> 'Strona z listą wszystkich stron (action %1).',
-	'RandomPage'				=> 'Losową:',
-	'RandomPageInfo'			=> 'Ładuje losowo wybraną stronę  (action %1).',
+	'IndexPageInfo'				=> 'Página com uma lista de todas as páginas (action %1).',
+	'RandomPage'				=> 'Aleatória:',
+	'RandomPageInfo'			=> 'Carrega uma página aleatória  (action %1).',
 
 
 	// Notification settings
@@ -797,14 +797,14 @@ $ap_translation = [
 	'NotifyUpload'				=> 'Notify file upload:',
 	'NotifyUploadInfo'			=> 'The Moderators will to be notified when a file has been uploaded.',
 
-	'PersonalMessagesSection'	=> 'Wiadomości osobiste',
+	'PersonalMessagesSection'	=> 'Mensagens pessoais',
 	'AllowIntercomDefault'		=> 'Allow intercom:',
 	'AllowIntercomDefaultInfo'	=> 'Enabling this option allows other users to send personal messages to the recipient\'s email address without disclosing the address.',
 	'AllowMassemailDefault'		=> 'Allow mass email:',
 	'AllowMassemailDefaultInfo'	=> 'Only send messages to those users who have permitted administrators to email them information.',
 
 	// Resync settings
-	'Synchronize'				=> 'synchronizować',
+	'Synchronize'				=> 'sincronizar',
 	'UserStatsSynched'			=> 'User Statistics synchronized.',
 	'PageStatsSynched'			=> 'Page Statistics synchronized.',
 	'FeedsUpdated'				=> 'RSS-feeds updated.',
@@ -822,9 +822,9 @@ $ap_translation = [
 	'PageStats'					=> 'Page statistics',
 	'PageStatsInfo'				=> 'Page statistics (number of comments, files and revisions) may differ in some situations from actual data. <br>This operation allows updating statistics to match actual data contained in database.',
 
-	'AttachmentsInfo'			=> 'Aktualizuje hash pliku dla wszystkich załączników w bazie danych.',
-	'AttachmentsSynched'		=> 'Re-hashed all file attachments',
-	'LogAttachmentsSynched'		=> 'Re-hashed all file attachments',
+	'AttachmentsInfo'			=> 'Actualiza o hash do ficheiro para todos os anexos da base de dados.',
+	'AttachmentsSynched'		=> 'Reescrever todos os anexos dos ficheiros',
+	'LogAttachmentsSynched'		=> 'Reescrever todos os anexos dos ficheiros',
 
 	'Feeds'						=> 'Feeds',
 	'FeedsInfo'					=> 'In the case of direct editing of pages in the database, the content of RSS-feeds may not reflect the changes made. <br>This function synchronizes the RSS-channels with the current state of the database.',
@@ -839,27 +839,27 @@ $ap_translation = [
 
 	'WikiLinksResync'			=> 'Wiki-links',
 	'WikiLinksResyncInfo'		=> 'Performs a re-rendering for all intrasite links and restores the contents of the <code>page_link</code> and <code>file_link</code> tables in the event of damage or relocation (this can take considerable time).',
-	'RecompilePage'				=> 'Ponowne kompilowanie wszystkich stron (bardzo drogie)',
-	'ResyncOptions'				=> 'Dodatkowe opcje',
+	'RecompilePage'				=> 'Recopilando todas as páginas (extremamente caras)',
+	'ResyncOptions'				=> 'Additional options',
 	'RecompilePageLimit'		=> 'Number of pages to parse at once.',
 
 	// Email settings
-	'EmaiSettingsInfo'			=> 'Te informacje są używane przez witrynę podczas wysyłania e-maili do użytkowników. Sprawdź czy podany adres e-mail jest ważnym adresem, ponieważ wszystkie zwrócone lub niedostarczone wiadomości będą prawdopodobnie odsyłane na ten adres. Jeśli serwer nie udostępnia natywnych (opartych na PHP) usług e-mail, można wysyłać wiadomości bezpośrednio, używając protokołu SMTP. Wymaga to adresu odpowiedniego serwera. Jeśli go nie znasz, zapytaj o niego swojego usługodawcę. Jeśli serwer wymaga uwierzytelnienia (i tylko, jeśli wymaga), wprowadź nazwę użytkownika, hasło i metodę uwierzytelniania.',
+	'EmaiSettingsInfo'			=> 'Esta informação é usada quando o Fórum envia emails aos Utilizadores. Certifique-se que usa um email válido. Qualquer Mensagem incorreta não será entregue neste endereço. Se o seu serviço de hospedagem não oferece um serviço nativo de email baseado no PHP, pode enviar mensagens através de SMTP. É necessário um Servidor adequado, não especifique qualquer nome antigo aqui! Se o servidor requer autenticação, introduza os nomes e senhas necessários. tenha em atenção que apenas é usada a autenticação básica. Implementações de autenticações diferentes não estão disponíveis.',
 
 	'EmailSettingsUpdated'		=> 'Updated Email settings',
 
-	'EmailFunctionName'			=> 'Nazwa funkcji:',
-	'EmailFunctionNameInfo'		=> 'Nazwa funkcji e-maila używana do wysyłania maili przez PHP.',
-	'UseSmtpInfo'				=> 'Wybierz <code>SMTP</code> , jeśli takie jest twoje życzenie lub trzeba wysyłać wiadomości e-mail przez dany serwer zamiast przez lokalną funkcję pocztową.',
+	'EmailFunctionName'			=> 'Nome da Função de email:',
+	'EmailFunctionNameInfo'		=> 'Função de email usada para enviar emails através do PHP.',
+	'UseSmtpInfo'				=> 'Select <code>SMTP</code> se quer ou tem que enviar os emails recorrendo a um Servidor SMTP em vez da função de email do Servidor.',
 
-	'EnableEmail'				=> 'E-mail do wszystkich:',
+	'EnableEmail'				=> 'Enable emails:',
 	'EnableEmailInfo'			=> 'Enable sending of emails.',
 
-	'EmailIdentitySettings'		=> 'Tożsamość witryny e-mail',
+	'EmailIdentitySettings'		=> 'Website E-mails Identidade',
 	'FromEmailName'				=> 'From Name:',
 	'FromEmailNameInfo'			=> 'The sender name that is use for the <code>From:</code> header for all email notifications sent from the site.',
-	'EmailSubjectPrefix'		=> 'Prefiks tematu:',
-	'EmailSubjectPrefixInfo'	=> 'Alternatywny prefiks tematu wiadomości e-mail, np. <code>[Prefiks] Tematu</code>. Jeśli nie zostanie zdefiniowany, domyślnym prefiksem jest Site Name: %1.',
+	'EmailSubjectPrefix'		=> 'Prefixo do assunto:',
+	'EmailSubjectPrefixInfo'	=> 'Prefixo alternativo do assunto do correio eletrónico, por exemplo, <code>[Prefixo] Tópico</code>. Se não for definido, o prefixo predefinido é Nome do sítio: %1.',
 
 	'NoReplyEmail'				=> 'No-reply address:',
 	'NoReplyEmailInfo'			=> 'This address, e.g. <code>noreply@example.com</code>, will appear in the <code>From:</code> email address field of all email notifications sent from the site.',
@@ -868,68 +868,68 @@ $ap_translation = [
 	'AbuseEmail'				=> 'Email abuse service:',
 	'AbuseEmailInfo'			=> 'Address requests for urgent matters: registration for a foreign email, etc. It may be the same as the site owner email.',
 
-	'SendTestEmail'				=> 'Wyślij testową wiadomość e-mail',
-	'SendTestEmailInfo'			=> 'Spowoduje to wysłanie testowej wiadomości e-mail na adres zdefiniowany na Twoim koncie.',
-	'TestEmailSubject'			=> 'Twoja Wiki jest poprawnie skonfigurowana do wysyłania e-maili',
-	'TestEmailBody'				=> 'Jeśli otrzymałeś tę wiadomość e-mail, oznacza to, że Twój serwis Wiki jest poprawnie skonfigurowany do wysyłania wiadomości e-mail.',
-	'TestEmailMessage'			=> 'Email testowy został wysłany.<br>Jeśli nie otrzymałeś go, sprawdź konfigurację swojej poczty.',
+	'SendTestEmail'				=> 'Enviar um E-mail de Teste',
+	'SendTestEmailInfo'			=> 'This will send a test email to the address defined in your account.',
+	'TestEmailSubject'			=> 'Your Wiki is correctly configured to send emails',
+	'TestEmailBody'				=> 'If you received this email, your Wiki is correctly configured to send emails.',
+	'TestEmailMessage'			=> 'The test email has been sent.<br>If you don\'t receive it, please check your email configuration settings.',
 
-	'SmtpSettings'				=> 'Ustawienia SMTP',
+	'SmtpSettings'				=> 'Configurações do SMTP',
 	'SmtpAutoTls'				=> 'Opportunistic TLS:',
 	'SmtpAutoTlsInfo'			=> 'Enables encryption automatically, if it sees that the server is advertising TLS encryption (after you have connected to the server), even if you have not set the connection mode for <code>SMTPSecure</code>.',
-	'SmtpConnectionMode'		=> 'Metoda uwierzytelniania dla SMTP:',
-	'SmtpConnectionModeInfo'	=> 'Uwierzytelnianie jest używane tylko wtedy, gdy jest określona nazwa użytkownika i hasło. Jeśli nie wiesz, jakiej metody użyć, zapytaj swojego dostawcę usługi.',
-	'SmtpPassword'				=> 'SMTP Hasło:',
-	'SmtpPasswordInfo'			=> 'Należy wprowadzić tylko, jeśli serwer SMTP tego wymaga.<br><em><strong>Ostrzeżenie:</strong> Hasło zostanie zapisane w bazie danych jako zwykły tekst i będzie widoczne dla każdego, kto ma dostęp do bazy danych lub kto może przeglądać tę stronę konfiguracji.</em>',
-	'SmtpPort'					=> 'Port serwera:',
-	'SmtpPortInfo'				=> 'Można zmieniać tylko wtedy, gdy wiadomo, że serwer pracuje na innym porcie. <br>(default: <code>tls</code> on port 587 (or possibly 25) and <code>ssl</code> on port 465)',
-	'SmtpServer'				=> 'SMTP Adres serwera:',
-	'SmtpServerInfo'			=> 'Note that you have to provide the protocol that your server uses. If you are using SSL, this has to be <code>ssl://mail.example.com</code>',
-	'SmtpUsername'				=> 'SMTP Nazwa użytkownika:',
-	'SmtpUsernameInfo'			=> 'Należy wprowadzić tylko, jeśli serwer SMTP tego wymaga.',
+	'SmtpConnectionMode'		=> 'Método de Autenticação para o SMTP:',
+	'SmtpConnectionModeInfo'	=> 'Apenas usado se um Nome/Senha é atribuído, pergunte ao seu ISP se não sabe que método usa.',
+	'SmtpPassword'				=> 'Senha do SMTP:',
+	'SmtpPasswordInfo'			=> 'Só introduza a Senha se o Servidor de SMTP a pedir.<br><em><strong>Aviso:</strong> Esta senha será armazenada como texto simples na Base de Dados, visível a todos que podem aceder à Base de Dados ou a quem pode ver esta página de configuração.</em>',
+	'SmtpPort'					=> 'Porta do Servidor de SMTP:',
+	'SmtpPortInfo'				=> 'Mude apenas se tiver a certeza de que seu Servidor de SMTP está numa porta diferente. <br>(default: <code>tls</code> on port 587 (or possibly 25) and <code>ssl</code> on port 465)',
+	'SmtpServer'				=> 'Endereço do Servidor de SMTP:',
+	'SmtpServerInfo'			=> 'Note que você tem que fornecer o protocolo que o servidor utiliza. Se você estiver usando SSL, isso tem que ser <code>ssl://mail.example.com</code>',
+	'SmtpUsername'				=> 'Nome de Utilizador SMTP:',
+	'SmtpUsernameInfo'			=> 'Só introduza um Nome se o Servidor de SMTP o pedir.',
 
 	// Upload settings
-	'UploadSettingsInfo'		=> 'Tutaj można dokonać konfiguracji głównych ustawień załączników i powiązanych z nimi kategorii specjalnych.',
+	'UploadSettingsInfo'		=> 'Aqui pode configurar as Opções Principais para os Anexos e Categorias Especiais associadas.',
 	'UploadSettingsUpdated'		=> 'Updated upload settings',
 
 	'FileUploadsSection'		=> 'File Uploads',
-	'RegisteredUsers'			=> 'zarejestrowani użytkownicy',
+	'RegisteredUsers'			=> 'utilizadores registados',
 	'RightToUpload'				=> 'Permissions to upload files:',
 	'RightToUploadInfo'			=> '<code>admins</code> means that only users belonging to the admins group can upload  files. <code>1</code> means that uploading is opened to registered users. <code>0</code> means that upload disabled.',
-	'UploadMaxFilesize'			=> 'Maksymalny rozmiar pliku:',
-	'UploadMaxFilesizeInfo'		=> 'Maksymalny rozmiar zamieszczanego pliku. Wartość zero (0) - rozmiar zamieszczanego pliku ograniczany jest tylko przez ustawienia PHP.',
-	'UploadQuota'				=> 'Rozmiar przestrzeni dyskowej:',
-	'UploadQuotaInfo'			=> 'Maksymalna przestrzeń dyskowa dostępna dla wszystkich załączników w tej instalacji Wiki. Wartość zero <code>0</code> - brak ograniczenia przestrzeni. %1 used.',
+	'UploadMaxFilesize'			=> 'Tamanho máximo de anexos:',
+	'UploadMaxFilesizeInfo'		=> 'Tamanho máximo de cada anexo. Se este valor for 0, o tamanho do ficheiro enviado fica sujeito às permissões do PHP.',
+	'UploadQuota'				=> 'Espaço total de Anexos:',
+	'UploadQuotaInfo'			=> 'Espaço máximo em disco reservado aos anexos. <code>0</code> = ilimitado. %1 used.',
 	'UploadQuotaUser'			=> 'Storage quota per user:',
 	'UploadQuotaUserInfo'		=> 'Restriction on the quota of storage that can be uploaded by one user, with <code>0</code> being unlimited.',
 
-	'FileTypes'					=> 'Formaty plików',
+	'FileTypes'					=> 'Tipos de ficheiro',
 	'UploadOnlyImages'			=> 'Allow only upload of images:',
 	'UploadOnlyImagesInfo'		=> 'Allow only uploading of image files on the page.',
-	'AllowedUploadExts'			=> 'Dopuszczalne formaty plików:',
-	'AllowedUploadExtsInfo'		=> 'Dozwolone rozszerzenia dla przesyłanych plików, oddzielone przecinkami np. <code>png, ogg, mp4</code>, w przeciwnym razie wszystkie nie zabronione rozszerzenia plików są dozwolone.<br>Należy ograniczyć listę dozwolonych typów plików do niezbędnego minimum wymaganego przez funkcjonalność witryny.',
-	'CheckMimetype'				=> 'Sprawdzaj pliki załącznika:',
-	'CheckMimetypeInfo'			=> 'Niektóre przeglądarki mogą być zmuszane do przybierania nieprawidłowego typu mediów (mimetype) dla wysyłanych plików. Funkcja ta zabezpiecza takie pliki przed odrzuceniem.',
+	'AllowedUploadExts'			=> 'Tipos de ficheiro permitidos:',
+	'AllowedUploadExtsInfo'		=> 'Extensões permitidas para carregar ficheiros, separadas por vírgula, por exemplo <código>png, ogg, mp4</código>, outras extensões de ficheiros não proibidas são todas permitidas.<br>Deve limitar a lista de tipos de ficheiros carregados permitidos ao mínimo necessário para a funcionalidade de conteúdo do seu sítio.',
+	'CheckMimetype'				=> 'Verificar ficheiros anexados:',
+	'CheckMimetypeInfo'			=> 'Alguns Ficheiros podem obrigar os navegadores e executar funções incorretas. Esta opção permite recusar esses Ficheiros.',
 	'SvgSanitizer'				=> 'SVG Sanitizer:',
-	'SvgSanitizerInfo'			=> 'Umożliwia to sanityzację wgrywanych plików SVG, aby zapobiec wgrywaniu plików SVG/XML podatnych na ataki.',
+	'SvgSanitizerInfo'			=> 'Isto permite a higienização dos ficheiros SVG carregados para evitar que ficheiros SVG/XML vulneráveis sejam carregados.',
 	'TranslitFileName'			=> 'Transliterate file names:',
-	'TranslitFileNameInfo'		=> 'Jeśli ma to zastosowanie i nie ma potrzeby posiadania znaków Unicode, wysoce zalecane jest akceptowanie tylko znaków alfanumerycznych.',
-	'TranslitCaseFolding'		=> 'Konwertuje nazwy plików na małe litery:',
-	'TranslitCaseFoldingInfo'	=> 'Ta opcja działa tylko z aktywną transliteracją.',
+	'TranslitFileNameInfo'		=> 'Se for aplicável e não houver necessidade de ter caracteres Unicode, é altamente recomendável aceitar apenas caracteres alfanuméricos.',
+	'TranslitCaseFolding'		=> 'Converter nomes de ficheiros para minúsculas:',
+	'TranslitCaseFoldingInfo'	=> 'Esta opção só é eficaz com a transliteração ativa.',
 
 	'Thumbnails'				=> 'Thumbnails',
-	'CreateThumbnail'			=> 'Zawsze twórz miniaturę:',
-	'CreateThumbnailInfo'		=> 'Tworzy miniaturę we wszystkich możliwych sytuacjach. Dzięki tej funkcji miniatura będzie wyświetlana bezpośrednio w poście i użytkownik może ją kliknąć, aby zobaczyć pełny obrazek.',
-	'JpegQuality'				=> 'JPEG Quality:',
-	'JpegQualityInfo'			=> 'Jakość podczas skalowania miniatury JPEG. Powinna zawierać się w przedziale od 1 do 100, przy czym 100 oznacza 100% jakości.',
+	'CreateThumbnail'			=> 'Criar uma Imagem reduzida:',
+	'CreateThumbnailInfo'		=> 'Criar uma Imagem reduzida em todas as situações possíveis.',
+	'JpegQuality'				=> 'Qualidade JPEG:',
+	'JpegQualityInfo'			=> 'Qualidade ao escalar uma miniatura de um JPEG. Deve ser entre 1 e 100, com 100 indicando 100% de qualidade.',
 	'MaxImageArea'				=> 'Maximum Image Area:',
-	'MaxImageAreaInfo'			=> 'Maksymalna liczba pikseli, jaką może mieć obrazek źródłowy. Zapewnia to ograniczenie użycia pamięci przez stronę dekompresji skalera obrazu. <br><code>-1</code> oznacza, że nie będzie sprawdzał rozmiaru obrazu przed próbą skalowania. <code>0</code> oznacza, że wartość ta zostanie określona automatycznie.',
-	'MaxThumbWidth'				=> 'Maksymalna szerokość miniatury w pikselach:',
-	'MaxThumbWidthInfo'			=> 'Generowana miniatura nie będzie mogła przekroczyć określonej tutaj szerokości.',
-	'MinThumbFilesize'			=> 'Minimalny rozmiar pliku miniatury:',
-	'MinThumbFilesizeInfo'		=> 'Jeśli rozmiar pliku miniatury jest mniejszy niż zdefiniowana tutaj wartość, miniatura nie zostanie utworzona.',
-	'MaxImageWidth'				=> 'Ograniczenie rozmiaru obrazu na stronach:',
-	'MaxImageWidthInfo'			=> 'Maksymalna szerokość, jaką może mieć obraz na stronach, w przeciwnym razie generowana jest przeskalowana miniaturka.',
+	'MaxImageAreaInfo'			=> 'O número máximo de pixéis que uma imagem de origem pode ter. Isto fornece um limite no uso de memória para o lado da descompressão do escalonador de imagens. <br><code>-1</code> significa que não irá verificar o tamanho da imagem antes de a tentar escalar. <code>0</code> significa que ele determinará o valor automaticamente.',
+	'MaxThumbWidth'				=> 'Largura máxima das imagens em miniaturas em píxeis:',
+	'MaxThumbWidthInfo'			=> 'A largura das miniaturas geradas não ultrapassará a selecionada.',
+	'MinThumbFilesize'			=> 'Tamanho Mínimo de imagem reduzida:',
+	'MinThumbFilesizeInfo'		=> 'Não criar imagem reduzida para imagens menores do que o selecionado.',
+	'MaxImageWidth'				=> 'Limite de tamanho da imagem nas páginas:',
+	'MaxImageWidthInfo'			=> 'A largura máxima que uma imagem pode ter nas páginas, caso contrário é gerada uma miniatura reduzida.',
 
 	// Deleted module
 	'DeletedObjectsInfo'		=> 'List of removed pages, revisions and files.
@@ -957,7 +957,7 @@ $ap_translation = [
 	'LogNoMatch'				=> 'No events that meet the criteria',
 	'LogDate'					=> 'Date',
 	'LogEvent'					=> 'Event',
-	'LogUsername'				=> 'Nazwa użytkownika',
+	'LogUsername'				=> 'Nome de utilizador',
 	'LogLevels'	=> [
 		'1'		=> 'critical',
 		'2'		=> 'highest',
@@ -969,26 +969,26 @@ $ap_translation = [
 	],
 
 	// Massemail module
-	'MassemailInfo'				=> 'Tutaj możesz wysłać wiadomość e-mail do wszystkich użytkowników lub do wszystkich członków konkretnej grupy, która ma włączoną <strong>funkcję odbierania masowych wiadomości e-mail</strong>. Aby to osiągnąć e-mail zostanie wysłany na adres e-maila wykonawczego z ukrytą kopią (odbiorca nie będzie widział adresów innych odbiorców) wysłaną do wszystkich odbiorców. Domyślnie ustawionych jest 50 odbiorców. Wysłanie wiadomości do dużej liczby osób może potrwać dłuższą chwilę. Zachowaj cierpliwość i nie przerywaj tej operacji. Po jej zakończeniu zostanie wyświetlone powiadomienie.',
+	'MassemailInfo'				=> 'Aqui pode enviar um email a todos os seus Utilizadores ou a todos os Utilizadores de um determinado Grupo, <strong>se tiver a opção de receber emails ativada</strong>. Para isso, uma mensagem será enviada ao endereço de email do administrador a informar, com uma cópia a todos membros. A configuração padrão apenas inclui 20 destinatários por mensagem, sendo que para mais destinatários mais emails serão enviados. Se está a enviar mensagens a um grande grupo de Utilizadores, por favor, seja paciente e não feche a página durante o envio. É normal que o envio em massa de mensagens leve algum tempo: Será avisado quando o processo terminar.',
 	'LogMassemail'				=> 'Mass email send %1 to group / user ',
 	'MassemailSend'				=> 'Mass email send',
 
-	'NoEmailMessage'			=> 'Należy wprowadzić treść wiadomości.',
-	'NoEmailSubject'			=> 'Należy określić temat wiadomości.',
-	'NoEmailRecipient'			=> 'You must specify at least one user or user group.',
+	'NoEmailMessage'			=> 'Tem que introduzir uma mensagem.',
+	'NoEmailSubject'			=> 'A sua mensagem tem que ter um assunto.',
+	'NoEmailRecipient'			=> 'É necessário especificar pelo menos um utilizador ou grupo de utilizadores.',
 
 	'MassemailSection'			=> 'Mass email',
-	'MessageSubject'			=> 'Temat:',
+	'MessageSubject'			=> 'Sujeito:',
 	'MessageSubjectInfo'		=> '',
-	'YourMessage'				=> 'Treść wiadomości:',
-	'YourMessageInfo'			=> 'Treść wiadomości musi być wpisana zwykłym tekstem. Przed wysłaniem wiadomości wszystkie znaczniki zostaną usunięte.',
+	'YourMessage'				=> 'A sua Mensagem:',
+	'YourMessageInfo'			=> 'A mensagem só pode conter texto puro. Todos os códigos serão removidos ao enviar.',
 
 	'NoUser'					=> 'No user',
 	'NoUserGroup'				=> 'No user group',
 
-	'SendToGroup'				=> 'Wyślij do grupy:',
-	'SendToUser'				=> 'Wyślij do użytkowników:',
-	'SendToUserInfo'			=> 'Only users who permit administrators to email them information will receive mass emails. This option is available in their user settings under Notifications.',
+	'SendToGroup'				=> 'Enviar para Grupo:',
+	'SendToUser'				=> 'Enviar para Utilizadores:',
+	'SendToUserInfo'			=> 'Só envia mensagens aos utilizadores que autorizaram os administradores a enviar-lhes informações por correio eletrónico. Esta opção está disponível nas definições do utilizador em Notificações.',
 
 	// System message module
 	'SystemMessageInfo'			=> '',
@@ -1000,13 +1000,13 @@ $ap_translation = [
 
 	'SysMsgType'				=> 'Type:',
 	'SysMsgTypeInfo'			=> 'Message type (CSS).',
-	'SysMsgAudience'			=> 'Audience:',
-	'SysMsgAudienceInfo'		=> 'Audience the system message is shown to.',
+	'SysMsgAudience'			=> 'Público:',
+	'SysMsgAudienceInfo'		=> 'O público a quem a mensagem do sistema é apresentada.',
 	'EnableSysMsg'				=> 'Enable system message:',
 	'EnableSysMsgInfo'			=> 'Show system message.',
 
 	// User approval module
-	'ApproveNotExists'			=> 'Please select at least one user via the Set button.',
+	'ApproveNotExists'			=> 'Seleccione pelo menos um utilizador através do botão Definir.',
 
 	'LogUserApproved'			=> 'User ##%1## approved',
 	'LogUserBlocked'			=> 'User ##%1## blocked',
@@ -1014,12 +1014,12 @@ $ap_translation = [
 	'LogUserCreated'			=> 'Created a new user ##%1##',
 	'LogUserUpdated'			=> 'Updated User ##%1##',
 
-	'UserApproveInfo'			=> 'Approve new users before they are able to login to the site.',
-	'Approve'					=> 'Zatwierdź',
-	'Deny'						=> 'Deny',
-	'Pending'					=> 'Pending',
-	'Approved'					=> 'Approved',
-	'Denied'					=> 'Denied',
+	'UserApproveInfo'			=> 'Aprovar novos utilizadores antes de poderem iniciar sessão no sítio.',
+	'Approve'					=> 'Aprovar',
+	'Deny'						=> 'Recusar',
+	'Pending'					=> 'Pendente',
+	'Approved'					=> 'Aprovado',
+	'Denied'					=> 'Recusado',
 
 	// DB Backup module
 	'BackupStructure'			=> 'Structure',
@@ -1027,8 +1027,8 @@ $ap_translation = [
 	'BackupFolder'				=> 'Folder',
 	'BackupTable'				=> 'Table',
 	'BackupCluster'				=> 'Cluster:',
-	'BackupFiles'				=> 'Pliki',
-	'BackupNote'				=> 'Uwaga:',
+	'BackupFiles'				=> 'Ficheiros',
+	'BackupNote'				=> 'Nota:',
 	'BackupSettings'			=> 'Specify the desired scheme of backup.<br>' .
 									'The root cluster does not affect the global files backup and cache files backup (if chosen, they are always saved in full).<br>' .
 									'<br>' .
@@ -1040,16 +1040,16 @@ $ap_translation = [
 									'To download it use FTP (maintain the directory structure and file names when copying).<br>' .
 									'To restore a backup copy or remove a package, go to <a href="%2">Restore database</a>.',
 	'LogSavedBackup'			=> 'Saved backup database ##%1##',
-	'Backup'					=> 'Kopia zapasowa',
+	'Backup'					=> 'Backup',
 	'CantReadFile'				=> 'Can\'t read file %1.',
 
 	// DB Restore module
-	'RestoreInfo'				=> 'You can restore any of the backup packages found, or remove them from the server.',
-	'ConfirmDbRestore'			=> 'Chcesz przywrócić kopię zapasową %1?',
-	'ConfirmDbRestoreInfo'		=> 'Proszę poczekać, to może potrwać kilka minut.',
+	'RestoreInfo'				=> 'Pode restaurar qualquer um dos pacotes de cópia de segurança encontrados ou removê-los do servidor.',
+	'ConfirmDbRestore'			=> 'Você quer restaurar o backup %1?',
+	'ConfirmDbRestoreInfo'		=> 'Aguarde, isso pode levar alguns minutos.',
 	'RestoreWrongVersion'		=> 'Wrong WackoWiki version!',
-	'DirectoryNotExecutable'	=> 'Katalog %1 nie jest wykonywalny.',
-	'BackupDelete'				=> 'Na pewno chcesz usunąć kopię zapasową %1?',
+	'DirectoryNotExecutable'	=> 'O directório %1 não é executável.',
+	'BackupDelete'				=> 'Tens a certeza que queres remover o backup %1?',
 	'BackupDeleteInfo'			=> '',
 	'RestoreOptions'			=> 'Additional restore options:',
 	'RestoreOptionsInfo'		=> '* Before restoring the <strong>cluster backup</strong>, ' .
@@ -1093,48 +1093,48 @@ $ap_translation = [
 	'HomonymicFiles'			=> 'homonymic files',
 	'RestoreSkip'				=> 'skip',
 	'RestoreReplace'			=> 'replace',
-	'RestoreFile'				=> 'Plik:',
+	'RestoreFile'				=> 'Ficheiro:',
 	'RestoredFiles'				=> 'restored:',
 	'SkippedFiles'				=> 'skipped:',
 	'FileRestoreDone'			=> 'Completed. Total files:',
-	'FilesAll'					=> 'wszystko:',
+	'FilesAll'					=> 'todos:',
 	'SkipFiles'					=> 'Files are not stored - skip',
 	'RestoreDone'				=> 'RESTORATION COMPLETED',
 
 	'BackupCreationDate'		=> 'Creation Date',
 	'BackupPackageContents'		=> 'The contents of the package',
-	'BackupRestore'				=> 'Przywracanie',
-	'BackupRemove'				=> 'Usuń',
+	'BackupRestore'				=> 'Restaurar',
+	'BackupRemove'				=> 'Remover',
 	'RestoreYes'				=> 'Yes',
 	'RestoreNo'					=> 'No',
 	'LogDbRestored'				=> 'Backup ##%1## of the database restored.',
 
-	'BackupArchived'			=> 'Zarchiwizowano kopię zapasową %1.',
-	'BackupArchiveExists'		=> 'Archiwum kopii zapasowej %1 już istnieje.',
-	'LogBackupArchived'			=> 'Zarchiwizowano kopię zapasową ##%1##.',
+	'BackupArchived'			=> 'Cópia de segurança %1 arquivada.',
+	'BackupArchiveExists'		=> 'O arquivo de cópia de segurança %1 já existe.',
+	'LogBackupArchived'			=> 'Cópia de segurança ##%1## arquivada.',
 
 	// User module
 	'UsersInfo'					=> 'Here you can change your users information and certain specific options.',
 
 	'UsersAdded'				=> 'User added',
 	'UsersDeleteInfo'			=> '[User delete Info here..]',
-	'EditButton'				=> 'Edytuj',
-	'UsersAddNew'				=> 'Add new user',
-	'UsersDelete'				=> 'Na pewno chcesz usunąć użytkownika %1?',
-	'UsersDeleted'				=> 'The user %1 was deleted from the database.',
+	'EditButton'				=> 'Editar',
+	'UsersAddNew'				=> 'Adicionar novo utilizador',
+	'UsersDelete'				=> 'Tens a certeza que queres remover o utilizador %1?',
+	'UsersDeleted'				=> 'O utilizador %1 foi eliminado da base de dados.',
 	'UsersRename'				=> 'Rename the user %1 to',
-	'UsersRenameInfo'			=> '* Note: Change will affect all pages that are assigned to that user.',
-	'UsersUpdated'				=> 'User successfully updated.',
+	'UsersRenameInfo'			=> '* Nota: A alteração afectará todas as páginas que estão atribuídas a esse utilizador.',
+	'UsersUpdated'				=> 'Utilizador atualizado com sucesso.',
 
 	'UserIP'					=> 'IP',
 	'UserSignuptime'			=> 'Signuptime',
 	'UserActions'				=> 'Actions',
 	'NoMatchingUser'			=> 'No users that meet the criteria',
 
-	'UserAccountNotify'			=> 'Powiadomić użytkownika',
-	'UserNotifySignup'			=> 'poinformować użytkownika o nowym koncie',
-	'UserVerifyEmail'			=> 'ustaw email potwierdzający token i dodaj link do weryfikacji emaila.',
-	'UserReVerifyEmail'			=> 'Wyślij ponownie e-mail potwierdzający token',
+	'UserAccountNotify'			=> 'Notificar usuário',
+	'UserNotifySignup'			=> 'informar o usuário sobre a nova conta',
+	'UserVerifyEmail'			=> 'definir token de confirmação de e-mail e adicionar link para verificação de e-mail',
+	'UserReVerifyEmail'			=> 'Reenviar token de confirmação de e-mail',
 
 	// Groups module
 	'GroupsInfo'				=> 'From this panel you can administrate all your usergroups. You can delete, create and edit existing groups. Furthermore, you may choose group leaders, toggle open/hidden/closed group status and set the group name and description.',
@@ -1144,52 +1144,52 @@ $ap_translation = [
 	'LogMemberRemoved'			=> 'Removed member ##%1## from group ##%2##',
 	'LogGroupCreated'			=> 'Created a new group ##%1##',
 	'LogGroupRenamed'			=> 'Group ##%1## renamed to ##%2##',
-	'LogGroupRemoved'			=> 'Usunięta grupa ##%1##',
+	'LogGroupRemoved'			=> 'Removed group ##%1##',
 
 	'GroupsMembersFor'			=> 'Members for Group',
-	'GroupsDescription'			=> 'Opis',
+	'GroupsDescription'			=> 'Descrição',
 	'GroupsModerator'			=> 'Moderator',
 	'GroupsOpen'				=> 'Open',
-	'GroupsActive'				=> 'Aktywny',
+	'GroupsActive'				=> 'Active',
 	'GroupsTip'					=> 'Click to edit Group',
 	'GroupsUpdated'				=> 'Groups updated',
-	'GroupsAlreadyExists'		=> 'Ta grupa już istnieje.',
-	'GroupsAdded'				=> 'Grupa została pomyślnie dodana.',
-	'GroupsRenamed'				=> 'Group successfully renamed.',
+	'GroupsAlreadyExists'		=> 'Este grupo já existe.',
+	'GroupsAdded'				=> 'Grupo adicionado com sucesso.',
+	'GroupsRenamed'				=> 'Grupo renomeado com sucesso.',
 	'GroupsDeleted'				=> 'The group %1 and all associated pages were deleted from the database.',
-	'GroupsAdd'					=> 'Add a new group',
-	'GroupsRename'				=> 'Rename the group %1 to',
+	'GroupsAdd'					=> 'Adicionar um novo grupo',
+	'GroupsRename'				=> 'Renomear o grupo %1 para',
 	'GroupsRenameInfo'			=> '* Note: Change will affect all pages that are assigned to that group.',
-	'GroupsDelete'				=> 'Na pewno chcesz usunąć grupę %1?',
-	'GroupsDeleteInfo'			=> '* Note: Change will affect all members that are assigned to that group.',
-	'GroupsIsSystem'			=> 'Grupa %1 należy do systemu i nie może być usunięta.',
+	'GroupsDelete'				=> 'Tens a certeza que queres remover o grupo %1?',
+	'GroupsDeleteInfo'			=> '* Nota: A mudança afetará todos os membros designados a esse grupo.',
+	'GroupsIsSystem'			=> 'O Grupo %1 pertence ao sistema e não pode ser removido.',
 	'GroupsStoreButton'			=> 'Save Groups',
 	'GroupsEditInfo'			=> 'To edit the groups list select the radio button.',
 
-	'GroupAddMember'			=> 'Dodaj członka',
-	'GroupRemoveMember'			=> 'Usuń członka',
-	'GroupAddNew'				=> 'Dodaj grupę',
-	'GroupEdit'					=> 'Grupa redakcyjna',
-	'GroupDelete'				=> 'Usuń grupę',
+	'GroupAddMember'			=> 'Adicionar membro',
+	'GroupRemoveMember'			=> 'Remover Membro',
+	'GroupAddNew'				=> 'Adicionar grupo',
+	'GroupEdit'					=> 'Editar grupo',
+	'GroupDelete'				=> 'Remover grupo',
 
-	'MembersAddNew'				=> 'Add new member',
-	'MembersAdded'				=> 'Added new member to the group successfully.',
-	'MembersRemove'				=> 'Are you sure you want to remove member %1?',
-	'MembersRemoved'			=> 'The member was removed from the group.',
+	'MembersAddNew'				=> 'Adicionar novo membro',
+	'MembersAdded'				=> 'Adicionado um novo membro ao grupo com sucesso.',
+	'MembersRemove'				=> 'Tens a certeza que queres remover o membro %1?',
+	'MembersRemoved'			=> 'O membro foi retirado do grupo.',
 
 	// Statistics module
-	'DbStatSection'				=> 'Database Statistics',
+	'DbStatSection'				=> 'Estatísticas da base de dados',
 	'DbTable'					=> 'Table',
 	'DbRecords'					=> 'Records',
-	'DbSize'					=> 'Rozmiar',
+	'DbSize'					=> 'Tamanho',
 	'DbIndex'					=> 'Index',
 	'DbOverhead'				=> 'Overhead',
 	'DbTotal'					=> 'Total',
 
-	'FileStatSection'			=> 'File system Statistics',
+	'FileStatSection'			=> 'Estatísticas do sistema de ficheiros',
 	'FileFolder'				=> 'Folder',
-	'FileFiles'					=> 'Pliki',
-	'FileSize'					=> 'Rozmiar',
+	'FileFiles'					=> 'Ficheiros',
+	'FileSize'					=> 'Tamanho',
 	'FileTotal'					=> 'Total',
 
 	// Sysinfo module
@@ -1219,13 +1219,13 @@ $ap_translation = [
 	'ApacheModules'				=> 'Apache modules',
 
 	// DB repair module
-	'DbRepairSection'			=> 'Repair Database',
-	'DbRepair'					=> 'Repair Database',
-	'DbRepairInfo'				=> 'This script can automatically look for some common database problems and repair them. Repairing can take a while, so please be patient.',
+	'DbRepairSection'			=> 'Reparar base de dados',
+	'DbRepair'					=> 'Reparar base de dados',
+	'DbRepairInfo'				=> 'Este script pode procurar automaticamente alguns problemas comuns da base de dados e repará-los. A reparação pode demorar algum tempo, por isso, seja paciente.',
 
-	'DbOptimizeRepairSection'	=> 'Repair and Optimize Database',
-	'DbOptimizeRepair'			=> 'Repair and Optimize Database',
-	'DbOptimizeRepairInfo'		=> 'This script can also attempt to optimize the database. This improves performance in some situations. Repairing and optimizing the database can take a long time and the database will be locked while optimizing.',
+	'DbOptimizeRepairSection'	=> 'Reparar e otimizar a base de dados',
+	'DbOptimizeRepair'			=> 'Reparar e otimizar a base de dados',
+	'DbOptimizeRepairInfo'		=> 'Este script também pode tentar otimizar a base de dados. Isso melhora o desempenho em algumas situações. Reparar e otimizar a base de dados pode demorar muito tempo e a base de dados será bloqueada durante a otimização.',
 
 	'TableOk'					=> 'The %1 table is okay.',
 	'TableNotOk'				=> 'The %1 table is not okay. It is reporting the following error: %2. This script will attempt to repair this table&hellip;',
@@ -1239,10 +1239,10 @@ $ap_translation = [
 
 	// Inconsistencies module
 	'InconsistenciesInfo'		=> 'Show and fix inconsistencies, delete or assign orphaned records to a new user / value.',
-	'Inconsistencies'			=> 'Inconsistencies',
-	'CheckDatabase'				=> 'Baza danych',
+	'Inconsistencies'			=> 'Inconsistências',
+	'CheckDatabase'				=> 'Base de dados',
 	'CheckDatabaseInfo'			=> 'Checks for record inconsistencies in the database.',
-	'CheckFiles'				=> 'Pliki',
+	'CheckFiles'				=> 'Ficheiros',
 	'CheckFilesInfo'			=> 'Checks for abandoned files, files with no reference left in the file table.',
 	'Records'					=> 'Records',
 	'InconsistenciesNone'		=> 'No Data Inconsistencies found.',
@@ -1259,7 +1259,7 @@ $ap_translation = [
 
 	'BbSummary'					=> 'Summary',
 	'BbLog'						=> 'Log',
-	'BbSettings'				=> 'Ustawienia',
+	'BbSettings'				=> 'Configurações',
 	'BbWhitelist'				=> 'Whitelist',
 
 	// --> Log
@@ -1293,7 +1293,7 @@ $ap_translation = [
 	'BbLogVerbose'				=> 'Verbose',
 	'BbLogNormal'				=> 'Normal (recommended)',
 	'BbLogOff'					=> 'Do not log (not recommended)',
-	'BbSecurity'				=> 'Security',
+	'BbSecurity'				=> 'Segurança',
 	'BbStrict'					=> 'Strict checking',
 	'BbStrictInfo'				=> 'blocks more spam but may block some people',
 	'BbOffsiteForms'			=> 'Allow form postings from other web sites',
