@@ -9,32 +9,32 @@ $ap_translation = [
 
 	'CategoryArray'		=> [
 		'basics'		=> 'Basic functions',
-		'preferences'	=> 'ユーザー設定',
+		'preferences'	=> 'Preferences',
 		'content'		=> 'Content',
-		'users'			=> 'ユーザー',
-		'maintenance'	=> 'メンテナンス',
+		'users'			=> '사용자',
+		'maintenance'	=> 'Maintenance',
 		'messages'		=> 'Messages',
-		'extension'		=> '拡張',
-		'database'		=> 'データベース',
+		'extension'		=> '확장 기능',
+		'database'		=> '데이터베이스',
 	],
 
 	// Admin panel
 	'AdminPanel'				=> 'Administration Control Panel',
 	'RecoveryMode'				=> 'Recovery Mode',
-	'Authorization'				=> '認可',
+	'Authorization'				=> '권한 부여',
 	'AuthorizationTip'			=> 'Please enter the administrative password (make sure that cookies are allowed in your browser).',
-	'NoRecoveryPassword'		=> '管理パスワードが指定されていない！',
-	'NoRecoveryPasswordTip'		=> '注：管理パスワードがないことは、セキュリティ上の脅威となる！設定ファイルにパスワードハッシュを入力し、再度プログラムを実行してください。',
+	'NoRecoveryPassword'		=> '관리자 비밀번호가 지정되지 않았습니다!',
+	'NoRecoveryPasswordTip'		=> '참고: 관리 비밀번호가 없으면 보안에 위협이 됩니다! 구성 파일에 비밀번호 해시를 입력하고 프로그램을 다시 실행하세요.',
 
 	'ErrorLoadingModule'		=> 'Error loading admin module %1: does not exist.',
 
-	'ApHomePage'				=> 'ホームページ',
+	'ApHomePage'				=> '홈페이지',
 	'ApHomePageTip'				=> 'Open the home page, you do not quit system administration',
-	'ApLogOut'					=> 'ログアウト',
+	'ApLogOut'					=> '로그아웃',
 	'ApLogOutTip'				=> 'Quit system administration',
 
 	'TimeLeft'					=> 'Time left:  %1 minutes',
-	'ApVersion'					=> 'バージョン',
+	'ApVersion'					=> '버전',
 
 	'SiteOpen'					=> 'Open',
 	'SiteOpened'				=> 'site opened',
@@ -46,14 +46,14 @@ $ap_translation = [
 	'System'					=> 'System',
 
 	// Generic
-	'Cancel'					=> 'キャンセル',
-	'Add'						=> '追加',
-	'Edit'						=> '編集',
-	'Remove'					=> '削除',
-	'Enabled'					=> '有効にする',
-	'Disabled'					=> '無効',
+	'Cancel'					=> '취소',
+	'Add'						=> '추가',
+	'Edit'						=> '편집',
+	'Remove'					=> '제거',
+	'Enabled'					=> '사용',
+	'Disabled'					=> '비활성화됨',
 	'Mandatory'					=> 'Mandatory',
-	'Admin'						=> '管理',
+	'Admin'						=> '관리',
 	'Min'						=> 'Min',
 	'Max'						=> 'Max',
 
@@ -74,26 +74,26 @@ $ap_translation = [
 
 	// Config Basic module
 	'config_basic'		=> [
-		'name'		=> '基本',
+		'name'		=> '기본',
 		'title'		=> 'Basic settings',
 	],
 
 	// Config Appearance module
 	'config_appearance'		=> [
-		'name'		=> 'Appearance',
+		'name'		=> '보이기',
 		'title'		=> 'Appearance settings',
 	],
 
 	// Config Email module
 	'config_email'		=> [
-		'name'		=> 'メール',
-		'title'		=> 'メール設定',
+		'name'		=> '이메일 주소',
+		'title'		=> '이메일 설정',
 	],
 
 	// Config Syndication module
 	'config_syndication'		=> [
 		'name'		=> 'Syndication',
-		'title'		=> '配信設定',
+		'title'		=> '신디케이션',
 	],
 
 	// Config Filter module
@@ -110,19 +110,19 @@ $ap_translation = [
 
 	// Config Notifications module
 	'config_notifications'		=> [
-		'name'		=> '通知',
-		'title'		=> '通知設定',
+		'name'		=> '알림',
+		'title'		=> 'Notifications settings',
 	],
 
 	// Config Pages module
 	'config_pages'		=> [
-		'name'		=> 'ページ',
+		'name'		=> '페이지',
 		'title'		=> 'Pages and site parameters',
 	],
 
 	// Config Permissions module
 	'config_permissions'		=> [
-		'name'		=> 'パーミッション',
+		'name'		=> '사용자 권한',
 		'title'		=> 'Permissions settings',
 	],
 
@@ -134,13 +134,13 @@ $ap_translation = [
 
 	// Config System module
 	'config_system'		=> [
-		'name'		=> 'システム',
+		'name'		=> '시스템',
 		'title'		=> 'System options',
 	],
 
 	// Config Upload module
 	'config_upload'		=> [
-		'name'		=> 'アップロード',
+		'name'		=> '올리기',
 		'title'		=> 'Attachment settings',
 	],
 
@@ -158,7 +158,7 @@ $ap_translation = [
 
 	// DB Backup module
 	'db_backup'		=> [
-		'name'		=> 'バックアップ',
+		'name'		=> 'Backup',
 		'title'		=> 'Backing up data',
 	],
 
@@ -170,7 +170,7 @@ $ap_translation = [
 
 	// DB Restore module
 	'db_restore'		=> [
-		'name'		=> '復元',
+		'name'		=> '복구',
 		'title'		=> 'Restoring backup data',
 	],
 
@@ -230,19 +230,19 @@ $ap_translation = [
 
 	// Registration Approval module
 	'user_approve'		=> [
-		'name'		=> 'Approve',
+		'name'		=> '승인',
 		'title'		=> 'User registration approval',
 	],
 
 	// Groups module
 	'user_groups'		=> [
-		'name'		=> 'グループ',
+		'name'		=> '그룹',
 		'title'		=> 'Group management',
 	],
 
 	// User module
 	'user_users'		=> [
-		'name'		=> 'ユーザー',
+		'name'		=> '사용자',
 		'title'		=> 'User management',
 	],
 
@@ -267,7 +267,7 @@ $ap_translation = [
 	'AdminName'					=> 'Admin of site:',
 	'AdminNameInfo'				=> 'User name of individual who is responsible for overall support of the site. This name is not used to determine access rights, but it is desirable that it conforms to the name of the chief administrator of the site.',
 
-	'LanguageSection'			=> '言語',
+	'LanguageSection'			=> '언어',
 	'DefaultLanguage'			=> 'Default language:',
 	'DefaultLanguageInfo'		=> 'Specifies the language of messages displayed to unregistered guests, as well as the locale settings.',
 	'MultiLanguage'				=> 'Multilanguage support:',
@@ -275,7 +275,7 @@ $ap_translation = [
 	'AllowedLanguages'			=> 'Allowed languages:',
 	'AllowedLanguagesInfo'		=> 'It is recommended to select only the set of languages you want to use, otherwise all languages are selected.',
 
-	'CommentSection'			=> 'コメント',
+	'CommentSection'			=> '댓글',
 	'AllowComments'				=> 'Allow comments:',
 	'AllowCommentsInfo'			=> 'Enable comments for guests or registered users only, or disable them on the entire site.',
 	'SortingComments'			=> 'Sorting comments:',
@@ -320,12 +320,12 @@ $ap_translation = [
 	'NotifyDiffModeInfo'		=> 'Diff mode used for notifications in the email body.',
 
 	'EditingSection'			=> 'Editing',
-	'EditSummary'				=> '概要を編集:',
+	'EditSummary'				=> '편집 요약:',
 	'EditSummaryInfo'			=> 'Shows change summary in the edit mode.',
-	'MinorEdit'					=> '小変更:',
+	'MinorEdit'					=> '사소한 바뀜:',
 	'MinorEditInfo'				=> 'Enables minor edit option in the edit mode.',
-	'SectionEdit'				=> 'セクション編集:',
-	'SectionEditInfo'			=> 'ページの一部分のみを編集することができます．',
+	'SectionEdit'				=> '섹션 편집:',
+	'SectionEditInfo'			=> '페이지의 섹션만 편집할 수 있습니다.',
 	'ReviewSettings'			=> 'Review:',
 	'ReviewSettingsInfo'		=> 'Enables review option in the edit mode.',
 	'PublishAnonymously'		=> 'Allow anonymous publishing:',
@@ -356,10 +356,10 @@ $ap_translation = [
 	'XmlChangeLink'				=> 'Changes feed link mode:',
 	'XmlChangeLinkInfo'			=> 'Defines where the XML Changes feed items links to.',
 	'XmlChangeLinkMode'			=> [
-		'1'		=> '変更点のリスト',
-		'2'		=> '現在のページ',
-		'3'		=> 'リビジョンのリスト',
-		'4'		=> '変更されたページ',
+		'1'		=> '차이 보기',
+		'2'		=> '현재 문서',
+		'3'		=> '판의 목록',
+		'4'		=> '개정된 문서',
 	],
 
 	'XmlSitemap'				=> 'XML sitemap:',
@@ -369,9 +369,9 @@ $ap_translation = [
 	'XmlSitemapTime'			=> 'XML sitemap generation time:',
 	'XmlSitemapTimeInfo'		=> 'Generates the sitemap only once in the given number of days. Set to zero to generate on every page change.',
 
-	'SearchSection'				=> '検索',
+	'SearchSection'				=> '검색',
 	'OpenSearch'				=> 'OpenSearch:',
-	'OpenSearchInfo'			=> 'XMLフォルダにOpenSearch記述ファイルを作成し、HTMLヘッダで検索プラグインの自動検出を有効にします。',
+	'OpenSearchInfo'			=> 'Creates the OpenSearch description file in the XML folder and enables Autodiscovery of search plugin in the HTML header.',
 	'SearchEngineVisibility'	=> 'Block search engines (search engine visibility):',
 	'SearchEngineVisibilityInfo'=> 'Block search engines, but allow normal visitors. Overrides page settings. <br>Discourage search engines from indexing this site. It is up to search engines to honor this request.',
 
@@ -381,7 +381,7 @@ $ap_translation = [
 	'AppearanceSettingsInfo'	=> 'Control default display settings for your site.',
 	'AppearanceSettingsUpdated'	=> 'Updated appearance settings.',
 
-	'LogoOff'					=> 'オフ',
+	'LogoOff'					=> '끄기',
 	'LogoOnly'					=> 'logo',
 	'LogoAndTitle'				=> 'logo and title',
 
@@ -397,8 +397,8 @@ $ap_translation = [
 	'SiteFavicon'				=> 'Site favicon:',
 	'SiteFaviconInfo'			=> 'Your shortcut icon, or favicon, is displayed in the address bar, tabs and bookmarks of most browsers. This will override the favicon of your theme.',
 	'SiteFaviconTooBig'			=> 'Favicon is bigger than 64 × 64 px.',
-	'ThemeColor'				=> 'アドレスバーのテーマカラー:',
-	'ThemeColorInfo'			=> 'ブラウザは、指定されたCSSカラーに従って、すべてのページのアドレスバーの色を設定します。',
+	'ThemeColor'				=> '주소 표시줄의 테마 색상:',
+	'ThemeColorInfo'			=> '브라우저는 제공된 CSS 색상에 따라 모든 페이지의 주소 표시줄 색상을 설정합니다.',
 
 	'LayoutSection'				=> 'Layout',
 	'Theme'						=> 'Theme:',
@@ -500,13 +500,13 @@ $ap_translation = [
 	'SessionStorage'				=> 'Session storage:',
 	'SessionStorageInfo'			=> 'This option defines where the the session data is stored. By default, either file or database session storage is selected.',
 	'SessionModes'	=> [
-		'1'		=> 'ファイル',
-		'2'		=> 'データベース',
+		'1'		=> '파일',
+		'2'		=> '데이터베이스',
 	],
-	'SessionNotice'					=> 'セッションの終了原因を表示:',
-	'SessionNoticeInfo'				=> 'セッション終了の原因を示す。',
-	'LoginNotice'					=> 'ログイン通知：',
-	'LoginNoticeInfo'				=> 'ログイン通知を表示します。',
+	'SessionNotice'					=> '세션 종료 원인 표시:',
+	'SessionNoticeInfo'				=> '세션 종료의 원인을 나타냅니다.',
+	'LoginNotice'					=> '로그인 알림:',
+	'LoginNoticeInfo'				=> '로그인 알림: 로그인 알림을 표시합니다.',
 
 	'RewriteMode'					=> 'Use <code>mod_rewrite</code>:',
 	'RewriteModeInfo'				=> 'If your web server supports this feature, enable to "beautify" the page URLs.<br>
@@ -563,12 +563,12 @@ $ap_translation = [
 	'EmailSection'				=> 'Email',
 	'AllowEmailReuse'			=> 'Allow email address re-use:',
 	'AllowEmailReuseInfo'		=> 'Different users can register with the same email address.',
-	'EmailConfirmation'			=> '電子メール確認を強制します：',
-	'EmailConfirmationInfo'		=> 'ユーザがログインする前に電子メール・アドレスを確認することを要求します。',
-	'AllowedEmailDomains'		=> '許可された電子メール・ドメイン：',
-	'AllowedEmailDomainsInfo'	=> '許可された電子メールドメインはカンマで区切られています。例えば、<code>example.com, local.lan</code>などです。, otherwise all email domains are allowed.',
-	'ForbiddenEmailDomains'		=> '禁止された電子メールドメイン：',
-	'ForbiddenEmailDomainsInfo'	=> 'Forbidden email domains comma separated, e.g. <code>example.com, local.lan</code> etc. (only effective if allowed email domains list is empty)',
+	'EmailConfirmation'			=> '전자 메일 확인을 적용합니다:',
+	'EmailConfirmationInfo'		=> '사용자가 로그인하기 전에 전자 메일 주소를 확인하도록 요구합니다.',
+	'AllowedEmailDomains'		=> '허용된 전자 메일 도메인::',
+	'AllowedEmailDomainsInfo'	=> '쉼표로 구분된 허용된 이메일 도메인(예: <code>example.com, local.lan</code> 등), 그렇지 않으면 모든 이메일 도메인이 허용됩니다.',
+	'ForbiddenEmailDomains'		=> '금지된 이메일 도메인:',
+	'ForbiddenEmailDomainsInfo'	=> '쉼표로 구분된 금지 이메일 도메인(예: <code>example.com, local.lan</code> 등). 허용된 이메일 도메인 목록이 비어 있는 경우에만 유효합니다.',
 
 	'CaptchaSection'			=> 'CAPTCHA',
 	'EnableCaptcha'				=> 'Enable captcha:',
@@ -579,7 +579,7 @@ $ap_translation = [
 	'CaptchaPageInfo'			=> 'As protection against spam, unregistered users must complete captcha before creating a new page.',
 	'CaptchaEdit'				=> 'Edit page:',
 	'CaptchaEditInfo'			=> 'As protection against spam, unregistered users must complete captcha before editing pages.',
-	'CaptchaRegistration'		=> 'アカウント作成',
+	'CaptchaRegistration'		=> '계정 만들기',
 	'CaptchaRegistrationInfo'	=> 'As protection against spam, unregistered users must complete captcha before registering.',
 
 	'TlsSection'				=> 'TLS Settings',
@@ -594,7 +594,7 @@ $ap_translation = [
 	'Csp'						=> 'Content-Security-Policy (CSP):',
 	'CspInfo'					=> 'Configuring CSP involves deciding what policies you want to enforce, and then configuring them and using Content-Security-Policy to establish your policy.',
 	'PolicyModes'	=> [
-		'0'		=> 'disabled',
+		'0'		=> '비활성화됨',
 		'1'		=> 'strict',
 		'2'		=> 'custom',
 	],
@@ -633,7 +633,7 @@ $ap_translation = [
 		'2'		=> 'password does not contain username',
 	],
 
-	'LoginSection'				=> 'ログイン',
+	'LoginSection'				=> '로그인',
 	'MaxLoginAttempts'			=> 'Maximum number of login attempts per username:',
 	'MaxLoginAttemptsInfo'		=> 'The number of login attempts allowed for a single account before the anti-spambot task is triggered. Enter 0 to prevent the anti-spambot task from being triggered for distinct user accounts.',
 	'IpLoginLimitMax'			=> 'Maximum number of login attempts per IP address:',
@@ -685,7 +685,7 @@ $ap_translation = [
 	'TimeFormatSecondsInfo'		=> '(hours, minutes, seconds)',
 	'NameDateMacro'				=> 'The format of the <code>::@::</code> macro:',
 	'NameDateMacroInfo'			=> '(name, time), e.g. <code>UserName (17.11.2016 16:48)</code>',
-	'Timezone'					=> 'タイムゾーン:',
+	'Timezone'					=> '시간대:',
 	'TimezoneInfo'				=> 'Timezone to use for displaying times to users who are not logged in (guests). Logged-in users can change their timezone in their user settings.',
 
 	'Canonical'					=> 'Use fully canonical URLs:',
@@ -706,7 +706,7 @@ $ap_translation = [
 	'YouareHereTextInfo'		=> 'Visualize links to the same page, using <code>&lt;b&gt;####&lt;/b&gt;</code>. All links to self lose link formatting, but are displayed as bold text.',
 
 	// Pages settings
-	'PagesSettingsInfo'			=> 'ここでは、Wiki内で使用されるシステムベースのページを設定・変更することができます。ここで設定した内容に応じて、Wiki内の対応するページを作成したり、変更したりすることを忘れないようにしてください。',
+	'PagesSettingsInfo'			=> '여기에서 Wiki 내에서 사용되는 시스템 기본 페이지를 설정하거나 변경할 수 있습니다. 여기 설정에 따라 Wiki에서 해당 페이지를 생성하거나 변경하는 것을 잊지 마십시오.',
 	'PagesSettingsUpdated'		=> 'Updated settings base pages',
 
 	'ListCount'					=> 'Number of items per list:',
@@ -726,7 +726,7 @@ $ap_translation = [
 	'NewsStructure'				=> 'News cluster structure:',
 	'NewsStructureInfo'			=> 'Stores the articles optionally in sub-clusters by year/month or week (e.g. <code>[cluster]/[year]/[month]</code>).',
 
-	'LicenseSection'			=> 'License',
+	'LicenseSection'			=> '라이선스',
 	'DefaultLicense'			=> 'Default license:',
 	'DefaultLicenseInfo'		=> 'Under which license your content can be released.',
 	'EnableLicense'				=> 'Enable license:',
@@ -735,30 +735,30 @@ $ap_translation = [
 	'LicensePerPageInfo'		=> 'Allow license per page, which the page owner can choose via page properties.',
 
 	'ServicePagesSection'		=> 'Service Pages',
-	'RootPage'					=> 'Home page:',
+	'RootPage'					=> '홈페이지:',
 	'RootPageInfo'				=> 'Tag of your main page, opens automatically when a user visits your site.',
 
-	'PrivacyPage'				=> 'プライバシーポリシー:',
+	'PrivacyPage'				=> '개인정보처리방침:',
 	'PrivacyPageInfo'			=> 'The page with the Privacy Policy of the site.',
 
 	'TermsPage'					=> 'Policies and regulations:',
 	'TermsPageInfo'				=> 'The page with the rules of the site.',
 
-	'SearchPage'				=> '検索:',
+	'SearchPage'				=> '검색:',
 	'SearchPageInfo'			=> 'Page with the search form (action %1).',
-	'RegistrationPage'			=> 'アカウント作成:',
+	'RegistrationPage'			=> '계정 만들기:',
 	'RegistrationPageInfo'		=> 'Page for new user registration (action %1).',
-	'LoginPage'					=> 'User login:',
+	'LoginPage'					=> '사용자 로그인:',
 	'LoginPageInfo'				=> 'Login page on the site (action %1).',
-	'SettingsPage'				=> 'User Settings:',
+	'SettingsPage'				=> '사용자 설정:',
 	'SettingsPageInfo'			=> 'Page to customize the user profile (action %1).',
-	'PasswordPage'				=> 'Change Password:',
+	'PasswordPage'				=> '비밀번호 변경:',
 	'PasswordPageInfo'			=> 'Page with a form to change / query user password (action %1).',
 	'UsersPage'					=> 'User list:',
 	'UsersPageInfo'				=> 'Page with a list of registered users (action %1).',
-	'CategoryPage'				=> 'カテゴリー:',
+	'CategoryPage'				=> '카테고리:',
 	'CategoryPageInfo'			=> 'Page with a list of categorized pages (action %1).',
-	'GroupsPage'				=> 'グループ:',
+	'GroupsPage'				=> '그룹:',
 	'GroupsPageInfo'			=> 'Page with a list of working groups (action %1).',
 	'ChangesPage'				=> 'Recent changes:',
 	'ChangesPageInfo'			=> 'Page with a list of the last modified pages (action %1).',
@@ -770,9 +770,9 @@ $ap_translation = [
 	'WantedPageInfo'			=> 'Page with a list of missing pages that are referenced (action %1).',
 	'OrphanedPage'				=> 'Orphaned pages:',
 	'OrphanedPageInfo'			=> 'Page with a list of existing pages are not related via links to any other page (action %1).',
-	'SandboxPage'				=> 'Sandbox:',
+	'SandboxPage'				=> '샌드박스:',
 	'SandboxPageInfo'			=> 'Page where users can practice their wiki markup skills.',
-	'HelpPage'					=> 'ヘルプ:',
+	'HelpPage'					=> '도움말:',
 	'HelpPageInfo'				=> 'The documentation section for working with site tools.',
 	'IndexPage'					=> 'Index:',
 	'IndexPageInfo'				=> 'Page with a list of all pages (action %1).',
@@ -827,9 +827,9 @@ $ap_translation = [
 	'PageStats'					=> 'Page statistics',
 	'PageStatsInfo'				=> 'Page statistics (number of comments, files and revisions) may differ in some situations from actual data. <br>This operation allows updating statistics to match actual data contained in database.',
 
-	'AttachmentsInfo'			=> 'データベース内のすべての添付ファイルのファイルハッシュを更新します。',
-	'AttachmentsSynched'		=> '添付ファイルをすべて再ハッシュ化',
-	'LogAttachmentsSynched'		=> '添付ファイルをすべて再ハッシュ化',
+	'AttachmentsInfo'			=> '데이터베이스의 모든 첨부 파일에 대한 파일 해시를 업데이트합니다.',
+	'AttachmentsSynched'		=> '모든 첨부 파일 해시 재해시',
+	'LogAttachmentsSynched'		=> '모든 첨부 파일 해시 재해시',
 
 	'Feeds'						=> 'Feeds',
 	'FeedsInfo'					=> 'In the case of direct editing of pages in the database, the content of RSS-feeds may not reflect the changes made. <br>This function synchronizes the RSS-channels with the current state of the database.',
@@ -845,7 +845,7 @@ $ap_translation = [
 	'WikiLinksResync'			=> 'Wiki-links',
 	'WikiLinksResyncInfo'		=> 'Performs a re-rendering for all intrasite links and restores the contents of the <code>page_link</code> and <code>file_link</code> tables in the event of damage or relocation (this can take considerable time).',
 	'RecompilePage'				=> 'Re-compiling all pages (extremely costly)',
-	'ResyncOptions'				=> 'Additional options',
+	'ResyncOptions'				=> '추가 옵션',
 	'RecompilePageLimit'		=> 'Number of pages to parse at once.',
 
 	// Email settings
@@ -860,11 +860,11 @@ $ap_translation = [
 	'EnableEmail'				=> 'Enable emails:',
 	'EnableEmailInfo'			=> 'Enable sending of emails.',
 
-	'EmailIdentitySettings'		=> 'アイデンティティ',
+	'EmailIdentitySettings'		=> '웹사이트 이메일 신원',
 	'FromEmailName'				=> 'From Name:',
 	'FromEmailNameInfo'			=> 'The sender name that is use for the <code>From:</code> header for all email notifications sent from the site.',
-	'EmailSubjectPrefix'		=> '件名のプレフィックス：',
-	'EmailSubjectPrefixInfo'	=> '例: <code>[Prefix] Topic</code>。定義されていない場合、接頭辞として長いサイト名 %1 が使用されます。',
+	'EmailSubjectPrefix'		=> '제목 접두사:',
+	'EmailSubjectPrefixInfo'	=> '대체 이메일 제목 접두사(예: <code>[접두사] 주제</code>)입니다. 정의되지 않은 경우 기본 접두사는 사이트 이름입니다: %1.',
 
 	'NoReplyEmail'				=> 'No-reply address:',
 	'NoReplyEmailInfo'			=> 'This address, e.g. <code>noreply@example.com</code>, will appear in the <code>From:</code> email address field of all email notifications sent from the site.',
@@ -873,7 +873,7 @@ $ap_translation = [
 	'AbuseEmail'				=> 'Email abuse service:',
 	'AbuseEmailInfo'			=> 'Address requests for urgent matters: registration for a foreign email, etc. It may be the same as the site owner email.',
 
-	'SendTestEmail'				=> 'テストメールを送信',
+	'SendTestEmail'				=> '테스트 메일 보내기',
 	'SendTestEmailInfo'			=> 'This will send a test email to the address defined in your account.',
 	'TestEmailSubject'			=> 'Your Wiki is correctly configured to send emails',
 	'TestEmailBody'				=> 'If you received this email, your Wiki is correctly configured to send emails.',
@@ -898,7 +898,7 @@ $ap_translation = [
 	'UploadSettingsUpdated'		=> 'Updated upload settings',
 
 	'FileUploadsSection'		=> 'File Uploads',
-	'RegisteredUsers'			=> '登録ユーザ',
+	'RegisteredUsers'			=> '등록된 사용자',
 	'RightToUpload'				=> 'Permissions to upload files:',
 	'RightToUploadInfo'			=> '<code>admins</code> means that only users belonging to the admins group can upload  files. <code>1</code> means that uploading is opened to registered users. <code>0</code> means that upload disabled.',
 	'UploadMaxFilesize'			=> 'Maximum file size:',
@@ -911,30 +911,30 @@ $ap_translation = [
 	'FileTypes'					=> 'File types',
 	'UploadOnlyImages'			=> 'Allow only upload of images:',
 	'UploadOnlyImagesInfo'		=> 'Allow only uploading of image files on the page.',
-	'AllowedUploadExts'			=> '許可されているファイル形式:',
-	'AllowedUploadExtsInfo'		=> 'アップロードできるファイルの拡張子は、カンマ区切りで指定します（例：<code>png, ogg, mp4</code>, その他、禁止されていないファイル拡張子はすべて許可されます）。<br>アップロード可能なファイルの種類は、サイトのコンテンツ機能に必要な最小限のものに限定する必要があります。',
+	'AllowedUploadExts'			=> '허용된 파일 형식:',
+	'AllowedUploadExtsInfo'		=> '파일 업로드에 허용되는 확장자는 쉼표로 구분된 파일 확장자(예: <code>png, ogg, mp4</code>)이며, 그 외에는 금지된 파일 확장자가 아닌 모든 파일 확장자가 허용됩니다.<br>업로드된 파일 형식 허용 목록을 사이트 콘텐츠 기능에 필요한 최소한의 파일로 제한해야 합니다.',
 	'CheckMimetype'				=> 'Check MIME type:',
 	'CheckMimetypeInfo'			=> 'Some browsers can be tricked to assume an incorrect mimetype for uploaded files. This option ensures that such files likely to cause this are rejected.',
 	'SvgSanitizer'				=> 'SVG Sanitizer:',
-	'SvgSanitizerInfo'			=> 'アップロードされたSVGファイルをサニタイズし、SVG/XMLの脆弱なファイルがアップロードされないようにします。',
-	'TranslitFileName'			=> 'ファイル名を音訳する：',
-	'TranslitFileNameInfo'		=> 'Unicode文字を使用する必要がない場合は、英数字のみを使用することを強くお勧めします。',
-	'TranslitCaseFolding'		=> 'ファイル名を小文字に変換します：',
-	'TranslitCaseFoldingInfo'	=> 'このオプションはアクティブな音訳でのみ有効です。',
+	'SvgSanitizerInfo'			=> '이렇게 하면 업로드된 SVG 파일을 살균하여 SVG/XML에 취약한 파일이 업로드되는 것을 방지할 수 있습니다.',
+	'TranslitFileName'			=> '파일 이름을 음역합니다:',
+	'TranslitFileNameInfo'		=> '해당되는 경우 유니코드 문자가 필요하지 않은 경우에는 영숫자 문자만 허용하는 것이 좋습니다.',
+	'TranslitCaseFolding'		=> '파일 이름을 소문자로 변환합니다:',
+	'TranslitCaseFoldingInfo'	=> '이 옵션은 음역이 활성화된 경우에만 유효합니다.',
 
 	'Thumbnails'				=> 'Thumbnails',
 	'CreateThumbnail'			=> 'Create thumbnail:',
 	'CreateThumbnailInfo'		=> 'Create a thumbnail in all possible situations.',
-	'JpegQuality'				=> 'JPEGクオリティ：',
-	'JpegQualityInfo'			=> 'JPEGサムネイルを拡大縮小する際の品質。1〜100の間で、100は100％の品質を示します。',
+	'JpegQuality'				=> 'JPEG 품질:',
+	'JpegQualityInfo'			=> 'JPEG 섬네일 크기 조정 시 품질입니다. 이 값은 1에서 100 사이여야 하며 100은 100% 품질을 나타냅니다.',
 	'MaxImageArea'				=> 'Maximum Image Area:',
-	'MaxImageAreaInfo'			=> '元画像の最大画素数。これは、画像スケーラの解凍側のメモリ使用量を制限するものです。<br><code>-1</code> は、スケーリングする前に画像の大きさを確認しないことを意味します。<code>0</code>は、自動的に値を決定することを意味します。',
+	'MaxImageAreaInfo'			=> '소스 이미지가 가질 수 있는 최대 픽셀 수입니다. 이는 이미지 스케일러의 압축 해제 측에 대한 메모리 사용량 제한을 제공합니다. <br><code>-1</code>은 이미지 크기를 확인하기 전에 스케일링을 시도하지 않음을 의미합니다. <code>0</code>은 값을 자동으로 결정한다는 의미입니다.',
 	'MaxThumbWidth'				=> 'Maximum thumbnail width in pixels:',
 	'MaxThumbWidthInfo'			=> 'A generated thumbnail will not exceed the width set here.',
 	'MinThumbFilesize'			=> 'Minimum thumbnail file size:',
 	'MinThumbFilesizeInfo'		=> 'Do not create a thumbnail for images smaller than this.',
-	'MaxImageWidth'				=> 'ページ上の画像サイズ制限：',
-	'MaxImageWidthInfo'			=> 'ページ内で使用できる画像の最大幅を指定し、それ以外は縮小されたサムネイルが生成されます。',
+	'MaxImageWidth'				=> '페이지의 이미지 크기 제한:',
+	'MaxImageWidthInfo'			=> '페이지에서 이미지가 가질 수 있는 최대 너비이며, 그렇지 않으면 축소된 썸네일이 생성됩니다.',
 
 	// Deleted module
 	'DeletedObjectsInfo'		=> 'List of removed pages, revisions and files.
@@ -962,7 +962,7 @@ $ap_translation = [
 	'LogNoMatch'				=> 'No events that meet the criteria',
 	'LogDate'					=> 'Date',
 	'LogEvent'					=> 'Event',
-	'LogUsername'				=> 'ユーザー名',
+	'LogUsername'				=> '사용자 이름',
 	'LogLevels'	=> [
 		'1'		=> 'critical',
 		'2'		=> 'highest',
@@ -983,7 +983,7 @@ $ap_translation = [
 	'NoEmailRecipient'			=> 'You must specify at least one user or user group.',
 
 	'MassemailSection'			=> 'Mass email',
-	'MessageSubject'			=> '件名:',
+	'MessageSubject'			=> '제목:',
 	'MessageSubjectInfo'		=> '',
 	'YourMessage'				=> 'Your message:',
 	'YourMessageInfo'			=> 'Please note that you may enter only plain text. All markup will be removed before sending.',
@@ -1020,8 +1020,8 @@ $ap_translation = [
 	'LogUserUpdated'			=> 'Updated User ##%1##',
 
 	'UserApproveInfo'			=> 'Approve new users before they are able to login to the site.',
-	'Approve'					=> 'Approve',
-	'Deny'						=> 'Deny',
+	'Approve'					=> '승인',
+	'Deny'						=> '거절',
 	'Pending'					=> 'Pending',
 	'Approved'					=> 'Approved',
 	'Denied'					=> 'Denied',
@@ -1032,8 +1032,8 @@ $ap_translation = [
 	'BackupFolder'				=> 'Folder',
 	'BackupTable'				=> 'Table',
 	'BackupCluster'				=> 'Cluster:',
-	'BackupFiles'				=> 'ファイル',
-	'BackupNote'				=> 'お知らせ:',
+	'BackupFiles'				=> '파일',
+	'BackupNote'				=> '참고:',
 	'BackupSettings'			=> 'Specify the desired scheme of backup.<br>' .
 									'The root cluster does not affect the global files backup and cache files backup (if chosen, they are always saved in full).<br>' .
 									'<br>' .
@@ -1045,7 +1045,7 @@ $ap_translation = [
 									'To download it use FTP (maintain the directory structure and file names when copying).<br>' .
 									'To restore a backup copy or remove a package, go to <a href="%2">Restore database</a>.',
 	'LogSavedBackup'			=> 'Saved backup database ##%1##',
-	'Backup'					=> 'バックアップ',
+	'Backup'					=> 'Backup',
 	'CantReadFile'				=> 'Can\'t read file %1.',
 
 	// DB Restore module
@@ -1098,32 +1098,32 @@ $ap_translation = [
 	'HomonymicFiles'			=> 'homonymic files',
 	'RestoreSkip'				=> 'skip',
 	'RestoreReplace'			=> 'replace',
-	'RestoreFile'				=> 'ファイル:',
+	'RestoreFile'				=> '파일:',
 	'RestoredFiles'				=> 'restored:',
 	'SkippedFiles'				=> 'skipped:',
 	'FileRestoreDone'			=> 'Completed. Total files:',
-	'FilesAll'					=> 'すべて:',
+	'FilesAll'					=> '전체:',
 	'SkipFiles'					=> 'Files are not stored - skip',
 	'RestoreDone'				=> 'RESTORATION COMPLETED',
 
 	'BackupCreationDate'		=> 'Creation Date',
 	'BackupPackageContents'		=> 'The contents of the package',
-	'BackupRestore'				=> '復元',
-	'BackupRemove'				=> '削除',
+	'BackupRestore'				=> '복구',
+	'BackupRemove'				=> '제거',
 	'RestoreYes'				=> 'Yes',
 	'RestoreNo'					=> 'No',
 	'LogDbRestored'				=> 'Backup ##%1## of the database restored.',
 
-	'BackupArchived'			=> 'バックアップ %1 がアーカイブされました。',
-	'BackupArchiveExists'		=> 'バックアップ・アーカイブ %1 は既に存在します。',
-	'LogBackupArchived'			=> 'バックアップ ##%1## がアーカイブされました。',
+	'BackupArchived'			=> '백업 %1을(를) 보관했습니다.',
+	'BackupArchiveExists'		=> '백업 아카이브 %1이(가) 이미 있습니다.',
+	'LogBackupArchived'			=> '백업 ##%1##을(를) 보관했습니다.',
 
 	// User module
 	'UsersInfo'					=> 'Here you can change your users information and certain specific options.',
 
 	'UsersAdded'				=> 'User added',
 	'UsersDeleteInfo'			=> '[User delete Info here..]',
-	'EditButton'				=> '編集',
+	'EditButton'				=> '편집',
 	'UsersAddNew'				=> 'Add new user',
 	'UsersDelete'				=> 'Are you sure you want to remove user %1?',
 	'UsersDeleted'				=> 'The user %1 was deleted from the database.',
@@ -1152,8 +1152,8 @@ $ap_translation = [
 	'LogGroupRemoved'			=> 'Removed group ##%1##',
 
 	'GroupsMembersFor'			=> 'Members for Group',
-	'GroupsDescription'			=> '説明',
-	'GroupsModerator'			=> 'モデレータ',
+	'GroupsDescription'			=> '설명',
+	'GroupsModerator'			=> '사회자',
 	'GroupsOpen'				=> 'Open',
 	'GroupsActive'				=> 'Active',
 	'GroupsTip'					=> 'Click to edit Group',
@@ -1186,15 +1186,15 @@ $ap_translation = [
 	'DbStatSection'				=> 'Database Statistics',
 	'DbTable'					=> 'Table',
 	'DbRecords'					=> 'Records',
-	'DbSize'					=> 'サイズ',
+	'DbSize'					=> '크기',
 	'DbIndex'					=> 'Index',
 	'DbOverhead'				=> 'Overhead',
 	'DbTotal'					=> 'Total',
 
 	'FileStatSection'			=> 'File system Statistics',
 	'FileFolder'				=> 'Folder',
-	'FileFiles'					=> 'ファイル',
-	'FileSize'					=> 'サイズ',
+	'FileFiles'					=> '파일',
+	'FileSize'					=> '크기',
 	'FileTotal'					=> 'Total',
 
 	// Sysinfo module
@@ -1245,9 +1245,9 @@ $ap_translation = [
 	// Inconsistencies module
 	'InconsistenciesInfo'		=> 'Show and fix inconsistencies, delete or assign orphaned records to a new user / value.',
 	'Inconsistencies'			=> 'Inconsistencies',
-	'CheckDatabase'				=> 'データベース',
+	'CheckDatabase'				=> '데이터베이스',
 	'CheckDatabaseInfo'			=> 'Checks for record inconsistencies in the database.',
-	'CheckFiles'				=> 'ファイル',
+	'CheckFiles'				=> '파일',
 	'CheckFilesInfo'			=> 'Checks for abandoned files, files with no reference left in the file table.',
 	'Records'					=> 'Records',
 	'InconsistenciesNone'		=> 'No Data Inconsistencies found.',
@@ -1264,7 +1264,7 @@ $ap_translation = [
 
 	'BbSummary'					=> 'Summary',
 	'BbLog'						=> 'Log',
-	'BbSettings'				=> '設定',
+	'BbSettings'				=> '설정',
 	'BbWhitelist'				=> 'Whitelist',
 
 	// --> Log
@@ -1277,7 +1277,7 @@ $ap_translation = [
 	'BbGetPost'					=> 'GET/POST',
 	'BbUri'						=> 'URI',
 	'BbRecordsAll'				=> 'Displaying all %1 records',
-	'BbShow'					=> '表示',
+	'BbShow'					=> '표시하기',
 	'BbIpDateStatus'			=> 'IP/Date/Status',
 	'BbHeaders'					=> 'Headers',
 	'BbEntity'					=> 'Entity',
